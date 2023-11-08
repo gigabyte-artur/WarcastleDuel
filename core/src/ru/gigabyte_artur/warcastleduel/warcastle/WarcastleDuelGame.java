@@ -53,8 +53,10 @@ public class WarcastleDuelGame extends TwoPlayersGame
     // Отображает текущую игру.
     public void Show()
     {
+        System.out.println("------");
         System.out.println("Player 1:");
         ((WarcastlePlayer)this.getPlayer1()).Show();
+        System.out.println("------");
         System.out.println("Player 2:");
         ((WarcastlePlayer)this.getPlayer2()).Show();
     }

@@ -24,6 +24,7 @@ public class WarcastlePlayer extends Player
     private ArrayList<DefenceBlockDirection> Attacks = new ArrayList<DefenceBlockDirection>();       // Атаки игрока.
 
     private int ROUNDS_NUMBER = 4;          // Количество раундов атаки.
+    private int START_MORALE = 10000;       // Начальное количество боевого духа.
 
     public WarcastlePlayer()
     {
@@ -40,9 +41,44 @@ public class WarcastlePlayer extends Player
         this.Armor = 0;
     }
 
+    public int getAmount()
+    {
+        return Amount;
+    }
+
+    public int getArmor()
+    {
+        return Armor;
+    }
+
     public int getMorale()
     {
         return Morale;
+    }
+
+    public int getPriests()
+    {
+        return Priests;
+    }
+
+    public int getInsructors()
+    {
+        return Insructors;
+    }
+
+    public int getPeasants()
+    {
+        return Peasants;
+    }
+
+    public int getHorses()
+    {
+        return Horses;
+    }
+
+    public Hand getPrivateHand()
+    {
+        return PrivateHand;
     }
 
     public void setMorale(int morale)
@@ -73,7 +109,7 @@ public class WarcastlePlayer extends Player
     // Инициализирует текущего игрока.
     public void Init()
     {
-        this.Morale = 0;
+        this.Morale = START_MORALE;
         this.Amount = 0;
         InitBlocks();
         this.PrivateHand = new Hand();
@@ -83,22 +119,24 @@ public class WarcastlePlayer extends Player
         {
             this.Deck.AddCard(CurrCard);
         }
-        this.Swords = 0;
-        this.Priests = 0;
-        this.Insructors = 0;
-        this.Peasants = 0;
-        this.Horses = 0;
-        this.Armor = 0;
+        this.Swords      = 1;
+        this.Priests     = 1;
+        this.Insructors  = 1;
+        this.Peasants    = 1;
+        this.Horses      = 1;
+        this.Armor       = 0;
     }
 
     // Инициализирует блоки игрока.
     private void InitBlocks()
     {
+        this.Blocs.clear();
         for (int c = 0; c < ROUNDS_NUMBER; c++)
         {
             DefenceBlockDirection NewDefenceDirection = DefenceBlockDirection.NewRandomDefenceDirection();
             this.Blocs.add(NewDefenceDirection);
         }
+        this.Attacks.clear();
         for (int c = 0; c < ROUNDS_NUMBER; c++)
         {
             DefenceBlockDirection NewDefenceDirection = DefenceBlockDirection.NewRandomDefenceDirection();
@@ -116,6 +154,13 @@ public class WarcastlePlayer extends Player
     private void ShowBlocksAttacks()
     {
         String ShownText;
+        ShownText = "Morale: ";
+        ShownText = ShownText + getMorale();
+        ShownText = ShownText + " Armor: ";
+        ShownText = ShownText + getArmor();
+        ShownText = ShownText + " Amount: ";
+        ShownText = ShownText + getAmount();
+        System.out.println(ShownText);
         // Блоки.
         ShownText = "Blocs: ";
         for (DefenceBlockDirection CurrDirection : this.getBlocs())
@@ -133,6 +178,18 @@ public class WarcastlePlayer extends Player
             ShownText = ShownText + CurrDirection.toString();
             ShownText = ShownText + "] ";
         }
+        System.out.println(ShownText);
+        // Статы.
+        ShownText = "Swords: ";
+        ShownText = ShownText + getSwords();
+        ShownText = ShownText + "   Priests: ";
+        ShownText = ShownText + getPriests();
+        ShownText = ShownText + "   Insructors: ";
+        ShownText = ShownText + getInsructors();
+        ShownText = ShownText + "   Peasants: ";
+        ShownText = ShownText + getPeasants();
+        ShownText = ShownText + "   Horses: ";
+        ShownText = ShownText + getHorses();
         System.out.println(ShownText);
     }
 
