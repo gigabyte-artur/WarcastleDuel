@@ -1,5 +1,6 @@
 package ru.gigabyte_artur.warcastleduel.warcastle;
 
+import ru.gigabyte_artur.warcastleduel.card_game.Card;
 import ru.gigabyte_artur.warcastleduel.gaming.Player;
 import ru.gigabyte_artur.warcastleduel.card_game.Hand;
 
@@ -106,6 +107,11 @@ public class WarcastlePlayer extends Player
         return Blocs;
     }
 
+    public Hand getDeck()
+    {
+        return Deck;
+    }
+
     // Инициализирует текущего игрока.
     public void Init()
     {
@@ -154,13 +160,6 @@ public class WarcastlePlayer extends Player
     private void ShowBlocksAttacks()
     {
         String ShownText;
-        ShownText = "Morale: ";
-        ShownText = ShownText + getMorale();
-        ShownText = ShownText + " Armor: ";
-        ShownText = ShownText + getArmor();
-        ShownText = ShownText + " Amount: ";
-        ShownText = ShownText + getAmount();
-        System.out.println(ShownText);
         // Блоки.
         ShownText = "Blocs: ";
         for (DefenceBlockDirection CurrDirection : this.getBlocs())
@@ -179,6 +178,22 @@ public class WarcastlePlayer extends Player
             ShownText = ShownText + "] ";
         }
         System.out.println(ShownText);
+    }
+
+    // Отображает текущего игрока.
+    public void Show()
+    {
+        String ShownText;
+        // Аттрибуты.
+        ShownText = "Morale: ";
+        ShownText = ShownText + getMorale();
+        ShownText = ShownText + " Armor: ";
+        ShownText = ShownText + getArmor();
+        ShownText = ShownText + " Amount: ";
+        ShownText = ShownText + getAmount();
+        System.out.println(ShownText);
+        // Блоки.
+        ShowBlocksAttacks();
         // Статы.
         ShownText = "Swords: ";
         ShownText = ShownText + getSwords();
@@ -191,11 +206,12 @@ public class WarcastlePlayer extends Player
         ShownText = ShownText + "   Horses: ";
         ShownText = ShownText + getHorses();
         System.out.println(ShownText);
-    }
-
-    // Отображает текущего игрока.
-    public void Show()
-    {
-        ShowBlocksAttacks();
+        // Карты.
+        ShownText = "Cards: ";
+        System.out.println(ShownText);
+        for (Card CurrCard : this.getPrivateHand().getCards())
+        {
+            CurrCard.Show();
+        }
     }
 }
