@@ -3,6 +3,7 @@ package ru.gigabyte_artur.warcastleduel.warcastle;
 import com.badlogic.gdx.Gdx;
 import com.badlogic.gdx.InputProcessor;
 import com.badlogic.gdx.Screen;
+import com.badlogic.gdx.audio.Sound;
 import com.badlogic.gdx.graphics.GL20;
 import com.badlogic.gdx.graphics.Texture;
 import com.badlogic.gdx.graphics.g2d.Sprite;
@@ -15,6 +16,7 @@ public class WarcastleDuelScreen implements Screen, InputProcessor
     private Sprite cardSprite;
     private boolean isCardDragged = false;
     private int dragOffsetX, dragOffsetY;
+    Sound soundDrawSword;
 
     @Override
     public void show() {
@@ -23,6 +25,7 @@ public class WarcastleDuelScreen implements Screen, InputProcessor
         cardSprite = new Sprite(cardTexture);
         cardSprite.setPosition(100, 100);
         Gdx.input.setInputProcessor(this);
+        soundDrawSword = Gdx.audio.newSound(Gdx.files.internal("DrawSword.ogg"));
     }
 
     @Override
@@ -98,6 +101,9 @@ public class WarcastleDuelScreen implements Screen, InputProcessor
     @Override
     public boolean touchUp(int screenX, int screenY, int pointer, int button) {
         isCardDragged = false;
+        System.out.println("Picked. X: " + screenX + " , Y: " + screenY);
+        soundDrawSword.play();
+        soundDrawSword.resume();
         return true;
     }
 
