@@ -13,6 +13,7 @@ public class WarcastleDuelScreen implements Screen, InputProcessor
 {
     private SpriteBatch batch;
     private Texture cardTexture;
+    private Texture background;
     private Sprite cardSprite;
     private boolean isCardDragged = false;
     private int dragOffsetX, dragOffsetY;
@@ -22,6 +23,7 @@ public class WarcastleDuelScreen implements Screen, InputProcessor
     public void show() {
         batch = new SpriteBatch();
         cardTexture = new Texture(Gdx.files.internal("king.jpg"));
+        background = new Texture(Gdx.files.internal("BG.jpg"));
         cardSprite = new Sprite(cardTexture);
         cardSprite.setPosition(100, 100);
         Gdx.input.setInputProcessor(this);
@@ -35,6 +37,7 @@ public class WarcastleDuelScreen implements Screen, InputProcessor
         Gdx.gl.glClear(GL20.GL_COLOR_BUFFER_BIT);
         // Остальной код отрисовки экрана
         batch.begin();
+        batch.draw(background, 0, 0, Gdx.graphics.getWidth(), Gdx.graphics.getHeight()); // рисуем изображение фона на весь экран
         cardSprite.draw(batch);
         batch.end();
     }
