@@ -13,7 +13,7 @@ public class WarcastlePlayer extends Player
     private int Amount;          // Сумма в золоте.
     private int Swords;          // Мечники.
     private int Priests;          // Священники.
-    private int Insructors;          // Инструкторы.
+    private int Instructors;          // Инструкторы.
     private int Peasants;          // Крестьяне.
     private int Horses;          // Конница.
     private int Armor;              // Броня.
@@ -36,7 +36,7 @@ public class WarcastlePlayer extends Player
         this.Deck = new Hand();
         this.Swords = 0;
         this.Priests = 0;
-        this.Insructors = 0;
+        this.Instructors = 0;
         this.Peasants = 0;
         this.Horses = 0;
         this.Armor = 0;
@@ -62,9 +62,9 @@ public class WarcastlePlayer extends Player
         return Priests;
     }
 
-    public int getInsructors()
+    public int getInstructors()
     {
-        return Insructors;
+        return Instructors;
     }
 
     public int getPeasants()
@@ -82,6 +82,17 @@ public class WarcastlePlayer extends Player
         return PrivateHand;
     }
 
+    public void setPriests(int priests) {
+        Priests = priests;
+    }
+
+    public void setInstructors(int insructors) {
+        Instructors = insructors;
+    }
+
+    public void setHorses(int horses) {
+        Horses = horses;
+    }
     public void setMorale(int morale)
     {
         Morale = morale;
@@ -95,6 +106,11 @@ public class WarcastlePlayer extends Player
     public void setSwords(int swords)
     {
         Swords = swords;
+    }
+
+    public void setPeasants(int peasants)
+    {
+        Peasants = peasants;
     }
 
     public ArrayList<DefenceBlockDirection> getAttacks()
@@ -125,9 +141,13 @@ public class WarcastlePlayer extends Player
         {
             this.Deck.AddCard(CurrCard);
         }
+        this.getPrivateHand().DrawCard(this.getDeck());
+        this.getPrivateHand().DrawCard(this.getDeck());
+        this.getPrivateHand().DrawCard(this.getDeck());
+        this.getPrivateHand().DrawCard(this.getDeck());
         this.Swords      = 1;
         this.Priests     = 1;
-        this.Insructors  = 1;
+        this.Instructors  = 1;
         this.Peasants    = 1;
         this.Horses      = 1;
         this.Armor       = 0;
@@ -154,6 +174,30 @@ public class WarcastlePlayer extends Player
     public void IncrementSwords(int Delta_in)
     {
         this.setSwords(this.getSwords() + Delta_in);
+    }
+
+    // Увеличивает количество Священников текущего игрока на величину Delta_in.
+    public void IncrementPriests(int Delta_in)
+    {
+        this.setPriests(this.getPriests() + Delta_in);
+    }
+
+    // Увеличивает количество Крестьян текущего игрока на величину Delta_in.
+    public void IncrementPeasants(int Delta_in)
+    {
+        this.setPeasants(getPeasants() + Delta_in);
+    }
+
+    // Увеличивает количество Инструкторов текущего игрока на величину Delta_in.
+    public void IncrementInstructors(int Delta_in)
+    {
+        this.setInstructors(this.getInstructors() + Delta_in);
+    }
+
+    // Увеличивает количество Конницы текущего игрока на величину Delta_in.
+    public void IncrementHorses(int Delta_in)
+    {
+        this.setHorses(this.getHorses() + Delta_in);
     }
 
     // Отображает блоки и атаки.
@@ -200,7 +244,7 @@ public class WarcastlePlayer extends Player
         ShownText = ShownText + "   Priests: ";
         ShownText = ShownText + getPriests();
         ShownText = ShownText + "   Insructors: ";
-        ShownText = ShownText + getInsructors();
+        ShownText = ShownText + getInstructors();
         ShownText = ShownText + "   Peasants: ";
         ShownText = ShownText + getPeasants();
         ShownText = ShownText + "   Horses: ";

@@ -1,7 +1,7 @@
 package ru.gigabyte_artur.warcastleduel.warcastle;
 
 import ru.gigabyte_artur.warcastleduel.card_game.Card;
-import ru.gigabyte_artur.warcastleduel.warcastle.wcc.WccAddSwords;
+import ru.gigabyte_artur.warcastleduel.warcastle.wcc.*;
 
 import java.util.Random;
 
@@ -44,10 +44,26 @@ public class WarcastleCard extends Card
         WarcastleCard rez = new WarcastleCard();
         final Random random = new Random();
         int Generated;
-        Generated = random.nextInt(1) + 1;
+        Generated = random.nextInt(5) + 1;
         if (Generated == 1)
         {
             rez = new WccAddSwords();
+        }
+        if (Generated == 2)
+        {
+            rez = new WccAddPriests();
+        }
+        if (Generated == 3)
+        {
+            rez = new WccAddInstructors();
+        }
+        if (Generated == 4)
+        {
+            rez = new WccAddPeasants();
+        }
+        if (Generated == 5)
+        {
+            rez = new WccAddHorses();
         }
         return rez;
     }
