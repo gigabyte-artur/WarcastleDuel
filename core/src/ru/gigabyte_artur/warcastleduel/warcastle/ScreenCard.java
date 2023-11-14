@@ -16,6 +16,7 @@ public class ScreenCard
     private int height;             // Высота.
     private Texture cardTexture;    // Текстура карты.
     private Sprite cardSprite;      // Спрайт карты.
+    private boolean isCardDragged = false;      // Признак, что карта перетаскивается.
 
     public ScreenCard(Card Card_in, String TexturePath_in)
     {
@@ -49,6 +50,14 @@ public class ScreenCard
     public Sprite getCardSprite()
     {
         return cardSprite;
+    }
+
+    public boolean isCardDragged() {
+        return isCardDragged;
+    }
+
+    public void setCardDragged(boolean cardDragged) {
+        isCardDragged = cardDragged;
     }
 
     // Выводит карту на экран в рамках батча batch.

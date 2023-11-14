@@ -3,16 +3,28 @@ package ru.gigabyte_artur.warcastleduel.warcastle;
 import com.badlogic.gdx.ApplicationAdapter;
 import com.badlogic.gdx.Screen;
 import com.badlogic.gdx.graphics.g2d.SpriteBatch;
-import com.badlogic.gdx.utils.ScreenUtils;
+import ru.gigabyte_artur.warcastleduel.card_game.Card;
 
-public class WarcastleDuelApplication extends ApplicationAdapter {
+import java.util.ArrayList;
+
+public class WarcastleDuelApplication extends ApplicationAdapter
+{
 	SpriteBatch batch;
 	WarcastleDuelGame Game1 = new WarcastleDuelGame();
 	private WarcastleDuelScreen gameScreen;
 
 	@Override
-	public void create () {
+	public void create ()
+	{
+		Game1.Init();
 		gameScreen = new WarcastleDuelScreen();
+		ArrayList<Card> Player1Cards = ((WarcastlePlayer)Game1.getPlayer1()).getPrivateHand().getCards();
+		ArrayList<WarcastleCard> PlayersCards = new ArrayList<>();
+		for (Card curr_card: Player1Cards)
+		{
+			PlayersCards.add((WarcastleCard)curr_card);
+		}
+		gameScreen.setPlayersCards(PlayersCards);
 		setScreen(gameScreen);
 	}
 

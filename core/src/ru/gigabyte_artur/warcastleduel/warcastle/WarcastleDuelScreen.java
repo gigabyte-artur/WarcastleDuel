@@ -7,21 +7,38 @@ import com.badlogic.gdx.audio.Sound;
 import com.badlogic.gdx.graphics.Texture;
 import com.badlogic.gdx.graphics.g2d.SpriteBatch;
 
+import java.util.ArrayList;
+
 public class WarcastleDuelScreen implements Screen, InputProcessor
 {
     private SpriteBatch batch;
-    private ScreenCard Card1;
-    private WarcastleCard PalyersCard1;
+    private ArrayList<ScreenCard> ScreenCards;
+    private ArrayList<WarcastleCard> PlayersCards;
     private Texture background;
     private boolean isCardDragged = false;
     private int dragOffsetX, dragOffsetY;
     Sound soundDrawSword;
 
+    public void setPlayersCards(ArrayList<WarcastleCard> playersCards)
+    {
+        PlayersCards = playersCards;
+    }
+
     @Override
     public void show() {
         batch = new SpriteBatch();
         background = new Texture(Gdx.files.internal("BG.jpg"));
-        Card1 = new ScreenCard(PalyersCard1, "king.jpg");
+        ScreenCards = new ArrayList<>();
+        int counter;
+        ScreenCard NewScreenCard;
+        counter = 1;
+        for (WarcastleCard curr_card:PlayersCards)
+        {
+            NewScreenCard = new ScreenCard(curr_card, "king.jpg");
+            NewScreenCard.setPosition(counter * 100, 100);
+            ScreenCards.add(NewScreenCard);
+            counter = counter + 1;
+        }
         Gdx.input.setInputProcessor(this);
         soundDrawSword = Gdx.audio.newSound(Gdx.files.internal("DrawSword.ogg"));
     }
@@ -32,7 +49,10 @@ public class WarcastleDuelScreen implements Screen, InputProcessor
         // Рисуем изображение фона на весь экран.
         batch.draw(background, 0, 0, Gdx.graphics.getWidth(), Gdx.graphics.getHeight());
         // Выводим карту.
-        Card1.draw(batch);
+        for (ScreenCard curr_card:ScreenCards)
+        {
+            curr_card.draw(batch);
+        }
         batch.end();
     }
 
@@ -77,28 +97,37 @@ public class WarcastleDuelScreen implements Screen, InputProcessor
     }
 
     @Override
-    public boolean touchDown(int screenX, int screenY, int pointer, int button) {
-        if (Card1.getCardSprite().getBoundingRectangle().contains(screenX, Gdx.graphics.getHeight() - screenY))
+    public boolean touchDown(int screenX, int screenY, int pointer, int button)
+    {
+        for (ScreenCard curr_card:ScreenCards)
         {
-            isCardDragged = true;
-            dragOffsetX = screenX - (int)Card1.getX();
-            dragOffsetY = (int)Card1.getY() - (Gdx.graphics.getHeight() - screenY);
+            if (curr_card.getCardSprite().getBoundingRectangle().contains(screenX, Gdx.graphics.getHeight() - screenY)) {
+                curr_card.setCardDragged(true);
+                dragOffsetX = screenX - (int) curr_card.getX();
+                dragOffsetY = (int) curr_card.getY() - (Gdx.graphics.getHeight() - screenY);
+            }
         }
         return true;
     }
 
     @Override
     public boolean touchDragged(int screenX, int screenY, int pointer) {
-        if (isCardDragged) {
-            Card1.setPosition(screenX - dragOffsetX, Gdx.graphics.getHeight() - screenY + dragOffsetY);
+        for (ScreenCard curr_card:ScreenCards) {
+            if (curr_card.isCardDragged())
+            {
+                curr_card.setPosition(screenX - dragOffsetX, Gdx.graphics.getHeight() - screenY + dragOffsetY);
+            }
         }
         return true;
     }
 
     @Override
     public boolean touchUp(int screenX, int screenY, int pointer, int button) {
-        isCardDragged = false;
-        System.out.println("Picked. X: " + screenX + " , Y: " + screenY);
+        for (ScreenCard curr_card:ScreenCards)
+        {
+            curr_card.setCardDragged(false);
+            System.out.println("Picked. X: " + screenX + " , Y: " + screenY);
+        }
         soundDrawSword.play();
         soundDrawSword.resume();
         return true;
