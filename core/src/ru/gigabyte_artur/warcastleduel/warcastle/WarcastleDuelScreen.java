@@ -4,17 +4,15 @@ import com.badlogic.gdx.Gdx;
 import com.badlogic.gdx.InputProcessor;
 import com.badlogic.gdx.Screen;
 import com.badlogic.gdx.audio.Sound;
-import com.badlogic.gdx.graphics.GL20;
 import com.badlogic.gdx.graphics.Texture;
-import com.badlogic.gdx.graphics.g2d.Sprite;
 import com.badlogic.gdx.graphics.g2d.SpriteBatch;
 
 public class WarcastleDuelScreen implements Screen, InputProcessor
 {
     private SpriteBatch batch;
-    private Texture cardTexture;
+    private ScreenCard Card1;
+    private WarcastleCard PalyersCard1;
     private Texture background;
-    private Sprite cardSprite;
     private boolean isCardDragged = false;
     private int dragOffsetX, dragOffsetY;
     Sound soundDrawSword;
@@ -22,23 +20,19 @@ public class WarcastleDuelScreen implements Screen, InputProcessor
     @Override
     public void show() {
         batch = new SpriteBatch();
-        cardTexture = new Texture(Gdx.files.internal("king.jpg"));
         background = new Texture(Gdx.files.internal("BG.jpg"));
-        cardSprite = new Sprite(cardTexture);
-        cardSprite.setPosition(100, 100);
+        Card1 = new ScreenCard(PalyersCard1, "king.jpg");
         Gdx.input.setInputProcessor(this);
         soundDrawSword = Gdx.audio.newSound(Gdx.files.internal("DrawSword.ogg"));
     }
 
     @Override
     public void render(float delta) {
-        // Очистка экрана
-        Gdx.gl.glClearColor(0, 0, 0, 1);
-        Gdx.gl.glClear(GL20.GL_COLOR_BUFFER_BIT);
-        // Остальной код отрисовки экрана
         batch.begin();
-        batch.draw(background, 0, 0, Gdx.graphics.getWidth(), Gdx.graphics.getHeight()); // рисуем изображение фона на весь экран
-        cardSprite.draw(batch);
+        // Рисуем изображение фона на весь экран.
+        batch.draw(background, 0, 0, Gdx.graphics.getWidth(), Gdx.graphics.getHeight());
+        // Выводим карту.
+        Card1.draw(batch);
         batch.end();
     }
 
@@ -84,11 +78,11 @@ public class WarcastleDuelScreen implements Screen, InputProcessor
 
     @Override
     public boolean touchDown(int screenX, int screenY, int pointer, int button) {
-        if (cardSprite.getBoundingRectangle().contains(screenX, Gdx.graphics.getHeight() - screenY))
+        if (Card1.getCardSprite().getBoundingRectangle().contains(screenX, Gdx.graphics.getHeight() - screenY))
         {
             isCardDragged = true;
-            dragOffsetX = screenX - (int)cardSprite.getX();
-            dragOffsetY = (int)cardSprite.getY() - (Gdx.graphics.getHeight() - screenY);
+            dragOffsetX = screenX - (int)Card1.getX();
+            dragOffsetY = (int)Card1.getY() - (Gdx.graphics.getHeight() - screenY);
         }
         return true;
     }
@@ -96,7 +90,7 @@ public class WarcastleDuelScreen implements Screen, InputProcessor
     @Override
     public boolean touchDragged(int screenX, int screenY, int pointer) {
         if (isCardDragged) {
-            cardSprite.setPosition(screenX - dragOffsetX, Gdx.graphics.getHeight() - screenY + dragOffsetY);
+            Card1.setPosition(screenX - dragOffsetX, Gdx.graphics.getHeight() - screenY + dragOffsetY);
         }
         return true;
     }
