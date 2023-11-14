@@ -1,6 +1,7 @@
 package ru.gigabyte_artur.warcastleduel.warcastle;
 
 import com.badlogic.gdx.Gdx;
+import com.badlogic.gdx.graphics.Color;
 import com.badlogic.gdx.graphics.Texture;
 import com.badlogic.gdx.graphics.g2d.Sprite;
 import com.badlogic.gdx.graphics.g2d.SpriteBatch;
@@ -15,6 +16,7 @@ public class ScreenCard
     private int width;              // Ширина.
     private int height;             // Высота.
     private Texture cardTexture;    // Текстура карты.
+    private Texture Shadow;         // Текстура тени.
     private Sprite cardSprite;      // Спрайт карты.
     private boolean isCardDragged = false;      // Признак, что карта перетаскивается.
 
@@ -26,6 +28,7 @@ public class ScreenCard
         this.cardTexture = new Texture(Gdx.files.internal(TexturePath_in));
         this.cardSprite = new Sprite(cardTexture);
         this.cardSprite.setSize(this.width, this.height);
+        this.Shadow = new Texture(Gdx.files.internal("shadow.jpg"));
         this.x = 0;
         this.y = 0;
     }
@@ -66,6 +69,10 @@ public class ScreenCard
     // Выводит карту на экран в рамках батча batch.
     public void draw(SpriteBatch batch)
     {
+        Color shadowColor = new Color(0, 0, 0, 0.5f); // Цвет тени (черный с 50% прозрачности)
+        batch.setColor(shadowColor);
+        batch.draw(this.Shadow, this.cardSprite.getX() + 5, this.cardSprite.getY() - 5); // Изменяем координаты для положения тени
+        batch.setColor(Color.WHITE); // Восстанавливаем обычный цвет для последующей отрисовки основного спрайта
         cardSprite.draw(batch);
     }
 
