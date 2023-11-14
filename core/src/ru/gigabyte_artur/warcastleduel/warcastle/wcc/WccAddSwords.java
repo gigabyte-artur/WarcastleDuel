@@ -30,4 +30,9 @@ public class WccAddSwords extends WarcastleCard {
         Player_in.IncrementSwords(1);
     }
 
+    @Override
+    public String getStandardTexturePath()
+    {
+        return "sword.jpg";
+    }
 }

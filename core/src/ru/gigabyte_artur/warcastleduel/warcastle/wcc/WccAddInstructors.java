@@ -30,4 +30,9 @@ public class WccAddInstructors extends WarcastleCard {
         Player_in.IncrementInstructors(1);
     }
 
+    @Override
+    public String getStandardTexturePath()
+    {
+        return "instructor.jpg";
+    }
 }

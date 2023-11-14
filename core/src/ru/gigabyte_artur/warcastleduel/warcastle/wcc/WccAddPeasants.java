@@ -30,4 +30,9 @@ public class WccAddPeasants extends WarcastleCard {
         Player_in.IncrementPeasants(1);
     }
 
+    @Override
+    public String getStandardTexturePath()
+    {
+        return "peasant.jpg";
+    }
 }

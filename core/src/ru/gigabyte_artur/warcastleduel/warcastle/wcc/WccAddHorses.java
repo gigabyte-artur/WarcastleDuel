@@ -30,4 +30,9 @@ public class WccAddHorses extends WarcastleCard {
         Player_in.IncrementHorses(1);
     }
 
+    @Override
+    public String getStandardTexturePath()
+    {
+        return "horse.jpg";
+    }
 }

@@ -20,9 +20,12 @@ public class ScreenCard
 
     public ScreenCard(Card Card_in, String TexturePath_in)
     {
+        this.width = 80;
+        this.height = 120;
         this.setLinkedCard(Card_in);
         this.cardTexture = new Texture(Gdx.files.internal(TexturePath_in));
         this.cardSprite = new Sprite(cardTexture);
+        this.cardSprite.setSize(this.width, this.height);
         this.x = 0;
         this.y = 0;
     }

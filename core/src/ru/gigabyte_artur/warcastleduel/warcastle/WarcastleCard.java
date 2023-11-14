@@ -26,6 +26,13 @@ public class WarcastleCard extends Card
         return rez;
     }
 
+    // Вовзращает стандуртный путь к текстуре.
+    public String getStandardTexturePath()
+    {
+        String rez = "king.jpg";
+        return rez;
+    }
+
     // Возвращает кодовое имя.
     public String GetCodeName()
     {

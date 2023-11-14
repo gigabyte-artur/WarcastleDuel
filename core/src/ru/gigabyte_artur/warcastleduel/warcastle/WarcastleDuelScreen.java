@@ -34,7 +34,7 @@ public class WarcastleDuelScreen implements Screen, InputProcessor
         counter = 1;
         for (WarcastleCard curr_card:PlayersCards)
         {
-            NewScreenCard = new ScreenCard(curr_card, "king.jpg");
+            NewScreenCard = new ScreenCard(curr_card, curr_card.getStandardTexturePath());
             NewScreenCard.setPosition(counter * 100, 100);
             ScreenCards.add(NewScreenCard);
             counter = counter + 1;

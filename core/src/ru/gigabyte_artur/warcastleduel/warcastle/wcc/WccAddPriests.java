@@ -30,4 +30,10 @@ public class WccAddPriests extends WarcastleCard {
         Player_in.IncrementPriests(1);
     }
 
+    @Override
+    public String getStandardTexturePath()
+    {
+        return "priest.jpg";
+    }
+
 }
