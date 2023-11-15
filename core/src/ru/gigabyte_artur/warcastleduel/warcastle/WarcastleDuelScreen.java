@@ -4,24 +4,31 @@ import com.badlogic.gdx.Gdx;
 import com.badlogic.gdx.InputProcessor;
 import com.badlogic.gdx.Screen;
 import com.badlogic.gdx.audio.Sound;
+import com.badlogic.gdx.graphics.Color;
 import com.badlogic.gdx.graphics.Texture;
+import com.badlogic.gdx.graphics.g2d.BitmapFont;
 import com.badlogic.gdx.graphics.g2d.SpriteBatch;
-
+import ru.gigabyte_artur.warcastleduel.card_game.Card;
 import java.util.ArrayList;
 
 public class WarcastleDuelScreen implements Screen, InputProcessor
 {
     private SpriteBatch batch;
     private ArrayList<ScreenCard> ScreenCards;
-    private ArrayList<WarcastleCard> PlayersCards;
     private Texture background;
-    private boolean isCardDragged = false;
     private int dragOffsetX, dragOffsetY;
-    Sound soundDrawSword;
+    private Sound soundDrawSword;
+    private WarcastleDuelGame GamePlaying;
+    private BitmapFont MoneyTextBox;
 
-    public void setPlayersCards(ArrayList<WarcastleCard> playersCards)
+    public void setGamePlaying(WarcastleDuelGame game1)
     {
-        PlayersCards = playersCards;
+        GamePlaying = game1;
+    }
+
+    public WarcastleDuelGame getGamePlaying()
+    {
+        return GamePlaying;
     }
 
     @Override
@@ -32,7 +39,7 @@ public class WarcastleDuelScreen implements Screen, InputProcessor
         int counter;
         ScreenCard NewScreenCard;
         counter = 1;
-        for (WarcastleCard curr_card:PlayersCards)
+        for (WarcastleCard curr_card:GetPlayer1Cards())
         {
             NewScreenCard = new ScreenCard(curr_card, curr_card.getStandardTexturePath());
             NewScreenCard.setPosition(counter * 100, 100);
@@ -41,6 +48,8 @@ public class WarcastleDuelScreen implements Screen, InputProcessor
         }
         Gdx.input.setInputProcessor(this);
         soundDrawSword = Gdx.audio.newSound(Gdx.files.internal("DrawSword.ogg"));
+        MoneyTextBox = new BitmapFont();
+        MoneyTextBox.setColor(Color.WHITE); // Устанавливаем цвет текста
     }
 
     @Override
@@ -53,6 +62,8 @@ public class WarcastleDuelScreen implements Screen, InputProcessor
         {
             curr_card.draw(batch);
         }
+        // Тексты.
+        MoneyTextBox.draw(batch, "Amount: " +((WarcastlePlayer)this.getGamePlaying().getPlayer1()).getAmount(), 100, 100); // Отрисовываем текст на экране
         batch.end();
     }
 
@@ -105,6 +116,7 @@ public class WarcastleDuelScreen implements Screen, InputProcessor
                 curr_card.setCardDragged(true);
                 dragOffsetX = screenX - (int) curr_card.getX();
                 dragOffsetY = (int) curr_card.getY() - (Gdx.graphics.getHeight() - screenY);
+                break;
             }
         }
         return true;
@@ -122,14 +134,24 @@ public class WarcastleDuelScreen implements Screen, InputProcessor
     }
 
     @Override
-    public boolean touchUp(int screenX, int screenY, int pointer, int button) {
+    public boolean touchUp(int screenX, int screenY, int pointer, int button)
+    {
+        // Поиск перетаскиваемых карт и выполнение действий.
+        for (ScreenCard curr_card:ScreenCards)
+        {
+            if (curr_card.isCardDragged())
+            {
+                System.out.println("Picked. X: " + screenX + " , Y: " + screenY);
+                soundDrawSword.play();
+                soundDrawSword.resume();
+                break;
+            }
+        }
+        // Очистка перетаскиваемых карт.
         for (ScreenCard curr_card:ScreenCards)
         {
             curr_card.setCardDragged(false);
-            System.out.println("Picked. X: " + screenX + " , Y: " + screenY);
         }
-        soundDrawSword.play();
-        soundDrawSword.resume();
         return true;
     }
 
@@ -148,4 +170,14 @@ public class WarcastleDuelScreen implements Screen, InputProcessor
         return false;
     }
 
+    // Возвращает массив карт в руке игрока 1.
+    private ArrayList<WarcastleCard> GetPlayer1Cards()
+    {
+        ArrayList<WarcastleCard> rez = new ArrayList<>();
+        for (Card Curr_Card:((WarcastlePlayer)this.getGamePlaying().getPlayer1()).getPrivateHand().getCards())
+        {
+            rez.add((WarcastleCard)Curr_Card);
+        }
+        return rez;
+    }
 }

@@ -3,9 +3,6 @@ package ru.gigabyte_artur.warcastleduel.warcastle;
 import com.badlogic.gdx.ApplicationAdapter;
 import com.badlogic.gdx.Screen;
 import com.badlogic.gdx.graphics.g2d.SpriteBatch;
-import ru.gigabyte_artur.warcastleduel.card_game.Card;
-
-import java.util.ArrayList;
 
 public class WarcastleDuelApplication extends ApplicationAdapter
 {
@@ -18,13 +15,7 @@ public class WarcastleDuelApplication extends ApplicationAdapter
 	{
 		Game1.Init();
 		gameScreen = new WarcastleDuelScreen();
-		ArrayList<Card> Player1Cards = ((WarcastlePlayer)Game1.getPlayer1()).getPrivateHand().getCards();
-		ArrayList<WarcastleCard> PlayersCards = new ArrayList<>();
-		for (Card curr_card: Player1Cards)
-		{
-			PlayersCards.add((WarcastleCard)curr_card);
-		}
-		gameScreen.setPlayersCards(PlayersCards);
+		gameScreen.setGamePlaying(Game1);
 		setScreen(gameScreen);
 	}
 
