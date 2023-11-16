@@ -142,7 +142,10 @@ public class WarcastleDuelScreen implements Screen, InputProcessor
     public boolean touchUp(int screenX, int screenY, int pointer, int button)
     {
         WarcastleDuelGame CurrentGame;
-        WarcastleCard CurrentCard;
+        WarcastleCard CurrentWarcastleCard;
+        WarcastlePlayer CurrentPlayer;
+        ScreenCard FoundCard = new ScreenCard();
+        boolean isCardFound = false;
         // Поиск перетаскиваемых карт и выполнение действий.
         for (ScreenCard curr_card:ScreenCards)
         {
@@ -150,14 +153,25 @@ public class WarcastleDuelScreen implements Screen, InputProcessor
             {
                 if (Gdx.graphics.getHeight() - screenY > 150)
                 {
-                    CurrentGame = this.getGamePlaying();
-                    CurrentCard = (WarcastleCard)curr_card.getLinkedCard();
-                    CurrentCard.Effect(CurrentGame, (WarcastlePlayer)CurrentGame.getPlayer1());
-                    soundDrawSword.play();
-                    soundDrawSword.resume();
+                    CurrentWarcastleCard = (WarcastleCard)curr_card.getLinkedCard();
+                    if (CurrentWarcastleCard != null)
+                    {
+                        CurrentGame = this.getGamePlaying();
+                        CurrentPlayer = (WarcastlePlayer)CurrentGame.getPlayer1();
+                        CurrentWarcastleCard.Effect(CurrentGame, CurrentPlayer);
+                        CurrentPlayer.PrivateHandCardToDiscard(CurrentWarcastleCard);
+                        soundDrawSword.play();
+                        soundDrawSword.resume();
+                        isCardFound = true;
+                        FoundCard = curr_card;
+                    }
                 }
                 break;
             }
+        }
+        if (isCardFound)
+        {
+            this.ScreenCards.remove(FoundCard);
         }
         // Очистка перетаскиваемых карт.
         for (ScreenCard curr_card:ScreenCards)

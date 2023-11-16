@@ -19,6 +19,7 @@ public class WarcastlePlayer extends Player
     private int Armor;              // Броня.
     private Hand PrivateHand;           // Рука игрока.
     private Hand Deck;           // Персональная колода игрока.
+    private Hand DiscardHand;       // Сброс.
 
     private ArrayList<DefenceBlockDirection> Blocs = new ArrayList<DefenceBlockDirection>();         // Блоки игрока.
 
@@ -136,6 +137,7 @@ public class WarcastlePlayer extends Player
         InitBlocks();
         this.PrivateHand = new Hand();
         this.Deck = new Hand();
+        this.DiscardHand = new Hand();
         ArrayList<WarcastleCard> NewDeck = WarcastleDuelGame.GeneratePrivateDeck();
         for (WarcastleCard CurrCard:NewDeck)
         {
@@ -257,5 +259,12 @@ public class WarcastlePlayer extends Player
         {
             CurrCard.Show();
         }
+    }
+
+    // Выносит карту Card_in из руки в сброс.
+    public void PrivateHandCardToDiscard(Card Card_in)
+    {
+        Hand PrivateHand = this.getPrivateHand();
+        PrivateHand.MoveCard(Card_in, this.DiscardHand);
     }
 }

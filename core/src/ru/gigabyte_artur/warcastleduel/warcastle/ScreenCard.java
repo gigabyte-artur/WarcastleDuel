@@ -20,6 +20,14 @@ public class ScreenCard
     private Sprite cardSprite;      // Спрайт карты.
     private boolean isCardDragged = false;      // Признак, что карта перетаскивается.
 
+    public ScreenCard()
+    {
+        this.width = 0;
+        this.height = 0;
+        this.x = 0;
+        this.y = 0;
+    }
+
     public ScreenCard(Card Card_in, String TexturePath_in)
     {
         this.width = 80;
