@@ -63,7 +63,12 @@ public class WarcastleDuelScreen implements Screen, InputProcessor
             curr_card.draw(batch);
         }
         // Тексты.
-        MoneyTextBox.draw(batch, "Amount: " +((WarcastlePlayer)this.getGamePlaying().getPlayer1()).getAmount(), 100, 100); // Отрисовываем текст на экране
+        MoneyTextBox.draw(batch, "Amount: " +((WarcastlePlayer)this.getGamePlaying().getPlayer1()).getAmount(), 100, 400);
+        MoneyTextBox.draw(batch, "Swords: " +((WarcastlePlayer)this.getGamePlaying().getPlayer1()).getSwords(), 200, 400);
+        MoneyTextBox.draw(batch, "Priests: " +((WarcastlePlayer)this.getGamePlaying().getPlayer1()).getPriests(), 300, 400);
+        MoneyTextBox.draw(batch, "Instructors: " +((WarcastlePlayer)this.getGamePlaying().getPlayer1()).getInstructors(), 100, 350);
+        MoneyTextBox.draw(batch, "Peasants: " +((WarcastlePlayer)this.getGamePlaying().getPlayer1()).getPeasants(), 200, 350);
+        MoneyTextBox.draw(batch, "Horses: " +((WarcastlePlayer)this.getGamePlaying().getPlayer1()).getHorses(), 300, 350);
         batch.end();
     }
 
@@ -136,14 +141,21 @@ public class WarcastleDuelScreen implements Screen, InputProcessor
     @Override
     public boolean touchUp(int screenX, int screenY, int pointer, int button)
     {
+        WarcastleDuelGame CurrentGame;
+        WarcastleCard CurrentCard;
         // Поиск перетаскиваемых карт и выполнение действий.
         for (ScreenCard curr_card:ScreenCards)
         {
             if (curr_card.isCardDragged())
             {
-                System.out.println("Picked. X: " + screenX + " , Y: " + screenY);
-                soundDrawSword.play();
-                soundDrawSword.resume();
+                if (Gdx.graphics.getHeight() - screenY > 150)
+                {
+                    CurrentGame = this.getGamePlaying();
+                    CurrentCard = (WarcastleCard)curr_card.getLinkedCard();
+                    CurrentCard.Effect(CurrentGame, (WarcastlePlayer)CurrentGame.getPlayer1());
+                    soundDrawSword.play();
+                    soundDrawSword.resume();
+                }
                 break;
             }
         }

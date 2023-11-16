@@ -66,6 +66,11 @@ public class ScreenCard
         isCardDragged = cardDragged;
     }
 
+    public Card getLinkedCard()
+    {
+        return LinkedCard;
+    }
+
     // Выводит карту на экран в рамках батча batch.
     public void draw(SpriteBatch batch)
     {
