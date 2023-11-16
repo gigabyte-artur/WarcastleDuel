@@ -15,10 +15,6 @@ public class WarcastleDuelApplication extends ApplicationAdapter
 	@Override
 	public void create ()
 	{
-//		Lwjgl3ApplicationConfiguration config = new Lwjgl3ApplicationConfiguration();
-//		config.width = 800; // Установка ширины окна
-//		config.height = 600; // Установка высоты окна
-//		new LwjglApplication(new WarcastleDuelApplication(), config);
 		Game1.Init();
 		gameScreen = new WarcastleDuelScreen();
 		gameScreen.setGamePlaying(Game1);
