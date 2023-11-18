@@ -20,7 +20,8 @@ public class WarcastleDuelScreen implements Screen, InputProcessor
     private int dragOffsetX, dragOffsetY;
     private Sound soundDrawSword;
     private WarcastleDuelGame GamePlaying;
-    private BitmapFont MoneyTextBox;
+    private BitmapFont StatsFont;
+    private BitmapFont DeckFont;
 
     public void setGamePlaying(WarcastleDuelGame game1)
     {
@@ -54,12 +55,15 @@ public class WarcastleDuelScreen implements Screen, InputProcessor
         PrivateDeckCover.setPosition(600, 100);
         PrivateDeckCover.setDimensions(ScreenCard.STANDARD_WIDTH,ScreenCard.STANDARD_HEIGHT);
         PrivateDeckCover.setCovered(true);
-        MoneyTextBox = new BitmapFont();
-        MoneyTextBox.setColor(Color.WHITE); // Устанавливаем цвет текста
+        StatsFont = new BitmapFont();
+        StatsFont.setColor(Color.WHITE); // Устанавливаем цвет текста
+        DeckFont = new BitmapFont();
+        DeckFont.setColor(Color.BROWN); // Устанавливаем цвет текста
     }
 
     @Override
     public void render(float delta) {
+        WarcastlePlayer CurrentPlayer;
         batch.begin();
         // Рисуем изображение фона на весь экран.
         batch.draw(background, 0, 0, Gdx.graphics.getWidth(), Gdx.graphics.getHeight());
@@ -70,13 +74,15 @@ public class WarcastleDuelScreen implements Screen, InputProcessor
         }
         // Выводим колоду.
         PrivateDeckCover.draw(batch);
+        CurrentPlayer = ((WarcastlePlayer)this.getGamePlaying().getPlayer1());
+        DeckFont.draw(batch, "" + CurrentPlayer.getDeck().Size(), 630, 90);
         // Тексты.
-        MoneyTextBox.draw(batch, "Amount: " +((WarcastlePlayer)this.getGamePlaying().getPlayer1()).getAmount(), 100, 400);
-        MoneyTextBox.draw(batch, "Swords: " +((WarcastlePlayer)this.getGamePlaying().getPlayer1()).getSwords(), 200, 400);
-        MoneyTextBox.draw(batch, "Priests: " +((WarcastlePlayer)this.getGamePlaying().getPlayer1()).getPriests(), 300, 400);
-        MoneyTextBox.draw(batch, "Instructors: " +((WarcastlePlayer)this.getGamePlaying().getPlayer1()).getInstructors(), 100, 350);
-        MoneyTextBox.draw(batch, "Peasants: " +((WarcastlePlayer)this.getGamePlaying().getPlayer1()).getPeasants(), 200, 350);
-        MoneyTextBox.draw(batch, "Horses: " +((WarcastlePlayer)this.getGamePlaying().getPlayer1()).getHorses(), 300, 350);
+        StatsFont.draw(batch, "Amount: " + CurrentPlayer.getAmount(), 100, 400);
+        StatsFont.draw(batch, "Swords: " + CurrentPlayer.getSwords(), 200, 400);
+        StatsFont.draw(batch, "Priests: " + CurrentPlayer.getPriests(), 300, 400);
+        StatsFont.draw(batch, "Instructors: " + CurrentPlayer.getInstructors(), 100, 350);
+        StatsFont.draw(batch, "Peasants: " + CurrentPlayer.getPeasants(), 200, 350);
+        StatsFont.draw(batch, "Horses: " + CurrentPlayer.getHorses(), 300, 350);
         batch.end();
     }
 
