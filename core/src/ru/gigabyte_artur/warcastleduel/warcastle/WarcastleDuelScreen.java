@@ -15,6 +15,7 @@ public class WarcastleDuelScreen implements Screen, InputProcessor
 {
     private SpriteBatch batch;
     private ArrayList<ScreenCard> ScreenCards;
+    private ScreenCard PrivateDeckCover;
     private Texture background;
     private int dragOffsetX, dragOffsetY;
     private Sound soundDrawSword;
@@ -43,11 +44,16 @@ public class WarcastleDuelScreen implements Screen, InputProcessor
         {
             NewScreenCard = new ScreenCard(curr_card, curr_card.getStandardTexturePath());
             NewScreenCard.setPosition(counter * 100, 100);
+            NewScreenCard.setCovered(false);
             ScreenCards.add(NewScreenCard);
             counter = counter + 1;
         }
         Gdx.input.setInputProcessor(this);
         soundDrawSword = Gdx.audio.newSound(Gdx.files.internal("DrawSword.ogg"));
+        PrivateDeckCover = new ScreenCard();
+        PrivateDeckCover.setPosition(600, 100);
+        PrivateDeckCover.setDimensions(ScreenCard.STANDARD_WIDTH,ScreenCard.STANDARD_HEIGHT);
+        PrivateDeckCover.setCovered(true);
         MoneyTextBox = new BitmapFont();
         MoneyTextBox.setColor(Color.WHITE); // Устанавливаем цвет текста
     }
@@ -62,6 +68,8 @@ public class WarcastleDuelScreen implements Screen, InputProcessor
         {
             curr_card.draw(batch);
         }
+        // Выводим колоду.
+        PrivateDeckCover.draw(batch);
         // Тексты.
         MoneyTextBox.draw(batch, "Amount: " +((WarcastlePlayer)this.getGamePlaying().getPlayer1()).getAmount(), 100, 400);
         MoneyTextBox.draw(batch, "Swords: " +((WarcastlePlayer)this.getGamePlaying().getPlayer1()).getSwords(), 200, 400);

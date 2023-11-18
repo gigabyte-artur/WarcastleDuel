@@ -3,8 +3,6 @@ package ru.gigabyte_artur.warcastleduel.warcastle;
 import com.badlogic.gdx.ApplicationAdapter;
 import com.badlogic.gdx.Screen;
 import com.badlogic.gdx.graphics.g2d.SpriteBatch;
-//import com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration;
-//import com.badlogic.gdx.backends.lwjgl3.*;
 
 public class WarcastleDuelApplication extends ApplicationAdapter
 {

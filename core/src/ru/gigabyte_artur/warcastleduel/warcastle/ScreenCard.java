@@ -9,7 +9,6 @@ import ru.gigabyte_artur.warcastleduel.card_game.Card;
 
 public class ScreenCard
 {
-
     private Card LinkedCard;        // Привязанная карта игры.
     private int x;                  // Координата X.
     private int y;                  // Координата Y.
@@ -17,28 +16,70 @@ public class ScreenCard
     private int height;             // Высота.
     private Texture cardTexture;    // Текстура карты.
     private Texture Shadow;         // Текстура тени.
+    private Texture coverTexture;   // Текстура рубашки карты.
     private Sprite cardSprite;      // Спрайт карты.
     private boolean isCardDragged = false;      // Признак, что карта перетаскивается.
+    private boolean isCovered = true;     // Признак, что карта отображается рубашкой вверх.
+
+    public static final int STANDARD_WIDTH = 80;        // Стандартная ширина карты.
+    public static final int STANDARD_HEIGHT = 120;      // Стандартная высота карты.
 
     public ScreenCard()
     {
         this.width = 0;
         this.height = 0;
+        this.coverTexture = new Texture(Gdx.files.internal("CardCover.jpg"));
+        this.cardTexture = new Texture(Gdx.files.internal("sword.jpg"));
+        if (isCovered())
+        {
+            this.cardSprite = new Sprite(coverTexture);
+        }
+        else
+        {
+            this.cardSprite = new Sprite(cardTexture);
+        }
+        this.Shadow = new Texture(Gdx.files.internal("shadow.jpg"));
         this.x = 0;
         this.y = 0;
     }
 
     public ScreenCard(Card Card_in, String TexturePath_in)
     {
-        this.width = 80;
-        this.height = 120;
+        this.setDimensions(STANDARD_WIDTH, STANDARD_HEIGHT);
         this.setLinkedCard(Card_in);
+        this.coverTexture = new Texture(Gdx.files.internal("CardCover.jpg"));
         this.cardTexture = new Texture(Gdx.files.internal(TexturePath_in));
-        this.cardSprite = new Sprite(cardTexture);
+        if (isCovered())
+        {
+            this.cardSprite = new Sprite(coverTexture);
+        }
+        else
+        {
+            this.cardSprite = new Sprite(cardTexture);
+        }
         this.cardSprite.setSize(this.width, this.height);
         this.Shadow = new Texture(Gdx.files.internal("shadow.jpg"));
         this.x = 0;
         this.y = 0;
+    }
+
+    public boolean isCovered() {
+        return isCovered;
+    }
+
+    public void setCovered(boolean covered)
+    {
+        if (covered)
+        {
+            this.cardSprite = new Sprite(coverTexture);
+        }
+        else
+        {
+            this.cardSprite = new Sprite(cardTexture);
+        }
+        this.cardSprite.setSize(this.width, this.height);
+        this.cardSprite.setPosition(this.x, this.y);
+        isCovered = covered;
     }
 
     public int getX() {
@@ -84,7 +125,7 @@ public class ScreenCard
     {
         Color shadowColor = new Color(0, 0, 0, 0.5f); // Цвет тени (черный с 50% прозрачности)
         batch.setColor(shadowColor);
-        batch.draw(this.Shadow, this.cardSprite.getX() + 5, this.cardSprite.getY() - 5); // Изменяем координаты для положения тени
+        batch.draw(this.Shadow, this.getX() + 5, this.getY() - 5); // Изменяем координаты для положения тени
         batch.setColor(Color.WHITE); // Восстанавливаем обычный цвет для последующей отрисовки основного спрайта
         cardSprite.draw(batch);
     }
@@ -95,5 +136,11 @@ public class ScreenCard
         this.x = x_in;
         this.y = y_in;
         this.cardSprite.setPosition(this.x, this.y);
+    }
+
+    public void setDimensions(int width_in, int height_in)
+    {
+        this.width = width_in;
+        this.height = height_in;
     }
 }
