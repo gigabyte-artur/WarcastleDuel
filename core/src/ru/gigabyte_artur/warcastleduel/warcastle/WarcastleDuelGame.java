@@ -21,9 +21,11 @@ public class WarcastleDuelGame extends TwoPlayersGame
     {
         WarcastlePlayer Player1 = new WarcastlePlayer();
         Player1.Init();
+        CollectTaxes(Player1);
         WarcastlePlayer Player2 = new WarcastlePlayer();
         Player2.Init();
         this.SetPlayers(Player1, Player2);
+        CollectTaxes(Player2);
     }
 
     @Override
@@ -46,6 +48,15 @@ public class WarcastleDuelGame extends TwoPlayersGame
         PlayersDeck  = Player_in.getDeck();
         PlayersHand  = Player_in.getPrivateHand();
         PlayersHand.DrawCard(PlayersDeck);
+        CollectTaxes(Player_in);
+    }
+
+    // Осуществляет сбор налогов игроком Player_in.
+    public void CollectTaxes(WarcastlePlayer Player_in)
+    {
+        int NewTaxes;
+        NewTaxes = Player_in.CalculateTaxes();
+        Player_in.setAmount(Player_in.getAmount() + NewTaxes);
     }
 
     // Генерирует новую колоду игрока.

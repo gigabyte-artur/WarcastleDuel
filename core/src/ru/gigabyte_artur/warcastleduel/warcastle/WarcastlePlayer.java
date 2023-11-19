@@ -22,11 +22,11 @@ public class WarcastlePlayer extends Player
     private Hand DiscardHand;       // Сброс.
 
     private ArrayList<DefenceBlockDirection> Blocs = new ArrayList<DefenceBlockDirection>();         // Блоки игрока.
-
     private ArrayList<DefenceBlockDirection> Attacks = new ArrayList<DefenceBlockDirection>();       // Атаки игрока.
 
-    private int ROUNDS_NUMBER = 4;          // Количество раундов атаки.
-    private int START_MORALE = 10000;       // Начальное количество боевого духа.
+    private int ROUNDS_NUMBER = 4;                // Количество раундов атаки.
+    private int START_MORALE = 10000;             // Начальное количество боевого духа.
+    private static final int TAX_RATES = 100;    // Минимальная величина налога.
 
     public WarcastlePlayer()
     {
@@ -46,6 +46,11 @@ public class WarcastlePlayer extends Player
     public int getAmount()
     {
         return Amount;
+    }
+
+    public void setAmount(int amount)
+    {
+        Amount = amount;
     }
 
     public int getArmor()
@@ -266,5 +271,13 @@ public class WarcastlePlayer extends Player
     {
         Hand PrivateHand = this.getPrivateHand();
         PrivateHand.MoveCard(Card_in, this.DiscardHand);
+    }
+
+    // Вычисляет величину налогов.
+    public int CalculateTaxes()
+    {
+        int rez = 0;
+        rez = this.getPeasants() * TAX_RATES;
+        return rez;
     }
 }
