@@ -3,7 +3,6 @@ package ru.gigabyte_artur.warcastleduel.warcastle;
 import com.badlogic.gdx.Gdx;
 import com.badlogic.gdx.InputProcessor;
 import com.badlogic.gdx.Screen;
-import com.badlogic.gdx.audio.Sound;
 import com.badlogic.gdx.graphics.Color;
 import com.badlogic.gdx.graphics.Texture;
 import com.badlogic.gdx.graphics.g2d.BitmapFont;
@@ -21,7 +20,7 @@ public class WarcastleDuelScreen implements Screen, InputProcessor
     private Texture background;
     Texture buttonUpTexture;
     private int dragOffsetX, dragOffsetY;
-    private Sound soundDrawSword;
+    private ScreenSoundList SoundList;
     private WarcastleDuelGame GamePlaying;
     private BitmapFont StatsFont;
     private BitmapFont DeckFont;
@@ -43,11 +42,14 @@ public class WarcastleDuelScreen implements Screen, InputProcessor
         // Инициализация.
         batch = new SpriteBatch();
         Gdx.input.setInputProcessor(this);
-        soundDrawSword = Gdx.audio.newSound(Gdx.files.internal("DrawSword.ogg"));
         background = new Texture(Gdx.files.internal("BG.jpg"));
         ScreenCards = new ArrayList<>();
         int counter;
         ScreenCard NewScreenCard;
+        // Звуки.
+        SoundList = new ScreenSoundList();
+        SoundList.AddSound("DrawSword", "DrawSword.ogg");
+        SoundList.AddSound("PapperWrapping", "PapperWrapping.mp3");
         // Карты на экране.
         counter = 1;
         for (WarcastleCard curr_card:GetPlayer1Cards())
@@ -58,6 +60,7 @@ public class WarcastleDuelScreen implements Screen, InputProcessor
             ScreenCards.add(NewScreenCard);
             counter = counter + 1;
         }
+        SoundList.PlaySound("PapperWrapping");
         // Отображение колоды.
         PrivateDeckCover = new ScreenCard();
         PrivateDeckCover.setPosition(600, 100);
@@ -251,8 +254,7 @@ public class WarcastleDuelScreen implements Screen, InputProcessor
                         CurrentPlayer = (WarcastlePlayer)CurrentGame.getPlayer1();
                         CurrentWarcastleCard.Effect(CurrentGame, CurrentPlayer);
                         CurrentPlayer.PrivateHandCardToDiscard(CurrentWarcastleCard);
-                        soundDrawSword.play();
-                        soundDrawSword.resume();
+                        SoundList.PlaySound("DrawSword");
                         isCardFound = true;
                         FoundCard = curr_card;
                     }
@@ -274,8 +276,8 @@ public class WarcastleDuelScreen implements Screen, InputProcessor
     // Обработчиик нажатия на кнопку Конец хода.
     private void ButtonEndTurnAction()
     {
-        System.out.println("Tousched");
         GamePlaying.EndPlayerTurn((WarcastlePlayer)GamePlaying.getPlayer1());
+        SoundList.PlaySound("PapperWrapping");
     }
 
     // Обработка нажатия кнопок.

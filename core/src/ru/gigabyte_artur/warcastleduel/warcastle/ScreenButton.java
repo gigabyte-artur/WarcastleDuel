@@ -1,4 +1,4 @@
-package ru.gigabyte_artur.warcastleduel.warcastle.wcc;
+package ru.gigabyte_artur.warcastleduel.warcastle;
 
 import com.badlogic.gdx.graphics.Texture;
 import com.badlogic.gdx.scenes.scene2d.Action;
