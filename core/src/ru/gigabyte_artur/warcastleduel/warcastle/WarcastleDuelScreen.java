@@ -8,6 +8,8 @@ import com.badlogic.gdx.graphics.Color;
 import com.badlogic.gdx.graphics.Texture;
 import com.badlogic.gdx.graphics.g2d.BitmapFont;
 import com.badlogic.gdx.graphics.g2d.SpriteBatch;
+import com.badlogic.gdx.scenes.scene2d.ui.ImageButton;
+import com.badlogic.gdx.scenes.scene2d.utils.TextureRegionDrawable;
 import ru.gigabyte_artur.warcastleduel.card_game.Card;
 import java.util.ArrayList;
 
@@ -17,11 +19,13 @@ public class WarcastleDuelScreen implements Screen, InputProcessor
     private ArrayList<ScreenCard> ScreenCards;
     private ScreenCard PrivateDeckCover;
     private Texture background;
+    Texture buttonUpTexture;
     private int dragOffsetX, dragOffsetY;
     private Sound soundDrawSword;
     private WarcastleDuelGame GamePlaying;
     private BitmapFont StatsFont;
     private BitmapFont DeckFont;
+    ImageButton ButtonEndTurn;
 
     public void setGamePlaying(WarcastleDuelGame game1)
     {
@@ -33,13 +37,18 @@ public class WarcastleDuelScreen implements Screen, InputProcessor
         return GamePlaying;
     }
 
-    @Override
-    public void show() {
+    // Выполняет начальную инициализацию экрана.
+    private void InitScreen()
+    {
+        // Инициализация.
         batch = new SpriteBatch();
+        Gdx.input.setInputProcessor(this);
+        soundDrawSword = Gdx.audio.newSound(Gdx.files.internal("DrawSword.ogg"));
         background = new Texture(Gdx.files.internal("BG.jpg"));
         ScreenCards = new ArrayList<>();
         int counter;
         ScreenCard NewScreenCard;
+        // Карты на экране.
         counter = 1;
         for (WarcastleCard curr_card:GetPlayer1Cards())
         {
@@ -49,20 +58,36 @@ public class WarcastleDuelScreen implements Screen, InputProcessor
             ScreenCards.add(NewScreenCard);
             counter = counter + 1;
         }
-        Gdx.input.setInputProcessor(this);
-        soundDrawSword = Gdx.audio.newSound(Gdx.files.internal("DrawSword.ogg"));
+        // Отображение колоды.
         PrivateDeckCover = new ScreenCard();
         PrivateDeckCover.setPosition(600, 100);
-        PrivateDeckCover.setDimensions(ScreenCard.STANDARD_WIDTH,ScreenCard.STANDARD_HEIGHT);
+        PrivateDeckCover.setDimensions(ScreenCard.STANDARD_WIDTH, ScreenCard.STANDARD_HEIGHT);
         PrivateDeckCover.setCovered(true);
+        // Шрифт надписей статов.
         StatsFont = new BitmapFont();
-        StatsFont.setColor(Color.WHITE); // Устанавливаем цвет текста
+        StatsFont.setColor(Color.WHITE);
+        // Шрифт надписи количества карт в колоде.
         DeckFont = new BitmapFont();
-        DeckFont.setColor(Color.BROWN); // Устанавливаем цвет текста
+        DeckFont.setColor(Color.BROWN);
+        // Кнопка окончания хода.
+        buttonUpTexture = new Texture("EndTurnButton.png");
+        TextureRegionDrawable buttonUp = new TextureRegionDrawable(buttonUpTexture);
+        ButtonEndTurn = new ImageButton(buttonUp);
+        ButtonEndTurn.setPosition(550, 300);
+        ButtonEndTurn.setWidth(220);
+        ButtonEndTurn.setHeight(60);
     }
 
     @Override
-    public void render(float delta) {
+    public void show()
+    {
+        InitScreen();
+    }
+
+    @Override
+    public void render(float delta)
+    {
+        // Инициализация.
         WarcastlePlayer CurrentPlayer;
         batch.begin();
         // Рисуем изображение фона на весь экран.
@@ -83,6 +108,8 @@ public class WarcastleDuelScreen implements Screen, InputProcessor
         StatsFont.draw(batch, "Instructors: " + CurrentPlayer.getInstructors(), 100, 350);
         StatsFont.draw(batch, "Peasants: " + CurrentPlayer.getPeasants(), 200, 350);
         StatsFont.draw(batch, "Horses: " + CurrentPlayer.getHorses(), 300, 350);
+        // Кнопка Конец хода.
+        ButtonEndTurn.draw(batch,1);
         batch.end();
     }
 
@@ -155,6 +182,56 @@ public class WarcastleDuelScreen implements Screen, InputProcessor
     @Override
     public boolean touchUp(int screenX, int screenY, int pointer, int button)
     {
+        // Перетаскивание карт.
+        DragCardTouchUp(screenX, screenY);
+        // Кнопки.
+        ButtonsTouchUp(screenX, screenY);
+        return true;
+    }
+
+    @Override
+    public boolean mouseMoved(int screenX, int screenY) {
+        return false;
+    }
+
+    @Override
+    public boolean scrolled(float amountX, float amountY) {
+        return false;
+    }
+
+    @Override
+    public boolean touchCancelled(int screenX, int screenY, int pointer, int button) {
+        return false;
+    }
+
+    // Проверяет, что координаты ScreenX_in и ScreenY_in находятся внутри кнопки Button_in.
+    private boolean ButtonPressedCoord(ImageButton Button_in, int ScreenX_in, int ScreenY_in)
+    {
+        boolean rez = false;
+        float ButtonX, ButtonY;
+        float ButtonWidth, ButtonHeight;
+        ButtonX = Button_in.getX();
+        ButtonY = Button_in.getY();
+        ButtonWidth = ButtonEndTurn.getWidth();
+        ButtonHeight = ButtonEndTurn.getHeight();
+        rez = (ButtonX < ScreenX_in) & (ButtonX + ButtonWidth > ScreenX_in) & (ButtonY < Gdx.graphics.getHeight() - ScreenY_in) & (ButtonY + ButtonHeight > Gdx.graphics.getHeight() - ScreenY_in);
+        return rez;
+    }
+
+    // Возвращает массив карт в руке игрока 1.
+    private ArrayList<WarcastleCard> GetPlayer1Cards()
+    {
+        ArrayList<WarcastleCard> rez = new ArrayList<>();
+        for (Card Curr_Card:((WarcastlePlayer)this.getGamePlaying().getPlayer1()).getPrivateHand().getCards())
+        {
+            rez.add((WarcastleCard)Curr_Card);
+        }
+        return rez;
+    }
+
+    // Обработка окончания перетаскивания карт.
+    private void DragCardTouchUp(int screenX_in, int screenY_in)
+    {
         WarcastleDuelGame CurrentGame;
         WarcastleCard CurrentWarcastleCard;
         WarcastlePlayer CurrentPlayer;
@@ -165,7 +242,7 @@ public class WarcastleDuelScreen implements Screen, InputProcessor
         {
             if (curr_card.isCardDragged())
             {
-                if (Gdx.graphics.getHeight() - screenY > 150)
+                if (Gdx.graphics.getHeight() - screenY_in > 200)
                 {
                     CurrentWarcastleCard = (WarcastleCard)curr_card.getLinkedCard();
                     if (CurrentWarcastleCard != null)
@@ -192,32 +269,21 @@ public class WarcastleDuelScreen implements Screen, InputProcessor
         {
             curr_card.setCardDragged(false);
         }
-        return true;
     }
 
-    @Override
-    public boolean mouseMoved(int screenX, int screenY) {
-        return false;
-    }
-
-    @Override
-    public boolean scrolled(float amountX, float amountY) {
-        return false;
-    }
-
-    @Override
-    public boolean touchCancelled(int screenX, int screenY, int pointer, int button) {
-        return false;
-    }
-
-    // Возвращает массив карт в руке игрока 1.
-    private ArrayList<WarcastleCard> GetPlayer1Cards()
+    // Обработчиик нажатия на кнопку Конец хода.
+    private void ButtonEndTurnAction()
     {
-        ArrayList<WarcastleCard> rez = new ArrayList<>();
-        for (Card Curr_Card:((WarcastlePlayer)this.getGamePlaying().getPlayer1()).getPrivateHand().getCards())
+        System.out.println("Tousched");
+        GamePlaying.EndPlayerTurn((WarcastlePlayer)GamePlaying.getPlayer1());
+    }
+
+    // Обработка нажатия кнопок.
+    private void ButtonsTouchUp(int screenX_in, int screenY_in)
+    {
+        if (ButtonPressedCoord(ButtonEndTurn, screenX_in, screenY_in))
         {
-            rez.add((WarcastleCard)Curr_Card);
+            ButtonEndTurnAction();
         }
-        return rez;
     }
 }

@@ -72,4 +72,9 @@ public class WarcastleDuelGame extends TwoPlayersGame
         ((WarcastlePlayer)this.getPlayer2()).Show();
     }
 
+    // Окончание хода игрока  Player_in.
+    public void EndPlayerTurn(WarcastlePlayer Player_in)
+    {
+        BeginPlayerTurn(Player_in);
+    }
 }
