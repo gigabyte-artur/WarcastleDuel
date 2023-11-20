@@ -28,8 +28,8 @@ public class ScreenCard
     {
         this.width = 0;
         this.height = 0;
-        this.coverTexture = new Texture(Gdx.files.internal("CardCover.jpg"));
-        this.cardTexture = new Texture(Gdx.files.internal("sword.jpg"));
+        this.coverTexture = new Texture(Gdx.files.internal("CardTextures/CardCover.jpg"));
+        this.cardTexture = new Texture(Gdx.files.internal("CardTextures/sword.jpg"));
         if (isCovered())
         {
             this.cardSprite = new Sprite(coverTexture);
@@ -38,7 +38,7 @@ public class ScreenCard
         {
             this.cardSprite = new Sprite(cardTexture);
         }
-        this.Shadow = new Texture(Gdx.files.internal("shadow.jpg"));
+        this.Shadow = new Texture(Gdx.files.internal("CardTextures/shadow.jpg"));
         this.x = 0;
         this.y = 0;
     }
@@ -47,7 +47,7 @@ public class ScreenCard
     {
         this.setDimensions(STANDARD_WIDTH, STANDARD_HEIGHT);
         this.setLinkedCard(Card_in);
-        this.coverTexture = new Texture(Gdx.files.internal("CardCover.jpg"));
+        this.coverTexture = new Texture(Gdx.files.internal("CardTextures/CardCover.jpg"));
         this.cardTexture = new Texture(Gdx.files.internal(TexturePath_in));
         if (isCovered())
         {
@@ -58,7 +58,7 @@ public class ScreenCard
             this.cardSprite = new Sprite(cardTexture);
         }
         this.cardSprite.setSize(this.width, this.height);
-        this.Shadow = new Texture(Gdx.files.internal("shadow.jpg"));
+        this.Shadow = new Texture(Gdx.files.internal("CardTextures/shadow.jpg"));
         this.x = 0;
         this.y = 0;
     }

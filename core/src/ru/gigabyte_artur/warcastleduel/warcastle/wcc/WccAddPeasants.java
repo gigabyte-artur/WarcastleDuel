@@ -33,6 +33,6 @@ public class WccAddPeasants extends WarcastleCard {
     @Override
     public String getStandardTexturePath()
     {
-        return "peasant.jpg";
+        return "CardTextures/peasant.jpg";
     }
 }

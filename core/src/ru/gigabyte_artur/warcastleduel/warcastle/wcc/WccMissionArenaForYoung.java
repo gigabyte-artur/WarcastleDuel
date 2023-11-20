@@ -33,6 +33,6 @@ public class WccMissionArenaForYoung extends WarcastleCard {
     @Override
     public String getStandardTexturePath()
     {
-        return "ArenaYoung.jpg";
+        return "CardTextures/ArenaYoung.jpg";
     }
 }

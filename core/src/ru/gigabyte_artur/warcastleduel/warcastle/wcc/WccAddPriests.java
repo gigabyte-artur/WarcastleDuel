@@ -33,7 +33,7 @@ public class WccAddPriests extends WarcastleCard {
     @Override
     public String getStandardTexturePath()
     {
-        return "priest.jpg";
+        return "CardTextures/priest.jpg";
     }
 
 }

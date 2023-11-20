@@ -220,12 +220,12 @@ public class WarcastleDuelScreen implements Screen, InputProcessor
         // Инициализация.
         batch = new SpriteBatch();
         Gdx.input.setInputProcessor(this);
-        background = new Texture(Gdx.files.internal("BG.jpg"));
+        background = new Texture(Gdx.files.internal("Interface/BG.jpg"));
         ScreenCards = new ArrayList<>();
         // Звуки.
         SoundList = new ScreenSoundList();
-        SoundList.AddSound("DrawSword", "DrawSword.ogg");
-        SoundList.AddSound("PapperWrapping", "PapperWrapping.mp3");
+        SoundList.AddSound("DrawSword", "Sounds/DrawSword.ogg");
+        SoundList.AddSound("PapperWrapping", "Sounds/PapperWrapping.mp3");
         // Карты на экране.
         ReadCardToScreenCard(GetPlayer1Cards());
         SoundList.PlaySound("PapperWrapping");
@@ -241,7 +241,7 @@ public class WarcastleDuelScreen implements Screen, InputProcessor
         DeckFont = new BitmapFont();
         DeckFont.setColor(Color.BROWN);
         // Кнопка окончания хода.
-        buttonUpTexture = new Texture("EndTurnButton.png");
+        buttonUpTexture = new Texture("Interface/EndTurnButton.png");
         TextureRegionDrawable buttonUp = new TextureRegionDrawable(buttonUpTexture);
         ButtonEndTurn = new ImageButton(buttonUp);
         ButtonEndTurn.setPosition(550, 300);
