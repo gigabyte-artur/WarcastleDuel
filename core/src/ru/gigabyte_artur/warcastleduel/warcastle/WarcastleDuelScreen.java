@@ -36,51 +36,6 @@ public class WarcastleDuelScreen implements Screen, InputProcessor
         return GamePlaying;
     }
 
-    // Выполняет начальную инициализацию экрана.
-    private void InitScreen()
-    {
-        // Инициализация.
-        batch = new SpriteBatch();
-        Gdx.input.setInputProcessor(this);
-        background = new Texture(Gdx.files.internal("BG.jpg"));
-        ScreenCards = new ArrayList<>();
-        int counter;
-        ScreenCard NewScreenCard;
-        // Звуки.
-        SoundList = new ScreenSoundList();
-        SoundList.AddSound("DrawSword", "DrawSword.ogg");
-        SoundList.AddSound("PapperWrapping", "PapperWrapping.mp3");
-        // Карты на экране.
-        counter = 1;
-        for (WarcastleCard curr_card:GetPlayer1Cards())
-        {
-            NewScreenCard = new ScreenCard(curr_card, curr_card.getStandardTexturePath());
-            NewScreenCard.setPosition(counter * 100, 100);
-            NewScreenCard.setCovered(false);
-            ScreenCards.add(NewScreenCard);
-            counter = counter + 1;
-        }
-        SoundList.PlaySound("PapperWrapping");
-        // Отображение колоды.
-        PrivateDeckCover = new ScreenCard();
-        PrivateDeckCover.setPosition(600, 100);
-        PrivateDeckCover.setDimensions(ScreenCard.STANDARD_WIDTH, ScreenCard.STANDARD_HEIGHT);
-        PrivateDeckCover.setCovered(true);
-        // Шрифт надписей статов.
-        StatsFont = new BitmapFont();
-        StatsFont.setColor(Color.WHITE);
-        // Шрифт надписи количества карт в колоде.
-        DeckFont = new BitmapFont();
-        DeckFont.setColor(Color.BROWN);
-        // Кнопка окончания хода.
-        buttonUpTexture = new Texture("EndTurnButton.png");
-        TextureRegionDrawable buttonUp = new TextureRegionDrawable(buttonUpTexture);
-        ButtonEndTurn = new ImageButton(buttonUp);
-        ButtonEndTurn.setPosition(550, 300);
-        ButtonEndTurn.setWidth(220);
-        ButtonEndTurn.setHeight(60);
-    }
-
     @Override
     public void show()
     {
@@ -207,6 +162,93 @@ public class WarcastleDuelScreen implements Screen, InputProcessor
         return false;
     }
 
+    // Считывает карты из массива Cards_in в карты на столе.
+    private void ReadCardToScreenCard(ArrayList<WarcastleCard> Cards_in)
+    {
+        ScreenCard NewScreenCard;
+        int counter;
+        boolean isFound = false;
+        ArrayList <ScreenCard> RemovableCadrs = new ArrayList<>();
+        // Добавление новых карт.
+        counter = 1;
+        for (WarcastleCard Curr_WarcastleCard:Cards_in)
+        {
+            isFound = false;
+            for (ScreenCard Curr_ScreenCard: ScreenCards)
+            {
+                if (Curr_ScreenCard.getLinkedCard().equals(Curr_WarcastleCard))
+                {
+                    isFound = true;
+                    break;
+                }
+            }
+            if (!isFound)
+            {
+                NewScreenCard = new ScreenCard(Curr_WarcastleCard, Curr_WarcastleCard.getStandardTexturePath());
+                NewScreenCard.setPosition(counter * 100, 100);
+                NewScreenCard.setCovered(false);
+                ScreenCards.add(NewScreenCard);
+            }
+            counter = counter + 1;
+        }
+        // Удаление незадействованных карт.
+        for (ScreenCard Curr_ScreenCard: ScreenCards)
+        {
+            isFound = false;
+            for (WarcastleCard Curr_WarcastleCard:Cards_in)
+            {
+                if (Curr_ScreenCard.getLinkedCard().equals(Curr_WarcastleCard))
+                {
+                    isFound = true;
+                    break;
+                }
+            }
+            if (!isFound)
+            {
+                RemovableCadrs.add(Curr_ScreenCard);
+            }
+        }
+        for (ScreenCard Curr_RemovableCard:RemovableCadrs)
+        {
+            this.ScreenCards.remove(Curr_RemovableCard);
+        }
+    }
+
+    // Выполняет начальную инициализацию экрана.
+    private void InitScreen()
+    {
+        // Инициализация.
+        batch = new SpriteBatch();
+        Gdx.input.setInputProcessor(this);
+        background = new Texture(Gdx.files.internal("BG.jpg"));
+        ScreenCards = new ArrayList<>();
+        // Звуки.
+        SoundList = new ScreenSoundList();
+        SoundList.AddSound("DrawSword", "DrawSword.ogg");
+        SoundList.AddSound("PapperWrapping", "PapperWrapping.mp3");
+        // Карты на экране.
+        ReadCardToScreenCard(GetPlayer1Cards());
+        SoundList.PlaySound("PapperWrapping");
+        // Отображение колоды.
+        PrivateDeckCover = new ScreenCard();
+        PrivateDeckCover.setPosition(600, 100);
+        PrivateDeckCover.setDimensions(ScreenCard.STANDARD_WIDTH, ScreenCard.STANDARD_HEIGHT);
+        PrivateDeckCover.setCovered(true);
+        // Шрифт надписей статов.
+        StatsFont = new BitmapFont();
+        StatsFont.setColor(Color.WHITE);
+        // Шрифт надписи количества карт в колоде.
+        DeckFont = new BitmapFont();
+        DeckFont.setColor(Color.BROWN);
+        // Кнопка окончания хода.
+        buttonUpTexture = new Texture("EndTurnButton.png");
+        TextureRegionDrawable buttonUp = new TextureRegionDrawable(buttonUpTexture);
+        ButtonEndTurn = new ImageButton(buttonUp);
+        ButtonEndTurn.setPosition(550, 300);
+        ButtonEndTurn.setWidth(220);
+        ButtonEndTurn.setHeight(60);
+    }
+
     // Проверяет, что координаты ScreenX_in и ScreenY_in находятся внутри кнопки Button_in.
     private boolean ButtonPressedCoord(ImageButton Button_in, int ScreenX_in, int ScreenY_in)
     {
@@ -238,8 +280,6 @@ public class WarcastleDuelScreen implements Screen, InputProcessor
         WarcastleDuelGame CurrentGame;
         WarcastleCard CurrentWarcastleCard;
         WarcastlePlayer CurrentPlayer;
-        ScreenCard FoundCard = new ScreenCard();
-        boolean isCardFound = false;
         // Поиск перетаскиваемых карт и выполнение действий.
         for (ScreenCard curr_card:ScreenCards)
         {
@@ -255,17 +295,13 @@ public class WarcastleDuelScreen implements Screen, InputProcessor
                         CurrentWarcastleCard.Effect(CurrentGame, CurrentPlayer);
                         CurrentPlayer.PrivateHandCardToDiscard(CurrentWarcastleCard);
                         SoundList.PlaySound("DrawSword");
-                        isCardFound = true;
-                        FoundCard = curr_card;
                     }
                 }
                 break;
             }
         }
-        if (isCardFound)
-        {
-            this.ScreenCards.remove(FoundCard);
-        }
+        // Обновление карт на столе.
+        ReadCardToScreenCard(GetPlayer1Cards());
         // Очистка перетаскиваемых карт.
         for (ScreenCard curr_card:ScreenCards)
         {
@@ -278,6 +314,7 @@ public class WarcastleDuelScreen implements Screen, InputProcessor
     {
         GamePlaying.EndPlayerTurn((WarcastlePlayer)GamePlaying.getPlayer1());
         SoundList.PlaySound("PapperWrapping");
+        ReadCardToScreenCard(GetPlayer1Cards());
     }
 
     // Обработка нажатия кнопок.
