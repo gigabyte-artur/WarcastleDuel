@@ -207,6 +207,12 @@ public class WarcastlePlayer extends Player
         this.setHorses(this.getHorses() + Delta_in);
     }
 
+    // Увеличивает количество Золота текущего игрока на величину Delta_in.
+    public void IncrementAmount(int Delta_in)
+    {
+        this.setAmount(this.getAmount() + Delta_in);
+    }
+
     // Отображает блоки и атаки.
     private void ShowBlocksAttacks()
     {

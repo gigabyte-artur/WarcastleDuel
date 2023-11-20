@@ -51,7 +51,7 @@ public class WarcastleCard extends Card
         WarcastleCard rez = new WarcastleCard();
         final Random random = new Random();
         int Generated;
-        Generated = random.nextInt(5) + 1;
+        Generated = random.nextInt(6) + 1;
         if (Generated == 1)
         {
             rez = new WccAddSwords();
@@ -71,6 +71,10 @@ public class WarcastleCard extends Card
         if (Generated == 5)
         {
             rez = new WccAddHorses();
+        }
+        if (Generated == 6)
+        {
+            rez = new WccMissionArenaForYoung();
         }
         return rez;
     }
