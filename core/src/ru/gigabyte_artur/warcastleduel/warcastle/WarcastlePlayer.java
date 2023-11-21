@@ -9,17 +9,17 @@ import java.util.ArrayList;
 public class WarcastlePlayer extends Player
 {
 
-    private int Morale;          // Боевой дух.
-    private int Amount;          // Сумма в золоте.
-    private int Swords;          // Мечники.
-    private int Priests;          // Священники.
-    private int Instructors;          // Инструкторы.
-    private int Peasants;          // Крестьяне.
-    private int Horses;          // Конница.
-    private int Armor;              // Броня.
-    private Hand PrivateHand;           // Рука игрока.
-    private Hand Deck;           // Персональная колода игрока.
-    private Hand DiscardHand;       // Сброс.
+    private int Morale;                  // Боевой дух.
+    private int Amount;                  // Сумма в золоте.
+    private int Swords;                  // Мечники.
+    private int Priests;                 // Священники.
+    private int Instructors;             // Инструкторы.
+    private int Peasants;                // Крестьяне.
+    private int Horses;                  // Конница.
+    private int Armor;                   // Броня.
+    private Hand PrivateHand;            // Рука игрока.
+    private Hand Deck;                   // Персональная колода игрока.
+    private Hand DiscardHand;            // Сброс.
 
     private ArrayList<DefenceBlockDirection> Blocs = new ArrayList<DefenceBlockDirection>();         // Блоки игрока.
     private ArrayList<DefenceBlockDirection> Attacks = new ArrayList<DefenceBlockDirection>();       // Атаки игрока.
@@ -27,6 +27,7 @@ public class WarcastlePlayer extends Player
     private int ROUNDS_NUMBER = 4;                // Количество раундов атаки.
     private int START_MORALE = 10000;             // Начальное количество боевого духа.
     private static final int TAX_RATES = 100;    // Минимальная величина налога.
+    private int MAX_CARDS_HAND = 7;              // Максимальное число карт в руке.
 
     public WarcastlePlayer()
     {
@@ -132,6 +133,12 @@ public class WarcastlePlayer extends Player
     public Hand getDeck()
     {
         return Deck;
+    }
+
+    // Возвращает текущее число карт, которое может держать текущий игрок в руке.
+    public int GetMaxCardHand()
+    {
+        return MAX_CARDS_HAND;
     }
 
     // Инициализирует текущего игрока.
@@ -277,6 +284,17 @@ public class WarcastlePlayer extends Player
     {
         Hand PrivateHand = this.getPrivateHand();
         PrivateHand.MoveCard(Card_in, this.DiscardHand);
+    }
+
+    // Отправляет в сброс ("сжигает") верхнюю карту в колоде.
+    public void BurnTopCardInDeck()
+    {
+        Card BurnedCard;
+        if (this.getDeck().Size() > 0)
+        {
+            BurnedCard = this.getDeck().GetCardById(0);
+            PrivateHand.MoveCard(BurnedCard, this.DiscardHand);
+        }
     }
 
     // Вычисляет величину налогов.

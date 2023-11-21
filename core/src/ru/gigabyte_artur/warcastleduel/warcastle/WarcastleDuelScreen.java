@@ -62,7 +62,7 @@ public class WarcastleDuelScreen implements Screen, InputProcessor
         // Выводим колоду.
         PrivateDeckCover.draw(batch);
         CurrentPlayer = ((WarcastlePlayer)this.getGamePlaying().getPlayer1());
-        DeckFont.draw(batch, "" + CurrentPlayer.getDeck().Size(), 630, 90);
+        DeckFont.draw(batch, "" + CurrentPlayer.getDeck().Size(), 830, 280);
         // Тексты.
         StatsFont.draw(batch, "Amount: " + CurrentPlayer.getAmount(), 100, 400);
         StatsFont.draw(batch, "Swords: " + CurrentPlayer.getSwords(), 200, 400);
@@ -249,7 +249,7 @@ public class WarcastleDuelScreen implements Screen, InputProcessor
         SoundList.PlaySound("PapperWrapping");
         // Отображение колоды.
         PrivateDeckCover = new ScreenCard();
-        PrivateDeckCover.setPosition(600, 100);
+        PrivateDeckCover.setPosition(800, 300);
         PrivateDeckCover.setDimensions(ScreenCard.STANDARD_WIDTH, ScreenCard.STANDARD_HEIGHT);
         PrivateDeckCover.setCovered(true);
         // Шрифт надписей статов.

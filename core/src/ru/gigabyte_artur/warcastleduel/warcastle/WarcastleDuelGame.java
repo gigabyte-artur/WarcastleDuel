@@ -47,7 +47,14 @@ public class WarcastleDuelGame extends TwoPlayersGame
         Hand PlayersDeck, PlayersHand;
         PlayersDeck  = Player_in.getDeck();
         PlayersHand  = Player_in.getPrivateHand();
-        PlayersHand.DrawCard(PlayersDeck);
+        if (PlayersHand.Size() <= Player_in.GetMaxCardHand())
+        {
+            PlayersHand.DrawCard(PlayersDeck);
+        }
+        else
+        {
+            Player_in.BurnTopCardInDeck();
+        }
         CollectTaxes(Player_in);
     }
 
