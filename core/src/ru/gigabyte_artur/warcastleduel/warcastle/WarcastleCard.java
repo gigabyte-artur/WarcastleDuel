@@ -40,6 +40,13 @@ public class WarcastleCard extends Card
         return rez;
     }
 
+    // Возвращает тект для вывода в статус-бар при использовании карты.
+    public String GenerateStatusBarTextEffect(WarcastleDuelGame Game_in, WarcastlePlayer Player_in)
+    {
+        String rez = "<...some card effect>";
+        return rez;
+    }
+
     // Применяет эффект карты.
     public void Effect(WarcastleDuelGame Game_in, WarcastlePlayer Player_in)
     {

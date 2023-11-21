@@ -35,4 +35,11 @@ public class WccAddPeasants extends WarcastleCard {
     {
         return "CardTextures/peasant.jpg";
     }
+
+    @Override
+    public String GenerateStatusBarTextEffect(WarcastleDuelGame Game_in, WarcastlePlayer Player_in)
+    {
+        String rez = "Added 1 peasant";
+        return rez;
+    }
 }

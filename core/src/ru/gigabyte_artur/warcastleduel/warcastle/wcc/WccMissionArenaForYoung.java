@@ -6,6 +6,8 @@ import ru.gigabyte_artur.warcastleduel.warcastle.WarcastlePlayer;
 
 public class WccMissionArenaForYoung extends WarcastleCard {
 
+    private final static int DELTA_GOLD = 100;
+
     public WccMissionArenaForYoung()
     {
         this.setSellPrice(this.getStandardSellPrice());
@@ -27,12 +29,19 @@ public class WccMissionArenaForYoung extends WarcastleCard {
     @Override
     public void Effect(WarcastleDuelGame Game_in, WarcastlePlayer Player_in)
     {
-        Player_in.IncrementAmount(100);
+        Player_in.IncrementAmount(DELTA_GOLD);
     }
 
     @Override
     public String getStandardTexturePath()
     {
         return "CardTextures/ArenaYoung.jpg";
+    }
+
+    @Override
+    public String GenerateStatusBarTextEffect(WarcastleDuelGame Game_in, WarcastlePlayer Player_in)
+    {
+        String rez = "Added " + DELTA_GOLD + " gold";
+        return rez;
     }
 }

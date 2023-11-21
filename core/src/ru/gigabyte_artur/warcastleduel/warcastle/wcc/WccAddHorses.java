@@ -35,4 +35,11 @@ public class WccAddHorses extends WarcastleCard {
     {
         return "CardTextures/horse.jpg";
     }
+
+    @Override
+    public String GenerateStatusBarTextEffect(WarcastleDuelGame Game_in, WarcastlePlayer Player_in)
+    {
+        String rez = "Added 1 horses";
+        return rez;
+    }
 }

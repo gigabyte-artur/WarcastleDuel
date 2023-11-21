@@ -35,4 +35,11 @@ public class WccAddInstructors extends WarcastleCard {
     {
         return "CardTextures/instructor.jpg";
     }
+
+    @Override
+    public String GenerateStatusBarTextEffect(WarcastleDuelGame Game_in, WarcastlePlayer Player_in)
+    {
+        String rez = "Added 1 instructors";
+        return rez;
+    }
 }

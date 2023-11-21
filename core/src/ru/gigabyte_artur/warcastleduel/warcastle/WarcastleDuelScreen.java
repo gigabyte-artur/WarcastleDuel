@@ -295,6 +295,19 @@ public class WarcastleDuelScreen implements Screen, InputProcessor
         return rez;
     }
 
+    // Использует карту WarcastleCard_in.
+    private void EffectCard(WarcastleCard WarcastleCard_in)
+    {
+        WarcastleDuelGame CurrentGame;
+        WarcastlePlayer CurrentPlayer;
+        CurrentGame = this.getGamePlaying();
+        CurrentPlayer = (WarcastlePlayer)CurrentGame.getPlayer1();
+        WarcastleCard_in.Effect(CurrentGame, CurrentPlayer);
+        CurrentPlayer.PrivateHandCardToDiscard(WarcastleCard_in);
+        AddTextToStatusBar(WarcastleCard_in.GenerateStatusBarTextEffect(CurrentGame, CurrentPlayer));
+        SoundList.PlaySound("DrawSword");
+    }
+
     // Обработка окончания перетаскивания карт.
     private void DragCardTouchUp(int screenX_in, int screenY_in)
     {
@@ -311,11 +324,7 @@ public class WarcastleDuelScreen implements Screen, InputProcessor
                     CurrentWarcastleCard = (WarcastleCard)curr_card.getLinkedCard();
                     if (CurrentWarcastleCard != null)
                     {
-                        CurrentGame = this.getGamePlaying();
-                        CurrentPlayer = (WarcastlePlayer)CurrentGame.getPlayer1();
-                        CurrentWarcastleCard.Effect(CurrentGame, CurrentPlayer);
-                        CurrentPlayer.PrivateHandCardToDiscard(CurrentWarcastleCard);
-                        SoundList.PlaySound("DrawSword");
+                        EffectCard(CurrentWarcastleCard);
                     }
                 }
                 break;
@@ -352,6 +361,6 @@ public class WarcastleDuelScreen implements Screen, InputProcessor
     private void AddTextToStatusBar(String text_in)
     {
         StatusBarText.poll();
-        StatusBarText.add("End turn");
+        StatusBarText.add(text_in);
     }
 }

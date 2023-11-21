@@ -36,4 +36,10 @@ public class WccAddPriests extends WarcastleCard {
         return "CardTextures/priest.jpg";
     }
 
+    @Override
+    public String GenerateStatusBarTextEffect(WarcastleDuelGame Game_in, WarcastlePlayer Player_in)
+    {
+        String rez = "Added 1 priest";
+        return rez;
+    }
 }
