@@ -10,7 +10,6 @@ import com.badlogic.gdx.graphics.g2d.SpriteBatch;
 import com.badlogic.gdx.scenes.scene2d.ui.ImageButton;
 import com.badlogic.gdx.scenes.scene2d.utils.TextureRegionDrawable;
 import ru.gigabyte_artur.warcastleduel.card_game.Card;
-import java.util.ArrayDeque;
 import java.util.ArrayList;
 
 public class WarcastleDuelScreen implements Screen, InputProcessor
@@ -19,15 +18,14 @@ public class WarcastleDuelScreen implements Screen, InputProcessor
     private ArrayList<ScreenCard> ScreenCards;
     private ScreenCard PrivateDeckCover;
     private Texture background;
-    Texture buttonUpTexture;
+    private Texture buttonUpTexture;
     private int dragOffsetX, dragOffsetY;
     private ScreenSoundList SoundList;
     private WarcastleDuelGame GamePlaying;
     private BitmapFont StatsFont;
-    private BitmapFont StatusBarFont;
     private BitmapFont DeckFont;
     private ImageButton ButtonEndTurn;
-    private ArrayDeque<String> StatusBarText = new ArrayDeque<>();
+    private ScreenStatusBar StatusBar1;
 
     public void setGamePlaying(WarcastleDuelGame game1)
     {
@@ -72,12 +70,7 @@ public class WarcastleDuelScreen implements Screen, InputProcessor
         StatsFont.draw(batch, "Horses: " + CurrentPlayer.getHorses(), 300, 350);
         StatsFont.draw(batch, "Morale: " + CurrentPlayer.getMorale(), 400, 350);
         // Строка состояния.
-        count = 1;
-        for (String curr_StatusBarText: StatusBarText)
-        {
-            StatusBarFont.draw(batch, curr_StatusBarText, 50, 30*count);
-            count = count + 1;
-        }
+        StatusBar1.draw(batch);
         // Кнопка Конец хода.
         ButtonEndTurn.draw(batch,1);
         batch.end();
@@ -237,9 +230,10 @@ public class WarcastleDuelScreen implements Screen, InputProcessor
         Gdx.input.setInputProcessor(this);
         background = new Texture(Gdx.files.internal("Interface/BG.jpg"));
         ScreenCards = new ArrayList<>();
-        StatusBarText.add("");
-        StatusBarText.add("");
-        StatusBarText.add("");
+        StatusBar1 = new ScreenStatusBar();
+        // Строка состояния.
+        StatusBar1.InitText(3);
+        StatusBar1.setPosition(50, 0);
         // Звуки.
         SoundList = new ScreenSoundList();
         SoundList.AddSound("DrawSword", "Sounds/DrawSword.ogg");
@@ -258,9 +252,6 @@ public class WarcastleDuelScreen implements Screen, InputProcessor
         // Шрифт надписи количества карт в колоде.
         DeckFont = new BitmapFont();
         DeckFont.setColor(Color.BROWN);
-        // Шрифт строки состояния.
-        StatusBarFont = new BitmapFont();
-        StatusBarFont.setColor(Color.GOLD);
         // Кнопка окончания хода.
         buttonUpTexture = new Texture("Interface/EndTurnButton.png");
         TextureRegionDrawable buttonUp = new TextureRegionDrawable(buttonUpTexture);
@@ -268,6 +259,8 @@ public class WarcastleDuelScreen implements Screen, InputProcessor
         ButtonEndTurn.setPosition(550, 300);
         ButtonEndTurn.setWidth(220);
         ButtonEndTurn.setHeight(60);
+        // Состояние.
+        StatusBar1.AddText("Begin game");
     }
 
     // Проверяет, что координаты ScreenX_in и ScreenY_in находятся внутри кнопки Button_in.
@@ -304,7 +297,7 @@ public class WarcastleDuelScreen implements Screen, InputProcessor
         CurrentPlayer = (WarcastlePlayer)CurrentGame.getPlayer1();
         WarcastleCard_in.Effect(CurrentGame, CurrentPlayer);
         CurrentPlayer.PrivateHandCardToDiscard(WarcastleCard_in);
-        AddTextToStatusBar(WarcastleCard_in.GenerateStatusBarTextEffect(CurrentGame, CurrentPlayer));
+        StatusBar1.AddText(WarcastleCard_in.GenerateStatusBarTextEffect(CurrentGame, CurrentPlayer));
         SoundList.PlaySound("DrawSword");
     }
 
@@ -345,7 +338,7 @@ public class WarcastleDuelScreen implements Screen, InputProcessor
         GamePlaying.EndPlayerTurn((WarcastlePlayer)GamePlaying.getPlayer1());
         SoundList.PlaySound("PapperWrapping");
         ReadCardToScreenCard(GetPlayer1Cards());
-        AddTextToStatusBar("End turn");
+        StatusBar1.AddText("End turn");
     }
 
     // Обработка нажатия кнопок.
@@ -355,12 +348,5 @@ public class WarcastleDuelScreen implements Screen, InputProcessor
         {
             ButtonEndTurnAction();
         }
-    }
-
-    // Добавляет в статус-бар текст  text_in.
-    private void AddTextToStatusBar(String text_in)
-    {
-        StatusBarText.poll();
-        StatusBarText.add(text_in);
     }
 }
