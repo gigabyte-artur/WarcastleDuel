@@ -124,7 +124,8 @@ public class WarcastleDuelScreen implements Screen, InputProcessor
     {
         for (ScreenCard curr_card:ScreenCards)
         {
-            if (curr_card.getCardSprite().getBoundingRectangle().contains(screenX, Gdx.graphics.getHeight() - screenY)) {
+            if (curr_card.getCardSprite().getBoundingRectangle().contains(screenX, Gdx.graphics.getHeight() - screenY))
+            {
                 curr_card.setCardDragged(true);
                 dragOffsetX = screenX - (int) curr_card.getX();
                 dragOffsetY = (int) curr_card.getY() - (Gdx.graphics.getHeight() - screenY);

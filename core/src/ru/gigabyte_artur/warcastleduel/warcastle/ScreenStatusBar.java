@@ -43,7 +43,7 @@ public class ScreenStatusBar extends ScreenRectangledElement
         TextSize = textSize;
     }
 
-    // Инициализирует текст строчками в количестве size_in.
+    /** Инициализирует текст строчками в количестве size_in. */
     public void InitText(int size_in)
     {
         for (int c = 0; c < size_in; c++)
@@ -53,14 +53,14 @@ public class ScreenStatusBar extends ScreenRectangledElement
         this.setTextSize(size_in);
     }
 
-    // Добавляет в статус-бар текст  text_in.
+    /** Добавляет в статус-бар текст  text_in.*/
     public void AddText(String text_in)
     {
         StatusBarText.poll();
         StatusBarText.add(text_in);
     }
 
-    // Выводит статус-бар на экран.
+    /** Выводит статус-бар на экран.*/
     public void draw(SpriteBatch batch)
     {
         int count = 1;

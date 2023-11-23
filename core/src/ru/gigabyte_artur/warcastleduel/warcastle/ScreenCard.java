@@ -104,7 +104,14 @@ public class ScreenCard extends ScreenRectangledElement
         return LinkedCard;
     }
 
-    // Выводит карту на экран в рамках батча batch.
+    @Override
+    public void setPosition(int x_in, int y_in)
+    {
+        super.setPosition(x_in, y_in);
+        cardSprite.setPosition(x_in, y_in);
+    }
+
+    /**Выводит карту на экран в рамках батча batch.*/
     public void draw(SpriteBatch batch)
     {
         Color shadowColor = new Color(0, 0, 0, 0.5f); // Цвет тени (черный с 50% прозрачности)
