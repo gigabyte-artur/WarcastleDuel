@@ -10,6 +10,11 @@ import com.badlogic.gdx.graphics.g2d.SpriteBatch;
 import com.badlogic.gdx.scenes.scene2d.ui.ImageButton;
 import com.badlogic.gdx.scenes.scene2d.utils.TextureRegionDrawable;
 import ru.gigabyte_artur.warcastleduel.card_game.Card;
+import ru.gigabyte_artur.warcastleduel.warcastle.screen_interface.ScreenCard;
+import ru.gigabyte_artur.warcastleduel.warcastle.screen_interface.ScreenGroupSlotsRectangled;
+import ru.gigabyte_artur.warcastleduel.warcastle.screen_interface.ScreenSoundList;
+import ru.gigabyte_artur.warcastleduel.warcastle.screen_interface.ScreenStatusBar;
+
 import java.util.ArrayList;
 
 public class WarcastleDuelScreen implements Screen, InputProcessor
