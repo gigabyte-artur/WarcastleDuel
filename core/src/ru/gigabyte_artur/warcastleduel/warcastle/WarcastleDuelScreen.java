@@ -26,6 +26,7 @@ public class WarcastleDuelScreen implements Screen, InputProcessor
     private BitmapFont DeckFont;
     private ImageButton ButtonEndTurn;
     private ScreenStatusBar StatusBar1;
+    private ScreenGroupSlotsRectangled GroupSlot1;
 
     public void setGamePlaying(WarcastleDuelGame game1)
     {
@@ -194,7 +195,7 @@ public class WarcastleDuelScreen implements Screen, InputProcessor
             if (!isFound)
             {
                 NewScreenCard = new ScreenCard(Curr_WarcastleCard, Curr_WarcastleCard.getStandardTexturePath());
-                NewScreenCard.setPosition(counter * 100, 100);
+                GroupSlot1.LinkElementToFirstEmptySlot(NewScreenCard);
                 NewScreenCard.setCovered(false);
                 ScreenCards.add(NewScreenCard);
             }
@@ -240,6 +241,8 @@ public class WarcastleDuelScreen implements Screen, InputProcessor
         SoundList.AddSound("DrawSword", "Sounds/DrawSword.ogg");
         SoundList.AddSound("PapperWrapping", "Sounds/PapperWrapping.mp3");
         // Карты на экране.
+        GroupSlot1 = new ScreenGroupSlotsRectangled(WarcastlePlayer.MAX_CARDS_HAND);
+        GroupSlot1.SetListElementsPositions(100, 100, 100, 0);
         ReadCardToScreenCard(GetPlayer1Cards());
         SoundList.PlaySound("PapperWrapping");
         // Отображение колоды.
@@ -305,9 +308,7 @@ public class WarcastleDuelScreen implements Screen, InputProcessor
     // Обработка окончания перетаскивания карт.
     private void DragCardTouchUp(int screenX_in, int screenY_in)
     {
-        WarcastleDuelGame CurrentGame;
         WarcastleCard CurrentWarcastleCard;
-        WarcastlePlayer CurrentPlayer;
         // Поиск перетаскиваемых карт и выполнение действий.
         for (ScreenCard curr_card:ScreenCards)
         {
@@ -319,6 +320,7 @@ public class WarcastleDuelScreen implements Screen, InputProcessor
                     if (CurrentWarcastleCard != null)
                     {
                         EffectCard(CurrentWarcastleCard);
+                        GroupSlot1.EmptySlotByElement(curr_card);
                     }
                 }
                 break;

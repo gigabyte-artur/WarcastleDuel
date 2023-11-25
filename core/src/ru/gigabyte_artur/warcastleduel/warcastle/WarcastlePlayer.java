@@ -27,7 +27,7 @@ public class WarcastlePlayer extends Player
     private int ROUNDS_NUMBER = 4;                // Количество раундов атаки.
     private int START_MORALE = 10000;             // Начальное количество боевого духа.
     private static final int TAX_RATES = 100;    // Минимальная величина налога.
-    private int MAX_CARDS_HAND = 7;              // Максимальное число карт в руке.
+    public static final int MAX_CARDS_HAND = 7;              // Максимальное число карт в руке.
 
     public WarcastlePlayer()
     {

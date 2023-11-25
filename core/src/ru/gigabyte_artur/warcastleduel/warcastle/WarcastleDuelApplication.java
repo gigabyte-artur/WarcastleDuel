@@ -20,7 +20,8 @@ public class WarcastleDuelApplication extends ApplicationAdapter
 	}
 
 	@Override
-	public void render () {
+	public void render ()
+	{
 		gameScreen.render(0);
 	}
 
