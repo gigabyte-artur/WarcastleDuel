@@ -105,4 +105,34 @@ public class ScreenGroupSlotsRectangled
             CurrenY = CurrenY + deltaY_in;
         }
     }
+
+    /** Восстанавливает позицию подчиённых элементов позии слотов.*/
+    public void RestoreLinkedListElementsPositions()
+    {
+        int LinkedX, LinkedY, SlotX, SlotY;
+        ScreenRectangledElement CurrentElement;
+        for (ScreenSlotRectangled Curr_Slot:SlotList)
+        {
+            if (!Curr_Slot.isLinkedElementEmpty())
+            {
+                CurrentElement = Curr_Slot.getLinkedElement();
+                LinkedX = CurrentElement.getX();
+                LinkedY = CurrentElement.getY();
+                SlotX = Curr_Slot.getX();
+                SlotY = Curr_Slot.getY();
+                if ((LinkedX != SlotX) | (LinkedY != SlotY))
+                {
+                    CurrentElement.setPosition(SlotX, SlotY);
+                }
+                else
+                {
+                    // Элемент уже находистя на заданной позиции. Не изменяем.
+                }
+            }
+            else
+            {
+                // Элемент пустой.
+            }
+        }
+    }
 }

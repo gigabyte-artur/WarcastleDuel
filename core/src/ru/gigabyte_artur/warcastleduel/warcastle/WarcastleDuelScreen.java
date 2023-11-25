@@ -323,6 +323,10 @@ public class WarcastleDuelScreen implements Screen, InputProcessor
                         GroupSlot1.EmptySlotByElement(curr_card);
                     }
                 }
+                else
+                {
+                    GroupSlot1.RestoreLinkedListElementsPositions();
+                }
                 break;
             }
         }
