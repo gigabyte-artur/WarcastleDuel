@@ -28,7 +28,7 @@ public class WarcastleDuelScreen implements Screen, InputProcessor
     private ImageButton ButtonEndTurn;
     private ScreenStatusBar StatusBar1;
     private ScreenGroupSlotsRectangled GroupSlot1;
-    private ScreenWarcastlePlyerInfo Player1Info;
+    private ScreenWarcastlePlyerInfo Player1Info, Player2Info;
 
     public void setGamePlaying(WarcastleDuelGame game1)
     {
@@ -66,6 +66,7 @@ public class WarcastleDuelScreen implements Screen, InputProcessor
         DeckFont.draw(batch, "" + CurrentPlayer.getDeck().Size(), 830, 280);
         // Тексты.
         Player1Info.draw(batch);
+        Player2Info.draw(batch);
         // Строка состояния.
         StatusBar1.draw(batch);
         // Кнопка Конец хода.
@@ -250,6 +251,9 @@ public class WarcastleDuelScreen implements Screen, InputProcessor
         Player1Info = new ScreenWarcastlePlyerInfo();
         Player1Info.setLinkedPlayer((WarcastlePlayer)GamePlaying.getPlayer1());
         Player1Info.setPosition(100, 400);
+        Player2Info = new ScreenWarcastlePlyerInfo();
+        Player2Info.setLinkedPlayer((WarcastlePlayer)GamePlaying.getPlayer2());
+        Player2Info.setPosition(100, 200);
         // Шрифт надписи количества карт в колоде.
         DeckFont = new BitmapFont();
         DeckFont.setColor(Color.BROWN);

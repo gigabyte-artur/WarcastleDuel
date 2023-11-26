@@ -25,14 +25,20 @@ public class ScreenGroupSlotsRectangled
         for (ScreenSlotRectangled Curr_Slot:SlotList)
         {
             CurrentElement = Curr_Slot.getLinkedElement();
-            if (CurrentElement.equals(Element_in))
+            if (CurrentElement != null)
             {
-                Curr_Slot.EmptyElement();
-                break;
+                if (CurrentElement.equals(Element_in))
+                {
+                    Curr_Slot.EmptyElement();
+                    break;
+                } else
+                {
+                    // Выполняем поиск далее.
+                }
             }
             else
             {
-                // Выполняем поиск далее.
+                // Элемент пустой.
             }
         }
     }
