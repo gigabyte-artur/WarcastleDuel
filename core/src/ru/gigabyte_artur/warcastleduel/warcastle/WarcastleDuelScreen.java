@@ -10,10 +10,7 @@ import com.badlogic.gdx.graphics.g2d.SpriteBatch;
 import com.badlogic.gdx.scenes.scene2d.ui.ImageButton;
 import com.badlogic.gdx.scenes.scene2d.utils.TextureRegionDrawable;
 import ru.gigabyte_artur.warcastleduel.card_game.Card;
-import ru.gigabyte_artur.warcastleduel.warcastle.screen_interface.ScreenCard;
-import ru.gigabyte_artur.warcastleduel.warcastle.screen_interface.ScreenGroupSlotsRectangled;
-import ru.gigabyte_artur.warcastleduel.warcastle.screen_interface.ScreenSoundList;
-import ru.gigabyte_artur.warcastleduel.warcastle.screen_interface.ScreenStatusBar;
+import ru.gigabyte_artur.warcastleduel.warcastle.screen_interface.*;
 
 import java.util.ArrayList;
 
@@ -27,11 +24,11 @@ public class WarcastleDuelScreen implements Screen, InputProcessor
     private int dragOffsetX, dragOffsetY;
     private ScreenSoundList SoundList;
     private WarcastleDuelGame GamePlaying;
-    private BitmapFont StatsFont;
     private BitmapFont DeckFont;
     private ImageButton ButtonEndTurn;
     private ScreenStatusBar StatusBar1;
     private ScreenGroupSlotsRectangled GroupSlot1;
+    private ScreenWarcastlePlyerInfo Player1Info;
 
     public void setGamePlaying(WarcastleDuelGame game1)
     {
@@ -68,13 +65,7 @@ public class WarcastleDuelScreen implements Screen, InputProcessor
         CurrentPlayer = ((WarcastlePlayer)this.getGamePlaying().getPlayer1());
         DeckFont.draw(batch, "" + CurrentPlayer.getDeck().Size(), 830, 280);
         // Тексты.
-        StatsFont.draw(batch, "Amount: " + CurrentPlayer.getAmount(), 100, 400);
-        StatsFont.draw(batch, "Swords: " + CurrentPlayer.getSwords(), 200, 400);
-        StatsFont.draw(batch, "Priests: " + CurrentPlayer.getPriests(), 300, 400);
-        StatsFont.draw(batch, "Instructors: " + CurrentPlayer.getInstructors(), 100, 350);
-        StatsFont.draw(batch, "Peasants: " + CurrentPlayer.getPeasants(), 200, 350);
-        StatsFont.draw(batch, "Horses: " + CurrentPlayer.getHorses(), 300, 350);
-        StatsFont.draw(batch, "Morale: " + CurrentPlayer.getMorale(), 400, 350);
+        Player1Info.draw(batch);
         // Строка состояния.
         StatusBar1.draw(batch);
         // Кнопка Конец хода.
@@ -255,9 +246,10 @@ public class WarcastleDuelScreen implements Screen, InputProcessor
         PrivateDeckCover.setPosition(800, 300);
         PrivateDeckCover.setDimensions(ScreenCard.STANDARD_WIDTH, ScreenCard.STANDARD_HEIGHT);
         PrivateDeckCover.setCovered(true);
-        // Шрифт надписей статов.
-        StatsFont = new BitmapFont();
-        StatsFont.setColor(Color.WHITE);
+        // Статы игроков.
+        Player1Info = new ScreenWarcastlePlyerInfo();
+        Player1Info.setLinkedPlayer((WarcastlePlayer)GamePlaying.getPlayer1());
+        Player1Info.setPosition(100, 400);
         // Шрифт надписи количества карт в колоде.
         DeckFont = new BitmapFont();
         DeckFont.setColor(Color.BROWN);
@@ -278,11 +270,12 @@ public class WarcastleDuelScreen implements Screen, InputProcessor
         boolean rez = false;
         float ButtonX, ButtonY;
         float ButtonWidth, ButtonHeight;
+        int ScreenHeight = Gdx.graphics.getHeight();
         ButtonX = Button_in.getX();
         ButtonY = Button_in.getY();
         ButtonWidth = ButtonEndTurn.getWidth();
         ButtonHeight = ButtonEndTurn.getHeight();
-        rez = (ButtonX < ScreenX_in) & (ButtonX + ButtonWidth > ScreenX_in) & (ButtonY < Gdx.graphics.getHeight() - ScreenY_in) & (ButtonY + ButtonHeight > Gdx.graphics.getHeight() - ScreenY_in);
+        rez = (ButtonX < ScreenX_in) & (ButtonX + ButtonWidth > ScreenX_in) & (ButtonY < ScreenHeight - ScreenY_in) & (ButtonY + ButtonHeight > ScreenHeight - ScreenY_in);
         return rez;
     }
 
