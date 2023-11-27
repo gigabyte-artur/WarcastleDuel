@@ -19,46 +19,47 @@ public class WarcastleCard extends Card
         SellPrice = price;
     }
 
-    // Возвращает стандартную цену продажи карты.
+    /** Возвращает стандартную цену продажи карты. */
     public int getStandardSellPrice()
     {
         int rez = 0;
         return rez;
     }
 
-    // Вовзращает стандуртный путь к текстуре.
+    /** Вовзращает стандуртный путь к текстуре. */
     public String getStandardTexturePath()
     {
         String rez = "king.jpg";
         return rez;
     }
 
-    // Возвращает кодовое имя.
+    /** Возвращает кодовое имя. */
     public String GetCodeName()
     {
         String rez = "<...some card>";
         return rez;
     }
 
-    // Возвращает тект для вывода в статус-бар при использовании карты.
+    /** Возвращает тект для вывода в статус-бар при использовании карты. */
     public String GenerateStatusBarTextEffect(WarcastleDuelGame Game_in, WarcastlePlayer Player_in)
     {
         String rez = "<...some card effect>";
         return rez;
     }
 
-    // Применяет эффект карты.
+    /** Применяет эффект карты. */
     public void Effect(WarcastleDuelGame Game_in, WarcastlePlayer Player_in)
     {
         // Будет переопределено в потомках.
     }
 
+    /** Генерирует случайную карту и возращает её. */
     public static WarcastleCard GenerateRandomCard()
     {
         WarcastleCard rez = new WarcastleCard();
         final Random random = new Random();
         int Generated;
-        Generated = random.nextInt(6) + 1;
+        Generated = random.nextInt(7) + 1;
         if (Generated == 1)
         {
             rez = new WccAddSwords();
@@ -83,9 +84,14 @@ public class WarcastleCard extends Card
         {
             rez = new WccMissionArenaForYoung();
         }
+        if (Generated == 7)
+        {
+            rez = new WccAttack();
+        }
         return rez;
     }
 
+    /** Выводит карту в консоль. */
     @Override
     public void Show()
     {
