@@ -59,7 +59,7 @@ public class WarcastleCard extends Card
         WarcastleCard rez = new WarcastleCard();
         final Random random = new Random();
         int Generated;
-        Generated = random.nextInt(7) + 1;
+        Generated = random.nextInt(8) + 1;
         if (Generated == 1)
         {
             rez = new WccAddSwords();
@@ -87,6 +87,10 @@ public class WarcastleCard extends Card
         if (Generated == 7)
         {
             rez = new WccAttack();
+        }
+        if (Generated == 8)
+        {
+            rez = new WccCupOfWine();
         }
         return rez;
     }

@@ -9,7 +9,7 @@ import java.util.ArrayList;
 public class WarcastlePlayer extends Player
 {
 
-    private int Morale;                  // Боевой дух.
+    private int Morale;                  // Боевой дух (мораль).
     private int Amount;                  // Сумма в золоте.
     private int Swords;                  // Мечники.
     private int Priests;                 // Священники.
@@ -222,7 +222,7 @@ public class WarcastlePlayer extends Player
         this.getPrivateHand().DrawCard(this.getDeck());
         this.Swords      = 1;
         this.Priests     = 1;
-        this.Instructors  = 1;
+        this.Instructors = 1;
         this.Peasants    = 1;
         this.Horses      = 1;
         this.Armor       = 0;
@@ -275,13 +275,19 @@ public class WarcastlePlayer extends Player
         this.setHorses(this.getHorses() + Delta_in);
     }
 
+    // Увеличивает боевой бух текущего игрока на величину Delta_in.
+    public void IncrementMorale(int Delta_in)
+    {
+        this.setMorale(this.getMorale() + Delta_in);
+    }
+
     // Увеличивает количество Золота текущего игрока на величину Delta_in.
     public void IncrementAmount(int Delta_in)
     {
         this.setAmount(this.getAmount() + Delta_in);
     }
 
-    // Отображает блоки и атаки.
+    /** Отображает блоки и атаки. */
     private void ShowBlocksAttacks()
     {
         String ShownText;
@@ -305,7 +311,7 @@ public class WarcastlePlayer extends Player
         System.out.println(ShownText);
     }
 
-    // Отображает текущего игрока.
+    /** Отображает текущего игрока. */
     public void Show()
     {
         String ShownText;
@@ -340,14 +346,14 @@ public class WarcastlePlayer extends Player
         }
     }
 
-    // Выносит карту Card_in из руки в сброс.
+    /** Выносит карту Card_in из руки в сброс. */
     public void PrivateHandCardToDiscard(Card Card_in)
     {
         Hand PrivateHand = this.getPrivateHand();
         PrivateHand.MoveCard(Card_in, this.DiscardHand);
     }
 
-    // Отправляет в сброс ("сжигает") верхнюю карту в колоде.
+    /** Отправляет в сброс ("сжигает") верхнюю карту в колоде. */
     public void BurnTopCardInDeck()
     {
         Card BurnedCard;
@@ -358,7 +364,7 @@ public class WarcastlePlayer extends Player
         }
     }
 
-    // Вычисляет величину налогов.
+    /** Вычисляет величину налогов. */
     public int CalculateTaxes()
     {
         int rez = 0;
