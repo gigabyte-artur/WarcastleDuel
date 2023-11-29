@@ -2,7 +2,6 @@ package ru.gigabyte_artur.warcastleduel.warcastle;
 
 import ru.gigabyte_artur.warcastleduel.card_game.Hand;
 import ru.gigabyte_artur.warcastleduel.gaming.TwoPlayersGame;
-
 import java.util.ArrayList;
 
 public class WarcastleDuelGame extends TwoPlayersGame
@@ -41,13 +40,13 @@ public class WarcastleDuelGame extends TwoPlayersGame
         return 2;
     }
 
-    // Начинает ход игрока Player_in.
+    /** Начинает ход игрока Player_in. */
     private void BeginPlayerTurn(WarcastlePlayer Player_in)
     {
         Hand PlayersDeck, PlayersHand;
         PlayersDeck  = Player_in.getDeck();
         PlayersHand  = Player_in.getPrivateHand();
-        if (PlayersHand.Size() <= Player_in.GetMaxCardHand())
+        if (PlayersHand.Size() < Player_in.GetMaxCardHand())
         {
             PlayersHand.DrawCard(PlayersDeck);
         }
@@ -58,7 +57,7 @@ public class WarcastleDuelGame extends TwoPlayersGame
         CollectTaxes(Player_in);
     }
 
-    // Осуществляет сбор налогов игроком Player_in.
+    /** Осуществляет сбор налогов игроком Player_in. */
     public void CollectTaxes(WarcastlePlayer Player_in)
     {
         int NewTaxes;
@@ -66,7 +65,7 @@ public class WarcastleDuelGame extends TwoPlayersGame
         Player_in.setAmount(Player_in.getAmount() + NewTaxes);
     }
 
-    // Генерирует новую колоду игрока.
+    /** Генерирует новую колоду игрока. */
     public static ArrayList<WarcastleCard> GeneratePrivateDeck()
     {
         ArrayList<WarcastleCard> rez = new ArrayList<WarcastleCard>();
@@ -78,7 +77,7 @@ public class WarcastleDuelGame extends TwoPlayersGame
         return rez;
     }
 
-    // Отображает текущую игру.
+    /** Отображает текущую игру. */
     public void Show()
     {
         System.out.println("------");
@@ -90,7 +89,7 @@ public class WarcastleDuelGame extends TwoPlayersGame
         ((WarcastlePlayer)this.getPlayer2()).Show();
     }
 
-    // Окончание хода игрока  Player_in.
+    /** Окончание хода игрока  Player_in. */
     public void EndPlayerTurn(WarcastlePlayer Player_in)
     {
         BeginPlayerTurn(Player_in);

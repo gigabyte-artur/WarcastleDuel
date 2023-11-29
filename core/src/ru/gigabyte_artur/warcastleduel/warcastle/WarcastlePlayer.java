@@ -16,10 +16,15 @@ public class WarcastlePlayer extends Player
     private int Instructors;             // Инструкторы.
     private int Peasants;                // Крестьяне.
     private int Horses;                  // Конница.
-    private int Armor;                   // Броня.
     private Hand PrivateHand;            // Рука игрока.
     private Hand Deck;                   // Персональная колода игрока.
     private Hand DiscardHand;            // Сброс.
+    private int SwordAttack;             // Атака мечников.
+    private int HorseAttack;             // Атака конницы.
+    private int Armor;                   // Броня.
+    private int SwordSkill;              // Владение мечом.
+    private int Dodge;                   // Уворот.
+    private int Luck;                    // Удача.
 
     private ArrayList<DefenceBlockDirection> Blocs = new ArrayList<DefenceBlockDirection>();         // Блоки игрока.
     private ArrayList<DefenceBlockDirection> Attacks = new ArrayList<DefenceBlockDirection>();       // Атаки игрока.
@@ -27,7 +32,7 @@ public class WarcastlePlayer extends Player
     private int ROUNDS_NUMBER = 4;                // Количество раундов атаки.
     private int START_MORALE = 10000;             // Начальное количество боевого духа.
     private static final int TAX_RATES = 100;    // Минимальная величина налога.
-    public static final int MAX_CARDS_HAND = 7;              // Максимальное число карт в руке.
+    public static final int MAX_CARDS_HAND = 9;              // Максимальное число карт в руке.
 
     public WarcastlePlayer()
     {
@@ -42,6 +47,62 @@ public class WarcastlePlayer extends Player
         this.Peasants = 0;
         this.Horses = 0;
         this.Armor = 0;
+    }
+
+    public int getSwordAttack()
+    {
+        return SwordAttack;
+    }
+
+    public int getHorseAttack()
+    {
+        return HorseAttack;
+    }
+
+    public int getSwordSkill()
+    {
+        return SwordSkill;
+    }
+
+    public int getDodge()
+    {
+        return Dodge;
+    }
+
+    public int getLuck()
+    {
+        return Luck;
+    }
+
+
+    public void setSwordAttack(int swordAttack)
+    {
+        SwordAttack = swordAttack;
+    }
+
+    public void setHorseAttack(int horseAttack)
+    {
+        HorseAttack = horseAttack;
+    }
+
+    public void setArmor(int armor)
+    {
+        Armor = armor;
+    }
+
+    public void setSwordSkill(int swordSkill)
+    {
+        SwordSkill = swordSkill;
+    }
+
+    public void setDodge(int dodge)
+    {
+        Dodge = dodge;
+    }
+
+    public void setLuck(int luck)
+    {
+        Luck = luck;
     }
 
     public int getAmount()

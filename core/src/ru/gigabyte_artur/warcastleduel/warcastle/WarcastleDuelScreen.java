@@ -173,11 +173,9 @@ public class WarcastleDuelScreen implements Screen, InputProcessor
     private void ReadCardToScreenCard(ArrayList<WarcastleCard> Cards_in)
     {
         ScreenCard NewScreenCard;
-        int counter;
         boolean isFound = false;
         ArrayList <ScreenCard> RemovableCadrs = new ArrayList<>();
         // Добавление новых карт.
-        counter = 1;
         for (WarcastleCard Curr_WarcastleCard:Cards_in)
         {
             isFound = false;
@@ -196,7 +194,6 @@ public class WarcastleDuelScreen implements Screen, InputProcessor
                 NewScreenCard.setCovered(false);
                 ScreenCards.add(NewScreenCard);
             }
-            counter = counter + 1;
         }
         // Удаление незадействованных карт.
         for (ScreenCard Curr_ScreenCard: ScreenCards)
@@ -221,7 +218,7 @@ public class WarcastleDuelScreen implements Screen, InputProcessor
         }
     }
 
-    // Выполняет начальную инициализацию экрана.
+    /** Выполняет начальную инициализацию экрана. */
     private void InitScreen()
     {
         // Инициализация.
@@ -230,13 +227,13 @@ public class WarcastleDuelScreen implements Screen, InputProcessor
         background = new Texture(Gdx.files.internal("Interface/BG.jpg"));
         ScreenCards = new ArrayList<>();
         StatusBar1 = new ScreenStatusBar();
-        // Строка состояния.
-        StatusBar1.InitText(3);
-        StatusBar1.setPosition(50, 0);
         // Звуки.
         SoundList = new ScreenSoundList();
         SoundList.AddSound("DrawSword", "Sounds/DrawSword.ogg");
         SoundList.AddSound("PapperWrapping", "Sounds/PapperWrapping.mp3");
+        // Строка состояния.
+        StatusBar1.InitText(3);
+        StatusBar1.setPosition(50, 0);
         // Карты на экране.
         GroupSlot1 = new ScreenGroupSlotsRectangled(WarcastlePlayer.MAX_CARDS_HAND);
         GroupSlot1.SetListElementsPositions(100, 100, 100, 0);
@@ -244,7 +241,7 @@ public class WarcastleDuelScreen implements Screen, InputProcessor
         SoundList.PlaySound("PapperWrapping");
         // Отображение колоды.
         PrivateDeckCover = new ScreenCard();
-        PrivateDeckCover.setPosition(800, 300);
+        PrivateDeckCover.setPosition(1150, 350);
         PrivateDeckCover.setDimensions(ScreenCard.STANDARD_WIDTH, ScreenCard.STANDARD_HEIGHT);
         PrivateDeckCover.setCovered(true);
         // Статы игроков.
@@ -261,7 +258,7 @@ public class WarcastleDuelScreen implements Screen, InputProcessor
         buttonUpTexture = new Texture("Interface/EndTurnButton.png");
         TextureRegionDrawable buttonUp = new TextureRegionDrawable(buttonUpTexture);
         ButtonEndTurn = new ImageButton(buttonUp);
-        ButtonEndTurn.setPosition(550, 300);
+        ButtonEndTurn.setPosition(900, 350);
         ButtonEndTurn.setWidth(220);
         ButtonEndTurn.setHeight(60);
         // Состояние.
@@ -287,7 +284,8 @@ public class WarcastleDuelScreen implements Screen, InputProcessor
     private ArrayList<WarcastleCard> GetPlayer1Cards()
     {
         ArrayList<WarcastleCard> rez = new ArrayList<>();
-        for (Card Curr_Card:((WarcastlePlayer)this.getGamePlaying().getPlayer1()).getPrivateHand().getCards())
+        WarcastlePlayer Player1 = (WarcastlePlayer)this.getGamePlaying().getPlayer1();
+        for (Card Curr_Card:Player1.getPrivateHand().getCards())
         {
             rez.add((WarcastleCard)Curr_Card);
         }
@@ -344,7 +342,8 @@ public class WarcastleDuelScreen implements Screen, InputProcessor
     // Обработчиик нажатия на кнопку Конец хода.
     private void ButtonEndTurnAction()
     {
-        GamePlaying.EndPlayerTurn((WarcastlePlayer)GamePlaying.getPlayer1());
+        WarcastlePlayer Player1 = (WarcastlePlayer)GamePlaying.getPlayer1();
+        GamePlaying.EndPlayerTurn(Player1);
         SoundList.PlaySound("PapperWrapping");
         ReadCardToScreenCard(GetPlayer1Cards());
         StatusBar1.AddText("End turn");
