@@ -74,7 +74,6 @@ public class WarcastlePlayer extends Player
         return Luck;
     }
 
-
     public void setSwordAttack(int swordAttack)
     {
         SwordAttack = swordAttack;
@@ -152,14 +151,17 @@ public class WarcastlePlayer extends Player
 
     public void setPriests(int priests) {
         Priests = priests;
+        CalculateStats();
     }
 
     public void setInstructors(int insructors) {
         Instructors = insructors;
+        CalculateStats();
     }
 
     public void setHorses(int horses) {
         Horses = horses;
+        CalculateStats();
     }
     public void setMorale(int morale)
     {
@@ -174,11 +176,13 @@ public class WarcastlePlayer extends Player
     public void setSwords(int swords)
     {
         Swords = swords;
+        CalculateStats();
     }
 
     public void setPeasants(int peasants)
     {
         Peasants = peasants;
+        CalculateStats();
     }
 
     public ArrayList<DefenceBlockDirection> getAttacks()
@@ -226,6 +230,7 @@ public class WarcastlePlayer extends Player
         this.Peasants    = 1;
         this.Horses      = 1;
         this.Armor       = 0;
+        CalculateStats();
     }
 
     // Инициализирует блоки игрока.
@@ -370,5 +375,29 @@ public class WarcastlePlayer extends Player
         int rez = 0;
         rez = this.getPeasants() * TAX_RATES;
         return rez;
+    }
+
+    /** Рассчитвывает статы текущего игрока.*/
+    public void CalculateStats()
+    {
+        int NewStat;
+        // Атака мечников.
+        NewStat = (int)Math.ceil((this.getSwords()*1.25 + this.getPeasants()/2.0)*100);
+        this.setSwordAttack(NewStat);
+        // Атакак конницы.
+        NewStat = (int)Math.ceil((this.getHorses()*5 + this.getPeasants()/10.0)*10);
+        this.setHorseAttack(NewStat);
+        // Удача.
+        NewStat = (int)Math.ceil(this.getPriests()*10);
+        this.setLuck(NewStat);
+        // Уворот.
+        NewStat = (int)Math.ceil((this.getInstructors() + this.getLuck()/2.0 + this.getPeasants()/5.0)*10);
+        this.setDodge(NewStat);
+        // Владение мечом.
+        NewStat = (int)Math.ceil((this.getSwords()/10.0 + (this.getInstructors()*2.0 + this.getSwords())/2.0 + this.getLuck()/2.0 + this.getPeasants()/5.0)*10);
+        this.setSwordSkill(NewStat);
+        // Броня.
+        NewStat = (int)Math.ceil(0 * 30);
+        this.setSwordSkill(NewStat);
     }
 }

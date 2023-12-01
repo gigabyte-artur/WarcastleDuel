@@ -303,6 +303,7 @@ public class WarcastleDuelScreen implements Screen, InputProcessor
         CurrentPlayer.PrivateHandCardToDiscard(WarcastleCard_in);
         StatusBar1.AddText(WarcastleCard_in.GenerateStatusBarTextEffect(CurrentGame, CurrentPlayer));
         SoundList.PlaySound("DrawSword");
+        CurrentPlayer.CalculateStats();
     }
 
     // Обработка окончания перетаскивания карт.

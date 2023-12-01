@@ -56,7 +56,8 @@ public class ScreenWarcastlePlyerInfo extends ScreenRectangledElement
         StatsFont.draw(batch, "Peasants: " + LinkedPlayer.getPeasants(), CurrentX, ScreenHeight - (CurrentY + 60));
         StatsFont.draw(batch, "Horses: " + LinkedPlayer.getHorses(), CurrentX + 120, ScreenHeight - (CurrentY + 60));
         // -Статы.
-        StatsFont.draw(batch, "Dodge: " + LinkedPlayer.getDodge(), CurrentX + 450, ScreenHeight - (CurrentY + 60));
-        StatsFont.draw(batch, "Luck: " + LinkedPlayer.getLuck(), CurrentX + 570, ScreenHeight - (CurrentY + 60));
+        StatsFont.draw(batch, "Horse Attack: " + LinkedPlayer.getHorseAttack(), CurrentX + 450, ScreenHeight - (CurrentY + 60));
+        StatsFont.draw(batch, "Dodge: " + LinkedPlayer.getDodge(), CurrentX + 570, ScreenHeight - (CurrentY + 60));
+        StatsFont.draw(batch, "Luck: " + LinkedPlayer.getLuck(), CurrentX + 690, ScreenHeight - (CurrentY + 60));
     }
 }
