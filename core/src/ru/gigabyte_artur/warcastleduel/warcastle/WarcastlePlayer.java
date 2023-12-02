@@ -398,6 +398,6 @@ public class WarcastlePlayer extends Player
         this.setSwordSkill(NewStat);
         // Броня.
         NewStat = (int)Math.ceil(0 * 30);
-        this.setSwordSkill(NewStat);
+        this.setArmor(NewStat);
     }
 }
