@@ -63,7 +63,7 @@ public class WarcastleDuelScreen implements Screen, InputProcessor
         // Выводим колоду.
         PrivateDeckCover.draw(batch);
         CurrentPlayer = ((WarcastlePlayer)this.getGamePlaying().getPlayer1());
-        DeckFont.draw(batch, "" + CurrentPlayer.getDeck().Size(), 830, 280);
+        DeckFont.draw(batch, "" + CurrentPlayer.getDeck().Size(), 1180, 330);
         // Тексты.
         Player1Info.draw(batch);
         Player2Info.draw(batch);
@@ -244,6 +244,9 @@ public class WarcastleDuelScreen implements Screen, InputProcessor
         PrivateDeckCover.setPosition(1150, 350);
         PrivateDeckCover.setDimensions(ScreenCard.STANDARD_WIDTH, ScreenCard.STANDARD_HEIGHT);
         PrivateDeckCover.setCovered(true);
+        // Шрифт надписи количества карт в колоде.
+        DeckFont = new BitmapFont();
+        DeckFont.setColor(Color.BROWN);
         // Статы игроков.
         Player1Info = new ScreenWarcastlePlyerInfo();
         Player1Info.setLinkedPlayer((WarcastlePlayer)GamePlaying.getPlayer1());
@@ -251,9 +254,6 @@ public class WarcastleDuelScreen implements Screen, InputProcessor
         Player2Info = new ScreenWarcastlePlyerInfo();
         Player2Info.setLinkedPlayer((WarcastlePlayer)GamePlaying.getPlayer2());
         Player2Info.setPosition(100, 200);
-        // Шрифт надписи количества карт в колоде.
-        DeckFont = new BitmapFont();
-        DeckFont.setColor(Color.BROWN);
         // Кнопка окончания хода.
         buttonUpTexture = new Texture("Interface/EndTurnButton.png");
         TextureRegionDrawable buttonUp = new TextureRegionDrawable(buttonUpTexture);

@@ -39,7 +39,11 @@ public class WccAttack extends WarcastleCard {
     @Override
     public String GenerateStatusBarTextEffect(WarcastleDuelGame Game_in, WarcastlePlayer Player_in)
     {
-        String rez = "Player " + Player_in.getName() + " attacked enemy.";
+        WarcastlePlayer CurrentPlayer2 = new WarcastlePlayer();
+        CurrentPlayer2 = (WarcastlePlayer) Game_in.getPlayer2();
+        Game_in.AttackPlayer(Player_in, CurrentPlayer2);
+        CurrentPlayer2.CalculateStats();
+        String rez = "Player " + Player_in.getName() + " attacked enemy " + CurrentPlayer2.getName() + ".";
         return rez;
     }
 }

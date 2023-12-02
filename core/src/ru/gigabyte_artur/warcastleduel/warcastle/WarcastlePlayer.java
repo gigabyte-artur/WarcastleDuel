@@ -377,7 +377,7 @@ public class WarcastlePlayer extends Player
         return rez;
     }
 
-    /** Рассчитвывает статы текущего игрока.*/
+    /** Рассчитывает статы текущего игрока.*/
     public void CalculateStats()
     {
         int NewStat;
