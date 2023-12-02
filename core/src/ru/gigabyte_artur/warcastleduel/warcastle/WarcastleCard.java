@@ -59,39 +59,25 @@ public class WarcastleCard extends Card
         WarcastleCard rez = new WarcastleCard();
         final Random random = new Random();
         int Generated;
-        Generated = random.nextInt(8) + 1;
+        Generated = random.nextInt(9) + 1;
         if (Generated == 1)
-        {
             rez = new WccAddSwords();
-        }
         if (Generated == 2)
-        {
             rez = new WccAddPriests();
-        }
         if (Generated == 3)
-        {
             rez = new WccAddInstructors();
-        }
         if (Generated == 4)
-        {
             rez = new WccAddPeasants();
-        }
         if (Generated == 5)
-        {
             rez = new WccAddHorses();
-        }
         if (Generated == 6)
-        {
             rez = new WccMissionArenaForYoung();
-        }
         if (Generated == 7)
-        {
             rez = new WccAttack();
-        }
         if (Generated == 8)
-        {
             rez = new WccCupOfWine();
-        }
+        if (Generated == 9)
+            rez = new WccPoisonWell();
         return rez;
     }
 

@@ -41,4 +41,20 @@ public abstract class TwoPlayersGame extends MultiPlayerGame
         int rez = 2;        // Всегда два игрока.
         return rez;
     }
+
+    /** Возвращает оппонента игрока Player_in в текущей игре.*/
+    public Player GetOpponent(Player Player_in)
+    {
+        Player rez = new Player();
+        if (this.getPlayer1().equals(Player_in))
+            rez = this.getPlayer2();
+        else
+        {
+            if (this.getPlayer2().equals(Player_in))
+                rez = this.getPlayer1();
+            else
+                System.out.println("Не удалось получить оппонента игрока " + Player_in.getName());
+        }
+        return rez;
+    }
 }
