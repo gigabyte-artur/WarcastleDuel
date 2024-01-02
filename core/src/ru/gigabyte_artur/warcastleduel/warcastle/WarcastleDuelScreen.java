@@ -27,6 +27,10 @@ public class WarcastleDuelScreen implements Screen, InputProcessor
     private ScreenGroupSlotsRectangled GroupSlot1;
     private ScreenWarcastlePlyerInfo Player1Info, Player2Info;
     private ScreenAddStatButton ButtonAddSword1;
+    private ScreenAddStatButton ButtonAddPriest1;
+    private ScreenAddStatButton ButtonAddInstructor1;
+    private ScreenAddStatButton ButtonAddPeasant1;
+    private ScreenAddStatButton ButtonAddHorse1;
 
     private Stage stage;
 
@@ -83,6 +87,10 @@ public class WarcastleDuelScreen implements Screen, InputProcessor
         batch.end();
         // Кнопка Добавить мечников.
         ButtonAddSword1.Render(delta);
+        ButtonAddPriest1.Render(delta);
+        ButtonAddInstructor1.Render(delta);
+        ButtonAddPeasant1.Render(delta);
+        ButtonAddHorse1.Render(delta);
     }
 
     @Override
@@ -213,6 +221,21 @@ public class WarcastleDuelScreen implements Screen, InputProcessor
         }
     }
 
+    /** Размещает кнопки добавления статов для игрока Player_in на сцену stage.*/
+    private void PutAddButtons(WarcastlePlayer Player_in, Stage stage)
+    {
+        int StatIdSword          = WarcastlePlayer.STAT_ID_SWORD;
+        int StatIdPriest         = WarcastlePlayer.STAT_ID_PRIEST;
+        int StatIdInstructor     = WarcastlePlayer.STAT_ID_INSTRUCTOR;
+        int StatIdPeasant        = WarcastlePlayer.STAT_ID_PEASANT;
+        int StatIdPHorse         = WarcastlePlayer.STAT_ID_HORSE;
+        ButtonAddSword1          = new ScreenAddStatButton(Player_in, StatIdSword, 70, 270, 30, 30, stage);
+        ButtonAddPriest1         = new ScreenAddStatButton(Player_in, StatIdPriest, 185, 270, 30, 30, stage);
+        ButtonAddInstructor1     = new ScreenAddStatButton(Player_in, StatIdInstructor, 310, 270, 30, 30, stage);
+        ButtonAddPeasant1        = new ScreenAddStatButton(Player_in, StatIdPeasant, 70, 235, 30, 30, stage);
+        ButtonAddHorse1          = new ScreenAddStatButton(Player_in, StatIdPHorse, 185, 235, 30, 30, stage);
+    }
+
     /** Выполняет начальную инициализацию экрана. */
     private void InitScreen()
     {
@@ -225,7 +248,6 @@ public class WarcastleDuelScreen implements Screen, InputProcessor
         StatusBar1 = new ScreenStatusBar();
         WarcastlePlayer CurrPlayer1 = (WarcastlePlayer)GamePlaying.getPlayer1();
         WarcastlePlayer CurrPlayer2 = (WarcastlePlayer)GamePlaying.getPlayer2();
-        int StatIdSword = WarcastlePlayer.STAT_ID_SWORD;
         // Звуки.
         SoundList = new ScreenSoundList();
         SoundList.AddSound("DrawSword", "Sounds/DrawSword.ogg");
@@ -264,8 +286,8 @@ public class WarcastleDuelScreen implements Screen, InputProcessor
         ButtonEndTurn.setAfterActButton(ActionEndTurn_Finish);
         // Состояние.
         StatusBar1.AddText("Begin game");
-        // Кнопка Добавить мечников.
-        ButtonAddSword1 = new ScreenAddStatButton(CurrPlayer1, StatIdSword, 70, 270, 30, 30, stage);
+        // Кнопки Добавить статы.
+        PutAddButtons(CurrPlayer1, stage);
     }
 
     // Возвращает массив карт в руке игрока 1.

@@ -56,7 +56,7 @@ public class ScreenAddStatButton extends ScreenButton
         }
         else
         {
-            System.out.println("Not enought amount");
+            System.out.println("Not enought amount. Need " + Price + " gold.");
         }
     }
 }
