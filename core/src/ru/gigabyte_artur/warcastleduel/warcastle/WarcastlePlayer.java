@@ -34,6 +34,13 @@ public class WarcastlePlayer extends Player
     private static final int TAX_RATES = 100;    // Минимальная величина налога.
     public static final int MAX_CARDS_HAND = 9;              // Максимальное число карт в руке.
 
+    public final static int STAT_ID_NONE = 0;
+    public final static int STAT_ID_SWORD = 1;
+    public final static int STAT_ID_PRIEST = 2;
+    public final static int STAT_ID_INSTRUCTOR = 3;
+    public final static int STAT_ID_PEASANT = 4;
+    public final static int STAT_ID_HORSE = 5;
+
     public WarcastlePlayer()
     {
         this.Morale = 0;
@@ -399,5 +406,77 @@ public class WarcastlePlayer extends Player
         // Броня.
         NewStat = (int)Math.ceil(0 * 30);
         this.setArmor(NewStat);
+    }
+
+    /** Возвращает стоимость покупки Мечников.*/
+    public int SwordPrice()
+    {
+        int rez = 0;
+        rez = getSwords()*getSwords()*100;
+        return rez;
+    }
+
+    /** Возвращает стоимость покупки Священников.*/
+    public int PriestPrice()
+    {
+        int rez = 0;
+        rez = getPriests()*getPriests()*100;
+        return rez;
+    }
+
+    /** Возвращает стоимость покупки Инструкторов.*/
+    public int InstructorPrice()
+    {
+        int rez = 0;
+        rez = getInstructors()*getInstructors()*100;
+        return rez;
+    }
+
+    /** Возвращает стоимость покупки Крестьян.*/
+    public int PeasantPrice()
+    {
+        int rez = 0;
+        rez = getPeasants()*getPeasants()*100;
+        return rez;
+    }
+
+    /** Возвращает стоимость покупки Конницы.*/
+    public int HorsePrice()
+    {
+        int rez = 0;
+        rez = getHorses()*getHorses()*100;
+        return rez;
+    }
+
+    /** Увеличиает стат StatId_in на величину Delta_in.*/
+    public void IncrementStatById(int StatId_in, int Delta_in)
+    {
+        if (StatId_in == STAT_ID_SWORD)
+            IncrementSwords(Delta_in);
+        if (StatId_in == STAT_ID_PRIEST)
+            IncrementPriests(Delta_in);
+        if (StatId_in == STAT_ID_INSTRUCTOR)
+            IncrementInstructors(Delta_in);
+        if (StatId_in == STAT_ID_PEASANT)
+            IncrementPeasants(Delta_in);
+        if (StatId_in == STAT_ID_HORSE)
+            IncrementHorses(Delta_in);
+    }
+
+    /** Вовзвращает стоимость покупки стата StatId_in.*/
+    public int PriceStatById(int StatId_in)
+    {
+        int rez = 0;
+        if (StatId_in == STAT_ID_SWORD)
+            rez = SwordPrice();
+        if (StatId_in == STAT_ID_PRIEST)
+            rez = PriestPrice();
+        if (StatId_in == STAT_ID_INSTRUCTOR)
+            rez = InstructorPrice();
+        if (StatId_in == STAT_ID_PEASANT)
+            rez = PeasantPrice();
+        if (StatId_in == STAT_ID_HORSE)
+            rez = HorsePrice();
+        return rez;
     }
 }

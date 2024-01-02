@@ -7,11 +7,10 @@ import com.badlogic.gdx.graphics.Color;
 import com.badlogic.gdx.graphics.Texture;
 import com.badlogic.gdx.graphics.g2d.BitmapFont;
 import com.badlogic.gdx.graphics.g2d.SpriteBatch;
-import com.badlogic.gdx.scenes.scene2d.ui.ImageButton;
-import com.badlogic.gdx.scenes.scene2d.utils.TextureRegionDrawable;
+import com.badlogic.gdx.scenes.scene2d.Action;
+import com.badlogic.gdx.scenes.scene2d.Stage;
 import ru.gigabyte_artur.warcastleduel.card_game.Card;
 import ru.gigabyte_artur.warcastleduel.warcastle.screen_interface.*;
-
 import java.util.ArrayList;
 
 public class WarcastleDuelScreen implements Screen, InputProcessor
@@ -20,15 +19,27 @@ public class WarcastleDuelScreen implements Screen, InputProcessor
     private ArrayList<ScreenCard> ScreenCards;
     private ScreenCard PrivateDeckCover;
     private Texture background;
-    private Texture buttonUpTexture;
     private int dragOffsetX, dragOffsetY;
     private ScreenSoundList SoundList;
     private WarcastleDuelGame GamePlaying;
     private BitmapFont DeckFont;
-    private ImageButton ButtonEndTurn;
+    private ScreenEndTurnButton ButtonEndTurn;
     private ScreenStatusBar StatusBar1;
     private ScreenGroupSlotsRectangled GroupSlot1;
     private ScreenWarcastlePlyerInfo Player1Info, Player2Info;
+    private ScreenAddStatButton ButtonAddSword1;
+
+    private Stage stage;
+
+    private Action ActionEndTurn_Finish = new Action()
+    {
+        @Override
+        public boolean act(float v)
+        {
+            EndTurn_Finish();
+            return false;
+        }
+    };
 
     public void setGamePlaying(WarcastleDuelGame game1)
     {
@@ -38,6 +49,11 @@ public class WarcastleDuelScreen implements Screen, InputProcessor
     public WarcastleDuelGame getGamePlaying()
     {
         return GamePlaying;
+    }
+
+    public Stage getStage()
+    {
+        return stage;
     }
 
     @Override
@@ -55,11 +71,6 @@ public class WarcastleDuelScreen implements Screen, InputProcessor
         batch.begin();
         // Рисуем изображение фона на весь экран.
         batch.draw(background, 0, 0, Gdx.graphics.getWidth(), Gdx.graphics.getHeight());
-        // Выводим карту.
-        for (ScreenCard curr_card:ScreenCards)
-        {
-            curr_card.draw(batch);
-        }
         // Выводим колоду.
         PrivateDeckCover.draw(batch);
         CurrentPlayer = ((WarcastlePlayer)this.getGamePlaying().getPlayer1());
@@ -72,6 +83,8 @@ public class WarcastleDuelScreen implements Screen, InputProcessor
         // Кнопка Конец хода.
         ButtonEndTurn.draw(batch,1);
         batch.end();
+        // Кнопка Добавить мечников.
+        ButtonAddSword1.Render(delta);
     }
 
     @Override
@@ -120,38 +133,18 @@ public class WarcastleDuelScreen implements Screen, InputProcessor
     @Override
     public boolean touchDown(int screenX, int screenY, int pointer, int button)
     {
-        for (ScreenCard curr_card:ScreenCards)
-        {
-            if (curr_card.getCardSprite().getBoundingRectangle().contains(screenX, Gdx.graphics.getHeight() - screenY))
-            {
-                curr_card.setCardDragged(true);
-                dragOffsetX = screenX - (int) curr_card.getX();
-                dragOffsetY = (int) curr_card.getY() - (Gdx.graphics.getHeight() - screenY);
-                break;
-            }
-        }
-        return true;
+        return false;
     }
 
     @Override
     public boolean touchDragged(int screenX, int screenY, int pointer) {
-        for (ScreenCard curr_card:ScreenCards) {
-            if (curr_card.isCardDragged())
-            {
-                curr_card.setPosition(screenX - dragOffsetX, Gdx.graphics.getHeight() - screenY + dragOffsetY);
-            }
-        }
-        return true;
+        return false;
     }
 
     @Override
     public boolean touchUp(int screenX, int screenY, int pointer, int button)
     {
-        // Перетаскивание карт.
-        DragCardTouchUp(screenX, screenY);
-        // Кнопки.
-        ButtonsTouchUp(screenX, screenY);
-        return true;
+        return false;
     }
 
     @Override
@@ -193,6 +186,9 @@ public class WarcastleDuelScreen implements Screen, InputProcessor
                 GroupSlot1.LinkElementToFirstEmptySlot(NewScreenCard);
                 NewScreenCard.setCovered(false);
                 ScreenCards.add(NewScreenCard);
+                NewScreenCard.setScreenStage(stage);
+                NewScreenCard.AddDragListener();
+                NewScreenCard.setParentScreen(this);
             }
         }
         // Удаление незадействованных карт.
@@ -215,6 +211,7 @@ public class WarcastleDuelScreen implements Screen, InputProcessor
         for (ScreenCard Curr_RemovableCard:RemovableCadrs)
         {
             this.ScreenCards.remove(Curr_RemovableCard);
+            Curr_RemovableCard.RemoveFromStage(stage);
         }
     }
 
@@ -223,10 +220,14 @@ public class WarcastleDuelScreen implements Screen, InputProcessor
     {
         // Инициализация.
         batch = new SpriteBatch();
+        stage = new Stage();
         Gdx.input.setInputProcessor(this);
         background = new Texture(Gdx.files.internal("Interface/BG.jpg"));
         ScreenCards = new ArrayList<>();
         StatusBar1 = new ScreenStatusBar();
+        WarcastlePlayer CurrPlayer1 = (WarcastlePlayer)GamePlaying.getPlayer1();
+        WarcastlePlayer CurrPlayer2 = (WarcastlePlayer)GamePlaying.getPlayer2();
+        int StatIdSword = WarcastlePlayer.STAT_ID_SWORD;
         // Звуки.
         SoundList = new ScreenSoundList();
         SoundList.AddSound("DrawSword", "Sounds/DrawSword.ogg");
@@ -239,45 +240,34 @@ public class WarcastleDuelScreen implements Screen, InputProcessor
         GroupSlot1.SetListElementsPositions(100, 100, 100, 0);
         ReadCardToScreenCard(GetPlayer1Cards());
         SoundList.PlaySound("PapperWrapping");
+        for (ScreenCard Curr_Card:ScreenCards)
+        {
+            Curr_Card.setParentScreen(this);
+        }
         // Отображение колоды.
         PrivateDeckCover = new ScreenCard();
         PrivateDeckCover.setPosition(1150, 350);
         PrivateDeckCover.setDimensions(ScreenCard.STANDARD_WIDTH, ScreenCard.STANDARD_HEIGHT);
         PrivateDeckCover.setCovered(true);
+        PrivateDeckCover.setParentScreen(this);
+        PrivateDeckCover.setScreenStage(stage);
         // Шрифт надписи количества карт в колоде.
         DeckFont = new BitmapFont();
         DeckFont.setColor(Color.BROWN);
         // Статы игроков.
         Player1Info = new ScreenWarcastlePlyerInfo();
-        Player1Info.setLinkedPlayer((WarcastlePlayer)GamePlaying.getPlayer1());
+        Player1Info.setLinkedPlayer(CurrPlayer1);
         Player1Info.setPosition(100, 400);
         Player2Info = new ScreenWarcastlePlyerInfo();
-        Player2Info.setLinkedPlayer((WarcastlePlayer)GamePlaying.getPlayer2());
+        Player2Info.setLinkedPlayer(CurrPlayer2);
         Player2Info.setPosition(100, 200);
         // Кнопка окончания хода.
-        buttonUpTexture = new Texture("Interface/EndTurnButton.png");
-        TextureRegionDrawable buttonUp = new TextureRegionDrawable(buttonUpTexture);
-        ButtonEndTurn = new ImageButton(buttonUp);
-        ButtonEndTurn.setPosition(900, 350);
-        ButtonEndTurn.setWidth(220);
-        ButtonEndTurn.setHeight(60);
+        ButtonEndTurn = new ScreenEndTurnButton(GamePlaying, 900, 350, 220, 60, stage);
+        ButtonEndTurn.setAfterActButton(ActionEndTurn_Finish);
         // Состояние.
         StatusBar1.AddText("Begin game");
-    }
-
-    // Проверяет, что координаты ScreenX_in и ScreenY_in находятся внутри кнопки Button_in.
-    private boolean ButtonPressedCoord(ImageButton Button_in, int ScreenX_in, int ScreenY_in)
-    {
-        boolean rez = false;
-        float ButtonX, ButtonY;
-        float ButtonWidth, ButtonHeight;
-        int ScreenHeight = Gdx.graphics.getHeight();
-        ButtonX = Button_in.getX();
-        ButtonY = Button_in.getY();
-        ButtonWidth = ButtonEndTurn.getWidth();
-        ButtonHeight = ButtonEndTurn.getHeight();
-        rez = (ButtonX < ScreenX_in) & (ButtonX + ButtonWidth > ScreenX_in) & (ButtonY < ScreenHeight - ScreenY_in) & (ButtonY + ButtonHeight > ScreenHeight - ScreenY_in);
-        return rez;
+        // Кнопка Добавить мечников.
+        ButtonAddSword1 = new ScreenAddStatButton(CurrPlayer1, StatIdSword, 70, 270, 30, 30, stage);
     }
 
     // Возвращает массив карт в руке игрока 1.
@@ -306,56 +296,33 @@ public class WarcastleDuelScreen implements Screen, InputProcessor
         CurrentPlayer.CalculateStats();
     }
 
-    // Обработка окончания перетаскивания карт.
-    private void DragCardTouchUp(int screenX_in, int screenY_in)
+    /** Окончание нажатия на кнопку.*/
+    private void EndTurn_Finish()
     {
-        WarcastleCard CurrentWarcastleCard;
-        // Поиск перетаскиваемых карт и выполнение действий.
-        for (ScreenCard curr_card:ScreenCards)
-        {
-            if (curr_card.isCardDragged())
-            {
-                if (Gdx.graphics.getHeight() - screenY_in > 200)
-                {
-                    CurrentWarcastleCard = (WarcastleCard)curr_card.getLinkedCard();
-                    if (CurrentWarcastleCard != null)
-                    {
-                        EffectCard(CurrentWarcastleCard);
-                        GroupSlot1.EmptySlotByElement(curr_card);
-                    }
-                }
-                else
-                {
-                    GroupSlot1.RestoreLinkedListElementsPositions();
-                }
-                break;
-            }
-        }
-        // Обновление карт на столе.
-        ReadCardToScreenCard(GetPlayer1Cards());
-        // Очистка перетаскиваемых карт.
-        for (ScreenCard curr_card:ScreenCards)
-        {
-            curr_card.setCardDragged(false);
-        }
-    }
-
-    // Обработчиик нажатия на кнопку Конец хода.
-    private void ButtonEndTurnAction()
-    {
-        WarcastlePlayer Player1 = (WarcastlePlayer)GamePlaying.getPlayer1();
-        GamePlaying.EndPlayerTurn(Player1);
         SoundList.PlaySound("PapperWrapping");
         ReadCardToScreenCard(GetPlayer1Cards());
         StatusBar1.AddText("End turn");
     }
 
-    // Обработка нажатия кнопок.
-    private void ButtonsTouchUp(int screenX_in, int screenY_in)
+    public void CardDrag_Finish(ScreenCard Card_in, int DragX_in, int DragY_in)
     {
-        if (ButtonPressedCoord(ButtonEndTurn, screenX_in, screenY_in))
+        // Инициализация.
+        WarcastleCard CurrentWarcastleCard;
+        // Выполнение действие карты.
+        if (DragY_in > 300)
         {
-            ButtonEndTurnAction();
+            CurrentWarcastleCard = (WarcastleCard) Card_in.getLinkedCard();
+            if (CurrentWarcastleCard != null)
+            {
+                EffectCard(CurrentWarcastleCard);
+                GroupSlot1.EmptySlotByElement(Card_in);
+            }
         }
+        else
+        {
+            GroupSlot1.RestoreLinkedListElementsPositions();
+        }
+        // Обновление карт на столе.
+        ReadCardToScreenCard(GetPlayer1Cards());
     }
 }

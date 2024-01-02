@@ -11,7 +11,7 @@ public abstract class MultiPlayerGame
     public static final int PLAYER_STATE_NONE = 0;
 
     // Играет текущую игру. Возвращает номер победителя. В случае ничьи возвращает -1.
-    public abstract  int Play();
+    public abstract int Play();
 
     // Инициализирует игру.
     public abstract void Init();
