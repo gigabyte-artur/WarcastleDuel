@@ -19,7 +19,6 @@ public class WarcastleDuelScreen implements Screen, InputProcessor
     private ArrayList<ScreenCard> ScreenCards;
     private ScreenCard PrivateDeckCover;
     private Texture background;
-    private int dragOffsetX, dragOffsetY;
     private ScreenSoundList SoundList;
     private WarcastleDuelGame GamePlaying;
     private BitmapFont DeckFont;
@@ -67,7 +66,6 @@ public class WarcastleDuelScreen implements Screen, InputProcessor
     {
         // Инициализация.
         WarcastlePlayer CurrentPlayer;
-        int count = 0;
         batch.begin();
         // Рисуем изображение фона на весь экран.
         batch.draw(background, 0, 0, Gdx.graphics.getWidth(), Gdx.graphics.getHeight());
@@ -311,7 +309,7 @@ public class WarcastleDuelScreen implements Screen, InputProcessor
         // Выполнение действие карты.
         if (DragY_in > 300)
         {
-            CurrentWarcastleCard = (WarcastleCard) Card_in.getLinkedCard();
+            CurrentWarcastleCard = Card_in.getLinkedCard();
             if (CurrentWarcastleCard != null)
             {
                 EffectCard(CurrentWarcastleCard);

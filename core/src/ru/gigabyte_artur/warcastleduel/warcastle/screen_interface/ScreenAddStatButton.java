@@ -47,7 +47,7 @@ public class ScreenAddStatButton extends ScreenButton
     public void ActButton()
     {
         int CurrStatId = this.getStatId();
-        int Price = 0;
+        int Price;
         Price = ChangingPlayer.PriceStatById(CurrStatId);
         if (Price <= ChangingPlayer.getAmount())
         {
