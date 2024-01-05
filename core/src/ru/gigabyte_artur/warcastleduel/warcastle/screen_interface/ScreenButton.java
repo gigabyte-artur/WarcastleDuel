@@ -15,7 +15,9 @@ public abstract class ScreenButton extends ImageButton
 {
 
     private Texture ButtonTexture;
-    Stage ScreensStage;
+    private Texture DisabledTexture;
+    private Stage ScreensStage;
+
     Action AfterActButton = new Action() {
         @Override
         public boolean act(float v)
@@ -60,10 +62,24 @@ public abstract class ScreenButton extends ImageButton
         this.getStyle().imageUp = newDrawable;
     }
 
+    public void SetDisabledTexture(Texture buttonTexture_in)
+    {
+        DisabledTexture = buttonTexture_in;
+        TextureRegion newTextureRegion = new TextureRegion(DisabledTexture);
+        TextureRegionDrawable newDrawable = new TextureRegionDrawable(newTextureRegion);
+        this.getStyle().imageDisabled = newDrawable;
+    }
+
     public void SetTextureByPath(String path)
     {
         Texture newTexture = new Texture(Gdx.files.internal(path));
         setButtonTexture(newTexture);
+    }
+
+    public void SetDisabledTextureByPath(String path)
+    {
+        Texture newTexture = new Texture(Gdx.files.internal(path));
+        SetDisabledTexture(newTexture);
     }
 
     public void setScreensStage(Stage screensStage)

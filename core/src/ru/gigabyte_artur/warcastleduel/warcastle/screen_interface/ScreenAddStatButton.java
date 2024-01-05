@@ -34,6 +34,7 @@ public class ScreenAddStatButton extends ScreenButton
     {
         this();
         SetTextureByPath("Interface/AddButton.png");
+        SetDisabledTextureByPath("Interface/AddButton_Disabled.png");
         setStatId(Stat_in);
         setChangingPlayer(Player_in);
         setScreensStage(Stage_in);

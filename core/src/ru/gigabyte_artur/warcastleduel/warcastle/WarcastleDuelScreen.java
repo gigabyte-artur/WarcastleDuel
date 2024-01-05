@@ -31,7 +31,6 @@ public class WarcastleDuelScreen implements Screen, InputProcessor
     private ScreenAddStatButton ButtonAddInstructor1;
     private ScreenAddStatButton ButtonAddPeasant1;
     private ScreenAddStatButton ButtonAddHorse1;
-
     private Stage stage;
 
     private Action ActionEndTurn_Finish = new Action()
@@ -40,6 +39,16 @@ public class WarcastleDuelScreen implements Screen, InputProcessor
         public boolean act(float v)
         {
             EndTurn_Finish();
+            return false;
+        }
+    };
+
+    private Action ActionAddStat_Finish = new Action()
+    {
+        @Override
+        public boolean act(float v)
+        {
+            AfterUserAction();
             return false;
         }
     };
@@ -114,8 +123,10 @@ public class WarcastleDuelScreen implements Screen, InputProcessor
     }
 
     @Override
-    public void dispose() {
-
+    public void dispose()
+    {
+        batch.dispose();
+        stage.dispose();
     }
 
     @Override
@@ -224,16 +235,25 @@ public class WarcastleDuelScreen implements Screen, InputProcessor
     /** Размещает кнопки добавления статов для игрока Player_in на сцену stage.*/
     private void PutAddButtons(WarcastlePlayer Player_in, Stage stage)
     {
+        // ИНициализация.
         int StatIdSword          = WarcastlePlayer.STAT_ID_SWORD;
         int StatIdPriest         = WarcastlePlayer.STAT_ID_PRIEST;
         int StatIdInstructor     = WarcastlePlayer.STAT_ID_INSTRUCTOR;
         int StatIdPeasant        = WarcastlePlayer.STAT_ID_PEASANT;
         int StatIdPHorse         = WarcastlePlayer.STAT_ID_HORSE;
+        // Размещение кнопок.
         ButtonAddSword1          = new ScreenAddStatButton(Player_in, StatIdSword, 70, 270, 30, 30, stage);
         ButtonAddPriest1         = new ScreenAddStatButton(Player_in, StatIdPriest, 185, 270, 30, 30, stage);
         ButtonAddInstructor1     = new ScreenAddStatButton(Player_in, StatIdInstructor, 310, 270, 30, 30, stage);
         ButtonAddPeasant1        = new ScreenAddStatButton(Player_in, StatIdPeasant, 70, 235, 30, 30, stage);
         ButtonAddHorse1          = new ScreenAddStatButton(Player_in, StatIdPHorse, 185, 235, 30, 30, stage);
+        // Добавление действий после нажатия кнопки.
+        ButtonAddSword1.setAfterActButton(ActionAddStat_Finish);
+        ButtonAddPriest1.setAfterActButton(ActionAddStat_Finish);
+        ButtonAddInstructor1.setAfterActButton(ActionAddStat_Finish);
+        ButtonAddPeasant1.setAfterActButton(ActionAddStat_Finish);
+        ButtonAddHorse1.setAfterActButton(ActionAddStat_Finish);
+        ButtonAddHorse1.setAfterActButton(ActionAddStat_Finish);
     }
 
     /** Выполняет начальную инициализацию экрана. */
@@ -288,6 +308,8 @@ public class WarcastleDuelScreen implements Screen, InputProcessor
         StatusBar1.AddText("Begin game");
         // Кнопки Добавить статы.
         PutAddButtons(CurrPlayer1, stage);
+        // Обновление экрана.
+        AfterUserAction();
     }
 
     // Возвращает массив карт в руке игрока 1.
@@ -313,7 +335,7 @@ public class WarcastleDuelScreen implements Screen, InputProcessor
         CurrentPlayer.PrivateHandCardToDiscard(WarcastleCard_in);
         StatusBar1.AddText(WarcastleCard_in.GenerateStatusBarTextEffect(CurrentGame, CurrentPlayer));
         SoundList.PlaySound("DrawSword");
-        CurrentPlayer.CalculateStats();
+        AfterUserAction();
     }
 
     /** Окончание нажатия на кнопку.*/
@@ -322,6 +344,7 @@ public class WarcastleDuelScreen implements Screen, InputProcessor
         SoundList.PlaySound("PapperWrapping");
         ReadCardToScreenCard(GetPlayer1Cards());
         StatusBar1.AddText("End turn");
+        AfterUserAction();
     }
 
     public void CardDrag_Finish(ScreenCard Card_in, int DragX_in, int DragY_in)
@@ -344,5 +367,48 @@ public class WarcastleDuelScreen implements Screen, InputProcessor
         }
         // Обновление карт на столе.
         ReadCardToScreenCard(GetPlayer1Cards());
+    }
+
+    /** Обновляетя доступность кнопок Добавить статы.*/
+    private void UpdateAddStatEnabled()
+    {
+        // Инициализация.
+        WarcastleDuelGame CurrentGame;
+        WarcastlePlayer CurrentPlayer;
+        int CurrAmount, CurrSwordPrice, CurrPriestPrice, CurrInstructorPrice, CurrPeasantPrice, CurrHorsePrice;
+        boolean EnoughtSwordPrice, EnoughtPriestPrice, EnoughtInstructorPrice, EnoughtPeasantPrice, EnoughtHorsePrice;
+        // Получение размера счёта игрока.
+        CurrentGame = this.getGamePlaying();
+        CurrentPlayer = (WarcastlePlayer)CurrentGame.getPlayer1();
+        CurrAmount = CurrentPlayer.getAmount();
+        // Получение цен статов.
+        CurrSwordPrice       = CurrentPlayer.SwordPrice();
+        CurrPriestPrice      = CurrentPlayer.PriestPrice();
+        CurrInstructorPrice  = CurrentPlayer.InstructorPrice();
+        CurrPeasantPrice     = CurrentPlayer.PeasantPrice();
+        CurrHorsePrice       = CurrentPlayer.HorsePrice();
+        // Определение достаточности денег для покупки.
+        EnoughtSwordPrice        = (CurrSwordPrice <= CurrAmount);
+        EnoughtPriestPrice       = (CurrPriestPrice <= CurrAmount);
+        EnoughtInstructorPrice   = (CurrInstructorPrice <= CurrAmount);
+        EnoughtPeasantPrice      = (CurrPeasantPrice <= CurrAmount);
+        EnoughtHorsePrice        = (CurrHorsePrice <= CurrAmount);
+        // Установка доступности кнопок покупки.
+        ButtonAddSword1.setDisabled(!EnoughtSwordPrice);
+        ButtonAddPriest1.setDisabled(!EnoughtPriestPrice);
+        ButtonAddInstructor1.setDisabled(!EnoughtInstructorPrice);
+        ButtonAddPeasant1.setDisabled(!EnoughtPeasantPrice);
+        ButtonAddHorse1.setDisabled(!EnoughtHorsePrice);
+    }
+
+    /** Вызывается после действий пользователя.*/
+    private void AfterUserAction()
+    {
+        WarcastleDuelGame CurrentGame;
+        WarcastlePlayer CurrentPlayer;
+        CurrentGame = this.getGamePlaying();
+        CurrentPlayer = (WarcastlePlayer)CurrentGame.getPlayer1();
+        CurrentPlayer.CalculateStats();
+        UpdateAddStatEnabled();
     }
 }
