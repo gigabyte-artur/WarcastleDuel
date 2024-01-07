@@ -10,6 +10,8 @@ import com.badlogic.gdx.graphics.g2d.SpriteBatch;
 import com.badlogic.gdx.scenes.scene2d.Action;
 import com.badlogic.gdx.scenes.scene2d.Stage;
 import ru.gigabyte_artur.warcastleduel.card_game.Card;
+import ru.gigabyte_artur.warcastleduel.warcastle.net.WarcastleDuelClient;
+import ru.gigabyte_artur.warcastleduel.warcastle.net.WarcastleDuelServer;
 import ru.gigabyte_artur.warcastleduel.warcastle.screen_interface.*;
 import java.util.ArrayList;
 
@@ -38,7 +40,14 @@ public class WarcastleDuelScreen implements Screen, InputProcessor
         @Override
         public boolean act(float v)
         {
-            EndTurn_Finish();
+            try
+            {
+                EndTurn_Finish();
+            }
+            catch (Exception e)
+            {
+                throw new RuntimeException(e);
+            }
             return false;
         }
     };
@@ -71,7 +80,14 @@ public class WarcastleDuelScreen implements Screen, InputProcessor
     @Override
     public void show()
     {
-        InitScreen();
+        try
+        {
+            InitScreen();
+        }
+        catch (Exception e)
+        {
+            throw new RuntimeException(e);
+        }
     }
 
     @Override
@@ -257,7 +273,7 @@ public class WarcastleDuelScreen implements Screen, InputProcessor
     }
 
     /** Выполняет начальную инициализацию экрана. */
-    private void InitScreen()
+    private void InitScreen() throws Exception
     {
         // Инициализация.
         batch = new SpriteBatch();
@@ -310,6 +326,9 @@ public class WarcastleDuelScreen implements Screen, InputProcessor
         PutAddButtons(CurrPlayer1, stage);
         // Обновление экрана.
         AfterUserAction();
+        // Сервер.
+        WarcastleDuelServer Server1 = new WarcastleDuelServer();
+        Server1.StartServer();
     }
 
     // Возвращает массив карт в руке игрока 1.
@@ -339,11 +358,13 @@ public class WarcastleDuelScreen implements Screen, InputProcessor
     }
 
     /** Окончание нажатия на кнопку.*/
-    private void EndTurn_Finish()
+    private void EndTurn_Finish() throws Exception
     {
         SoundList.PlaySound("PapperWrapping");
         ReadCardToScreenCard(GetPlayer1Cards());
         StatusBar1.AddText("End turn");
+        WarcastleDuelClient Client1 = new WarcastleDuelClient();
+        Client1.StartClient();
         AfterUserAction();
     }
 

@@ -50,7 +50,7 @@ project(":desktop") {
         api "com.badlogicgames.gdx:gdx-bullet-platform:$gdxVersion:natives-desktop"
         api "com.badlogicgames.gdx:gdx-freetype-platform:$gdxVersion:natives-desktop"
         api "com.badlogicgames.gdx:gdx-box2d-platform:$gdxVersion:natives-desktop"
-        
+        implementation 'com.esotericsoftware:kryonet:2.22.0-RC1'
     }
 }
 
@@ -65,6 +65,6 @@ project(":core") {
         api "com.badlogicgames.gdx:gdx-box2d:$gdxVersion"
         api "com.badlogicgames.box2dlights:box2dlights:$box2DLightsVersion"
         api "com.badlogicgames.ashley:ashley:$ashleyVersion"
-        
+        implementation 'com.esotericsoftware:kryonet:2.22.0-RC1'
     }
 }
