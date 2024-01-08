@@ -363,7 +363,7 @@ public class WarcastleDuelScreen implements Screen, InputProcessor
         SoundList.PlaySound("PapperWrapping");
         ReadCardToScreenCard(GetPlayer1Cards());
         StatusBar1.AddText("End turn");
-        WarcastleDuelClient Client1 = new WarcastleDuelClient();
+        WarcastleDuelClient Client1 = new WarcastleDuelClient("localhost", 27960,27960);
         Client1.StartClient();
         AfterUserAction();
     }
