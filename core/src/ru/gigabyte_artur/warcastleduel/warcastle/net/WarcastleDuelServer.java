@@ -50,7 +50,6 @@ public class WarcastleDuelServer extends Listener
         server.bind(tcpPort, udpPort);
         //Запускаем сервер
         server.start();
-//        server.addListener(new WarcastleDuelServer());
         server.addListener(this);
     }
 
@@ -59,11 +58,20 @@ public class WarcastleDuelServer extends Listener
     {
         System.out.println("Connetced to server: "+c.getRemoteAddressTCP().getHostString());
         //Создаем сообщения пакета.
+        String NewMessage;
+        NewMessage = "Now time: "+new Date().getHours()+": "+new Date().getMinutes();
+        SendStringMessage(c, NewMessage);
+    }
+
+    /** Отправляет клиенту с коннектом Connection_in текстовое сообщение Message_in*/
+    public void SendStringMessage(Connection Connection_in, String Message_in)
+    {
+        //Создаем сообщения пакета.
         WarcastleDuelPackedMessage packetMessage = new WarcastleDuelPackedMessage();
         //Пишем текст который будем отправлять клиенту.
-        packetMessage.message = "Now time: "+new Date().getHours()+": "+new Date().getMinutes();
+        packetMessage.message = Message_in;
         //Отправляем текст
-        c.sendTCP(packetMessage); // Так же можно отправить через UDP c.sendUDP(packetMessage);
+        Connection_in.sendTCP(packetMessage); // Так же можно отправить через UDP c.sendUDP(packetMessage);
     }
 
     //Используется когда клиент отправляет пакет серверу

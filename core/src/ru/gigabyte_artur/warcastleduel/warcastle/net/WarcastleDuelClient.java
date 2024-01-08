@@ -57,20 +57,23 @@ public class WarcastleDuelClient extends Listener
         client.getKryo().register(WarcastleDuelPackedMessage.class);
         //Запускаем клиент
         client.start();
-        //Клиент начинает подключатся к серверу
-
         //Клиент подключается к серверу
         client.connect(5000, ip, tcpPort, udpPort);
-        //client.addListener(new WarcastleDuelClient(this.getIp(), this.getTcpPort(), this.getUdpPort()));
         client.addListener(this);
-        WarcastleDuelPackedMessage packet = new WarcastleDuelPackedMessage();
-        packet.message = "My Message";
-        client.sendTCP(packet);
+        SendStringMessage("My Message");
         System.out.println("You have connected to server! Client waiting for package...n");
         while(!messageReceived){
             Thread.sleep(1000);
         }
         System.out.println("Client leaves server");
+    }
+
+    /** Отправляет на сервер сообщение Message_in.*/
+    public void SendStringMessage(String Message_in)
+    {
+        WarcastleDuelPackedMessage packet = new WarcastleDuelPackedMessage();
+        packet.message = Message_in;
+        client.sendTCP(packet);
     }
 
     public void received(Connection c, Object p)
@@ -81,10 +84,8 @@ public class WarcastleDuelClient extends Listener
             //Если мы получили PacketMessage .
             WarcastleDuelPackedMessage packet = (WarcastleDuelPackedMessage) p;
             System.out.println("Answer from server: "+packet.message);
-
             //Мы получили сообщение
             messageReceived = true;
         }
     }
 }
-
