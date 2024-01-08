@@ -10,7 +10,34 @@ public class WarcastleDuelServer extends Listener
 {
 
     static Server server;
-    static int udpPort = 27960, tcpPort = 27960; // Порт на котором будет работать наш сервер
+
+    int udpPort, tcpPort; // Порт на котором будет работать наш сервер
+
+    public int getUdpPort()
+    {
+        return udpPort;
+    }
+
+    public void setUdpPort(int udpPort)
+    {
+        this.udpPort = udpPort;
+    }
+
+    public int getTcpPort()
+    {
+        return tcpPort;
+    }
+
+    public void setTcpPort(int tcpPort)
+    {
+        this.tcpPort = tcpPort;
+    }
+
+    public WarcastleDuelServer(int tcpPort_in, int udtPort_in)
+    {
+        setTcpPort(tcpPort_in);
+        setUdpPort(udtPort_in);
+    }
 
     public void StartServer() throws Exception
     {
@@ -23,7 +50,8 @@ public class WarcastleDuelServer extends Listener
         server.bind(tcpPort, udpPort);
         //Запускаем сервер
         server.start();
-        server.addListener(new WarcastleDuelServer());
+//        server.addListener(new WarcastleDuelServer());
+        server.addListener(this);
     }
 
     //Используется когда клиент подключается к серверу
@@ -33,7 +61,7 @@ public class WarcastleDuelServer extends Listener
         //Создаем сообщения пакета.
         WarcastleDuelPackedMessage packetMessage = new WarcastleDuelPackedMessage();
         //Пишем текст который будем отправлять клиенту.
-        packetMessage.message = "Now time: "+new Date().getHours()+":"+new Date().getMinutes();
+        packetMessage.message = "Now time: "+new Date().getHours()+": "+new Date().getMinutes();
         //Отправляем текст
         c.sendTCP(packetMessage); // Так же можно отправить через UDP c.sendUDP(packetMessage);
     }

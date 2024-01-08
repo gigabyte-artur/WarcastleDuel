@@ -327,7 +327,7 @@ public class WarcastleDuelScreen implements Screen, InputProcessor
         // Обновление экрана.
         AfterUserAction();
         // Сервер.
-        WarcastleDuelServer Server1 = new WarcastleDuelServer();
+        WarcastleDuelServer Server1 = new WarcastleDuelServer(27960, 27960);
         Server1.StartServer();
     }
 
