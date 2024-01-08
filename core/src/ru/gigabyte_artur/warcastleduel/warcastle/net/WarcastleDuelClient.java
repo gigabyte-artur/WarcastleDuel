@@ -10,6 +10,7 @@ public class WarcastleDuelClient extends Listener
     String ip = "localhost";    //IP сервера для подключения
     int tcpPort, udpPort;    //Порт к которому мы будем подключатся
     static boolean messageReceived = false;
+    private static String ProtocolVersion = "0.0.0.1";
 
     public WarcastleDuelClient(String ip_in, int tcpPort_in, int udpPort_in)
     {
@@ -72,7 +73,8 @@ public class WarcastleDuelClient extends Listener
     public void SendStringMessage(String Message_in)
     {
         WarcastleDuelPackedMessage packet = new WarcastleDuelPackedMessage();
-        packet.message = Message_in;
+        packet.setMessage(Message_in);
+        packet.setProtocolVersion(this.ProtocolVersion);
         client.sendTCP(packet);
     }
 
@@ -83,9 +85,16 @@ public class WarcastleDuelClient extends Listener
         {
             //Если мы получили PacketMessage .
             WarcastleDuelPackedMessage packet = (WarcastleDuelPackedMessage) p;
-            System.out.println("Answer from server: "+packet.message);
-            //Мы получили сообщение
-            messageReceived = true;
+            if (packet.getProtocolVersion().equals(this.ProtocolVersion))
+            {
+                System.out.println("Answer from server: "+packet.getMessage());
+                //Мы получили сообщение
+                messageReceived = true;
+            }
+            else
+            {
+                System.out.println("Protocol version not compares. Update client, please.");
+            }
         }
     }
 }

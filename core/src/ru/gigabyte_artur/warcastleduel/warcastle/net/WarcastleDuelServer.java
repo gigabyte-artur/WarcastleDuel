@@ -10,7 +10,7 @@ public class WarcastleDuelServer extends Listener
 {
 
     static Server server;
-
+    private static String ProtocolVersion = "0.0.0.1";
     int udpPort, tcpPort; // Порт на котором будет работать наш сервер
 
     public int getUdpPort()
@@ -59,7 +59,7 @@ public class WarcastleDuelServer extends Listener
         System.out.println("Connetced to server: "+c.getRemoteAddressTCP().getHostString());
         //Создаем сообщения пакета.
         String NewMessage;
-        NewMessage = "Now time: "+new Date().getHours()+": "+new Date().getMinutes();
+        NewMessage = "Now time: " + new Date().getHours() + ":" + new Date().getMinutes() + ":" + new Date().getSeconds();
         SendStringMessage(c, NewMessage);
     }
 
@@ -69,7 +69,8 @@ public class WarcastleDuelServer extends Listener
         //Создаем сообщения пакета.
         WarcastleDuelPackedMessage packetMessage = new WarcastleDuelPackedMessage();
         //Пишем текст который будем отправлять клиенту.
-        packetMessage.message = Message_in;
+        packetMessage.setMessage(Message_in);
+        packetMessage.setProtocolVersion(this.ProtocolVersion);
         //Отправляем текст
         Connection_in.sendTCP(packetMessage); // Так же можно отправить через UDP c.sendUDP(packetMessage);
     }
@@ -78,11 +79,18 @@ public class WarcastleDuelServer extends Listener
     public void received(Connection c, Object p)
     {
         //Проверяем какой отправляется пакет
-        if(p instanceof WarcastleDuelPackedMessage)
+        if (p instanceof WarcastleDuelPackedMessage)
         {
             //Если мы получили PacketMessage .
             WarcastleDuelPackedMessage packet = (WarcastleDuelPackedMessage) p;
-            System.out.println("Answer from client: "+packet.message);
+            if (packet.getProtocolVersion().equals(this.ProtocolVersion))
+            {
+                System.out.println("Answer from client: " + packet.getMessage());
+            }
+            else
+            {
+                System.out.println("Protocol version not compares. Update client, please.");
+            }
         }
     }
 
