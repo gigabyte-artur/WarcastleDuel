@@ -75,6 +75,8 @@ public class WarcastleDuelClient extends Listener
         WarcastleDuelPackedMessage packet = new WarcastleDuelPackedMessage();
         packet.setMessage(Message_in);
         packet.setProtocolVersion(this.ProtocolVersion);
+        long timeSend = System.currentTimeMillis();
+        packet.setTimeSend(timeSend);
         client.sendTCP(packet);
     }
 

@@ -4,6 +4,7 @@ public class WarcastleDuelPackedMessage
 {
     private String message;             // Текст сообщения.
     private String ProtocolVersion;     // Версия протокола.
+    private long TimeSend = 0;          // Время отправки сообщения (в миллисекундах).
 
     public String getMessage()
     {
@@ -25,4 +26,13 @@ public class WarcastleDuelPackedMessage
         ProtocolVersion = protocolVersion;
     }
 
+    public long getTimeSend()
+    {
+        return TimeSend;
+    }
+
+    public void setTimeSend(long timeSend)
+    {
+        TimeSend = timeSend;
+    }
 }

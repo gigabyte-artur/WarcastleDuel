@@ -71,6 +71,8 @@ public class WarcastleDuelServer extends Listener
         //Пишем текст который будем отправлять клиенту.
         packetMessage.setMessage(Message_in);
         packetMessage.setProtocolVersion(this.ProtocolVersion);
+        long timeSend = System.currentTimeMillis();
+        packetMessage.setTimeSend(timeSend);
         //Отправляем текст
         Connection_in.sendTCP(packetMessage); // Так же можно отправить через UDP c.sendUDP(packetMessage);
     }
