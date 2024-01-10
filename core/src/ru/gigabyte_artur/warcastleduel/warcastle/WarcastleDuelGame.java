@@ -4,11 +4,28 @@ import ru.gigabyte_artur.warcastleduel.card_game.Hand;
 import ru.gigabyte_artur.warcastleduel.gaming.TwoPlayersGame;
 import java.util.ArrayList;
 import java.util.Random;
+import java.util.UUID;
 
 public class WarcastleDuelGame extends TwoPlayersGame
 {
 
+    private String GUID = "";
     private static final int CARD_IN_PRIVATE_DECK = 30;        // Сколько корт в колоде по умолчанию.
+
+    public WarcastleDuelGame()
+    {
+        setGUID(UUID.randomUUID().toString());
+    }
+
+    public String getGUID()
+    {
+        return GUID;
+    }
+
+    public void setGUID(String GUID)
+    {
+        this.GUID = GUID;
+    }
 
     @Override
     public int Play()

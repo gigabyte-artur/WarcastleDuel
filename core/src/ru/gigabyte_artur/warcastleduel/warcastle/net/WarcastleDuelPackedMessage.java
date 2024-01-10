@@ -5,6 +5,17 @@ public class WarcastleDuelPackedMessage
     private String message;             // Текст сообщения.
     private String ProtocolVersion;     // Версия протокола.
     private long TimeSend = 0;          // Время отправки сообщения (в миллисекундах).
+    private String GameGUID = "";       // GUID игры.
+
+    public String getGameGUID()
+    {
+        return GameGUID;
+    }
+
+    public void setGameGUID(String gameGUID)
+    {
+        GameGUID = gameGUID;
+    }
 
     public String getMessage()
     {

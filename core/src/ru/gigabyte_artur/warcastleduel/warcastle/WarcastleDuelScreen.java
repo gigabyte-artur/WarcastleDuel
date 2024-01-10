@@ -364,6 +364,7 @@ public class WarcastleDuelScreen implements Screen, InputProcessor
         ReadCardToScreenCard(GetPlayer1Cards());
         StatusBar1.AddText("End turn");
         WarcastleDuelClient Client1 = new WarcastleDuelClient("localhost", 27960,27960);
+        Client1.setGamePlaying(this.getGamePlaying());
         Client1.StartClient();
         AfterUserAction();
     }

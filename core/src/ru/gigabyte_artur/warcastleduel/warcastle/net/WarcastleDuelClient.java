@@ -3,6 +3,7 @@ package ru.gigabyte_artur.warcastleduel.warcastle.net;
 import com.esotericsoftware.kryonet.Client;
 import com.esotericsoftware.kryonet.Connection;
 import com.esotericsoftware.kryonet.Listener;
+import ru.gigabyte_artur.warcastleduel.warcastle.WarcastleDuelGame;
 
 public class WarcastleDuelClient extends Listener
 {
@@ -10,7 +11,18 @@ public class WarcastleDuelClient extends Listener
     String ip = "localhost";    //IP сервера для подключения
     int tcpPort, udpPort;    //Порт к которому мы будем подключатся
     static boolean messageReceived = false;
+    private WarcastleDuelGame GamePlaying;
     private static String ProtocolVersion = "0.0.0.1";
+
+    public WarcastleDuelGame getGamePlaying()
+    {
+        return GamePlaying;
+    }
+
+    public void setGamePlaying(WarcastleDuelGame gamePlaying)
+    {
+        GamePlaying = gamePlaying;
+    }
 
     public WarcastleDuelClient(String ip_in, int tcpPort_in, int udpPort_in)
     {
@@ -77,6 +89,7 @@ public class WarcastleDuelClient extends Listener
         packet.setProtocolVersion(this.ProtocolVersion);
         long timeSend = System.currentTimeMillis();
         packet.setTimeSend(timeSend);
+        packet.setGameGUID(getGamePlaying().getGUID().toString());
         client.sendTCP(packet);
     }
 
