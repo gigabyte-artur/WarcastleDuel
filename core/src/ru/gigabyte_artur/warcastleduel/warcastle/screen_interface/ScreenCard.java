@@ -34,7 +34,13 @@ public class ScreenCard extends ScreenRectangledElement
         {
             Image TargetImage = (Image) this.getTarget();
             ScreenCard UserObjectCard = (ScreenCard)TargetImage.getUserObject();
-            ParentScreen.CardDrag_Finish(UserObjectCard, (int)TargetImage.getX(), (int)TargetImage.getY());
+            try
+            {
+                ParentScreen.CardDrag_Finish(UserObjectCard, (int)TargetImage.getX(), (int)TargetImage.getY());
+            } catch (Exception e)
+            {
+                throw new RuntimeException(e);
+            }
             return false;
         }
     };

@@ -1,7 +1,6 @@
 package ru.gigabyte_artur.warcastleduel.gaming;
 
 import ru.gigabyte_artur.warcastleduel.neuro_net.NeuroNet;
-
 import java.util.ArrayList;
 import java.util.Random;
 

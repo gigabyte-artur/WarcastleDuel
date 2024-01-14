@@ -11,18 +11,8 @@ public class WarcastleDuelClient extends Listener
     String ip = "localhost";    //IP сервера для подключения
     int tcpPort, udpPort;    //Порт к которому мы будем подключатся
     static boolean messageReceived = false;
-    private WarcastleDuelGame GamePlaying;
     private static String ProtocolVersion = "0.0.0.1";
 
-    public WarcastleDuelGame getGamePlaying()
-    {
-        return GamePlaying;
-    }
-
-    public void setGamePlaying(WarcastleDuelGame gamePlaying)
-    {
-        GamePlaying = gamePlaying;
-    }
 
     public WarcastleDuelClient(String ip_in, int tcpPort_in, int udpPort_in)
     {
@@ -63,22 +53,16 @@ public class WarcastleDuelClient extends Listener
 
     public void StartClient() throws Exception
     {
+        // Инициализация.
         System.out.println("Connecting to server...");
-        //
         client = new Client();
-        //Регистрируем пакет
+        // Регистрируем пакет.
         client.getKryo().register(WarcastleDuelPackedMessage.class);
-        //Запускаем клиент
+        // Запускаем клиент/
         client.start();
-        //Клиент подключается к серверу
+        // Клиент подключается к серверу.
         client.connect(5000, ip, tcpPort, udpPort);
         client.addListener(this);
-        SendStringMessage("My Message");
-        System.out.println("You have connected to server! Client waiting for package...n");
-        while(!messageReceived){
-            Thread.sleep(1000);
-        }
-        System.out.println("Client leaves server");
     }
 
     /** Отправляет на сервер сообщение Message_in.*/
@@ -89,7 +73,6 @@ public class WarcastleDuelClient extends Listener
         packet.setProtocolVersion(this.ProtocolVersion);
         long timeSend = System.currentTimeMillis();
         packet.setTimeSend(timeSend);
-        packet.setGameGUID(getGamePlaying().getGUID().toString());
         client.sendTCP(packet);
     }
 

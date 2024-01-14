@@ -5,10 +5,11 @@ import ru.gigabyte_artur.warcastleduel.gaming.Player;
 import ru.gigabyte_artur.warcastleduel.card_game.Hand;
 
 import java.util.ArrayList;
+import java.util.UUID;
 
 public class WarcastlePlayer extends Player
 {
-
+    private String GUID = "";
     private int Morale;                  // Боевой дух (мораль).
     private int Amount;                  // Сумма в золоте.
     private int Swords;                  // Мечники.
@@ -25,15 +26,12 @@ public class WarcastlePlayer extends Player
     private int SwordSkill;              // Владение мечом.
     private int Dodge;                   // Уворот.
     private int Luck;                    // Удача.
-
     private ArrayList<DefenceBlockDirection> Blocs = new ArrayList<DefenceBlockDirection>();         // Блоки игрока.
     private ArrayList<DefenceBlockDirection> Attacks = new ArrayList<DefenceBlockDirection>();       // Атаки игрока.
-
     private int ROUNDS_NUMBER = 4;                // Количество раундов атаки.
     private int START_MORALE = 10000;             // Начальное количество боевого духа.
     private static final int TAX_RATES = 100;    // Минимальная величина налога.
     public static final int MAX_CARDS_HAND = 9;              // Максимальное число карт в руке.
-
     public final static int STAT_ID_NONE = 0;
     public final static int STAT_ID_SWORD = 1;
     public final static int STAT_ID_PRIEST = 2;
@@ -43,6 +41,7 @@ public class WarcastlePlayer extends Player
 
     public WarcastlePlayer()
     {
+        setGUID(UUID.randomUUID().toString());
         this.Morale = 0;
         this.Amount = 0;
         InitBlocks();
@@ -54,6 +53,16 @@ public class WarcastlePlayer extends Player
         this.Peasants = 0;
         this.Horses = 0;
         this.Armor = 0;
+    }
+
+    public String getGUID()
+    {
+        return GUID;
+    }
+
+    public void setGUID(String GUID)
+    {
+        this.GUID = GUID;
     }
 
     public int getSwordAttack()

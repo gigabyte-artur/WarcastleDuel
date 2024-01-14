@@ -12,6 +12,7 @@ import com.badlogic.gdx.scenes.scene2d.Stage;
 import ru.gigabyte_artur.warcastleduel.card_game.Card;
 import ru.gigabyte_artur.warcastleduel.warcastle.net.WarcastleDuelClient;
 import ru.gigabyte_artur.warcastleduel.warcastle.net.WarcastleDuelServer;
+import ru.gigabyte_artur.warcastleduel.warcastle.net.WarcastleDuelXmlBuilder;
 import ru.gigabyte_artur.warcastleduel.warcastle.screen_interface.*;
 import java.util.ArrayList;
 
@@ -34,6 +35,7 @@ public class WarcastleDuelScreen implements Screen, InputProcessor
     private ScreenAddStatButton ButtonAddPeasant1;
     private ScreenAddStatButton ButtonAddHorse1;
     private Stage stage;
+    private WarcastleDuelClient Client1;
 
     private Action ActionEndTurn_Finish = new Action()
     {
@@ -143,6 +145,7 @@ public class WarcastleDuelScreen implements Screen, InputProcessor
     {
         batch.dispose();
         stage.dispose();
+//        Client1.stop();
     }
 
     @Override
@@ -329,6 +332,8 @@ public class WarcastleDuelScreen implements Screen, InputProcessor
         // Сервер.
         WarcastleDuelServer Server1 = new WarcastleDuelServer(27960, 27960);
         Server1.StartServer();
+        // Клиент.
+        Client1 = new WarcastleDuelClient("localhost", 27960,27960);
     }
 
     // Возвращает массив карт в руке игрока 1.
@@ -344,16 +349,20 @@ public class WarcastleDuelScreen implements Screen, InputProcessor
     }
 
     // Использует карту WarcastleCard_in.
-    private void EffectCard(WarcastleCard WarcastleCard_in)
+    private void EffectCard(WarcastleCard WarcastleCard_in) throws Exception
     {
         WarcastleDuelGame CurrentGame;
         WarcastlePlayer CurrentPlayer;
+        String XmlString = "";
         CurrentGame = this.getGamePlaying();
         CurrentPlayer = (WarcastlePlayer)CurrentGame.getPlayer1();
         WarcastleCard_in.Effect(CurrentGame, CurrentPlayer);
         CurrentPlayer.PrivateHandCardToDiscard(WarcastleCard_in);
         StatusBar1.AddText(WarcastleCard_in.GenerateStatusBarTextEffect(CurrentGame, CurrentPlayer));
         SoundList.PlaySound("DrawSword");
+        Client1.StartClient();
+        XmlString = WarcastleDuelXmlBuilder.GenerateCardPlaying(CurrentGame, CurrentPlayer, WarcastleCard_in);
+        Client1.SendStringMessage(XmlString);
         AfterUserAction();
     }
 
@@ -363,13 +372,10 @@ public class WarcastleDuelScreen implements Screen, InputProcessor
         SoundList.PlaySound("PapperWrapping");
         ReadCardToScreenCard(GetPlayer1Cards());
         StatusBar1.AddText("End turn");
-        WarcastleDuelClient Client1 = new WarcastleDuelClient("localhost", 27960,27960);
-        Client1.setGamePlaying(this.getGamePlaying());
-        Client1.StartClient();
         AfterUserAction();
     }
 
-    public void CardDrag_Finish(ScreenCard Card_in, int DragX_in, int DragY_in)
+    public void CardDrag_Finish(ScreenCard Card_in, int DragX_in, int DragY_in) throws Exception
     {
         // Инициализация.
         WarcastleCard CurrentWarcastleCard;

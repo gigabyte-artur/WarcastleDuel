@@ -2,13 +2,28 @@ package ru.gigabyte_artur.warcastleduel.warcastle;
 
 import ru.gigabyte_artur.warcastleduel.card_game.Card;
 import ru.gigabyte_artur.warcastleduel.warcastle.wcc.*;
-
 import java.util.Random;
+import java.util.UUID;
 
 public class WarcastleCard extends Card
 {
-
+    private String GUID = "";
     private int SellPrice;      // Стоимость в золоте.
+
+    public String getGUID()
+    {
+        return GUID;
+    }
+
+    public void setGUID(String GUID)
+    {
+        this.GUID = GUID;
+    }
+
+    public WarcastleCard()
+    {
+        setGUID(UUID.randomUUID().toString());
+    }
 
     public int getSellPrice()
     {

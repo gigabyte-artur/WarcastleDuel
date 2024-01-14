@@ -8,7 +8,6 @@ import java.util.UUID;
 
 public class WarcastleDuelGame extends TwoPlayersGame
 {
-
     private String GUID = "";
     private static final int CARD_IN_PRIVATE_DECK = 30;        // Сколько корт в колоде по умолчанию.
 
