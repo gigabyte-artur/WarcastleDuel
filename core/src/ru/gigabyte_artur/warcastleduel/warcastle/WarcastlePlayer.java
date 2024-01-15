@@ -30,6 +30,7 @@ public class WarcastlePlayer extends Player
     private ArrayList<DefenceBlockDirection> Attacks = new ArrayList<DefenceBlockDirection>();       // Атаки игрока.
     private int ROUNDS_NUMBER = 4;                // Количество раундов атаки.
     private int START_MORALE = 10000;             // Начальное количество боевого духа.
+
     private static final int TAX_RATES = 100;    // Минимальная величина налога.
     public static final int MAX_CARDS_HAND = 9;              // Максимальное число карт в руке.
     public final static int STAT_ID_NONE = 0;

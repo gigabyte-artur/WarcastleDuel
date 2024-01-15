@@ -1,6 +1,5 @@
 package ru.gigabyte_artur.warcastleduel.gaming;
 
-import ru.gigabyte_artur.warcastleduel.neuro_net.NeuroNet;
 import java.util.ArrayList;
 import java.util.Random;
 
@@ -8,8 +7,6 @@ public class Player
 {
 
     private String name;
-    public NeuroNet neuro_net = new NeuroNet();
-
     // Конструктор нового.
     public Player()
     {
@@ -20,11 +17,6 @@ public class Player
     public Player(Player player_in)
     {
         setName(player_in.getName());
-    }
-
-    public Player(NeuroNet neuro_net_in)
-    {
-        this.SetNeuroNetCopyFrom(neuro_net_in);
     }
 
     public String getName()
@@ -170,18 +162,10 @@ public class Player
     }
 
     // Запускает новую игру.
-    public void NewGame(NeuroNet neuro_net_in)
+    public void NewGame()
     {
 //        this.hand.Empty();
         // TODO: Написать контруктор копирования.
-//        this.neuro_net.CopyModel(neuro_net_in);
-        this.neuro_net = neuro_net_in;
-    }
-
-    // Возвращает нейронную сеть текущего игрока.
-    public NeuroNet GetNeuroNet()
-    {
-        return neuro_net;
     }
 
     // Играет текущим игроком игру game_in. Возвращает итоговую сумму очков. Параметр silent_in определяет, будут
@@ -192,28 +176,4 @@ public class Player
         rez = 0;
         return rez;
     }
-
-    // Инициализирует текущего игрока случайными весами.
-    public void RandomPlayer(NeuroNet model_in)
-    {
-        NeuroNet player_net;
-        this.NewGame(model_in);
-        player_net = this.GetNeuroNet();
-        player_net.RandomWeights();
-    }
-
-    // Устанавливает текущему игроку нейросеть neuro_net_in.
-    public void SetNeuroNet(NeuroNet neuro_net_in)
-    {
-        this.neuro_net = neuro_net_in;
-    }
-
-    // Устанавливает в текущую нейронную сеть копию нейросети neuro_net_in.
-    public void SetNeuroNetCopyFrom(NeuroNet neuro_net_in)
-    {
-        NeuroNet new_neuro_net = new NeuroNet(neuro_net_in);
-        this.SetNeuroNet(new_neuro_net);
-    }
-
-
 }
