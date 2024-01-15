@@ -2,7 +2,7 @@ package ru.gigabyte_artur.warcastleduel.warcastle;
 
 import java.util.Random;
 
-public class DefenceBlockDirection
+public class WarcastleDuelDefenceBlockDirection
 {
 
     public final int DIRECTION_NONE = 0;
@@ -13,12 +13,12 @@ public class DefenceBlockDirection
 
     private int Direction;
 
-    public DefenceBlockDirection()
+    public WarcastleDuelDefenceBlockDirection()
     {
         Direction = DIRECTION_NONE;
     }
 
-    public DefenceBlockDirection(int direction)
+    public WarcastleDuelDefenceBlockDirection(int direction)
     {
         Direction = direction;
     }
@@ -50,9 +50,9 @@ public class DefenceBlockDirection
     }
 
     // Возвращает объект со случайным направлением.
-    public static DefenceBlockDirection NewRandomDefenceDirection()
+    public static WarcastleDuelDefenceBlockDirection NewRandomDefenceDirection()
     {
-        DefenceBlockDirection rez = new DefenceBlockDirection();
+        WarcastleDuelDefenceBlockDirection rez = new WarcastleDuelDefenceBlockDirection();
         rez.SetRandomDirection();
         return rez;
     }

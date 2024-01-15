@@ -10,12 +10,12 @@ import com.badlogic.gdx.scenes.scene2d.Stage;
 import com.badlogic.gdx.scenes.scene2d.ui.Image;
 import com.badlogic.gdx.scenes.scene2d.utils.Drawable;
 import com.badlogic.gdx.scenes.scene2d.utils.TextureRegionDrawable;
-import ru.gigabyte_artur.warcastleduel.warcastle.WarcastleCard;
+import ru.gigabyte_artur.warcastleduel.warcastle.WarcastleDuelCard;
 import ru.gigabyte_artur.warcastleduel.warcastle.WarcastleDuelScreen;
 
 public class ScreenCard extends ScreenRectangledElement
 {
-    private WarcastleCard LinkedCard;                             // Привязанная карта игры.
+    private WarcastleDuelCard LinkedCard;                             // Привязанная карта игры.
     private Texture cardTexture;                         // Текстура карты.
     private Texture Shadow;                              // Текстура тени.
     private Texture coverTexture;                        // Текстура рубашки карты.
@@ -56,7 +56,7 @@ public class ScreenCard extends ScreenRectangledElement
         CardImage.setUserObject(this);
     }
 
-    public ScreenCard(WarcastleCard Card_in, String TexturePath_in)
+    public ScreenCard(WarcastleDuelCard Card_in, String TexturePath_in)
     {
         super(0, 0, STANDARD_WIDTH, STANDARD_HEIGHT);
         this.setDimensions(STANDARD_WIDTH, STANDARD_HEIGHT);
@@ -105,7 +105,7 @@ public class ScreenCard extends ScreenRectangledElement
         ScreenStage = parentScreen.getStage();
     }
 
-    public void setLinkedCard(WarcastleCard linkedCard) {
+    public void setLinkedCard(WarcastleDuelCard linkedCard) {
         LinkedCard = linkedCard;
     }
 
@@ -113,7 +113,7 @@ public class ScreenCard extends ScreenRectangledElement
         this.cardTexture = cardTexture;
     }
 
-    public WarcastleCard getLinkedCard()
+    public WarcastleDuelCard getLinkedCard()
     {
         return LinkedCard;
     }

@@ -2,7 +2,7 @@ package ru.gigabyte_artur.warcastleduel.warcastle.screen_interface;
 
 import com.badlogic.gdx.scenes.scene2d.Stage;
 import ru.gigabyte_artur.warcastleduel.warcastle.WarcastleDuelGame;
-import ru.gigabyte_artur.warcastleduel.warcastle.WarcastlePlayer;
+import ru.gigabyte_artur.warcastleduel.warcastle.WarcastleDuelPlayer;
 
 public class ScreenEndTurnButton extends ScreenButton
 {
@@ -38,7 +38,7 @@ public class ScreenEndTurnButton extends ScreenButton
     @Override
     public void ActButton()
     {
-        WarcastlePlayer Player1 = (WarcastlePlayer)GamePlaying.getPlayer1();
+        WarcastleDuelPlayer Player1 = (WarcastleDuelPlayer)GamePlaying.getPlayer1();
         GamePlaying.EndPlayerTurn(Player1);
     }
 

@@ -1,15 +1,15 @@
 package ru.gigabyte_artur.warcastleduel.warcastle.screen_interface;
 
 import com.badlogic.gdx.scenes.scene2d.Stage;
-import ru.gigabyte_artur.warcastleduel.warcastle.WarcastlePlayer;
-import static ru.gigabyte_artur.warcastleduel.warcastle.WarcastlePlayer.*;
+import ru.gigabyte_artur.warcastleduel.warcastle.WarcastleDuelPlayer;
+import static ru.gigabyte_artur.warcastleduel.warcastle.WarcastleDuelPlayer.*;
 
 public class ScreenAddStatButton extends ScreenButton
 {
-    WarcastlePlayer ChangingPlayer;         // Игрок, чьи статы меняет кнопка.
+    WarcastleDuelPlayer ChangingPlayer;         // Игрок, чьи статы меняет кнопка.
     int StatId;                             // Id изменяемого стата.
 
-    public void setChangingPlayer(WarcastlePlayer changingPlayer)
+    public void setChangingPlayer(WarcastleDuelPlayer changingPlayer)
     {
         ChangingPlayer = changingPlayer;
     }
@@ -26,11 +26,11 @@ public class ScreenAddStatButton extends ScreenButton
 
     public ScreenAddStatButton()
     {
-        this.ChangingPlayer = new WarcastlePlayer();
+        this.ChangingPlayer = new WarcastleDuelPlayer();
         this.setStatId(STAT_ID_NONE);
     }
 
-    public ScreenAddStatButton(WarcastlePlayer Player_in, int Stat_in, int x_in, int y_in, int width_in, int height_in, Stage Stage_in)
+    public ScreenAddStatButton(WarcastleDuelPlayer Player_in, int Stat_in, int x_in, int y_in, int width_in, int height_in, Stage Stage_in)
     {
         this();
         SetTextureByPath("Interface/AddButton.png");

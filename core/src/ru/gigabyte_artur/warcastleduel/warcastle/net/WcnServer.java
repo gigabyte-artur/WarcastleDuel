@@ -6,7 +6,7 @@ import com.esotericsoftware.kryonet.Connection;
 import com.esotericsoftware.kryonet.Listener;
 import com.esotericsoftware.kryonet.Server;
 
-public class WarcastleDuelServer extends Listener
+public class WcnServer extends Listener
 {
 
     static Server server;
@@ -33,7 +33,7 @@ public class WarcastleDuelServer extends Listener
         this.tcpPort = tcpPort;
     }
 
-    public WarcastleDuelServer(int tcpPort_in, int udtPort_in)
+    public WcnServer(int tcpPort_in, int udtPort_in)
     {
         setTcpPort(tcpPort_in);
         setUdpPort(udtPort_in);
@@ -45,7 +45,7 @@ public class WarcastleDuelServer extends Listener
         //Создаем сервер
         server = new Server();
         //Регистрируем пакет класс
-        server.getKryo().register(WarcastleDuelPackedMessage.class);
+        server.getKryo().register(WcnPackedMessage.class);
         //Регистрируем порт
         server.bind(tcpPort, udpPort);
         //Запускаем сервер
@@ -67,7 +67,7 @@ public class WarcastleDuelServer extends Listener
     public void SendStringMessage(Connection Connection_in, String Message_in)
     {
         //Создаем сообщения пакета.
-        WarcastleDuelPackedMessage packetMessage = new WarcastleDuelPackedMessage();
+        WcnPackedMessage packetMessage = new WcnPackedMessage();
         //Пишем текст который будем отправлять клиенту.
         packetMessage.setMessage(Message_in);
         packetMessage.setProtocolVersion(this.ProtocolVersion);
@@ -81,10 +81,10 @@ public class WarcastleDuelServer extends Listener
     public void received(Connection c, Object p)
     {
         //Проверяем какой отправляется пакет
-        if (p instanceof WarcastleDuelPackedMessage)
+        if (p instanceof WcnPackedMessage)
         {
             //Если мы получили PacketMessage .
-            WarcastleDuelPackedMessage packet = (WarcastleDuelPackedMessage) p;
+            WcnPackedMessage packet = (WcnPackedMessage) p;
             if (packet.getProtocolVersion().equals(this.ProtocolVersion))
             {
                 System.out.println("Answer from client: " + packet.getMessage());

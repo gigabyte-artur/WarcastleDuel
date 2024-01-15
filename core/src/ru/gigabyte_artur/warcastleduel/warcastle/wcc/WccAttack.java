@@ -1,10 +1,11 @@
 package ru.gigabyte_artur.warcastleduel.warcastle.wcc;
 
-import ru.gigabyte_artur.warcastleduel.warcastle.WarcastleCard;
+import ru.gigabyte_artur.warcastleduel.warcastle.WarcastleDuelCard;
 import ru.gigabyte_artur.warcastleduel.warcastle.WarcastleDuelGame;
-import ru.gigabyte_artur.warcastleduel.warcastle.WarcastlePlayer;
+import ru.gigabyte_artur.warcastleduel.warcastle.WarcastleDuelPlayer;
 
-public class WccAttack extends WarcastleCard {
+public class WccAttack extends WarcastleDuelCard
+{
 
     public WccAttack()
     {
@@ -25,10 +26,10 @@ public class WccAttack extends WarcastleCard {
     }
 
     @Override
-    public void Effect(WarcastleDuelGame Game_in, WarcastlePlayer Player_in)
+    public void Effect(WarcastleDuelGame Game_in, WarcastleDuelPlayer Player_in)
     {
-        WarcastlePlayer PlayerOpponent;
-        PlayerOpponent = (WarcastlePlayer) Game_in.GetOpponent(Player_in);
+        WarcastleDuelPlayer PlayerOpponent;
+        PlayerOpponent = (WarcastleDuelPlayer) Game_in.GetOpponent(Player_in);
         Game_in.AttackPlayer(Player_in, PlayerOpponent);
         PlayerOpponent.CalculateStats();
     }
@@ -40,10 +41,10 @@ public class WccAttack extends WarcastleCard {
     }
 
     @Override
-    public String GenerateStatusBarTextEffect(WarcastleDuelGame Game_in, WarcastlePlayer Player_in)
+    public String GenerateStatusBarTextEffect(WarcastleDuelGame Game_in, WarcastleDuelPlayer Player_in)
     {
-        WarcastlePlayer PlayerOpponent;
-        PlayerOpponent = (WarcastlePlayer) Game_in.GetOpponent(Player_in);
+        WarcastleDuelPlayer PlayerOpponent;
+        PlayerOpponent = (WarcastleDuelPlayer) Game_in.GetOpponent(Player_in);
         String rez = "Player " + Player_in.getName() + " attacked enemy " + PlayerOpponent.getName() + ".";
         return rez;
     }

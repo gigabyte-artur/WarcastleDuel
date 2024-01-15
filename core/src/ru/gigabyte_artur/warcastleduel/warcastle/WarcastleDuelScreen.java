@@ -10,9 +10,9 @@ import com.badlogic.gdx.graphics.g2d.SpriteBatch;
 import com.badlogic.gdx.scenes.scene2d.Action;
 import com.badlogic.gdx.scenes.scene2d.Stage;
 import ru.gigabyte_artur.warcastleduel.card_game.Card;
-import ru.gigabyte_artur.warcastleduel.warcastle.net.WarcastleDuelClient;
-import ru.gigabyte_artur.warcastleduel.warcastle.net.WarcastleDuelServer;
-import ru.gigabyte_artur.warcastleduel.warcastle.net.WarcastleDuelXmlBuilder;
+import ru.gigabyte_artur.warcastleduel.warcastle.net.WcnClient;
+import ru.gigabyte_artur.warcastleduel.warcastle.net.WcnServer;
+import ru.gigabyte_artur.warcastleduel.warcastle.net.WcnXmlBuilder;
 import ru.gigabyte_artur.warcastleduel.warcastle.screen_interface.*;
 import java.util.ArrayList;
 
@@ -35,7 +35,7 @@ public class WarcastleDuelScreen implements Screen, InputProcessor
     private ScreenAddStatButton ButtonAddPeasant1;
     private ScreenAddStatButton ButtonAddHorse1;
     private Stage stage;
-    private WarcastleDuelClient Client1;
+    private WcnClient Client1;
 
     private Action ActionEndTurn_Finish = new Action()
     {
@@ -96,13 +96,13 @@ public class WarcastleDuelScreen implements Screen, InputProcessor
     public void render(float delta)
     {
         // Инициализация.
-        WarcastlePlayer CurrentPlayer;
+        WarcastleDuelPlayer CurrentPlayer;
         batch.begin();
         // Рисуем изображение фона на весь экран.
         batch.draw(background, 0, 0, Gdx.graphics.getWidth(), Gdx.graphics.getHeight());
         // Выводим колоду.
         PrivateDeckCover.draw(batch);
-        CurrentPlayer = ((WarcastlePlayer)this.getGamePlaying().getPlayer1());
+        CurrentPlayer = ((WarcastleDuelPlayer)this.getGamePlaying().getPlayer1());
         DeckFont.draw(batch, "" + CurrentPlayer.getDeck().Size(), 1180, 330);
         // Тексты.
         Player1Info.draw(batch);
@@ -199,13 +199,13 @@ public class WarcastleDuelScreen implements Screen, InputProcessor
     }
 
     // Считывает карты из массива Cards_in в карты на столе.
-    private void ReadCardToScreenCard(ArrayList<WarcastleCard> Cards_in)
+    private void ReadCardToScreenCard(ArrayList<WarcastleDuelCard> Cards_in)
     {
         ScreenCard NewScreenCard;
         boolean isFound = false;
         ArrayList <ScreenCard> RemovableCadrs = new ArrayList<>();
         // Добавление новых карт.
-        for (WarcastleCard Curr_WarcastleCard:Cards_in)
+        for (WarcastleDuelCard Curr_WarcastleCard:Cards_in)
         {
             isFound = false;
             for (ScreenCard Curr_ScreenCard: ScreenCards)
@@ -231,7 +231,7 @@ public class WarcastleDuelScreen implements Screen, InputProcessor
         for (ScreenCard Curr_ScreenCard: ScreenCards)
         {
             isFound = false;
-            for (WarcastleCard Curr_WarcastleCard:Cards_in)
+            for (WarcastleDuelCard Curr_WarcastleCard:Cards_in)
             {
                 if (Curr_ScreenCard.getLinkedCard().equals(Curr_WarcastleCard))
                 {
@@ -252,14 +252,14 @@ public class WarcastleDuelScreen implements Screen, InputProcessor
     }
 
     /** Размещает кнопки добавления статов для игрока Player_in на сцену stage.*/
-    private void PutAddButtons(WarcastlePlayer Player_in, Stage stage)
+    private void PutAddButtons(WarcastleDuelPlayer Player_in, Stage stage)
     {
         // ИНициализация.
-        int StatIdSword          = WarcastlePlayer.STAT_ID_SWORD;
-        int StatIdPriest         = WarcastlePlayer.STAT_ID_PRIEST;
-        int StatIdInstructor     = WarcastlePlayer.STAT_ID_INSTRUCTOR;
-        int StatIdPeasant        = WarcastlePlayer.STAT_ID_PEASANT;
-        int StatIdPHorse         = WarcastlePlayer.STAT_ID_HORSE;
+        int StatIdSword          = WarcastleDuelPlayer.STAT_ID_SWORD;
+        int StatIdPriest         = WarcastleDuelPlayer.STAT_ID_PRIEST;
+        int StatIdInstructor     = WarcastleDuelPlayer.STAT_ID_INSTRUCTOR;
+        int StatIdPeasant        = WarcastleDuelPlayer.STAT_ID_PEASANT;
+        int StatIdPHorse         = WarcastleDuelPlayer.STAT_ID_HORSE;
         // Размещение кнопок.
         ButtonAddSword1          = new ScreenAddStatButton(Player_in, StatIdSword, 70, 270, 30, 30, stage);
         ButtonAddPriest1         = new ScreenAddStatButton(Player_in, StatIdPriest, 185, 270, 30, 30, stage);
@@ -285,8 +285,8 @@ public class WarcastleDuelScreen implements Screen, InputProcessor
         background = new Texture(Gdx.files.internal("Interface/BG.jpg"));
         ScreenCards = new ArrayList<>();
         StatusBar1 = new ScreenStatusBar();
-        WarcastlePlayer CurrPlayer1 = (WarcastlePlayer)GamePlaying.getPlayer1();
-        WarcastlePlayer CurrPlayer2 = (WarcastlePlayer)GamePlaying.getPlayer2();
+        WarcastleDuelPlayer CurrPlayer1 = (WarcastleDuelPlayer)GamePlaying.getPlayer1();
+        WarcastleDuelPlayer CurrPlayer2 = (WarcastleDuelPlayer)GamePlaying.getPlayer2();
         // Звуки.
         SoundList = new ScreenSoundList();
         SoundList.AddSound("DrawSword", "Sounds/DrawSword.ogg");
@@ -295,7 +295,7 @@ public class WarcastleDuelScreen implements Screen, InputProcessor
         StatusBar1.InitText(3);
         StatusBar1.setPosition(50, 0);
         // Карты на экране.
-        GroupSlot1 = new ScreenGroupSlotsRectangled(WarcastlePlayer.MAX_CARDS_HAND);
+        GroupSlot1 = new ScreenGroupSlotsRectangled(WarcastleDuelPlayer.MAX_CARDS_HAND);
         GroupSlot1.SetListElementsPositions(100, 100, 100, 0);
         ReadCardToScreenCard(GetPlayer1Cards());
         SoundList.PlaySound("PapperWrapping");
@@ -330,38 +330,38 @@ public class WarcastleDuelScreen implements Screen, InputProcessor
         // Обновление экрана.
         AfterUserAction();
         // Сервер.
-        WarcastleDuelServer Server1 = new WarcastleDuelServer(27960, 27960);
+        WcnServer Server1 = new WcnServer(27960, 27960);
         Server1.StartServer();
         // Клиент.
-        Client1 = new WarcastleDuelClient("localhost", 27960,27960);
+        Client1 = new WcnClient("localhost", 27960,27960);
     }
 
     // Возвращает массив карт в руке игрока 1.
-    private ArrayList<WarcastleCard> GetPlayer1Cards()
+    private ArrayList<WarcastleDuelCard> GetPlayer1Cards()
     {
-        ArrayList<WarcastleCard> rez = new ArrayList<>();
-        WarcastlePlayer Player1 = (WarcastlePlayer)this.getGamePlaying().getPlayer1();
+        ArrayList<WarcastleDuelCard> rez = new ArrayList<>();
+        WarcastleDuelPlayer Player1 = (WarcastleDuelPlayer)this.getGamePlaying().getPlayer1();
         for (Card Curr_Card:Player1.getPrivateHand().getCards())
         {
-            rez.add((WarcastleCard)Curr_Card);
+            rez.add((WarcastleDuelCard)Curr_Card);
         }
         return rez;
     }
 
     // Использует карту WarcastleCard_in.
-    private void EffectCard(WarcastleCard WarcastleCard_in) throws Exception
+    private void EffectCard(WarcastleDuelCard WarcastleCard_in) throws Exception
     {
         WarcastleDuelGame CurrentGame;
-        WarcastlePlayer CurrentPlayer;
+        WarcastleDuelPlayer CurrentPlayer;
         String XmlString = "";
         CurrentGame = this.getGamePlaying();
-        CurrentPlayer = (WarcastlePlayer)CurrentGame.getPlayer1();
+        CurrentPlayer = (WarcastleDuelPlayer)CurrentGame.getPlayer1();
         WarcastleCard_in.Effect(CurrentGame, CurrentPlayer);
         CurrentPlayer.PrivateHandCardToDiscard(WarcastleCard_in);
         StatusBar1.AddText(WarcastleCard_in.GenerateStatusBarTextEffect(CurrentGame, CurrentPlayer));
         SoundList.PlaySound("DrawSword");
         Client1.StartClient();
-        XmlString = WarcastleDuelXmlBuilder.GenerateCardPlaying(CurrentGame, CurrentPlayer, WarcastleCard_in);
+        XmlString = WcnXmlBuilder.GenerateCardPlaying(CurrentGame, CurrentPlayer, WarcastleCard_in);
         Client1.SendStringMessage(XmlString);
         AfterUserAction();
     }
@@ -378,7 +378,7 @@ public class WarcastleDuelScreen implements Screen, InputProcessor
     public void CardDrag_Finish(ScreenCard Card_in, int DragX_in, int DragY_in) throws Exception
     {
         // Инициализация.
-        WarcastleCard CurrentWarcastleCard;
+        WarcastleDuelCard CurrentWarcastleCard;
         // Выполнение действие карты.
         if (DragY_in > 300)
         {
@@ -402,12 +402,12 @@ public class WarcastleDuelScreen implements Screen, InputProcessor
     {
         // Инициализация.
         WarcastleDuelGame CurrentGame;
-        WarcastlePlayer CurrentPlayer;
+        WarcastleDuelPlayer CurrentPlayer;
         int CurrAmount, CurrSwordPrice, CurrPriestPrice, CurrInstructorPrice, CurrPeasantPrice, CurrHorsePrice;
         boolean EnoughtSwordPrice, EnoughtPriestPrice, EnoughtInstructorPrice, EnoughtPeasantPrice, EnoughtHorsePrice;
         // Получение размера счёта игрока.
         CurrentGame = this.getGamePlaying();
-        CurrentPlayer = (WarcastlePlayer)CurrentGame.getPlayer1();
+        CurrentPlayer = (WarcastleDuelPlayer)CurrentGame.getPlayer1();
         CurrAmount = CurrentPlayer.getAmount();
         // Получение цен статов.
         CurrSwordPrice       = CurrentPlayer.SwordPrice();
@@ -433,9 +433,9 @@ public class WarcastleDuelScreen implements Screen, InputProcessor
     private void AfterUserAction()
     {
         WarcastleDuelGame CurrentGame;
-        WarcastlePlayer CurrentPlayer;
+        WarcastleDuelPlayer CurrentPlayer;
         CurrentGame = this.getGamePlaying();
-        CurrentPlayer = (WarcastlePlayer)CurrentGame.getPlayer1();
+        CurrentPlayer = (WarcastleDuelPlayer)CurrentGame.getPlayer1();
         CurrentPlayer.CalculateStats();
         UpdateAddStatEnabled();
     }

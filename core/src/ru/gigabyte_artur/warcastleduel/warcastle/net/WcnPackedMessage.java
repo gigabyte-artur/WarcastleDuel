@@ -1,6 +1,6 @@
 package ru.gigabyte_artur.warcastleduel.warcastle.net;
 
-public class WarcastleDuelPackedMessage
+public class WcnPackedMessage
 {
     private String message;             // Текст сообщения.
     private String ProtocolVersion;     // Версия протокола.

@@ -1,10 +1,11 @@
 package ru.gigabyte_artur.warcastleduel.warcastle.wcc;
 
-import ru.gigabyte_artur.warcastleduel.warcastle.WarcastleCard;
+import ru.gigabyte_artur.warcastleduel.warcastle.WarcastleDuelCard;
 import ru.gigabyte_artur.warcastleduel.warcastle.WarcastleDuelGame;
-import ru.gigabyte_artur.warcastleduel.warcastle.WarcastlePlayer;
+import ru.gigabyte_artur.warcastleduel.warcastle.WarcastleDuelPlayer;
 
-public class WccAddPriests extends WarcastleCard {
+public class WccAddPriests extends WarcastleDuelCard
+{
 
     public WccAddPriests()
     {
@@ -25,7 +26,7 @@ public class WccAddPriests extends WarcastleCard {
     }
 
     @Override
-    public void Effect(WarcastleDuelGame Game_in, WarcastlePlayer Player_in)
+    public void Effect(WarcastleDuelGame Game_in, WarcastleDuelPlayer Player_in)
     {
         Player_in.IncrementPriests(1);
     }
@@ -37,7 +38,7 @@ public class WccAddPriests extends WarcastleCard {
     }
 
     @Override
-    public String GenerateStatusBarTextEffect(WarcastleDuelGame Game_in, WarcastlePlayer Player_in)
+    public String GenerateStatusBarTextEffect(WarcastleDuelGame Game_in, WarcastleDuelPlayer Player_in)
     {
         String rez = "Added 1 priest";
         return rez;

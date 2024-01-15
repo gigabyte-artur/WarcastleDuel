@@ -7,7 +7,7 @@ import ru.gigabyte_artur.warcastleduel.card_game.Hand;
 import java.util.ArrayList;
 import java.util.UUID;
 
-public class WarcastlePlayer extends Player
+public class WarcastleDuelPlayer extends Player
 {
     private String GUID = "";
     private int Morale;                  // Боевой дух (мораль).
@@ -26,8 +26,8 @@ public class WarcastlePlayer extends Player
     private int SwordSkill;              // Владение мечом.
     private int Dodge;                   // Уворот.
     private int Luck;                    // Удача.
-    private ArrayList<DefenceBlockDirection> Blocs = new ArrayList<DefenceBlockDirection>();         // Блоки игрока.
-    private ArrayList<DefenceBlockDirection> Attacks = new ArrayList<DefenceBlockDirection>();       // Атаки игрока.
+    private ArrayList<WarcastleDuelDefenceBlockDirection> Blocs = new ArrayList<WarcastleDuelDefenceBlockDirection>();         // Блоки игрока.
+    private ArrayList<WarcastleDuelDefenceBlockDirection> Attacks = new ArrayList<WarcastleDuelDefenceBlockDirection>();       // Атаки игрока.
     private int ROUNDS_NUMBER = 4;                // Количество раундов атаки.
     private int START_MORALE = 10000;             // Начальное количество боевого духа.
 
@@ -40,7 +40,7 @@ public class WarcastlePlayer extends Player
     public final static int STAT_ID_PEASANT = 4;
     public final static int STAT_ID_HORSE = 5;
 
-    public WarcastlePlayer()
+    public WarcastleDuelPlayer()
     {
         setGUID(UUID.randomUUID().toString());
         this.Morale = 0;
@@ -202,12 +202,12 @@ public class WarcastlePlayer extends Player
         CalculateStats();
     }
 
-    public ArrayList<DefenceBlockDirection> getAttacks()
+    public ArrayList<WarcastleDuelDefenceBlockDirection> getAttacks()
     {
         return Attacks;
     }
 
-    public ArrayList<DefenceBlockDirection> getBlocs()
+    public ArrayList<WarcastleDuelDefenceBlockDirection> getBlocs()
     {
         return Blocs;
     }
@@ -232,8 +232,8 @@ public class WarcastlePlayer extends Player
         this.PrivateHand = new Hand();
         this.Deck = new Hand();
         this.DiscardHand = new Hand();
-        ArrayList<WarcastleCard> NewDeck = WarcastleDuelGame.GeneratePrivateDeck();
-        for (WarcastleCard CurrCard:NewDeck)
+        ArrayList<WarcastleDuelCard> NewDeck = WarcastleDuelGame.GeneratePrivateDeck();
+        for (WarcastleDuelCard CurrCard:NewDeck)
         {
             this.Deck.AddCard(CurrCard);
         }
@@ -256,13 +256,13 @@ public class WarcastlePlayer extends Player
         this.Blocs.clear();
         for (int c = 0; c < ROUNDS_NUMBER; c++)
         {
-            DefenceBlockDirection NewDefenceDirection = DefenceBlockDirection.NewRandomDefenceDirection();
+            WarcastleDuelDefenceBlockDirection NewDefenceDirection = WarcastleDuelDefenceBlockDirection.NewRandomDefenceDirection();
             this.Blocs.add(NewDefenceDirection);
         }
         this.Attacks.clear();
         for (int c = 0; c < ROUNDS_NUMBER; c++)
         {
-            DefenceBlockDirection NewDefenceDirection = DefenceBlockDirection.NewRandomDefenceDirection();
+            WarcastleDuelDefenceBlockDirection NewDefenceDirection = WarcastleDuelDefenceBlockDirection.NewRandomDefenceDirection();
             this.Attacks.add(NewDefenceDirection);
         }
     }
@@ -315,7 +315,7 @@ public class WarcastlePlayer extends Player
         String ShownText;
         // Блоки.
         ShownText = "Blocs: ";
-        for (DefenceBlockDirection CurrDirection : this.getBlocs())
+        for (WarcastleDuelDefenceBlockDirection CurrDirection : this.getBlocs())
         {
             ShownText = ShownText + "[";
             ShownText = ShownText + CurrDirection.toString();
@@ -324,7 +324,7 @@ public class WarcastlePlayer extends Player
         System.out.println(ShownText);
         // Атаки.
         ShownText = "Attacs: ";
-        for (DefenceBlockDirection CurrDirection : this.getAttacks())
+        for (WarcastleDuelDefenceBlockDirection CurrDirection : this.getAttacks())
         {
             ShownText = ShownText + "[";
             ShownText = ShownText + CurrDirection.toString();

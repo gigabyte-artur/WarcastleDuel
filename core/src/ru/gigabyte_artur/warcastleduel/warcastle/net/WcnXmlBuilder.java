@@ -1,19 +1,19 @@
 package ru.gigabyte_artur.warcastleduel.warcastle.net;
 
-import ru.gigabyte_artur.warcastleduel.warcastle.WarcastleCard;
+import ru.gigabyte_artur.warcastleduel.warcastle.WarcastleDuelCard;
 import ru.gigabyte_artur.warcastleduel.warcastle.WarcastleDuelGame;
-import ru.gigabyte_artur.warcastleduel.warcastle.WarcastlePlayer;
+import ru.gigabyte_artur.warcastleduel.warcastle.WarcastleDuelPlayer;
 import org.jdom2.Document;
 import org.jdom2.Element;
 import org.jdom2.output.Format;
 import org.jdom2.output.XMLOutputter;
 
-public class WarcastleDuelXmlBuilder
+public class WcnXmlBuilder
 {
     public final static String MESSAGE_TYPE_CARD_PLAYING = "CardPlaying";       // Тип сообщения "Сыграна карта".
 
     /** Генерирует xml сыгранной карты.*/
-    public static String GenerateCardPlaying(WarcastleDuelGame Game_in, WarcastlePlayer Player_in, WarcastleCard Card_in)
+    public static String GenerateCardPlaying(WarcastleDuelGame Game_in, WarcastleDuelPlayer Player_in, WarcastleDuelCard Card_in)
     {
         String rez = "";
         // Создаем корневой элемент.

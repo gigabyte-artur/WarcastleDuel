@@ -5,7 +5,7 @@ import ru.gigabyte_artur.warcastleduel.warcastle.wcc.*;
 import java.util.Random;
 import java.util.UUID;
 
-public class WarcastleCard extends Card
+public class WarcastleDuelCard extends Card
 {
     private String GUID = "";
     private int SellPrice;      // Стоимость в золоте.
@@ -20,7 +20,7 @@ public class WarcastleCard extends Card
         this.GUID = GUID;
     }
 
-    public WarcastleCard()
+    public WarcastleDuelCard()
     {
         setGUID(UUID.randomUUID().toString());
     }
@@ -56,22 +56,22 @@ public class WarcastleCard extends Card
     }
 
     /** Возвращает тект для вывода в статус-бар при использовании карты. */
-    public String GenerateStatusBarTextEffect(WarcastleDuelGame Game_in, WarcastlePlayer Player_in)
+    public String GenerateStatusBarTextEffect(WarcastleDuelGame Game_in, WarcastleDuelPlayer Player_in)
     {
         String rez = "<...some card effect>";
         return rez;
     }
 
     /** Применяет эффект карты. */
-    public void Effect(WarcastleDuelGame Game_in, WarcastlePlayer Player_in)
+    public void Effect(WarcastleDuelGame Game_in, WarcastleDuelPlayer Player_in)
     {
         // Будет переопределено в потомках.
     }
 
     /** Генерирует случайную карту и возращает её. */
-    public static WarcastleCard GenerateRandomCard()
+    public static WarcastleDuelCard GenerateRandomCard()
     {
-        WarcastleCard rez = new WarcastleCard();
+        WarcastleDuelCard rez = new WarcastleDuelCard();
         final Random random = new Random();
         int Generated;
         Generated = random.nextInt(9) + 1;

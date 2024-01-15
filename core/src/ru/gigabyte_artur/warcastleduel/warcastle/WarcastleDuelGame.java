@@ -35,19 +35,19 @@ public class WarcastleDuelGame extends TwoPlayersGame
     @Override
     public void Init()
     {
-        WarcastlePlayer Player1 = new WarcastlePlayer();
+        WarcastleDuelPlayer Player1 = new WarcastleDuelPlayer();
         Player1.Init();
         CollectTaxes(Player1);
-        WarcastlePlayer Player2 = new WarcastlePlayer();
+        WarcastleDuelPlayer Player2 = new WarcastleDuelPlayer();
         Player2.Init();
         this.SetPlayers(Player1, Player2);
         CollectTaxes(Player2);
     }
 
     @Override
-    public WarcastlePlayer NewPlayer()
+    public WarcastleDuelPlayer NewPlayer()
     {
-        WarcastlePlayer rez = new WarcastlePlayer();
+        WarcastleDuelPlayer rez = new WarcastleDuelPlayer();
         return rez;
     }
 
@@ -58,7 +58,7 @@ public class WarcastleDuelGame extends TwoPlayersGame
     }
 
     /** Начинает ход игрока Player_in. */
-    private void BeginPlayerTurn(WarcastlePlayer Player_in)
+    private void BeginPlayerTurn(WarcastleDuelPlayer Player_in)
     {
         Hand PlayersDeck, PlayersHand;
         PlayersDeck  = Player_in.getDeck();
@@ -75,7 +75,7 @@ public class WarcastleDuelGame extends TwoPlayersGame
     }
 
     /** Осуществляет сбор налогов игроком Player_in. */
-    public void CollectTaxes(WarcastlePlayer Player_in)
+    public void CollectTaxes(WarcastleDuelPlayer Player_in)
     {
         int NewTaxes;
         NewTaxes = Player_in.CalculateTaxes();
@@ -83,12 +83,12 @@ public class WarcastleDuelGame extends TwoPlayersGame
     }
 
     /** Генерирует новую колоду игрока. */
-    public static ArrayList<WarcastleCard> GeneratePrivateDeck()
+    public static ArrayList<WarcastleDuelCard> GeneratePrivateDeck()
     {
-        ArrayList<WarcastleCard> rez = new ArrayList<WarcastleCard>();
+        ArrayList<WarcastleDuelCard> rez = new ArrayList<WarcastleDuelCard>();
         for (int c = 0; c < CARD_IN_PRIVATE_DECK; c++)
         {
-            WarcastleCard NewCard = WarcastleCard.GenerateRandomCard();
+            WarcastleDuelCard NewCard = WarcastleDuelCard.GenerateRandomCard();
             rez.add(NewCard);
         }
         return rez;
@@ -99,21 +99,21 @@ public class WarcastleDuelGame extends TwoPlayersGame
     {
         System.out.println("------");
         System.out.println("Player 1:");
-        BeginPlayerTurn((WarcastlePlayer)this.getPlayer1());
-        ((WarcastlePlayer)this.getPlayer1()).Show();
+        BeginPlayerTurn((WarcastleDuelPlayer)this.getPlayer1());
+        ((WarcastleDuelPlayer)this.getPlayer1()).Show();
         System.out.println("------");
         System.out.println("Player 2:");
-        ((WarcastlePlayer)this.getPlayer2()).Show();
+        ((WarcastleDuelPlayer)this.getPlayer2()).Show();
     }
 
     /** Окончание хода игрока  Player_in. */
-    public void EndPlayerTurn(WarcastlePlayer Player_in)
+    public void EndPlayerTurn(WarcastleDuelPlayer Player_in)
     {
         BeginPlayerTurn(Player_in);
     }
 
     /** Рассчитывает шанс крита.*/
-    private int CalculateCritChanse(WarcastlePlayer Attacker_in, WarcastlePlayer Defender_in)
+    private int CalculateCritChanse(WarcastleDuelPlayer Attacker_in, WarcastleDuelPlayer Defender_in)
     {
         int rez;
         rez = (int)Math.ceil(40 + ((Attacker_in.getLuck() - Defender_in.getLuck() - 50)/2.0));
@@ -136,7 +136,7 @@ public class WarcastleDuelGame extends TwoPlayersGame
     }
 
     /** Вычисляет коэффициент уворота игрока Defender_in от атаки игрока Attacker_in.*/
-    public int CalculateDodgeKoeff(WarcastlePlayer Attacker_in, WarcastlePlayer Defender_in)
+    public int CalculateDodgeKoeff(WarcastleDuelPlayer Attacker_in, WarcastleDuelPlayer Defender_in)
     {
         int rez = 0;
         int DodgeEffect = 0;
@@ -160,7 +160,7 @@ public class WarcastleDuelGame extends TwoPlayersGame
     }
 
     /** Выполняет атаку мечом игрока Attacker_in в отношение игрока Defender_in.*/
-    public void AttackBySwords(WarcastlePlayer Attacker_in, WarcastlePlayer Defender_in)
+    public void AttackBySwords(WarcastleDuelPlayer Attacker_in, WarcastleDuelPlayer Defender_in)
     {
         // Иниициализация.
         int Damage = 0, CritChance = 0, DodgeKoeff = 0;
@@ -186,7 +186,7 @@ public class WarcastleDuelGame extends TwoPlayersGame
     }
 
     /** Выполняет атаку конницей игрока Attacker_in в отношение игрока Defender_in.*/
-    public void AttackByHorse(WarcastlePlayer Attacker_in, WarcastlePlayer Defender_in)
+    public void AttackByHorse(WarcastleDuelPlayer Attacker_in, WarcastleDuelPlayer Defender_in)
     {
         int Damage = 0;
         Damage = Attacker_in.getHorseAttack();
@@ -194,7 +194,7 @@ public class WarcastleDuelGame extends TwoPlayersGame
     }
 
     /** Выполняет атаку игрока Attacker_in на Defender_in*/
-    public void AttackPlayer(WarcastlePlayer Attacker_in, WarcastlePlayer Defender_in)
+    public void AttackPlayer(WarcastleDuelPlayer Attacker_in, WarcastleDuelPlayer Defender_in)
     {
         AttackBySwords(Attacker_in, Defender_in);
         AttackByHorse(Attacker_in, Defender_in);

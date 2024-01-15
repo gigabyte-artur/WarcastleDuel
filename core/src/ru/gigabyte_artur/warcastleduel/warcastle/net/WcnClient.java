@@ -3,9 +3,8 @@ package ru.gigabyte_artur.warcastleduel.warcastle.net;
 import com.esotericsoftware.kryonet.Client;
 import com.esotericsoftware.kryonet.Connection;
 import com.esotericsoftware.kryonet.Listener;
-import ru.gigabyte_artur.warcastleduel.warcastle.WarcastleDuelGame;
 
-public class WarcastleDuelClient extends Listener
+public class WcnClient extends Listener
 {
     static Client client;
     String ip = "localhost";    //IP сервера для подключения
@@ -14,7 +13,7 @@ public class WarcastleDuelClient extends Listener
     private static String ProtocolVersion = "0.0.0.1";
 
 
-    public WarcastleDuelClient(String ip_in, int tcpPort_in, int udpPort_in)
+    public WcnClient(String ip_in, int tcpPort_in, int udpPort_in)
     {
         this.setIp(ip_in);
         this.setTcpPort(udpPort_in);
@@ -57,7 +56,7 @@ public class WarcastleDuelClient extends Listener
         System.out.println("Connecting to server...");
         client = new Client();
         // Регистрируем пакет.
-        client.getKryo().register(WarcastleDuelPackedMessage.class);
+        client.getKryo().register(WcnPackedMessage.class);
         // Запускаем клиент/
         client.start();
         // Клиент подключается к серверу.
@@ -68,7 +67,7 @@ public class WarcastleDuelClient extends Listener
     /** Отправляет на сервер сообщение Message_in.*/
     public void SendStringMessage(String Message_in)
     {
-        WarcastleDuelPackedMessage packet = new WarcastleDuelPackedMessage();
+        WcnPackedMessage packet = new WcnPackedMessage();
         packet.setMessage(Message_in);
         packet.setProtocolVersion(this.ProtocolVersion);
         long timeSend = System.currentTimeMillis();
@@ -79,10 +78,10 @@ public class WarcastleDuelClient extends Listener
     public void received(Connection c, Object p)
     {
         //Проверяем какой отправляется пакет
-        if(p instanceof WarcastleDuelPackedMessage)
+        if(p instanceof WcnPackedMessage)
         {
             //Если мы получили PacketMessage .
-            WarcastleDuelPackedMessage packet = (WarcastleDuelPackedMessage) p;
+            WcnPackedMessage packet = (WcnPackedMessage) p;
             if (packet.getProtocolVersion().equals(this.ProtocolVersion))
             {
                 System.out.println("Answer from server: "+packet.getMessage());

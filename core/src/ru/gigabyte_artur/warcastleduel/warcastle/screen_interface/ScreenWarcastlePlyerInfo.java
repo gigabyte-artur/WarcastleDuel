@@ -4,11 +4,11 @@ import com.badlogic.gdx.Gdx;
 import com.badlogic.gdx.graphics.Color;
 import com.badlogic.gdx.graphics.g2d.BitmapFont;
 import com.badlogic.gdx.graphics.g2d.SpriteBatch;
-import ru.gigabyte_artur.warcastleduel.warcastle.WarcastlePlayer;
+import ru.gigabyte_artur.warcastleduel.warcastle.WarcastleDuelPlayer;
 
 public class ScreenWarcastlePlyerInfo extends ScreenRectangledElement
 {
-    private WarcastlePlayer LinkedPlayer;
+    private WarcastleDuelPlayer LinkedPlayer;
     private BitmapFont StatsFont;
     private BitmapFont NameFont;
 
@@ -20,12 +20,12 @@ public class ScreenWarcastlePlyerInfo extends ScreenRectangledElement
         NameFont.setColor(Color.RED);
     }
 
-    public void setLinkedPlayer(WarcastlePlayer linkedPlayer)
+    public void setLinkedPlayer(WarcastleDuelPlayer linkedPlayer)
     {
         LinkedPlayer = linkedPlayer;
     }
 
-    public WarcastlePlayer getLinkedPlayer()
+    public WarcastleDuelPlayer getLinkedPlayer()
     {
         return this.LinkedPlayer;
     }

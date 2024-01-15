@@ -1,10 +1,11 @@
 package ru.gigabyte_artur.warcastleduel.warcastle.wcc;
 
-import ru.gigabyte_artur.warcastleduel.warcastle.WarcastleCard;
+import ru.gigabyte_artur.warcastleduel.warcastle.WarcastleDuelCard;
 import ru.gigabyte_artur.warcastleduel.warcastle.WarcastleDuelGame;
-import ru.gigabyte_artur.warcastleduel.warcastle.WarcastlePlayer;
+import ru.gigabyte_artur.warcastleduel.warcastle.WarcastleDuelPlayer;
 
-public class WccPoisonWell extends WarcastleCard {
+public class WccPoisonWell extends WarcastleDuelCard
+{
 
     public WccPoisonWell()
     {
@@ -25,11 +26,11 @@ public class WccPoisonWell extends WarcastleCard {
     }
 
     @Override
-    public void Effect(WarcastleDuelGame Game_in, WarcastlePlayer Player_in)
+    public void Effect(WarcastleDuelGame Game_in, WarcastleDuelPlayer Player_in)
     {
-        WarcastlePlayer PlayerOpponent;
+        WarcastleDuelPlayer PlayerOpponent;
         int Damage = 0;
-        PlayerOpponent = (WarcastlePlayer) Game_in.GetOpponent(Player_in);
+        PlayerOpponent = (WarcastleDuelPlayer) Game_in.GetOpponent(Player_in);
         Damage = (int)Math.ceil(PlayerOpponent.getMorale() * 0.15);
         if (Damage < 100)
             Damage = 100;
@@ -43,7 +44,7 @@ public class WccPoisonWell extends WarcastleCard {
     }
 
     @Override
-    public String GenerateStatusBarTextEffect(WarcastleDuelGame Game_in, WarcastlePlayer Player_in)
+    public String GenerateStatusBarTextEffect(WarcastleDuelGame Game_in, WarcastleDuelPlayer Player_in)
     {
         String rez = "Poisoned the Well";
         return rez;
