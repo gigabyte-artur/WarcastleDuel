@@ -331,7 +331,7 @@ public class WarcastleDuelScreen implements Screen, InputProcessor
         AfterUserAction();
         // Сервер.
         WcnServer Server1 = new WcnServer(27960, 27960);
-        Server1.StartServer();
+//        Server1.StartServer();
         // Клиент.
         Client1 = new WcnClient("localhost", 27960,27960);
     }

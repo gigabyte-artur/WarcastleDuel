@@ -6,23 +6,21 @@ import com.badlogic.gdx.graphics.g2d.SpriteBatch;
 
 public class WarcastleDuelApplication extends ApplicationAdapter
 {
-	SpriteBatch batch;
 	WarcastleDuelGame Game1 = new WarcastleDuelGame();
-	private WarcastleDuelScreen gameScreen;
+	private WarcastleDuelJoinGameScreen JoinGameScreen;
 
 	@Override
 	public void create ()
 	{
 		Game1.Init();
-		gameScreen = new WarcastleDuelScreen();
-		gameScreen.setGamePlaying(Game1);
-		setScreen(gameScreen);
+		JoinGameScreen = new WarcastleDuelJoinGameScreen();
+		setScreen(JoinGameScreen);
 	}
 
 	@Override
 	public void render ()
 	{
-		gameScreen.render(0);
+		JoinGameScreen.render(0);
 	}
 
 	private void setScreen(Screen screen)
@@ -33,6 +31,6 @@ public class WarcastleDuelApplication extends ApplicationAdapter
 	@Override
 	public void dispose ()
 	{
-		batch.dispose();
+
 	}
 }
