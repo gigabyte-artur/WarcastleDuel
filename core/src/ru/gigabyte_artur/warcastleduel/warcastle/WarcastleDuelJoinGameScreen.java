@@ -7,6 +7,8 @@ import com.badlogic.gdx.graphics.Texture;
 import com.badlogic.gdx.graphics.g2d.SpriteBatch;
 import com.badlogic.gdx.scenes.scene2d.Action;
 import com.badlogic.gdx.scenes.scene2d.Stage;
+import ru.gigabyte_artur.warcastleduel.warcastle.net.WcnClient;
+import ru.gigabyte_artur.warcastleduel.warcastle.net.WcnXmlBuilder;
 import ru.gigabyte_artur.warcastleduel.warcastle.screen_interface.ScreenCreateGameButton;
 
 public class WarcastleDuelJoinGameScreen  implements Screen, InputProcessor
@@ -16,6 +18,7 @@ public class WarcastleDuelJoinGameScreen  implements Screen, InputProcessor
     private Stage stage;
     private ScreenCreateGameButton ButtonCreatGame;
     private WarcastleDuelApplication MainApplication;
+    private WcnClient Client1;
 
     private Action ActionCreateGame_Finish = new Action()
     {
@@ -96,7 +99,13 @@ public class WarcastleDuelJoinGameScreen  implements Screen, InputProcessor
     @Override
     public void show()
     {
-        InitScreen();
+        try
+        {
+            InitScreen();
+        } catch (Exception e)
+        {
+            throw new RuntimeException(e);
+        }
     }
 
     @Override
@@ -140,7 +149,7 @@ public class WarcastleDuelJoinGameScreen  implements Screen, InputProcessor
         batch.dispose();
     }
 
-    private void InitScreen()
+    private void InitScreen() throws Exception
     {
         batch = new SpriteBatch();
         stage = new Stage();
@@ -149,10 +158,16 @@ public class WarcastleDuelJoinGameScreen  implements Screen, InputProcessor
         // Кнопка окончания хода.
         ButtonCreatGame = new ScreenCreateGameButton(400, 70, 400, 100, stage);
         ButtonCreatGame.setAfterActButton(ActionCreateGame_Finish);
+        // Клиент.
+        Client1 = new WcnClient("localhost", 27960,27960);
+        Client1.StartClient();
     }
 
     private void CreateGame_Finish()
     {
+        String CreateGameXML = WcnXmlBuilder.GenerateCreateGame("Lucas");
+        Client1.SendStringMessage(CreateGameXML);
+        this.hide();
         WarcastleDuelScreen GameScreen = new WarcastleDuelScreen();
         WarcastleDuelGame Game1 = new WarcastleDuelGame();
         Game1.Init();
