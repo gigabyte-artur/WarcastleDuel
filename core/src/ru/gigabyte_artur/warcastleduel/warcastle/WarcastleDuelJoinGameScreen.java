@@ -5,6 +5,7 @@ import com.badlogic.gdx.InputProcessor;
 import com.badlogic.gdx.Screen;
 import com.badlogic.gdx.graphics.Texture;
 import com.badlogic.gdx.graphics.g2d.SpriteBatch;
+import com.badlogic.gdx.scenes.scene2d.Action;
 import com.badlogic.gdx.scenes.scene2d.Stage;
 import ru.gigabyte_artur.warcastleduel.warcastle.screen_interface.ScreenCreateGameButton;
 
@@ -14,6 +15,29 @@ public class WarcastleDuelJoinGameScreen  implements Screen, InputProcessor
     private Texture background;
     private Stage stage;
     private ScreenCreateGameButton ButtonCreatGame;
+    private WarcastleDuelApplication MainApplication;
+
+    private Action ActionCreateGame_Finish = new Action()
+    {
+        @Override
+        public boolean act(float v)
+        {
+            try
+            {
+                CreateGame_Finish();
+            }
+            catch (Exception e)
+            {
+                throw new RuntimeException(e);
+            }
+            return false;
+        }
+    };
+
+    public WarcastleDuelJoinGameScreen(WarcastleDuelApplication mainApplication)
+    {
+        MainApplication = mainApplication;
+    }
 
     @Override
     public boolean keyDown(int i)
@@ -124,7 +148,16 @@ public class WarcastleDuelJoinGameScreen  implements Screen, InputProcessor
         background = new Texture(Gdx.files.internal("Interface/JoinGameBG.jpg"));
         // Кнопка окончания хода.
         ButtonCreatGame = new ScreenCreateGameButton(400, 70, 400, 100, stage);
-//        ButtonCreatGame.setAfterActButton(ActionEndTurn_Finish);
+        ButtonCreatGame.setAfterActButton(ActionCreateGame_Finish);
+    }
+
+    private void CreateGame_Finish()
+    {
+        WarcastleDuelScreen GameScreen = new WarcastleDuelScreen();
+        WarcastleDuelGame Game1 = new WarcastleDuelGame();
+        Game1.Init();
+        GameScreen.setGamePlaying(Game1);
+        MainApplication.setScreen(GameScreen);
     }
 
 }

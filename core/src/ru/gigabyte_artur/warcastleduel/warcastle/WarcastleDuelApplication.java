@@ -6,26 +6,26 @@ import com.badlogic.gdx.graphics.g2d.SpriteBatch;
 
 public class WarcastleDuelApplication extends ApplicationAdapter
 {
-	WarcastleDuelGame Game1 = new WarcastleDuelGame();
 	private WarcastleDuelJoinGameScreen JoinGameScreen;
+	Screen ShownScreen;
 
 	@Override
 	public void create ()
 	{
-		Game1.Init();
-		JoinGameScreen = new WarcastleDuelJoinGameScreen();
+		JoinGameScreen = new WarcastleDuelJoinGameScreen(this);
 		setScreen(JoinGameScreen);
 	}
 
 	@Override
 	public void render ()
 	{
-		JoinGameScreen.render(0);
+		ShownScreen.render(0);
 	}
 
-	private void setScreen(Screen screen)
+	public void setScreen(Screen screen)
 	{
 		screen.show();
+		ShownScreen = screen;
 	}
 
 	@Override
