@@ -9,9 +9,11 @@ import com.badlogic.gdx.graphics.g2d.BitmapFont;
 import com.badlogic.gdx.graphics.g2d.SpriteBatch;
 import com.badlogic.gdx.scenes.scene2d.Action;
 import com.badlogic.gdx.scenes.scene2d.Stage;
+import com.esotericsoftware.kryonet.Connection;
+import com.esotericsoftware.kryonet.Listener;
 import ru.gigabyte_artur.warcastleduel.card_game.Card;
 import ru.gigabyte_artur.warcastleduel.warcastle.net.WcnClient;
-import ru.gigabyte_artur.warcastleduel.warcastle.net.WcnServer;
+import ru.gigabyte_artur.warcastleduel.warcastle.net.WcnPackedMessage;
 import ru.gigabyte_artur.warcastleduel.warcastle.net.WcnXmlBuilder;
 import ru.gigabyte_artur.warcastleduel.warcastle.screen_interface.*;
 import java.util.ArrayList;
@@ -84,6 +86,11 @@ public class WarcastleDuelScreen implements Screen, InputProcessor
     {
         try
         {
+            InitClient();
+            // Сообщение о запросе полной игры.
+            String RequestFullGameXML = WcnXmlBuilder.GenerateRequestFullGameXML(GamePlaying, (WarcastleDuelPlayer) GamePlaying.getPlayer1());
+            Client1.SendStringMessage(RequestFullGameXML);
+            // Инициализация экрана.
             InitScreen();
         }
         catch (Exception e)
@@ -275,6 +282,45 @@ public class WarcastleDuelScreen implements Screen, InputProcessor
         ButtonAddHorse1.setAfterActButton(ActionAddStat_Finish);
     }
 
+    /** Распреляет соотбщения ReceivedMessage_in по типу сообщения MessageType_in.*/
+    private void RouteMessageByType(String ReceivedMessage_in, String MessageType_in)
+    {
+        if (MessageType_in.equals(WcnXmlBuilder.MESSAGE_TYPE_FULL_GAME))
+        {
+            GamePlaying.BuildGameByXml(ReceivedMessage_in);
+        }
+    }
+
+    /** Выполняет начальную инициализацию сетвеого клиента. */
+    private void InitClient()
+    {
+        // Клиент.
+        Client1 = new WcnClient("localhost", 27960,27960);
+        // Определение слушателя для клиента
+        Client1.getInnerClient().addListener(
+                new Listener() {
+                    public void received(Connection connection, Object object) {
+                        String ReceivedMessage;
+                        String MessageType;
+                        if (object instanceof WcnPackedMessage)
+                        {
+                            WcnPackedMessage response = (WcnPackedMessage) object;
+                            if (response.getProtocolVersion().equals(Client1.getProtocolVersion()))
+                            {
+                                ReceivedMessage = response.getMessage();
+                                System.out.println("Answer from client: " + ReceivedMessage);
+                                MessageType = WcnPackedMessage.ExtractMessageType(ReceivedMessage);
+                                RouteMessageByType(ReceivedMessage, MessageType);
+                            }
+                            else
+                            {
+                                System.out.println("Protocol version not compares. Update client, please.");
+                            }
+                        }
+                    }
+                });
+    }
+
     /** Выполняет начальную инициализацию экрана. */
     private void InitScreen() throws Exception
     {
@@ -329,11 +375,6 @@ public class WarcastleDuelScreen implements Screen, InputProcessor
         PutAddButtons(CurrPlayer1, stage);
         // Обновление экрана.
         AfterUserAction();
-        // Сервер.
-        WcnServer Server1 = new WcnServer(27960, 27960);
-//        Server1.StartServer();
-        // Клиент.
-        Client1 = new WcnClient("localhost", 27960,27960);
     }
 
     // Возвращает массив карт в руке игрока 1.

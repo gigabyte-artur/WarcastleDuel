@@ -12,12 +12,16 @@ public class WcnClient extends Listener
     static boolean messageReceived = false;
     private static String ProtocolVersion = "0.0.0.1";
 
-
     public WcnClient(String ip_in, int tcpPort_in, int udpPort_in)
     {
         this.setIp(ip_in);
         this.setTcpPort(udpPort_in);
         this.setUdpPort(tcpPort_in);
+    }
+
+    public Client getInnerClient()
+    {
+        return client;
     }
 
     public String getIp()
@@ -78,7 +82,7 @@ public class WcnClient extends Listener
     public void received(Connection c, Object p)
     {
         //Проверяем какой отправляется пакет
-        if(p instanceof WcnPackedMessage)
+        if (p instanceof WcnPackedMessage)
         {
             //Если мы получили PacketMessage .
             WcnPackedMessage packet = (WcnPackedMessage) p;
@@ -93,5 +97,10 @@ public class WcnClient extends Listener
                 System.out.println("Protocol version not compares. Update client, please.");
             }
         }
+    }
+
+    public static String getProtocolVersion()
+    {
+        return ProtocolVersion;
     }
 }

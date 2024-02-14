@@ -2,6 +2,7 @@ package ru.gigabyte_artur.warcastleduel.warcastle;
 
 import ru.gigabyte_artur.warcastleduel.card_game.Hand;
 import ru.gigabyte_artur.warcastleduel.gaming.TwoPlayersGame;
+import ru.gigabyte_artur.warcastleduel.warcastle.net.WcnPackedMessage;
 import java.util.ArrayList;
 import java.util.Random;
 import java.util.UUID;
@@ -198,6 +199,14 @@ public class WarcastleDuelGame extends TwoPlayersGame
     {
         AttackBySwords(Attacker_in, Defender_in);
         AttackByHorse(Attacker_in, Defender_in);
+    }
+
+    /** Заполняет текущую игру по данным XML Message_in.*/
+    public void BuildGameByXml(String Message_in)
+    {
+        String GameGUID = "";
+        GameGUID = WcnPackedMessage.ExtractTextByXmlPath(Message_in, "Header->Game");
+        setGUID(GameGUID);
     }
 
 }
