@@ -218,31 +218,36 @@ public class WarcastleDuelJoinGameScreen  implements Screen, InputProcessor
     private void InitClient() throws Exception
     {
         // Клиент.
+        Boolean Started = false;
         Client1 = new WcnClient("localhost", 27960,27960);
         setClientID(String.valueOf(java.util.UUID.randomUUID()));
-        Client1.StartClient();
-        Client1.getInnerClient().addListener(
-                new Listener() {
-                    public void received(Connection connection, Object object) {
-                        String ReceivedMessage;
-                        String MessageType;
-                        if (object instanceof WcnPackedMessage)
-                        {
-                            WcnPackedMessage response = (WcnPackedMessage) object;
-                            if (response.getProtocolVersion().equals(Client1.getProtocolVersion()))
-                            {
-                                ReceivedMessage = response.getMessage();
-                                System.out.println("Answer from client: " + ReceivedMessage);
-                                MessageType = WcnPackedMessage.ExtractMessageType(ReceivedMessage);
-                                RouteMessageByType(ReceivedMessage, MessageType);
-                            }
-                            else
-                            {
-                                System.out.println("Protocol version not compares. Update client, please.");
+        try {
+            Client1.StartClient();
+            Started = true;
+        } catch (Exception e) {
+            Started = false;
+        }
+        if (Started)
+        {
+            Client1.getInnerClient().addListener(
+                    new Listener() {
+                        public void received(Connection connection, Object object) {
+                            String ReceivedMessage;
+                            String MessageType;
+                            if (object instanceof WcnPackedMessage) {
+                                WcnPackedMessage response = (WcnPackedMessage) object;
+                                if (response.getProtocolVersion().equals(Client1.getProtocolVersion())) {
+                                    ReceivedMessage = response.getMessage();
+                                    System.out.println("Answer from client: " + ReceivedMessage);
+                                    MessageType = WcnPackedMessage.ExtractMessageType(ReceivedMessage);
+                                    RouteMessageByType(ReceivedMessage, MessageType);
+                                } else {
+                                    System.out.println("Protocol version not compares. Update client, please.");
+                                }
                             }
                         }
-                    }
-                });
+                    });
+        }
     }
 
     /** Считывает список иг из XML*/
