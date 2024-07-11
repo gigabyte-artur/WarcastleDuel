@@ -1,0 +1,267 @@
+
+ïD:\YaDisk\synk\YandexDisk\JavaProjects\WarcastleDuel\core\src\ru\gigabyte_artur\warcastleduel\warcastle\screen_interface\ScreenRectangledElement.javaÚ
+Rru.gigabyte_artur.warcastleduel.warcastle.screen_interface.ScreenRectangledElementCLASS†
+ïD:\YaDisk\synk\YandexDisk\JavaProjects\WarcastleDuel\core\src\ru\gigabyte_artur\warcastleduel\warcastle\screen_interface\ScreenRectangledElement.java (-"E
+package:ru.gigabyte_artur.warcastleduel.warcastle.screen_interface"
+isFinalfalse"
+inner classfalse"
+
+isAbstracttrue"ù
+declarationStringá<mark class="modifier">public </mark><mark class="modifier">abstract </mark><mark class="modifier">class </mark>ScreenRectangledElement"
+accesspublic*ScreenRectangledElement2û
+lru.gigabyte_artur.warcastleduel.warcastle.screen_interface.ScreenRectangledElement.ScreenRectangledElement()DECLARATION†
+ïD:\YaDisk\synk\YandexDisk\JavaProjects\WarcastleDuel\core\src\ru\gigabyte_artur\warcastleduel\warcastle\screen_interface\ScreenRectangledElement.java	 	("2∞
+~ru.gigabyte_artur.warcastleduel.warcastle.screen_interface.ScreenRectangledElement.ScreenRectangledElement(int, int, int, int)DECLARATION†
+ïD:\YaDisk\synk\YandexDisk\JavaProjects\WarcastleDuel\core\src\ru\gigabyte_artur\warcastleduel\warcastle\screen_interface\ScreenRectangledElement.java ("2ã
+Yru.gigabyte_artur.warcastleduel.warcastle.screen_interface.ScreenRectangledElement.getX()DECLARATION†
+ïD:\YaDisk\synk\YandexDisk\JavaProjects\WarcastleDuel\core\src\ru\gigabyte_artur\warcastleduel\warcastle\screen_interface\ScreenRectangledElement.java (2ã
+Yru.gigabyte_artur.warcastleduel.warcastle.screen_interface.ScreenRectangledElement.getY()DECLARATION†
+ïD:\YaDisk\synk\YandexDisk\JavaProjects\WarcastleDuel\core\src\ru\gigabyte_artur\warcastleduel\warcastle\screen_interface\ScreenRectangledElement.java (2è
+]ru.gigabyte_artur.warcastleduel.warcastle.screen_interface.ScreenRectangledElement.getWidth()DECLARATION†
+ïD:\YaDisk\synk\YandexDisk\JavaProjects\WarcastleDuel\core\src\ru\gigabyte_artur\warcastleduel\warcastle\screen_interface\ScreenRectangledElement.java# #(2ê
+^ru.gigabyte_artur.warcastleduel.warcastle.screen_interface.ScreenRectangledElement.getHeight()DECLARATION†
+ïD:\YaDisk\synk\YandexDisk\JavaProjects\WarcastleDuel\core\src\ru\gigabyte_artur\warcastleduel\warcastle\screen_interface\ScreenRectangledElement.java( ((2ö
+hru.gigabyte_artur.warcastleduel.warcastle.screen_interface.ScreenRectangledElement.setPosition(int, int)DECLARATION†
+ïD:\YaDisk\synk\YandexDisk\JavaProjects\WarcastleDuel\core\src\ru\gigabyte_artur\warcastleduel\warcastle\screen_interface\ScreenRectangledElement.java. .(2ú
+jru.gigabyte_artur.warcastleduel.warcastle.screen_interface.ScreenRectangledElement.setDimensions(int, int)DECLARATION†
+ïD:\YaDisk\synk\YandexDisk\JavaProjects\WarcastleDuel\core\src\ru\gigabyte_artur\warcastleduel\warcastle\screen_interface\ScreenRectangledElement.java5 5(2ê
+^ru.gigabyte_artur.warcastleduel.warcastle.screen_interface.ScreenRectangledElement?x@4.16:4.17DECLARATION†
+ïD:\YaDisk\synk\YandexDisk\JavaProjects\WarcastleDuel\core\src\ru\gigabyte_artur\warcastleduel\warcastle\screen_interface\ScreenRectangledElement.java (2ê
+^ru.gigabyte_artur.warcastleduel.warcastle.screen_interface.ScreenRectangledElement?y@5.16:5.17DECLARATION†
+ïD:\YaDisk\synk\YandexDisk\JavaProjects\WarcastleDuel\core\src\ru\gigabyte_artur\warcastleduel\warcastle\screen_interface\ScreenRectangledElement.java (2î
+bru.gigabyte_artur.warcastleduel.warcastle.screen_interface.ScreenRectangledElement?width@6.16:6.21DECLARATION†
+ïD:\YaDisk\synk\YandexDisk\JavaProjects\WarcastleDuel\core\src\ru\gigabyte_artur\warcastleduel\warcastle\screen_interface\ScreenRectangledElement.java (2ï
+cru.gigabyte_artur.warcastleduel.warcastle.screen_interface.ScreenRectangledElement?height@7.16:7.22DECLARATION†
+ïD:\YaDisk\synk\YandexDisk\JavaProjects\WarcastleDuel\core\src\ru\gigabyte_artur\warcastleduel\warcastle\screen_interface\ScreenRectangledElement.java (Ë
+lru.gigabyte_artur.warcastleduel.warcastle.screen_interface.ScreenRectangledElement.ScreenRectangledElement()CONSTRUCTOR†
+ïD:\YaDisk\synk\YandexDisk\JavaProjects\WarcastleDuel\core\src\ru\gigabyte_artur\warcastleduel\warcastle\screen_interface\ScreenRectangledElement.java	 	(""o
+declarationStringZ<mark class="modifier">public </mark><mark class="method">ScreenRectangledElement</mark>()*ScreenRectangledElement2â
+^ru.gigabyte_artur.warcastleduel.warcastle.screen_interface.ScreenRectangledElement?x@4.16:4.17CALL†
+ïD:\YaDisk\synk\YandexDisk\JavaProjects\WarcastleDuel\core\src\ru\gigabyte_artur\warcastleduel\warcastle\screen_interface\ScreenRectangledElement.java (	2â
+^ru.gigabyte_artur.warcastleduel.warcastle.screen_interface.ScreenRectangledElement?y@5.16:5.17CALL†
+ïD:\YaDisk\synk\YandexDisk\JavaProjects\WarcastleDuel\core\src\ru\gigabyte_artur\warcastleduel\warcastle\screen_interface\ScreenRectangledElement.java (	2ç
+bru.gigabyte_artur.warcastleduel.warcastle.screen_interface.ScreenRectangledElement?width@6.16:6.21CALL†
+ïD:\YaDisk\synk\YandexDisk\JavaProjects\WarcastleDuel\core\src\ru\gigabyte_artur\warcastleduel\warcastle\screen_interface\ScreenRectangledElement.java (2é
+cru.gigabyte_artur.warcastleduel.warcastle.screen_interface.ScreenRectangledElement?height@7.16:7.22CALL†
+ïD:\YaDisk\synk\YandexDisk\JavaProjects\WarcastleDuel\core\src\ru\gigabyte_artur\warcastleduel\warcastle\screen_interface\ScreenRectangledElement.java (2Ñ
+Rru.gigabyte_artur.warcastleduel.warcastle.screen_interface.ScreenRectangledElementRETURN_TYPE†
+ïD:\YaDisk\synk\YandexDisk\JavaProjects\WarcastleDuel\core\src\ru\gigabyte_artur\warcastleduel\warcastle\screen_interface\ScreenRectangledElement.java	 	("ç$
+~ru.gigabyte_artur.warcastleduel.warcastle.screen_interface.ScreenRectangledElement.ScreenRectangledElement(int, int, int, int)CONSTRUCTOR†
+ïD:\YaDisk\synk\YandexDisk\JavaProjects\WarcastleDuel\core\src\ru\gigabyte_artur\warcastleduel\warcastle\screen_interface\ScreenRectangledElement.java (""À
+declarationStringµ<mark class="modifier">public </mark><mark class="method">ScreenRectangledElement</mark>(<mark class="modifier">int</mark> x_in<mark class="modifier"><mark class="modifier">,</mark></mark> <mark class="modifier">int</mark> y_in<mark class="modifier"><mark class="modifier">,</mark></mark> <mark class="modifier">int</mark> width_in<mark class="modifier"><mark class="modifier">,</mark></mark> <mark class="modifier">int</mark> height_in)*ScreenRectangledElement2â
+^ru.gigabyte_artur.warcastleduel.warcastle.screen_interface.ScreenRectangledElement?x@4.16:4.17CALL†
+ïD:\YaDisk\synk\YandexDisk\JavaProjects\WarcastleDuel\core\src\ru\gigabyte_artur\warcastleduel\warcastle\screen_interface\ScreenRectangledElement.java (	2Ø
+Éru.gigabyte_artur.warcastleduel.warcastle.screen_interface.ScreenRectangledElement.ScreenRectangledElement(int, int, int, int)!x_inCALL†
+ïD:\YaDisk\synk\YandexDisk\JavaProjects\WarcastleDuel\core\src\ru\gigabyte_artur\warcastleduel\warcastle\screen_interface\ScreenRectangledElement.java (2â
+^ru.gigabyte_artur.warcastleduel.warcastle.screen_interface.ScreenRectangledElement?y@5.16:5.17CALL†
+ïD:\YaDisk\synk\YandexDisk\JavaProjects\WarcastleDuel\core\src\ru\gigabyte_artur\warcastleduel\warcastle\screen_interface\ScreenRectangledElement.java (	2Ø
+Éru.gigabyte_artur.warcastleduel.warcastle.screen_interface.ScreenRectangledElement.ScreenRectangledElement(int, int, int, int)!y_inCALL†
+ïD:\YaDisk\synk\YandexDisk\JavaProjects\WarcastleDuel\core\src\ru\gigabyte_artur\warcastleduel\warcastle\screen_interface\ScreenRectangledElement.java (2ç
+bru.gigabyte_artur.warcastleduel.warcastle.screen_interface.ScreenRectangledElement?width@6.16:6.21CALL†
+ïD:\YaDisk\synk\YandexDisk\JavaProjects\WarcastleDuel\core\src\ru\gigabyte_artur\warcastleduel\warcastle\screen_interface\ScreenRectangledElement.java (2≥
+áru.gigabyte_artur.warcastleduel.warcastle.screen_interface.ScreenRectangledElement.ScreenRectangledElement(int, int, int, int)!width_inCALL†
+ïD:\YaDisk\synk\YandexDisk\JavaProjects\WarcastleDuel\core\src\ru\gigabyte_artur\warcastleduel\warcastle\screen_interface\ScreenRectangledElement.java (2é
+cru.gigabyte_artur.warcastleduel.warcastle.screen_interface.ScreenRectangledElement?height@7.16:7.22CALL†
+ïD:\YaDisk\synk\YandexDisk\JavaProjects\WarcastleDuel\core\src\ru\gigabyte_artur\warcastleduel\warcastle\screen_interface\ScreenRectangledElement.java (2¥
+àru.gigabyte_artur.warcastleduel.warcastle.screen_interface.ScreenRectangledElement.ScreenRectangledElement(int, int, int, int)!height_inCALL†
+ïD:\YaDisk\synk\YandexDisk\JavaProjects\WarcastleDuel\core\src\ru\gigabyte_artur\warcastleduel\warcastle\screen_interface\ScreenRectangledElement.java (2¥
+Éru.gigabyte_artur.warcastleduel.warcastle.screen_interface.ScreenRectangledElement.ScreenRectangledElement(int, int, int, int)!x_in	PARAMETER†
+ïD:\YaDisk\synk\YandexDisk\JavaProjects\WarcastleDuel\core\src\ru\gigabyte_artur\warcastleduel\warcastle\screen_interface\ScreenRectangledElement.java' (+2¥
+Éru.gigabyte_artur.warcastleduel.warcastle.screen_interface.ScreenRectangledElement.ScreenRectangledElement(int, int, int, int)!y_in	PARAMETER†
+ïD:\YaDisk\synk\YandexDisk\JavaProjects\WarcastleDuel\core\src\ru\gigabyte_artur\warcastleduel\warcastle\screen_interface\ScreenRectangledElement.java1 (52∏
+áru.gigabyte_artur.warcastleduel.warcastle.screen_interface.ScreenRectangledElement.ScreenRectangledElement(int, int, int, int)!width_in	PARAMETER†
+ïD:\YaDisk\synk\YandexDisk\JavaProjects\WarcastleDuel\core\src\ru\gigabyte_artur\warcastleduel\warcastle\screen_interface\ScreenRectangledElement.java; (C2π
+àru.gigabyte_artur.warcastleduel.warcastle.screen_interface.ScreenRectangledElement.ScreenRectangledElement(int, int, int, int)!height_in	PARAMETER†
+ïD:\YaDisk\synk\YandexDisk\JavaProjects\WarcastleDuel\core\src\ru\gigabyte_artur\warcastleduel\warcastle\screen_interface\ScreenRectangledElement.javaI (R2Ñ
+Rru.gigabyte_artur.warcastleduel.warcastle.screen_interface.ScreenRectangledElementRETURN_TYPE†
+ïD:\YaDisk\synk\YandexDisk\JavaProjects\WarcastleDuel\core\src\ru\gigabyte_artur\warcastleduel\warcastle\screen_interface\ScreenRectangledElement.java ("«
+Éru.gigabyte_artur.warcastleduel.warcastle.screen_interface.ScreenRectangledElement.ScreenRectangledElement(int, int, int, int)!x_in	PARAMETER†
+ïD:\YaDisk\synk\YandexDisk\JavaProjects\WarcastleDuel\core\src\ru\gigabyte_artur\warcastleduel\warcastle\screen_interface\ScreenRectangledElement.java' (+"
+typeint"
+isFinalfalse";
+declarationString&<mark class="modifier">int</mark> x_in*x_in2Æ
+intTYPE†
+ïD:\YaDisk\synk\YandexDisk\JavaProjects\WarcastleDuel\core\src\ru\gigabyte_artur\warcastleduel\warcastle\screen_interface\ScreenRectangledElement.java# (&«
+Éru.gigabyte_artur.warcastleduel.warcastle.screen_interface.ScreenRectangledElement.ScreenRectangledElement(int, int, int, int)!y_in	PARAMETER†
+ïD:\YaDisk\synk\YandexDisk\JavaProjects\WarcastleDuel\core\src\ru\gigabyte_artur\warcastleduel\warcastle\screen_interface\ScreenRectangledElement.java1 (5"
+typeint"
+isFinalfalse";
+declarationString&<mark class="modifier">int</mark> y_in*y_in2Æ
+intTYPE†
+ïD:\YaDisk\synk\YandexDisk\JavaProjects\WarcastleDuel\core\src\ru\gigabyte_artur\warcastleduel\warcastle\screen_interface\ScreenRectangledElement.java- (0”
+áru.gigabyte_artur.warcastleduel.warcastle.screen_interface.ScreenRectangledElement.ScreenRectangledElement(int, int, int, int)!width_in	PARAMETER†
+ïD:\YaDisk\synk\YandexDisk\JavaProjects\WarcastleDuel\core\src\ru\gigabyte_artur\warcastleduel\warcastle\screen_interface\ScreenRectangledElement.java; (C"
+typeint"
+isFinalfalse"?
+declarationString*<mark class="modifier">int</mark> width_in*width_in2Æ
+intTYPE†
+ïD:\YaDisk\synk\YandexDisk\JavaProjects\WarcastleDuel\core\src\ru\gigabyte_artur\warcastleduel\warcastle\screen_interface\ScreenRectangledElement.java7 (:÷
+àru.gigabyte_artur.warcastleduel.warcastle.screen_interface.ScreenRectangledElement.ScreenRectangledElement(int, int, int, int)!height_in	PARAMETER†
+ïD:\YaDisk\synk\YandexDisk\JavaProjects\WarcastleDuel\core\src\ru\gigabyte_artur\warcastleduel\warcastle\screen_interface\ScreenRectangledElement.javaI (R"
+typeint"
+isFinalfalse"@
+declarationString+<mark class="modifier">int</mark> height_in*	height_in2Æ
+intTYPE†
+ïD:\YaDisk\synk\YandexDisk\JavaProjects\WarcastleDuel\core\src\ru\gigabyte_artur\warcastleduel\warcastle\screen_interface\ScreenRectangledElement.javaE (H©
+Yru.gigabyte_artur.warcastleduel.warcastle.screen_interface.ScreenRectangledElement.getX()METHOD†
+ïD:\YaDisk\synk\YandexDisk\JavaProjects\WarcastleDuel\core\src\ru\gigabyte_artur\warcastleduel\warcastle\screen_interface\ScreenRectangledElement.java ("
+isFinalfalse"~
+declarationStringi<mark class="modifier">public </mark><mark class="modifier">int</mark> <mark class="method">getX</mark>()"
+isStaticfalse"
+accesspublic"
+
+isAbstractfalse"
+typeint*getX2â
+^ru.gigabyte_artur.warcastleduel.warcastle.screen_interface.ScreenRectangledElement?x@4.16:4.17CALL†
+ïD:\YaDisk\synk\YandexDisk\JavaProjects\WarcastleDuel\core\src\ru\gigabyte_artur\warcastleduel\warcastle\screen_interface\ScreenRectangledElement.java (2µ
+intRETURN_TYPE†
+ïD:\YaDisk\synk\YandexDisk\JavaProjects\WarcastleDuel\core\src\ru\gigabyte_artur\warcastleduel\warcastle\screen_interface\ScreenRectangledElement.java (©
+Yru.gigabyte_artur.warcastleduel.warcastle.screen_interface.ScreenRectangledElement.getY()METHOD†
+ïD:\YaDisk\synk\YandexDisk\JavaProjects\WarcastleDuel\core\src\ru\gigabyte_artur\warcastleduel\warcastle\screen_interface\ScreenRectangledElement.java ("
+isFinalfalse"~
+declarationStringi<mark class="modifier">public </mark><mark class="modifier">int</mark> <mark class="method">getY</mark>()"
+isStaticfalse"
+accesspublic"
+
+isAbstractfalse"
+typeint*getY2â
+^ru.gigabyte_artur.warcastleduel.warcastle.screen_interface.ScreenRectangledElement?y@5.16:5.17CALL†
+ïD:\YaDisk\synk\YandexDisk\JavaProjects\WarcastleDuel\core\src\ru\gigabyte_artur\warcastleduel\warcastle\screen_interface\ScreenRectangledElement.java   (2µ
+intRETURN_TYPE†
+ïD:\YaDisk\synk\YandexDisk\JavaProjects\WarcastleDuel\core\src\ru\gigabyte_artur\warcastleduel\warcastle\screen_interface\ScreenRectangledElement.java (∫
+]ru.gigabyte_artur.warcastleduel.warcastle.screen_interface.ScreenRectangledElement.getWidth()METHOD†
+ïD:\YaDisk\synk\YandexDisk\JavaProjects\WarcastleDuel\core\src\ru\gigabyte_artur\warcastleduel\warcastle\screen_interface\ScreenRectangledElement.java# #("
+isFinalfalse"Ç
+declarationStringm<mark class="modifier">public </mark><mark class="modifier">int</mark> <mark class="method">getWidth</mark>()"
+isStaticfalse"
+accesspublic"
+
+isAbstractfalse"
+typeint*getWidth2ç
+bru.gigabyte_artur.warcastleduel.warcastle.screen_interface.ScreenRectangledElement?width@6.16:6.21CALL†
+ïD:\YaDisk\synk\YandexDisk\JavaProjects\WarcastleDuel\core\src\ru\gigabyte_artur\warcastleduel\warcastle\screen_interface\ScreenRectangledElement.java% %(2µ
+intRETURN_TYPE†
+ïD:\YaDisk\synk\YandexDisk\JavaProjects\WarcastleDuel\core\src\ru\gigabyte_artur\warcastleduel\warcastle\screen_interface\ScreenRectangledElement.java# #(æ
+^ru.gigabyte_artur.warcastleduel.warcastle.screen_interface.ScreenRectangledElement.getHeight()METHOD†
+ïD:\YaDisk\synk\YandexDisk\JavaProjects\WarcastleDuel\core\src\ru\gigabyte_artur\warcastleduel\warcastle\screen_interface\ScreenRectangledElement.java( (("
+isFinalfalse"É
+declarationStringn<mark class="modifier">public </mark><mark class="modifier">int</mark> <mark class="method">getHeight</mark>()"
+isStaticfalse"
+accesspublic"
+
+isAbstractfalse"
+typeint*	getHeight2é
+cru.gigabyte_artur.warcastleduel.warcastle.screen_interface.ScreenRectangledElement?height@7.16:7.22CALL†
+ïD:\YaDisk\synk\YandexDisk\JavaProjects\WarcastleDuel\core\src\ru\gigabyte_artur\warcastleduel\warcastle\screen_interface\ScreenRectangledElement.java* *(2µ
+intRETURN_TYPE†
+ïD:\YaDisk\synk\YandexDisk\JavaProjects\WarcastleDuel\core\src\ru\gigabyte_artur\warcastleduel\warcastle\screen_interface\ScreenRectangledElement.java( ((◊
+hru.gigabyte_artur.warcastleduel.warcastle.screen_interface.ScreenRectangledElement.setPosition(int, int)METHOD†
+ïD:\YaDisk\synk\YandexDisk\JavaProjects\WarcastleDuel\core\src\ru\gigabyte_artur\warcastleduel\warcastle\screen_interface\ScreenRectangledElement.java. .("
+isFinalfalse"ë
+declarationString˚<mark class="modifier">public </mark><mark class="modifier">void</mark> <mark class="method">setPosition</mark>(<mark class="modifier">int</mark> x_in<mark class="modifier"><mark class="modifier">,</mark></mark> <mark class="modifier">int</mark> y_in)"
+isStaticfalse"
+accesspublic"
+
+isAbstractfalse"
+typevoid*setPosition2ò
+mru.gigabyte_artur.warcastleduel.warcastle.screen_interface.ScreenRectangledElement.setPosition(int, int)!x_inCALL†
+ïD:\YaDisk\synk\YandexDisk\JavaProjects\WarcastleDuel\core\src\ru\gigabyte_artur\warcastleduel\warcastle\screen_interface\ScreenRectangledElement.java0 0(2ò
+mru.gigabyte_artur.warcastleduel.warcastle.screen_interface.ScreenRectangledElement.setPosition(int, int)!y_inCALL†
+ïD:\YaDisk\synk\YandexDisk\JavaProjects\WarcastleDuel\core\src\ru\gigabyte_artur\warcastleduel\warcastle\screen_interface\ScreenRectangledElement.java1 1(2â
+^ru.gigabyte_artur.warcastleduel.warcastle.screen_interface.ScreenRectangledElement?x@4.16:4.17CALL†
+ïD:\YaDisk\synk\YandexDisk\JavaProjects\WarcastleDuel\core\src\ru\gigabyte_artur\warcastleduel\warcastle\screen_interface\ScreenRectangledElement.java0 0(2â
+^ru.gigabyte_artur.warcastleduel.warcastle.screen_interface.ScreenRectangledElement?y@5.16:5.17CALL†
+ïD:\YaDisk\synk\YandexDisk\JavaProjects\WarcastleDuel\core\src\ru\gigabyte_artur\warcastleduel\warcastle\screen_interface\ScreenRectangledElement.java1 1(2ù
+mru.gigabyte_artur.warcastleduel.warcastle.screen_interface.ScreenRectangledElement.setPosition(int, int)!x_in	PARAMETER†
+ïD:\YaDisk\synk\YandexDisk\JavaProjects\WarcastleDuel\core\src\ru\gigabyte_artur\warcastleduel\warcastle\screen_interface\ScreenRectangledElement.java.  .($2ù
+mru.gigabyte_artur.warcastleduel.warcastle.screen_interface.ScreenRectangledElement.setPosition(int, int)!y_in	PARAMETER†
+ïD:\YaDisk\synk\YandexDisk\JavaProjects\WarcastleDuel\core\src\ru\gigabyte_artur\warcastleduel\warcastle\screen_interface\ScreenRectangledElement.java.* .(.2∂
+voidRETURN_TYPE†
+ïD:\YaDisk\synk\YandexDisk\JavaProjects\WarcastleDuel\core\src\ru\gigabyte_artur\warcastleduel\warcastle\screen_interface\ScreenRectangledElement.java. .(∞
+mru.gigabyte_artur.warcastleduel.warcastle.screen_interface.ScreenRectangledElement.setPosition(int, int)!x_in	PARAMETER†
+ïD:\YaDisk\synk\YandexDisk\JavaProjects\WarcastleDuel\core\src\ru\gigabyte_artur\warcastleduel\warcastle\screen_interface\ScreenRectangledElement.java.  .($"
+typeint"
+isFinalfalse";
+declarationString&<mark class="modifier">int</mark> x_in*x_in2Æ
+intTYPE†
+ïD:\YaDisk\synk\YandexDisk\JavaProjects\WarcastleDuel\core\src\ru\gigabyte_artur\warcastleduel\warcastle\screen_interface\ScreenRectangledElement.java. .(∞
+mru.gigabyte_artur.warcastleduel.warcastle.screen_interface.ScreenRectangledElement.setPosition(int, int)!y_in	PARAMETER†
+ïD:\YaDisk\synk\YandexDisk\JavaProjects\WarcastleDuel\core\src\ru\gigabyte_artur\warcastleduel\warcastle\screen_interface\ScreenRectangledElement.java.* .(."
+typeint"
+isFinalfalse";
+declarationString&<mark class="modifier">int</mark> y_in*y_in2Æ
+intTYPE†
+ïD:\YaDisk\synk\YandexDisk\JavaProjects\WarcastleDuel\core\src\ru\gigabyte_artur\warcastleduel\warcastle\screen_interface\ScreenRectangledElement.java.& .()â
+jru.gigabyte_artur.warcastleduel.warcastle.screen_interface.ScreenRectangledElement.setDimensions(int, int)METHOD†
+ïD:\YaDisk\synk\YandexDisk\JavaProjects\WarcastleDuel\core\src\ru\gigabyte_artur\warcastleduel\warcastle\screen_interface\ScreenRectangledElement.java5 5("
+isFinalfalse"ú
+declarationStringÜ<mark class="modifier">public </mark><mark class="modifier">void</mark> <mark class="method">setDimensions</mark>(<mark class="modifier">int</mark> width_in<mark class="modifier"><mark class="modifier">,</mark></mark> <mark class="modifier">int</mark> height_in)"
+isStaticfalse"
+accesspublic"
+
+isAbstractfalse"
+typevoid*setDimensions2û
+sru.gigabyte_artur.warcastleduel.warcastle.screen_interface.ScreenRectangledElement.setDimensions(int, int)!width_inCALL†
+ïD:\YaDisk\synk\YandexDisk\JavaProjects\WarcastleDuel\core\src\ru\gigabyte_artur\warcastleduel\warcastle\screen_interface\ScreenRectangledElement.java7 7(2ü
+tru.gigabyte_artur.warcastleduel.warcastle.screen_interface.ScreenRectangledElement.setDimensions(int, int)!height_inCALL†
+ïD:\YaDisk\synk\YandexDisk\JavaProjects\WarcastleDuel\core\src\ru\gigabyte_artur\warcastleduel\warcastle\screen_interface\ScreenRectangledElement.java8 8(2ç
+bru.gigabyte_artur.warcastleduel.warcastle.screen_interface.ScreenRectangledElement?width@6.16:6.21CALL†
+ïD:\YaDisk\synk\YandexDisk\JavaProjects\WarcastleDuel\core\src\ru\gigabyte_artur\warcastleduel\warcastle\screen_interface\ScreenRectangledElement.java7 7(2é
+cru.gigabyte_artur.warcastleduel.warcastle.screen_interface.ScreenRectangledElement?height@7.16:7.22CALL†
+ïD:\YaDisk\synk\YandexDisk\JavaProjects\WarcastleDuel\core\src\ru\gigabyte_artur\warcastleduel\warcastle\screen_interface\ScreenRectangledElement.java8 8(2£
+sru.gigabyte_artur.warcastleduel.warcastle.screen_interface.ScreenRectangledElement.setDimensions(int, int)!width_in	PARAMETER†
+ïD:\YaDisk\synk\YandexDisk\JavaProjects\WarcastleDuel\core\src\ru\gigabyte_artur\warcastleduel\warcastle\screen_interface\ScreenRectangledElement.java5" 5(*2§
+tru.gigabyte_artur.warcastleduel.warcastle.screen_interface.ScreenRectangledElement.setDimensions(int, int)!height_in	PARAMETER†
+ïD:\YaDisk\synk\YandexDisk\JavaProjects\WarcastleDuel\core\src\ru\gigabyte_artur\warcastleduel\warcastle\screen_interface\ScreenRectangledElement.java50 5(92∂
+voidRETURN_TYPE†
+ïD:\YaDisk\synk\YandexDisk\JavaProjects\WarcastleDuel\core\src\ru\gigabyte_artur\warcastleduel\warcastle\screen_interface\ScreenRectangledElement.java5 5(æ
+sru.gigabyte_artur.warcastleduel.warcastle.screen_interface.ScreenRectangledElement.setDimensions(int, int)!width_in	PARAMETER†
+ïD:\YaDisk\synk\YandexDisk\JavaProjects\WarcastleDuel\core\src\ru\gigabyte_artur\warcastleduel\warcastle\screen_interface\ScreenRectangledElement.java5" 5(*"
+typeint"
+isFinalfalse"?
+declarationString*<mark class="modifier">int</mark> width_in*width_in2Æ
+intTYPE†
+ïD:\YaDisk\synk\YandexDisk\JavaProjects\WarcastleDuel\core\src\ru\gigabyte_artur\warcastleduel\warcastle\screen_interface\ScreenRectangledElement.java5 5(!¡
+tru.gigabyte_artur.warcastleduel.warcastle.screen_interface.ScreenRectangledElement.setDimensions(int, int)!height_in	PARAMETER†
+ïD:\YaDisk\synk\YandexDisk\JavaProjects\WarcastleDuel\core\src\ru\gigabyte_artur\warcastleduel\warcastle\screen_interface\ScreenRectangledElement.java50 5(9"
+typeint"
+isFinalfalse"@
+declarationString+<mark class="modifier">int</mark> height_in*	height_in2Æ
+intTYPE†
+ïD:\YaDisk\synk\YandexDisk\JavaProjects\WarcastleDuel\core\src\ru\gigabyte_artur\warcastleduel\warcastle\screen_interface\ScreenRectangledElement.java5, 5(/á
+^ru.gigabyte_artur.warcastleduel.warcastle.screen_interface.ScreenRectangledElement?x@4.16:4.17VARIABLE†
+ïD:\YaDisk\synk\YandexDisk\JavaProjects\WarcastleDuel\core\src\ru\gigabyte_artur\warcastleduel\warcastle\screen_interface\ScreenRectangledElement.java ("
+isFinalfalse"
+typeint"
+declarationStringj<mark class="modifier">private </mark><mark class="modifier">int</mark> <mark class="class-field">x</mark>"
+isStaticfalse"
+accessprivate*x2Æ
+intTYPE†
+ïD:\YaDisk\synk\YandexDisk\JavaProjects\WarcastleDuel\core\src\ru\gigabyte_artur\warcastleduel\warcastle\screen_interface\ScreenRectangledElement.java (á
+^ru.gigabyte_artur.warcastleduel.warcastle.screen_interface.ScreenRectangledElement?y@5.16:5.17VARIABLE†
+ïD:\YaDisk\synk\YandexDisk\JavaProjects\WarcastleDuel\core\src\ru\gigabyte_artur\warcastleduel\warcastle\screen_interface\ScreenRectangledElement.java ("
+isFinalfalse"
+typeint"
+declarationStringj<mark class="modifier">private </mark><mark class="modifier">int</mark> <mark class="class-field">y</mark>"
+isStaticfalse"
+accessprivate*y2Æ
+intTYPE†
+ïD:\YaDisk\synk\YandexDisk\JavaProjects\WarcastleDuel\core\src\ru\gigabyte_artur\warcastleduel\warcastle\screen_interface\ScreenRectangledElement.java (ô
+bru.gigabyte_artur.warcastleduel.warcastle.screen_interface.ScreenRectangledElement?width@6.16:6.21VARIABLE†
+ïD:\YaDisk\synk\YandexDisk\JavaProjects\WarcastleDuel\core\src\ru\gigabyte_artur\warcastleduel\warcastle\screen_interface\ScreenRectangledElement.java ("
+isFinalfalse"
+typeint"à
+declarationStrings<mark class="modifier">private </mark><mark class="modifier">int</mark> <mark class="class-field">width</mark> = 0;"
+isStaticfalse"
+accessprivate*width2Æ
+intTYPE†
+ïD:\YaDisk\synk\YandexDisk\JavaProjects\WarcastleDuel\core\src\ru\gigabyte_artur\warcastleduel\warcastle\screen_interface\ScreenRectangledElement.java (ú
+cru.gigabyte_artur.warcastleduel.warcastle.screen_interface.ScreenRectangledElement?height@7.16:7.22VARIABLE†
+ïD:\YaDisk\synk\YandexDisk\JavaProjects\WarcastleDuel\core\src\ru\gigabyte_artur\warcastleduel\warcastle\screen_interface\ScreenRectangledElement.java ("
+isFinalfalse"
+typeint"â
+declarationStringt<mark class="modifier">private </mark><mark class="modifier">int</mark> <mark class="class-field">height</mark> = 0;"
+isStaticfalse"
+accessprivate*height2Æ
+intTYPE†
+ïD:\YaDisk\synk\YandexDisk\JavaProjects\WarcastleDuel\core\src\ru\gigabyte_artur\warcastleduel\warcastle\screen_interface\ScreenRectangledElement.java (

@@ -1,0 +1,24 @@
+
+qD:\YaDisk\synk\YandexDisk\JavaProjects\WarcastleDuel\core\src\ru\gigabyte_artur\warcastleduel\card_game\Card.javaÁ
+.ru.gigabyte_artur.warcastleduel.card_game.CardCLASS{
+qD:\YaDisk\synk\YandexDisk\JavaProjects\WarcastleDuel\core\src\ru\gigabyte_artur\warcastleduel\card_game\Card.java ("4
+package)ru.gigabyte_artur.warcastleduel.card_game"
+isFinalfalse"
+inner classfalse"
+
+isAbstractfalse"b
+declarationStringM<mark class="modifier">public </mark><mark class="modifier">class </mark>Card"
+accesspublic*Card2¡
+5ru.gigabyte_artur.warcastleduel.card_game.Card.Show()DECLARATION{
+qD:\YaDisk\synk\YandexDisk\JavaProjects\WarcastleDuel\core\src\ru\gigabyte_artur\warcastleduel\card_game\Card.java (∞
+5ru.gigabyte_artur.warcastleduel.card_game.Card.Show()METHOD{
+qD:\YaDisk\synk\YandexDisk\JavaProjects\WarcastleDuel\core\src\ru\gigabyte_artur\warcastleduel\card_game\Card.java ("
+isFinalfalse"
+declarationStringj<mark class="modifier">public </mark><mark class="modifier">void</mark> <mark class="method">Show</mark>()"
+isStaticfalse"
+accesspublic"
+
+isAbstractfalse"
+typevoid*Show2ê
+voidRETURN_TYPE{
+qD:\YaDisk\synk\YandexDisk\JavaProjects\WarcastleDuel\core\src\ru\gigabyte_artur\warcastleduel\card_game\Card.java (

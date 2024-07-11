@@ -1,0 +1,437 @@
+
+zD:\YaDisk\synk\YandexDisk\JavaProjects\WarcastleDuel\core\src\ru\gigabyte_artur\warcastleduel\warcastle\net\WcnClient.java°"
+7ru.gigabyte_artur.warcastleduel.warcastle.net.WcnClientCLASSÑ
+zD:\YaDisk\synk\YandexDisk\JavaProjects\WarcastleDuel\core\src\ru\gigabyte_artur\warcastleduel\warcastle\net\WcnClient.java ("8
+package-ru.gigabyte_artur.warcastleduel.warcastle.net"
+isFinalfalse"
+inner classfalse"
+
+isAbstractfalse"ó
+declarationStringÅ<mark class="modifier">public </mark><mark class="modifier">class </mark>WcnClient<mark class="modifier"> extends </mark>Listener"
+accesspublic*	WcnClient2Û
+]ru.gigabyte_artur.warcastleduel.warcastle.net.WcnClient.WcnClient(java.lang.String, int, int)DECLARATIONÑ
+zD:\YaDisk\synk\YandexDisk\JavaProjects\WarcastleDuel\core\src\ru\gigabyte_artur\warcastleduel\warcastle\net\WcnClient.java (2’
+?ru.gigabyte_artur.warcastleduel.warcastle.net.WcnClient.getIp()DECLARATIONÑ
+zD:\YaDisk\synk\YandexDisk\JavaProjects\WarcastleDuel\core\src\ru\gigabyte_artur\warcastleduel\warcastle\net\WcnClient.java (2Â
+Oru.gigabyte_artur.warcastleduel.warcastle.net.WcnClient.setIp(java.lang.String)DECLARATIONÑ
+zD:\YaDisk\synk\YandexDisk\JavaProjects\WarcastleDuel\core\src\ru\gigabyte_artur\warcastleduel\warcastle\net\WcnClient.java (2⁄
+Dru.gigabyte_artur.warcastleduel.warcastle.net.WcnClient.getTcpPort()DECLARATIONÑ
+zD:\YaDisk\synk\YandexDisk\JavaProjects\WarcastleDuel\core\src\ru\gigabyte_artur\warcastleduel\warcastle\net\WcnClient.java   (2›
+Gru.gigabyte_artur.warcastleduel.warcastle.net.WcnClient.setTcpPort(int)DECLARATIONÑ
+zD:\YaDisk\synk\YandexDisk\JavaProjects\WarcastleDuel\core\src\ru\gigabyte_artur\warcastleduel\warcastle\net\WcnClient.java% %(2⁄
+Dru.gigabyte_artur.warcastleduel.warcastle.net.WcnClient.getUdpPort()DECLARATIONÑ
+zD:\YaDisk\synk\YandexDisk\JavaProjects\WarcastleDuel\core\src\ru\gigabyte_artur\warcastleduel\warcastle\net\WcnClient.java* *(2›
+Gru.gigabyte_artur.warcastleduel.warcastle.net.WcnClient.setUdpPort(int)DECLARATIONÑ
+zD:\YaDisk\synk\YandexDisk\JavaProjects\WarcastleDuel\core\src\ru\gigabyte_artur\warcastleduel\warcastle\net\WcnClient.java/ /(2€
+Eru.gigabyte_artur.warcastleduel.warcastle.net.WcnClient.StartClient()DECLARATIONÑ
+zD:\YaDisk\synk\YandexDisk\JavaProjects\WarcastleDuel\core\src\ru\gigabyte_artur\warcastleduel\warcastle\net\WcnClient.java4 4(2Ò
+[ru.gigabyte_artur.warcastleduel.warcastle.net.WcnClient.SendStringMessage(java.lang.String)DECLARATIONÑ
+zD:\YaDisk\synk\YandexDisk\JavaProjects\WarcastleDuel\core\src\ru\gigabyte_artur\warcastleduel\warcastle\net\WcnClient.javaC C(!2ë
+{ru.gigabyte_artur.warcastleduel.warcastle.net.WcnClient.received(com.esotericsoftware.kryonet.Connection, java.lang.Object)DECLARATIONÑ
+zD:\YaDisk\synk\YandexDisk\JavaProjects\WarcastleDuel\core\src\ru\gigabyte_artur\warcastleduel\warcastle\net\WcnClient.javaM M(2ﬁ
+Hru.gigabyte_artur.warcastleduel.warcastle.net.WcnClient?client@8.18:8.24DECLARATIONÑ
+zD:\YaDisk\synk\YandexDisk\JavaProjects\WarcastleDuel\core\src\ru\gigabyte_artur\warcastleduel\warcastle\net\WcnClient.java (2⁄
+Dru.gigabyte_artur.warcastleduel.warcastle.net.WcnClient?ip@9.11:9.13DECLARATIONÑ
+zD:\YaDisk\synk\YandexDisk\JavaProjects\WarcastleDuel\core\src\ru\gigabyte_artur\warcastleduel\warcastle\net\WcnClient.java	 	(2‡
+Jru.gigabyte_artur.warcastleduel.warcastle.net.WcnClient?tcpPort@10.8:10.15DECLARATIONÑ
+zD:\YaDisk\synk\YandexDisk\JavaProjects\WarcastleDuel\core\src\ru\gigabyte_artur\warcastleduel\warcastle\net\WcnClient.java
+ 
+(2·
+Kru.gigabyte_artur.warcastleduel.warcastle.net.WcnClient?udpPort@10.17:10.24DECLARATIONÑ
+zD:\YaDisk\synk\YandexDisk\JavaProjects\WarcastleDuel\core\src\ru\gigabyte_artur\warcastleduel\warcastle\net\WcnClient.java
+ 
+(2È
+Sru.gigabyte_artur.warcastleduel.warcastle.net.WcnClient?messageReceived@11.19:11.34DECLARATIONÑ
+zD:\YaDisk\synk\YandexDisk\JavaProjects\WarcastleDuel\core\src\ru\gigabyte_artur\warcastleduel\warcastle\net\WcnClient.java ("2È
+Sru.gigabyte_artur.warcastleduel.warcastle.net.WcnClient?ProtocolVersion@12.26:12.41DECLARATIONÑ
+zD:\YaDisk\synk\YandexDisk\JavaProjects\WarcastleDuel\core\src\ru\gigabyte_artur\warcastleduel\warcastle\net\WcnClient.java ()2∂
+%com.esotericsoftware.kryonet.ListenerEXTENDÑ
+zD:\YaDisk\synk\YandexDisk\JavaProjects\WarcastleDuel\core\src\ru\gigabyte_artur\warcastleduel\warcastle\net\WcnClient.java ('á
+]ru.gigabyte_artur.warcastleduel.warcastle.net.WcnClient.WcnClient(java.lang.String, int, int)CONSTRUCTORÑ
+zD:\YaDisk\synk\YandexDisk\JavaProjects\WarcastleDuel\core\src\ru\gigabyte_artur\warcastleduel\warcastle\net\WcnClient.java ("¬
+declarationString¨<mark class="modifier">public </mark><mark class="method">WcnClient</mark>(String ip_in<mark class="modifier"><mark class="modifier">,</mark></mark> <mark class="modifier">int</mark> tcpPort_in<mark class="modifier"><mark class="modifier">,</mark></mark> <mark class="modifier">int</mark> udpPort_in)*	WcnClient2ﬁ
+Oru.gigabyte_artur.warcastleduel.warcastle.net.WcnClient.setIp(java.lang.String)CALLÑ
+zD:\YaDisk\synk\YandexDisk\JavaProjects\WarcastleDuel\core\src\ru\gigabyte_artur\warcastleduel\warcastle\net\WcnClient.java (2÷
+Gru.gigabyte_artur.warcastleduel.warcastle.net.WcnClient.setTcpPort(int)CALLÑ
+zD:\YaDisk\synk\YandexDisk\JavaProjects\WarcastleDuel\core\src\ru\gigabyte_artur\warcastleduel\warcastle\net\WcnClient.java (2÷
+Gru.gigabyte_artur.warcastleduel.warcastle.net.WcnClient.setUdpPort(int)CALLÑ
+zD:\YaDisk\synk\YandexDisk\JavaProjects\WarcastleDuel\core\src\ru\gigabyte_artur\warcastleduel\warcastle\net\WcnClient.java (2Ú
+cru.gigabyte_artur.warcastleduel.warcastle.net.WcnClient.WcnClient(java.lang.String, int, int)!ip_inCALLÑ
+zD:\YaDisk\synk\YandexDisk\JavaProjects\WarcastleDuel\core\src\ru\gigabyte_artur\warcastleduel\warcastle\net\WcnClient.java (2˜
+hru.gigabyte_artur.warcastleduel.warcastle.net.WcnClient.WcnClient(java.lang.String, int, int)!udpPort_inCALLÑ
+zD:\YaDisk\synk\YandexDisk\JavaProjects\WarcastleDuel\core\src\ru\gigabyte_artur\warcastleduel\warcastle\net\WcnClient.java ("2˜
+hru.gigabyte_artur.warcastleduel.warcastle.net.WcnClient.WcnClient(java.lang.String, int, int)!tcpPort_inCALLÑ
+zD:\YaDisk\synk\YandexDisk\JavaProjects\WarcastleDuel\core\src\ru\gigabyte_artur\warcastleduel\warcastle\net\WcnClient.java ("2˜
+cru.gigabyte_artur.warcastleduel.warcastle.net.WcnClient.WcnClient(java.lang.String, int, int)!ip_in	PARAMETERÑ
+zD:\YaDisk\synk\YandexDisk\JavaProjects\WarcastleDuel\core\src\ru\gigabyte_artur\warcastleduel\warcastle\net\WcnClient.java (!2¸
+hru.gigabyte_artur.warcastleduel.warcastle.net.WcnClient.WcnClient(java.lang.String, int, int)!tcpPort_in	PARAMETERÑ
+zD:\YaDisk\synk\YandexDisk\JavaProjects\WarcastleDuel\core\src\ru\gigabyte_artur\warcastleduel\warcastle\net\WcnClient.java' (12¸
+hru.gigabyte_artur.warcastleduel.warcastle.net.WcnClient.WcnClient(java.lang.String, int, int)!udpPort_in	PARAMETERÑ
+zD:\YaDisk\synk\YandexDisk\JavaProjects\WarcastleDuel\core\src\ru\gigabyte_artur\warcastleduel\warcastle\net\WcnClient.java7 (A2Õ
+7ru.gigabyte_artur.warcastleduel.warcastle.net.WcnClientRETURN_TYPEÑ
+zD:\YaDisk\synk\YandexDisk\JavaProjects\WarcastleDuel\core\src\ru\gigabyte_artur\warcastleduel\warcastle\net\WcnClient.java (Â
+cru.gigabyte_artur.warcastleduel.warcastle.net.WcnClient.WcnClient(java.lang.String, int, int)!ip_in	PARAMETERÑ
+zD:\YaDisk\synk\YandexDisk\JavaProjects\WarcastleDuel\core\src\ru\gigabyte_artur\warcastleduel\warcastle\net\WcnClient.java (!"
+typeString"
+isFinalfalse"!
+declarationStringString ip_in*ip_in2ü
+java.lang.StringTYPEÑ
+zD:\YaDisk\synk\YandexDisk\JavaProjects\WarcastleDuel\core\src\ru\gigabyte_artur\warcastleduel\warcastle\net\WcnClient.java (ˇ
+hru.gigabyte_artur.warcastleduel.warcastle.net.WcnClient.WcnClient(java.lang.String, int, int)!tcpPort_in	PARAMETERÑ
+zD:\YaDisk\synk\YandexDisk\JavaProjects\WarcastleDuel\core\src\ru\gigabyte_artur\warcastleduel\warcastle\net\WcnClient.java' (1"
+typeint"
+isFinalfalse"A
+declarationString,<mark class="modifier">int</mark> tcpPort_in*
+tcpPort_in2í
+intTYPEÑ
+zD:\YaDisk\synk\YandexDisk\JavaProjects\WarcastleDuel\core\src\ru\gigabyte_artur\warcastleduel\warcastle\net\WcnClient.java# (&ˇ
+hru.gigabyte_artur.warcastleduel.warcastle.net.WcnClient.WcnClient(java.lang.String, int, int)!udpPort_in	PARAMETERÑ
+zD:\YaDisk\synk\YandexDisk\JavaProjects\WarcastleDuel\core\src\ru\gigabyte_artur\warcastleduel\warcastle\net\WcnClient.java7 (A"
+typeint"
+isFinalfalse"A
+declarationString,<mark class="modifier">int</mark> udpPort_in*
+udpPort_in2í
+intTYPEÑ
+zD:\YaDisk\synk\YandexDisk\JavaProjects\WarcastleDuel\core\src\ru\gigabyte_artur\warcastleduel\warcastle\net\WcnClient.java3 (6ò
+?ru.gigabyte_artur.warcastleduel.warcastle.net.WcnClient.getIp()METHODÑ
+zD:\YaDisk\synk\YandexDisk\JavaProjects\WarcastleDuel\core\src\ru\gigabyte_artur\warcastleduel\warcastle\net\WcnClient.java ("
+isFinalfalse"d
+declarationStringO<mark class="modifier">public </mark>String <mark class="method">getIp</mark>()"
+isStaticfalse"
+accesspublic"
+
+isAbstractfalse"
+typeString*getIp2”
+Dru.gigabyte_artur.warcastleduel.warcastle.net.WcnClient?ip@9.11:9.13CALLÑ
+zD:\YaDisk\synk\YandexDisk\JavaProjects\WarcastleDuel\core\src\ru\gigabyte_artur\warcastleduel\warcastle\net\WcnClient.java (2¶
+java.lang.StringRETURN_TYPEÑ
+zD:\YaDisk\synk\YandexDisk\JavaProjects\WarcastleDuel\core\src\ru\gigabyte_artur\warcastleduel\warcastle\net\WcnClient.java (ç
+
+Oru.gigabyte_artur.warcastleduel.warcastle.net.WcnClient.setIp(java.lang.String)METHODÑ
+zD:\YaDisk\synk\YandexDisk\JavaProjects\WarcastleDuel\core\src\ru\gigabyte_artur\warcastleduel\warcastle\net\WcnClient.java ("
+isFinalfalse"â
+declarationStringt<mark class="modifier">public </mark><mark class="modifier">void</mark> <mark class="method">setIp</mark>(String ip)"
+isStaticfalse"
+accesspublic"
+
+isAbstractfalse"
+typevoid*setIp2·
+Rru.gigabyte_artur.warcastleduel.warcastle.net.WcnClient.setIp(java.lang.String)!ipCALLÑ
+zD:\YaDisk\synk\YandexDisk\JavaProjects\WarcastleDuel\core\src\ru\gigabyte_artur\warcastleduel\warcastle\net\WcnClient.java (2”
+Dru.gigabyte_artur.warcastleduel.warcastle.net.WcnClient?ip@9.11:9.13CALLÑ
+zD:\YaDisk\synk\YandexDisk\JavaProjects\WarcastleDuel\core\src\ru\gigabyte_artur\warcastleduel\warcastle\net\WcnClient.java (2Ê
+Rru.gigabyte_artur.warcastleduel.warcastle.net.WcnClient.setIp(java.lang.String)!ip	PARAMETERÑ
+zD:\YaDisk\synk\YandexDisk\JavaProjects\WarcastleDuel\core\src\ru\gigabyte_artur\warcastleduel\warcastle\net\WcnClient.java (2ö
+voidRETURN_TYPEÑ
+zD:\YaDisk\synk\YandexDisk\JavaProjects\WarcastleDuel\core\src\ru\gigabyte_artur\warcastleduel\warcastle\net\WcnClient.java (Œ
+Rru.gigabyte_artur.warcastleduel.warcastle.net.WcnClient.setIp(java.lang.String)!ip	PARAMETERÑ
+zD:\YaDisk\synk\YandexDisk\JavaProjects\WarcastleDuel\core\src\ru\gigabyte_artur\warcastleduel\warcastle\net\WcnClient.java ("
+typeString"
+isFinalfalse"
+declarationString	String ip*ip2ü
+java.lang.StringTYPEÑ
+zD:\YaDisk\synk\YandexDisk\JavaProjects\WarcastleDuel\core\src\ru\gigabyte_artur\warcastleduel\warcastle\net\WcnClient.java (π
+Dru.gigabyte_artur.warcastleduel.warcastle.net.WcnClient.getTcpPort()METHODÑ
+zD:\YaDisk\synk\YandexDisk\JavaProjects\WarcastleDuel\core\src\ru\gigabyte_artur\warcastleduel\warcastle\net\WcnClient.java   ("
+isFinalfalse"Ñ
+declarationStringo<mark class="modifier">public </mark><mark class="modifier">int</mark> <mark class="method">getTcpPort</mark>()"
+isStaticfalse"
+accesspublic"
+
+isAbstractfalse"
+typeint*
+getTcpPort2Ÿ
+Jru.gigabyte_artur.warcastleduel.warcastle.net.WcnClient?tcpPort@10.8:10.15CALLÑ
+zD:\YaDisk\synk\YandexDisk\JavaProjects\WarcastleDuel\core\src\ru\gigabyte_artur\warcastleduel\warcastle\net\WcnClient.java" "(2ô
+intRETURN_TYPEÑ
+zD:\YaDisk\synk\YandexDisk\JavaProjects\WarcastleDuel\core\src\ru\gigabyte_artur\warcastleduel\warcastle\net\WcnClient.java   (∞
+
+Gru.gigabyte_artur.warcastleduel.warcastle.net.WcnClient.setTcpPort(int)METHODÑ
+zD:\YaDisk\synk\YandexDisk\JavaProjects\WarcastleDuel\core\src\ru\gigabyte_artur\warcastleduel\warcastle\net\WcnClient.java% %("
+isFinalfalse"Ø
+declarationStringô<mark class="modifier">public </mark><mark class="modifier">void</mark> <mark class="method">setTcpPort</mark>(<mark class="modifier">int</mark> tcpPort)"
+isStaticfalse"
+accesspublic"
+
+isAbstractfalse"
+typevoid*
+setTcpPort2ﬁ
+Oru.gigabyte_artur.warcastleduel.warcastle.net.WcnClient.setTcpPort(int)!tcpPortCALLÑ
+zD:\YaDisk\synk\YandexDisk\JavaProjects\WarcastleDuel\core\src\ru\gigabyte_artur\warcastleduel\warcastle\net\WcnClient.java' '(2Ÿ
+Jru.gigabyte_artur.warcastleduel.warcastle.net.WcnClient?tcpPort@10.8:10.15CALLÑ
+zD:\YaDisk\synk\YandexDisk\JavaProjects\WarcastleDuel\core\src\ru\gigabyte_artur\warcastleduel\warcastle\net\WcnClient.java' '(2„
+Oru.gigabyte_artur.warcastleduel.warcastle.net.WcnClient.setTcpPort(int)!tcpPort	PARAMETERÑ
+zD:\YaDisk\synk\YandexDisk\JavaProjects\WarcastleDuel\core\src\ru\gigabyte_artur\warcastleduel\warcastle\net\WcnClient.java% %(&2ö
+voidRETURN_TYPEÑ
+zD:\YaDisk\synk\YandexDisk\JavaProjects\WarcastleDuel\core\src\ru\gigabyte_artur\warcastleduel\warcastle\net\WcnClient.java% %(‡
+Oru.gigabyte_artur.warcastleduel.warcastle.net.WcnClient.setTcpPort(int)!tcpPort	PARAMETERÑ
+zD:\YaDisk\synk\YandexDisk\JavaProjects\WarcastleDuel\core\src\ru\gigabyte_artur\warcastleduel\warcastle\net\WcnClient.java% %(&"
+typeint"
+isFinalfalse">
+declarationString)<mark class="modifier">int</mark> tcpPort*tcpPort2í
+intTYPEÑ
+zD:\YaDisk\synk\YandexDisk\JavaProjects\WarcastleDuel\core\src\ru\gigabyte_artur\warcastleduel\warcastle\net\WcnClient.java% %(∫
+Dru.gigabyte_artur.warcastleduel.warcastle.net.WcnClient.getUdpPort()METHODÑ
+zD:\YaDisk\synk\YandexDisk\JavaProjects\WarcastleDuel\core\src\ru\gigabyte_artur\warcastleduel\warcastle\net\WcnClient.java* *("
+isFinalfalse"Ñ
+declarationStringo<mark class="modifier">public </mark><mark class="modifier">int</mark> <mark class="method">getUdpPort</mark>()"
+isStaticfalse"
+accesspublic"
+
+isAbstractfalse"
+typeint*
+getUdpPort2⁄
+Kru.gigabyte_artur.warcastleduel.warcastle.net.WcnClient?udpPort@10.17:10.24CALLÑ
+zD:\YaDisk\synk\YandexDisk\JavaProjects\WarcastleDuel\core\src\ru\gigabyte_artur\warcastleduel\warcastle\net\WcnClient.java, ,(2ô
+intRETURN_TYPEÑ
+zD:\YaDisk\synk\YandexDisk\JavaProjects\WarcastleDuel\core\src\ru\gigabyte_artur\warcastleduel\warcastle\net\WcnClient.java* *(±
+
+Gru.gigabyte_artur.warcastleduel.warcastle.net.WcnClient.setUdpPort(int)METHODÑ
+zD:\YaDisk\synk\YandexDisk\JavaProjects\WarcastleDuel\core\src\ru\gigabyte_artur\warcastleduel\warcastle\net\WcnClient.java/ /("
+isFinalfalse"Ø
+declarationStringô<mark class="modifier">public </mark><mark class="modifier">void</mark> <mark class="method">setUdpPort</mark>(<mark class="modifier">int</mark> udpPort)"
+isStaticfalse"
+accesspublic"
+
+isAbstractfalse"
+typevoid*
+setUdpPort2ﬁ
+Oru.gigabyte_artur.warcastleduel.warcastle.net.WcnClient.setUdpPort(int)!udpPortCALLÑ
+zD:\YaDisk\synk\YandexDisk\JavaProjects\WarcastleDuel\core\src\ru\gigabyte_artur\warcastleduel\warcastle\net\WcnClient.java1 1(2⁄
+Kru.gigabyte_artur.warcastleduel.warcastle.net.WcnClient?udpPort@10.17:10.24CALLÑ
+zD:\YaDisk\synk\YandexDisk\JavaProjects\WarcastleDuel\core\src\ru\gigabyte_artur\warcastleduel\warcastle\net\WcnClient.java1 1(2„
+Oru.gigabyte_artur.warcastleduel.warcastle.net.WcnClient.setUdpPort(int)!udpPort	PARAMETERÑ
+zD:\YaDisk\synk\YandexDisk\JavaProjects\WarcastleDuel\core\src\ru\gigabyte_artur\warcastleduel\warcastle\net\WcnClient.java/ /(&2ö
+voidRETURN_TYPEÑ
+zD:\YaDisk\synk\YandexDisk\JavaProjects\WarcastleDuel\core\src\ru\gigabyte_artur\warcastleduel\warcastle\net\WcnClient.java/ /(‡
+Oru.gigabyte_artur.warcastleduel.warcastle.net.WcnClient.setUdpPort(int)!udpPort	PARAMETERÑ
+zD:\YaDisk\synk\YandexDisk\JavaProjects\WarcastleDuel\core\src\ru\gigabyte_artur\warcastleduel\warcastle\net\WcnClient.java/ /(&"
+typeint"
+isFinalfalse">
+declarationString)<mark class="modifier">int</mark> udpPort*udpPort2í
+intTYPEÑ
+zD:\YaDisk\synk\YandexDisk\JavaProjects\WarcastleDuel\core\src\ru\gigabyte_artur\warcastleduel\warcastle\net\WcnClient.java/ /(¡
+Eru.gigabyte_artur.warcastleduel.warcastle.net.WcnClient.StartClient()METHODÑ
+zD:\YaDisk\synk\YandexDisk\JavaProjects\WarcastleDuel\core\src\ru\gigabyte_artur\warcastleduel\warcastle\net\WcnClient.java4 4("
+isFinalfalse"‘
+declarationStringæ<mark class="modifier">public </mark><mark class="modifier">void</mark> <mark class="method">StartClient</mark>()<mark class="modifier"> <mark class="modifier">throws</mark> </mark>Exception"
+isStaticfalse"
+accesspublic"
+
+isAbstractfalse"
+typevoid*StartClient2º
+-java.io.PrintStream.println(java.lang.String)CALLÑ
+zD:\YaDisk\synk\YandexDisk\JavaProjects\WarcastleDuel\core\src\ru\gigabyte_artur\warcastleduel\warcastle\net\WcnClient.java7 7(2◊
+Hru.gigabyte_artur.warcastleduel.warcastle.net.WcnClient?client@8.18:8.24CALLÑ
+zD:\YaDisk\synk\YandexDisk\JavaProjects\WarcastleDuel\core\src\ru\gigabyte_artur\warcastleduel\warcastle\net\WcnClient.java8 8(2◊
+Hru.gigabyte_artur.warcastleduel.warcastle.net.WcnClient?client@8.18:8.24CALLÑ
+zD:\YaDisk\synk\YandexDisk\JavaProjects\WarcastleDuel\core\src\ru\gigabyte_artur\warcastleduel\warcastle\net\WcnClient.java: :(2◊
+Hru.gigabyte_artur.warcastleduel.warcastle.net.WcnClient?client@8.18:8.24CALLÑ
+zD:\YaDisk\synk\YandexDisk\JavaProjects\WarcastleDuel\core\src\ru\gigabyte_artur\warcastleduel\warcastle\net\WcnClient.java< <(2◊
+Hru.gigabyte_artur.warcastleduel.warcastle.net.WcnClient?client@8.18:8.24CALLÑ
+zD:\YaDisk\synk\YandexDisk\JavaProjects\WarcastleDuel\core\src\ru\gigabyte_artur\warcastleduel\warcastle\net\WcnClient.java> >(2”
+Dru.gigabyte_artur.warcastleduel.warcastle.net.WcnClient?ip@9.11:9.13CALLÑ
+zD:\YaDisk\synk\YandexDisk\JavaProjects\WarcastleDuel\core\src\ru\gigabyte_artur\warcastleduel\warcastle\net\WcnClient.java> >(2Ÿ
+Jru.gigabyte_artur.warcastleduel.warcastle.net.WcnClient?tcpPort@10.8:10.15CALLÑ
+zD:\YaDisk\synk\YandexDisk\JavaProjects\WarcastleDuel\core\src\ru\gigabyte_artur\warcastleduel\warcastle\net\WcnClient.java>! >((2⁄
+Kru.gigabyte_artur.warcastleduel.warcastle.net.WcnClient?udpPort@10.17:10.24CALLÑ
+zD:\YaDisk\synk\YandexDisk\JavaProjects\WarcastleDuel\core\src\ru\gigabyte_artur\warcastleduel\warcastle\net\WcnClient.java>* >(12◊
+Hru.gigabyte_artur.warcastleduel.warcastle.net.WcnClient?client@8.18:8.24CALLÑ
+zD:\YaDisk\synk\YandexDisk\JavaProjects\WarcastleDuel\core\src\ru\gigabyte_artur\warcastleduel\warcastle\net\WcnClient.java? ?(2ö
+voidRETURN_TYPEÑ
+zD:\YaDisk\synk\YandexDisk\JavaProjects\WarcastleDuel\core\src\ru\gigabyte_artur\warcastleduel\warcastle\net\WcnClient.java4 4(∫#
+[ru.gigabyte_artur.warcastleduel.warcastle.net.WcnClient.SendStringMessage(java.lang.String)METHODÑ
+zD:\YaDisk\synk\YandexDisk\JavaProjects\WarcastleDuel\core\src\ru\gigabyte_artur\warcastleduel\warcastle\net\WcnClient.javaC C(!"
+isFinalfalse"û
+declarationStringà<mark class="modifier">public </mark><mark class="modifier">void</mark> <mark class="method">SendStringMessage</mark>(String Message_in)"
+isStaticfalse"
+accesspublic"
+
+isAbstractfalse"
+typevoid*SendStringMessage2Í
+[ru.gigabyte_artur.warcastleduel.warcastle.net.WcnPackedMessage.setMessage(java.lang.String)CALLÑ
+zD:\YaDisk\synk\YandexDisk\JavaProjects\WarcastleDuel\core\src\ru\gigabyte_artur\warcastleduel\warcastle\net\WcnClient.javaF F(2Ú
+cru.gigabyte_artur.warcastleduel.warcastle.net.WcnPackedMessage.setProtocolVersion(java.lang.String)CALLÑ
+zD:\YaDisk\synk\YandexDisk\JavaProjects\WarcastleDuel\core\src\ru\gigabyte_artur\warcastleduel\warcastle\net\WcnClient.javaG G(!2≥
+$java.lang.System.currentTimeMillis()CALLÑ
+zD:\YaDisk\synk\YandexDisk\JavaProjects\WarcastleDuel\core\src\ru\gigabyte_artur\warcastleduel\warcastle\net\WcnClient.javaH H(02ﬂ
+Pru.gigabyte_artur.warcastleduel.warcastle.net.WcnPackedMessage.setTimeSend(long)CALLÑ
+zD:\YaDisk\synk\YandexDisk\JavaProjects\WarcastleDuel\core\src\ru\gigabyte_artur\warcastleduel\warcastle\net\WcnClient.javaI I(2‡
+Qru.gigabyte_artur.warcastleduel.warcastle.net.WcnPackedMessage.WcnPackedMessage()CALLÑ
+zD:\YaDisk\synk\YandexDisk\JavaProjects\WarcastleDuel\core\src\ru\gigabyte_artur\warcastleduel\warcastle\net\WcnClient.javaE& E(62˝
+nru.gigabyte_artur.warcastleduel.warcastle.net.WcnClient.SendStringMessage(java.lang.String)?packet@69.25:69.31CALLÑ
+zD:\YaDisk\synk\YandexDisk\JavaProjects\WarcastleDuel\core\src\ru\gigabyte_artur\warcastleduel\warcastle\net\WcnClient.javaF F(2ı
+fru.gigabyte_artur.warcastleduel.warcastle.net.WcnClient.SendStringMessage(java.lang.String)!Message_inCALLÑ
+zD:\YaDisk\synk\YandexDisk\JavaProjects\WarcastleDuel\core\src\ru\gigabyte_artur\warcastleduel\warcastle\net\WcnClient.javaF F($2˝
+nru.gigabyte_artur.warcastleduel.warcastle.net.WcnClient.SendStringMessage(java.lang.String)?packet@69.25:69.31CALLÑ
+zD:\YaDisk\synk\YandexDisk\JavaProjects\WarcastleDuel\core\src\ru\gigabyte_artur\warcastleduel\warcastle\net\WcnClient.javaG G(2˝
+nru.gigabyte_artur.warcastleduel.warcastle.net.WcnClient.SendStringMessage(java.lang.String)?packet@69.25:69.31CALLÑ
+zD:\YaDisk\synk\YandexDisk\JavaProjects\WarcastleDuel\core\src\ru\gigabyte_artur\warcastleduel\warcastle\net\WcnClient.javaI I(2ˇ
+pru.gigabyte_artur.warcastleduel.warcastle.net.WcnClient.SendStringMessage(java.lang.String)?timeSend@72.13:72.21CALLÑ
+zD:\YaDisk\synk\YandexDisk\JavaProjects\WarcastleDuel\core\src\ru\gigabyte_artur\warcastleduel\warcastle\net\WcnClient.javaI I(#2◊
+Hru.gigabyte_artur.warcastleduel.warcastle.net.WcnClient?client@8.18:8.24CALLÑ
+zD:\YaDisk\synk\YandexDisk\JavaProjects\WarcastleDuel\core\src\ru\gigabyte_artur\warcastleduel\warcastle\net\WcnClient.javaJ J(2˝
+nru.gigabyte_artur.warcastleduel.warcastle.net.WcnClient.SendStringMessage(java.lang.String)?packet@69.25:69.31CALLÑ
+zD:\YaDisk\synk\YandexDisk\JavaProjects\WarcastleDuel\core\src\ru\gigabyte_artur\warcastleduel\warcastle\net\WcnClient.javaJ J(2‚
+Sru.gigabyte_artur.warcastleduel.warcastle.net.WcnClient?ProtocolVersion@12.26:12.41CALLÑ
+zD:\YaDisk\synk\YandexDisk\JavaProjects\WarcastleDuel\core\src\ru\gigabyte_artur\warcastleduel\warcastle\net\WcnClient.javaG' G(62˙
+fru.gigabyte_artur.warcastleduel.warcastle.net.WcnClient.SendStringMessage(java.lang.String)!Message_in	PARAMETERÑ
+zD:\YaDisk\synk\YandexDisk\JavaProjects\WarcastleDuel\core\src\ru\gigabyte_artur\warcastleduel\warcastle\net\WcnClient.javaC) C(32Ñ
+nru.gigabyte_artur.warcastleduel.warcastle.net.WcnClient.SendStringMessage(java.lang.String)?packet@69.25:69.31DECLARATIONÑ
+zD:\YaDisk\synk\YandexDisk\JavaProjects\WarcastleDuel\core\src\ru\gigabyte_artur\warcastleduel\warcastle\net\WcnClient.javaE E(2Ü
+pru.gigabyte_artur.warcastleduel.warcastle.net.WcnClient.SendStringMessage(java.lang.String)?timeSend@72.13:72.21DECLARATIONÑ
+zD:\YaDisk\synk\YandexDisk\JavaProjects\WarcastleDuel\core\src\ru\gigabyte_artur\warcastleduel\warcastle\net\WcnClient.javaH H(2ö
+voidRETURN_TYPEÑ
+zD:\YaDisk\synk\YandexDisk\JavaProjects\WarcastleDuel\core\src\ru\gigabyte_artur\warcastleduel\warcastle\net\WcnClient.javaC C(
+nru.gigabyte_artur.warcastleduel.warcastle.net.WcnClient.SendStringMessage(java.lang.String)?packet@69.25:69.31VARIABLEÑ
+zD:\YaDisk\synk\YandexDisk\JavaProjects\WarcastleDuel\core\src\ru\gigabyte_artur\warcastleduel\warcastle\net\WcnClient.javaE E("
+typeWcnPackedMessage"
+isFinalfalse"Ö
+declarationStringp<mark class="modifier"> </mark>WcnPackedMessage <mark class="class-field">packet</mark> = new WcnPackedMessage()*packet2Õ
+>ru.gigabyte_artur.warcastleduel.warcastle.net.WcnPackedMessageTYPEÑ
+zD:\YaDisk\synk\YandexDisk\JavaProjects\WarcastleDuel\core\src\ru\gigabyte_artur\warcastleduel\warcastle\net\WcnClient.javaE E(2‡
+Qru.gigabyte_artur.warcastleduel.warcastle.net.WcnPackedMessage.WcnPackedMessage()CALLÑ
+zD:\YaDisk\synk\YandexDisk\JavaProjects\WarcastleDuel\core\src\ru\gigabyte_artur\warcastleduel\warcastle\net\WcnClient.javaE& E(6ö
+pru.gigabyte_artur.warcastleduel.warcastle.net.WcnClient.SendStringMessage(java.lang.String)?timeSend@72.13:72.21VARIABLEÑ
+zD:\YaDisk\synk\YandexDisk\JavaProjects\WarcastleDuel\core\src\ru\gigabyte_artur\warcastleduel\warcastle\net\WcnClient.javaH H("
+typelong"
+isFinalfalse"û
+declarationStringà<mark class="modifier"> </mark><mark class="modifier">long</mark> <mark class="class-field">timeSend</mark> = System.currentTimeMillis()*timeSend2ì
+longTYPEÑ
+zD:\YaDisk\synk\YandexDisk\JavaProjects\WarcastleDuel\core\src\ru\gigabyte_artur\warcastleduel\warcastle\net\WcnClient.javaH H(2≥
+$java.lang.System.currentTimeMillis()CALLÑ
+zD:\YaDisk\synk\YandexDisk\JavaProjects\WarcastleDuel\core\src\ru\gigabyte_artur\warcastleduel\warcastle\net\WcnClient.javaH H(0Ú
+fru.gigabyte_artur.warcastleduel.warcastle.net.WcnClient.SendStringMessage(java.lang.String)!Message_in	PARAMETERÑ
+zD:\YaDisk\synk\YandexDisk\JavaProjects\WarcastleDuel\core\src\ru\gigabyte_artur\warcastleduel\warcastle\net\WcnClient.javaC) C(3"
+typeString"
+isFinalfalse"&
+declarationStringString Message_in*
+Message_in2ü
+java.lang.StringTYPEÑ
+zD:\YaDisk\synk\YandexDisk\JavaProjects\WarcastleDuel\core\src\ru\gigabyte_artur\warcastleduel\warcastle\net\WcnClient.javaC" C((€ 
+{ru.gigabyte_artur.warcastleduel.warcastle.net.WcnClient.received(com.esotericsoftware.kryonet.Connection, java.lang.Object)METHODÑ
+zD:\YaDisk\synk\YandexDisk\JavaProjects\WarcastleDuel\core\src\ru\gigabyte_artur\warcastleduel\warcastle\net\WcnClient.javaM M("
+isFinalfalse"÷
+declarationString¿<mark class="modifier">public </mark><mark class="modifier">void</mark> <mark class="method">received</mark>(Connection c<mark class="modifier"><mark class="modifier">,</mark></mark> Object p)"
+isStaticfalse"
+accesspublic"
+
+isAbstractfalse"
+typevoid*received2∏
+)java.lang.String.equals(java.lang.Object)CALLÑ
+zD:\YaDisk\synk\YandexDisk\JavaProjects\WarcastleDuel\core\src\ru\gigabyte_artur\warcastleduel\warcastle\net\WcnClient.javaT, T(22‚
+Sru.gigabyte_artur.warcastleduel.warcastle.net.WcnPackedMessage.getProtocolVersion()CALLÑ
+zD:\YaDisk\synk\YandexDisk\JavaProjects\WarcastleDuel\core\src\ru\gigabyte_artur\warcastleduel\warcastle\net\WcnClient.javaT T()2º
+-java.io.PrintStream.println(java.lang.String)CALLÑ
+zD:\YaDisk\synk\YandexDisk\JavaProjects\WarcastleDuel\core\src\ru\gigabyte_artur\warcastleduel\warcastle\net\WcnClient.javaV V("2⁄
+Kru.gigabyte_artur.warcastleduel.warcastle.net.WcnPackedMessage.getMessage()CALLÑ
+zD:\YaDisk\synk\YandexDisk\JavaProjects\WarcastleDuel\core\src\ru\gigabyte_artur\warcastleduel\warcastle\net\WcnClient.javaVA V(K2º
+-java.io.PrintStream.println(java.lang.String)CALLÑ
+zD:\YaDisk\synk\YandexDisk\JavaProjects\WarcastleDuel\core\src\ru\gigabyte_artur\warcastleduel\warcastle\net\WcnClient.java\ \("2å
+}ru.gigabyte_artur.warcastleduel.warcastle.net.WcnClient.received(com.esotericsoftware.kryonet.Connection, java.lang.Object)!pCALLÑ
+zD:\YaDisk\synk\YandexDisk\JavaProjects\WarcastleDuel\core\src\ru\gigabyte_artur\warcastleduel\warcastle\net\WcnClient.javaP P(2å
+}ru.gigabyte_artur.warcastleduel.warcastle.net.WcnClient.received(com.esotericsoftware.kryonet.Connection, java.lang.Object)!pCALLÑ
+zD:\YaDisk\synk\YandexDisk\JavaProjects\WarcastleDuel\core\src\ru\gigabyte_artur\warcastleduel\warcastle\net\WcnClient.javaS9 S(:2û
+éru.gigabyte_artur.warcastleduel.warcastle.net.WcnClient.received(com.esotericsoftware.kryonet.Connection, java.lang.Object)?packet@83.29:83.35CALLÑ
+zD:\YaDisk\synk\YandexDisk\JavaProjects\WarcastleDuel\core\src\ru\gigabyte_artur\warcastleduel\warcastle\net\WcnClient.javaT T(2û
+éru.gigabyte_artur.warcastleduel.warcastle.net.WcnClient.received(com.esotericsoftware.kryonet.Connection, java.lang.Object)?packet@83.29:83.35CALLÑ
+zD:\YaDisk\synk\YandexDisk\JavaProjects\WarcastleDuel\core\src\ru\gigabyte_artur\warcastleduel\warcastle\net\WcnClient.javaV: V(@2‚
+Sru.gigabyte_artur.warcastleduel.warcastle.net.WcnClient?messageReceived@11.19:11.34CALLÑ
+zD:\YaDisk\synk\YandexDisk\JavaProjects\WarcastleDuel\core\src\ru\gigabyte_artur\warcastleduel\warcastle\net\WcnClient.javaX X(2‚
+Sru.gigabyte_artur.warcastleduel.warcastle.net.WcnClient?ProtocolVersion@12.26:12.41CALLÑ
+zD:\YaDisk\synk\YandexDisk\JavaProjects\WarcastleDuel\core\src\ru\gigabyte_artur\warcastleduel\warcastle\net\WcnClient.javaT8 T(G2ë
+}ru.gigabyte_artur.warcastleduel.warcastle.net.WcnClient.received(com.esotericsoftware.kryonet.Connection, java.lang.Object)!c	PARAMETERÑ
+zD:\YaDisk\synk\YandexDisk\JavaProjects\WarcastleDuel\core\src\ru\gigabyte_artur\warcastleduel\warcastle\net\WcnClient.javaM$ M(%2ë
+}ru.gigabyte_artur.warcastleduel.warcastle.net.WcnClient.received(com.esotericsoftware.kryonet.Connection, java.lang.Object)!p	PARAMETERÑ
+zD:\YaDisk\synk\YandexDisk\JavaProjects\WarcastleDuel\core\src\ru\gigabyte_artur\warcastleduel\warcastle\net\WcnClient.javaM. M(/2•
+éru.gigabyte_artur.warcastleduel.warcastle.net.WcnClient.received(com.esotericsoftware.kryonet.Connection, java.lang.Object)?packet@83.29:83.35DECLARATIONÑ
+zD:\YaDisk\synk\YandexDisk\JavaProjects\WarcastleDuel\core\src\ru\gigabyte_artur\warcastleduel\warcastle\net\WcnClient.javaS S(#2ö
+voidRETURN_TYPEÑ
+zD:\YaDisk\synk\YandexDisk\JavaProjects\WarcastleDuel\core\src\ru\gigabyte_artur\warcastleduel\warcastle\net\WcnClient.javaM M(ª
+éru.gigabyte_artur.warcastleduel.warcastle.net.WcnClient.received(com.esotericsoftware.kryonet.Connection, java.lang.Object)?packet@83.29:83.35VARIABLEÑ
+zD:\YaDisk\synk\YandexDisk\JavaProjects\WarcastleDuel\core\src\ru\gigabyte_artur\warcastleduel\warcastle\net\WcnClient.javaS S(#"
+typeWcnPackedMessage"
+isFinalfalse"É
+declarationStringn<mark class="modifier"> </mark>WcnPackedMessage <mark class="class-field">packet</mark> = (WcnPackedMessage) p*packet2Õ
+>ru.gigabyte_artur.warcastleduel.warcastle.net.WcnPackedMessageTYPEÑ
+zD:\YaDisk\synk\YandexDisk\JavaProjects\WarcastleDuel\core\src\ru\gigabyte_artur\warcastleduel\warcastle\net\WcnClient.javaS S(2å
+}ru.gigabyte_artur.warcastleduel.warcastle.net.WcnClient.received(com.esotericsoftware.kryonet.Connection, java.lang.Object)!pCALLÑ
+zD:\YaDisk\synk\YandexDisk\JavaProjects\WarcastleDuel\core\src\ru\gigabyte_artur\warcastleduel\warcastle\net\WcnClient.javaS9 S(:ñ
+}ru.gigabyte_artur.warcastleduel.warcastle.net.WcnClient.received(com.esotericsoftware.kryonet.Connection, java.lang.Object)!c	PARAMETERÑ
+zD:\YaDisk\synk\YandexDisk\JavaProjects\WarcastleDuel\core\src\ru\gigabyte_artur\warcastleduel\warcastle\net\WcnClient.javaM$ M(%"
+type
+Connection"
+isFinalfalse"!
+declarationStringConnection c*c2∂
+'com.esotericsoftware.kryonet.ConnectionTYPEÑ
+zD:\YaDisk\synk\YandexDisk\JavaProjects\WarcastleDuel\core\src\ru\gigabyte_artur\warcastleduel\warcastle\net\WcnClient.javaM M(#˜
+}ru.gigabyte_artur.warcastleduel.warcastle.net.WcnClient.received(com.esotericsoftware.kryonet.Connection, java.lang.Object)!p	PARAMETERÑ
+zD:\YaDisk\synk\YandexDisk\JavaProjects\WarcastleDuel\core\src\ru\gigabyte_artur\warcastleduel\warcastle\net\WcnClient.javaM. M(/"
+typeObject"
+isFinalfalse"
+declarationStringObject p*p2ü
+java.lang.ObjectTYPEÑ
+zD:\YaDisk\synk\YandexDisk\JavaProjects\WarcastleDuel\core\src\ru\gigabyte_artur\warcastleduel\warcastle\net\WcnClient.javaM' M(-Ò
+Hru.gigabyte_artur.warcastleduel.warcastle.net.WcnClient?client@8.18:8.24VARIABLEÑ
+zD:\YaDisk\synk\YandexDisk\JavaProjects\WarcastleDuel\core\src\ru\gigabyte_artur\warcastleduel\warcastle\net\WcnClient.java ("
+isFinalfalse"
+typeClient"á
+declarationStringr<mark class="modifier"> </mark><mark class="modifier">static </mark>Client <mark class="class-field">client</mark>"
+isStatictrue"
+accesspackage_private*client2≤
+#com.esotericsoftware.kryonet.ClientTYPEÑ
+zD:\YaDisk\synk\YandexDisk\JavaProjects\WarcastleDuel\core\src\ru\gigabyte_artur\warcastleduel\warcastle\net\WcnClient.java (º
+Dru.gigabyte_artur.warcastleduel.warcastle.net.WcnClient?ip@9.11:9.13VARIABLEÑ
+zD:\YaDisk\synk\YandexDisk\JavaProjects\WarcastleDuel\core\src\ru\gigabyte_artur\warcastleduel\warcastle\net\WcnClient.java	 	("
+isFinalfalse"
+typeString"m
+declarationStringX<mark class="modifier"> </mark>String <mark class="class-field">ip</mark> = "localhost";"
+isStaticfalse"
+accesspackage_private*ip2ü
+java.lang.StringTYPEÑ
+zD:\YaDisk\synk\YandexDisk\JavaProjects\WarcastleDuel\core\src\ru\gigabyte_artur\warcastleduel\warcastle\net\WcnClient.java	 	(
+»
+Jru.gigabyte_artur.warcastleduel.warcastle.net.WcnClient?tcpPort@10.8:10.15VARIABLEÑ
+zD:\YaDisk\synk\YandexDisk\JavaProjects\WarcastleDuel\core\src\ru\gigabyte_artur\warcastleduel\warcastle\net\WcnClient.java
+ 
+("
+isFinalfalse"
+typeint"~
+declarationStringi<mark class="modifier"> </mark><mark class="modifier">int</mark> <mark class="class-field">tcpPort</mark>"
+isStaticfalse"
+accesspackage_private*tcpPort2í
+intTYPEÑ
+zD:\YaDisk\synk\YandexDisk\JavaProjects\WarcastleDuel\core\src\ru\gigabyte_artur\warcastleduel\warcastle\net\WcnClient.java
+ 
+(…
+Kru.gigabyte_artur.warcastleduel.warcastle.net.WcnClient?udpPort@10.17:10.24VARIABLEÑ
+zD:\YaDisk\synk\YandexDisk\JavaProjects\WarcastleDuel\core\src\ru\gigabyte_artur\warcastleduel\warcastle\net\WcnClient.java
+ 
+("
+isFinalfalse"
+typeint"~
+declarationStringi<mark class="modifier"> </mark><mark class="modifier">int</mark> <mark class="class-field">udpPort</mark>"
+isStaticfalse"
+accesspackage_private*udpPort2í
+intTYPEÑ
+zD:\YaDisk\synk\YandexDisk\JavaProjects\WarcastleDuel\core\src\ru\gigabyte_artur\warcastleduel\warcastle\net\WcnClient.java
+ 
+(∫
+Sru.gigabyte_artur.warcastleduel.warcastle.net.WcnClient?messageReceived@11.19:11.34VARIABLEÑ
+zD:\YaDisk\synk\YandexDisk\JavaProjects\WarcastleDuel\core\src\ru\gigabyte_artur\warcastleduel\warcastle\net\WcnClient.java (""
+isFinalfalse"
+typeboolean"◊
+declarationString¡<mark class="modifier"> </mark><mark class="modifier">static </mark><mark class="modifier">boolean</mark> <mark class="class-field">messageReceived</mark> = <mark class="modifier">false</mark>;"
+isStatictrue"
+accesspackage_private*messageReceived2ñ
+booleanTYPEÑ
+zD:\YaDisk\synk\YandexDisk\JavaProjects\WarcastleDuel\core\src\ru\gigabyte_artur\warcastleduel\warcastle\net\WcnClient.java (à
+Sru.gigabyte_artur.warcastleduel.warcastle.net.WcnClient?ProtocolVersion@12.26:12.41VARIABLEÑ
+zD:\YaDisk\synk\YandexDisk\JavaProjects\WarcastleDuel\core\src\ru\gigabyte_artur\warcastleduel\warcastle\net\WcnClient.java ()"
+isFinalfalse"
+typeString"•
+declarationStringè<mark class="modifier">private </mark><mark class="modifier">static </mark>String <mark class="class-field">ProtocolVersion</mark> = "0.0.0.1";"
+isStatictrue"
+accessprivate*ProtocolVersion2ü
+java.lang.StringTYPEÑ
+zD:\YaDisk\synk\YandexDisk\JavaProjects\WarcastleDuel\core\src\ru\gigabyte_artur\warcastleduel\warcastle\net\WcnClient.java (

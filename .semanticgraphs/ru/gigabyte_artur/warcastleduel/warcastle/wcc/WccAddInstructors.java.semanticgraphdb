@@ -1,0 +1,162 @@
+
+ÇD:\YaDisk\synk\YandexDisk\JavaProjects\WarcastleDuel\core\src\ru\gigabyte_artur\warcastleduel\warcastle\wcc\WccAddInstructors.java¨
+?ru.gigabyte_artur.warcastleduel.warcastle.wcc.WccAddInstructorsCLASSç
+ÇD:\YaDisk\synk\YandexDisk\JavaProjects\WarcastleDuel\core\src\ru\gigabyte_artur\warcastleduel\warcastle\wcc\WccAddInstructors.java ("8
+package-ru.gigabyte_artur.warcastleduel.warcastle.wcc"
+isFinalfalse"
+inner classfalse"
+
+isAbstractfalse"®
+declarationStringí<mark class="modifier">public </mark><mark class="modifier">class </mark>WccAddInstructors<mark class="modifier"> extends </mark>WarcastleDuelCard"
+accesspublic*WccAddInstructors2Ú
+Sru.gigabyte_artur.warcastleduel.warcastle.wcc.WccAddInstructors.WccAddInstructors()DECLARATIONç
+ÇD:\YaDisk\synk\YandexDisk\JavaProjects\WarcastleDuel\core\src\ru\gigabyte_artur\warcastleduel\warcastle\wcc\WccAddInstructors.java	 	(2Ï
+Mru.gigabyte_artur.warcastleduel.warcastle.wcc.WccAddInstructors.GetCodeName()DECLARATIONç
+ÇD:\YaDisk\synk\YandexDisk\JavaProjects\WarcastleDuel\core\src\ru\gigabyte_artur\warcastleduel\warcastle\wcc\WccAddInstructors.java (2ı
+Vru.gigabyte_artur.warcastleduel.warcastle.wcc.WccAddInstructors.getStandardSellPrice()DECLARATIONç
+ÇD:\YaDisk\synk\YandexDisk\JavaProjects\WarcastleDuel\core\src\ru\gigabyte_artur\warcastleduel\warcastle\wcc\WccAddInstructors.java (#2‚
+¬ru.gigabyte_artur.warcastleduel.warcastle.wcc.WccAddInstructors.Effect(ru.gigabyte_artur.warcastleduel.warcastle.WarcastleDuelGame, ru.gigabyte_artur.warcastleduel.warcastle.WarcastleDuelPlayer)DECLARATIONç
+ÇD:\YaDisk\synk\YandexDisk\JavaProjects\WarcastleDuel\core\src\ru\gigabyte_artur\warcastleduel\warcastle\wcc\WccAddInstructors.java (2˜
+Xru.gigabyte_artur.warcastleduel.warcastle.wcc.WccAddInstructors.getStandardTexturePath()DECLARATIONç
+ÇD:\YaDisk\synk\YandexDisk\JavaProjects\WarcastleDuel\core\src\ru\gigabyte_artur\warcastleduel\warcastle\wcc\WccAddInstructors.java" "((2˜
+◊ru.gigabyte_artur.warcastleduel.warcastle.wcc.WccAddInstructors.GenerateStatusBarTextEffect(ru.gigabyte_artur.warcastleduel.warcastle.WarcastleDuelGame, ru.gigabyte_artur.warcastleduel.warcastle.WarcastleDuelPlayer)DECLARATIONç
+ÇD:\YaDisk\synk\YandexDisk\JavaProjects\WarcastleDuel\core\src\ru\gigabyte_artur\warcastleduel\warcastle\wcc\WccAddInstructors.java( ((-2’
+;ru.gigabyte_artur.warcastleduel.warcastle.WarcastleDuelCardEXTENDç
+ÇD:\YaDisk\synk\YandexDisk\JavaProjects\WarcastleDuel\core\src\ru\gigabyte_artur\warcastleduel\warcastle\wcc\WccAddInstructors.java' (8™
+Sru.gigabyte_artur.warcastleduel.warcastle.wcc.WccAddInstructors.WccAddInstructors()CONSTRUCTORç
+ÇD:\YaDisk\synk\YandexDisk\JavaProjects\WarcastleDuel\core\src\ru\gigabyte_artur\warcastleduel\warcastle\wcc\WccAddInstructors.java	 	("i
+declarationStringT<mark class="modifier">public </mark><mark class="method">WccAddInstructors</mark>()*WccAddInstructors2Â
+Mru.gigabyte_artur.warcastleduel.warcastle.WarcastleDuelCard.setSellPrice(int)CALLç
+ÇD:\YaDisk\synk\YandexDisk\JavaProjects\WarcastleDuel\core\src\ru\gigabyte_artur\warcastleduel\warcastle\wcc\WccAddInstructors.java (2Ó
+Vru.gigabyte_artur.warcastleduel.warcastle.wcc.WccAddInstructors.getStandardSellPrice()CALLç
+ÇD:\YaDisk\synk\YandexDisk\JavaProjects\WarcastleDuel\core\src\ru\gigabyte_artur\warcastleduel\warcastle\wcc\WccAddInstructors.java (32ﬁ
+?ru.gigabyte_artur.warcastleduel.warcastle.wcc.WccAddInstructorsRETURN_TYPEç
+ÇD:\YaDisk\synk\YandexDisk\JavaProjects\WarcastleDuel\core\src\ru\gigabyte_artur\warcastleduel\warcastle\wcc\WccAddInstructors.java	 	(˝
+
+Mru.gigabyte_artur.warcastleduel.warcastle.wcc.WccAddInstructors.GetCodeName()METHODç
+ÇD:\YaDisk\synk\YandexDisk\JavaProjects\WarcastleDuel\core\src\ru\gigabyte_artur\warcastleduel\warcastle\wcc\WccAddInstructors.java ("
+isFinalfalse"ô
+declarationStringÉ<mark class="annotation">@Override</mark> <br><mark class="modifier">public </mark>String <mark class="method">GetCodeName</mark>()"
+isStaticfalse"
+accesspublic"
+
+isAbstractfalse"
+typeString*GetCodeName2ı
+]ru.gigabyte_artur.warcastleduel.warcastle.wcc.WccAddInstructors.GetCodeName()?rez@18.15:18.18CALLç
+ÇD:\YaDisk\synk\YandexDisk\JavaProjects\WarcastleDuel\core\src\ru\gigabyte_artur\warcastleduel\warcastle\wcc\WccAddInstructors.java (2Â
+Iru.gigabyte_artur.warcastleduel.warcastle.WarcastleDuelCard.GetCodeName()OVERRIDEç
+ÇD:\YaDisk\synk\YandexDisk\JavaProjects\WarcastleDuel\core\src\ru\gigabyte_artur\warcastleduel\warcastle\wcc\WccAddInstructors.java (2¸
+]ru.gigabyte_artur.warcastleduel.warcastle.wcc.WccAddInstructors.GetCodeName()?rez@18.15:18.18DECLARATIONç
+ÇD:\YaDisk\synk\YandexDisk\JavaProjects\WarcastleDuel\core\src\ru\gigabyte_artur\warcastleduel\warcastle\wcc\WccAddInstructors.java (2Ø
+java.lang.StringRETURN_TYPEç
+ÇD:\YaDisk\synk\YandexDisk\JavaProjects\WarcastleDuel\core\src\ru\gigabyte_artur\warcastleduel\warcastle\wcc\WccAddInstructors.java (ª
+]ru.gigabyte_artur.warcastleduel.warcastle.wcc.WccAddInstructors.GetCodeName()?rez@18.15:18.18VARIABLEç
+ÇD:\YaDisk\synk\YandexDisk\JavaProjects\WarcastleDuel\core\src\ru\gigabyte_artur\warcastleduel\warcastle\wcc\WccAddInstructors.java ("
+typeString"
+isFinalfalse"n
+declarationStringY<mark class="modifier"> </mark>String <mark class="class-field">rez</mark> = "AddIntsrcs"*rez2®
+java.lang.StringTYPEç
+ÇD:\YaDisk\synk\YandexDisk\JavaProjects\WarcastleDuel\core\src\ru\gigabyte_artur\warcastleduel\warcastle\wcc\WccAddInstructors.java (µ
+Vru.gigabyte_artur.warcastleduel.warcastle.wcc.WccAddInstructors.getStandardSellPrice()METHODç
+ÇD:\YaDisk\synk\YandexDisk\JavaProjects\WarcastleDuel\core\src\ru\gigabyte_artur\warcastleduel\warcastle\wcc\WccAddInstructors.java (#"
+isFinalfalse"Ω
+declarationStringß<mark class="annotation">@Override</mark> <br><mark class="modifier">public </mark><mark class="modifier">int</mark> <mark class="method">getStandardSellPrice</mark>()"
+isStaticfalse"
+accesspublic"
+
+isAbstractfalse"
+typeint*getStandardSellPrice2Ó
+Rru.gigabyte_artur.warcastleduel.warcastle.WarcastleDuelCard.getStandardSellPrice()OVERRIDEç
+ÇD:\YaDisk\synk\YandexDisk\JavaProjects\WarcastleDuel\core\src\ru\gigabyte_artur\warcastleduel\warcastle\wcc\WccAddInstructors.java (#2¢
+intRETURN_TYPEç
+ÇD:\YaDisk\synk\YandexDisk\JavaProjects\WarcastleDuel\core\src\ru\gigabyte_artur\warcastleduel\warcastle\wcc\WccAddInstructors.java (ú
+¬ru.gigabyte_artur.warcastleduel.warcastle.wcc.WccAddInstructors.Effect(ru.gigabyte_artur.warcastleduel.warcastle.WarcastleDuelGame, ru.gigabyte_artur.warcastleduel.warcastle.WarcastleDuelPlayer)METHODç
+ÇD:\YaDisk\synk\YandexDisk\JavaProjects\WarcastleDuel\core\src\ru\gigabyte_artur\warcastleduel\warcastle\wcc\WccAddInstructors.java ("
+isFinalfalse"§
+declarationStringé<mark class="annotation">@Override</mark> <br><mark class="modifier">public </mark><mark class="modifier">void</mark> <mark class="method">Effect</mark>(WarcastleDuelGame Game_in<mark class="modifier"><mark class="modifier">,</mark></mark> WarcastleDuelPlayer Player_in)"
+isStaticfalse"
+accesspublic"
+
+isAbstractfalse"
+typevoid*Effect2Ô
+Wru.gigabyte_artur.warcastleduel.warcastle.WarcastleDuelPlayer.IncrementInstructors(int)CALLç
+ÇD:\YaDisk\synk\YandexDisk\JavaProjects\WarcastleDuel\core\src\ru\gigabyte_artur\warcastleduel\warcastle\wcc\WccAddInstructors.java (&2Â
+Ãru.gigabyte_artur.warcastleduel.warcastle.wcc.WccAddInstructors.Effect(ru.gigabyte_artur.warcastleduel.warcastle.WarcastleDuelGame, ru.gigabyte_artur.warcastleduel.warcastle.WarcastleDuelPlayer)!Player_inCALLç
+ÇD:\YaDisk\synk\YandexDisk\JavaProjects\WarcastleDuel\core\src\ru\gigabyte_artur\warcastleduel\warcastle\wcc\WccAddInstructors.java (2€
+æru.gigabyte_artur.warcastleduel.warcastle.WarcastleDuelCard.Effect(ru.gigabyte_artur.warcastleduel.warcastle.WarcastleDuelGame, ru.gigabyte_artur.warcastleduel.warcastle.WarcastleDuelPlayer)OVERRIDEç
+ÇD:\YaDisk\synk\YandexDisk\JavaProjects\WarcastleDuel\core\src\ru\gigabyte_artur\warcastleduel\warcastle\wcc\WccAddInstructors.java (2Ë
+ ru.gigabyte_artur.warcastleduel.warcastle.wcc.WccAddInstructors.Effect(ru.gigabyte_artur.warcastleduel.warcastle.WarcastleDuelGame, ru.gigabyte_artur.warcastleduel.warcastle.WarcastleDuelPlayer)!Game_in	PARAMETERç
+ÇD:\YaDisk\synk\YandexDisk\JavaProjects\WarcastleDuel\core\src\ru\gigabyte_artur\warcastleduel\warcastle\wcc\WccAddInstructors.java) (02Í
+Ãru.gigabyte_artur.warcastleduel.warcastle.wcc.WccAddInstructors.Effect(ru.gigabyte_artur.warcastleduel.warcastle.WarcastleDuelGame, ru.gigabyte_artur.warcastleduel.warcastle.WarcastleDuelPlayer)!Player_in	PARAMETERç
+ÇD:\YaDisk\synk\YandexDisk\JavaProjects\WarcastleDuel\core\src\ru\gigabyte_artur\warcastleduel\warcastle\wcc\WccAddInstructors.javaF (O2£
+voidRETURN_TYPEç
+ÇD:\YaDisk\synk\YandexDisk\JavaProjects\WarcastleDuel\core\src\ru\gigabyte_artur\warcastleduel\warcastle\wcc\WccAddInstructors.java (§
+ ru.gigabyte_artur.warcastleduel.warcastle.wcc.WccAddInstructors.Effect(ru.gigabyte_artur.warcastleduel.warcastle.WarcastleDuelGame, ru.gigabyte_artur.warcastleduel.warcastle.WarcastleDuelPlayer)!Game_in	PARAMETERç
+ÇD:\YaDisk\synk\YandexDisk\JavaProjects\WarcastleDuel\core\src\ru\gigabyte_artur\warcastleduel\warcastle\wcc\WccAddInstructors.java) (0"
+typeWarcastleDuelGame"
+isFinalfalse".
+declarationStringWarcastleDuelGame Game_in*Game_in2”
+;ru.gigabyte_artur.warcastleduel.warcastle.WarcastleDuelGameTYPEç
+ÇD:\YaDisk\synk\YandexDisk\JavaProjects\WarcastleDuel\core\src\ru\gigabyte_artur\warcastleduel\warcastle\wcc\WccAddInstructors.java ((∞
+Ãru.gigabyte_artur.warcastleduel.warcastle.wcc.WccAddInstructors.Effect(ru.gigabyte_artur.warcastleduel.warcastle.WarcastleDuelGame, ru.gigabyte_artur.warcastleduel.warcastle.WarcastleDuelPlayer)!Player_in	PARAMETERç
+ÇD:\YaDisk\synk\YandexDisk\JavaProjects\WarcastleDuel\core\src\ru\gigabyte_artur\warcastleduel\warcastle\wcc\WccAddInstructors.javaF (O"
+typeWarcastleDuelPlayer"
+isFinalfalse"2
+declarationStringWarcastleDuelPlayer Player_in*	Player_in2’
+=ru.gigabyte_artur.warcastleduel.warcastle.WarcastleDuelPlayerTYPEç
+ÇD:\YaDisk\synk\YandexDisk\JavaProjects\WarcastleDuel\core\src\ru\gigabyte_artur\warcastleduel\warcastle\wcc\WccAddInstructors.java2 (E≤
+Xru.gigabyte_artur.warcastleduel.warcastle.wcc.WccAddInstructors.getStandardTexturePath()METHODç
+ÇD:\YaDisk\synk\YandexDisk\JavaProjects\WarcastleDuel\core\src\ru\gigabyte_artur\warcastleduel\warcastle\wcc\WccAddInstructors.java" "(("
+isFinalfalse"§
+declarationStringé<mark class="annotation">@Override</mark> <br><mark class="modifier">public </mark>String <mark class="method">getStandardTexturePath</mark>()"
+isStaticfalse"
+accesspublic"
+
+isAbstractfalse"
+typeString*getStandardTexturePath2
+Tru.gigabyte_artur.warcastleduel.warcastle.WarcastleDuelCard.getStandardTexturePath()OVERRIDEç
+ÇD:\YaDisk\synk\YandexDisk\JavaProjects\WarcastleDuel\core\src\ru\gigabyte_artur\warcastleduel\warcastle\wcc\WccAddInstructors.java" "((2Ø
+java.lang.StringRETURN_TYPEç
+ÇD:\YaDisk\synk\YandexDisk\JavaProjects\WarcastleDuel\core\src\ru\gigabyte_artur\warcastleduel\warcastle\wcc\WccAddInstructors.java" "(ø
+◊ru.gigabyte_artur.warcastleduel.warcastle.wcc.WccAddInstructors.GenerateStatusBarTextEffect(ru.gigabyte_artur.warcastleduel.warcastle.WarcastleDuelGame, ru.gigabyte_artur.warcastleduel.warcastle.WarcastleDuelPlayer)METHODç
+ÇD:\YaDisk\synk\YandexDisk\JavaProjects\WarcastleDuel\core\src\ru\gigabyte_artur\warcastleduel\warcastle\wcc\WccAddInstructors.java( ((-"
+isFinalfalse"ù
+declarationStringá<mark class="annotation">@Override</mark> <br><mark class="modifier">public </mark>String <mark class="method">GenerateStatusBarTextEffect</mark>(WarcastleDuelGame Game_in<mark class="modifier"><mark class="modifier">,</mark></mark> WarcastleDuelPlayer Player_in)"
+isStaticfalse"
+accesspublic"
+
+isAbstractfalse"
+typeString*GenerateStatusBarTextEffect2Ä
+Áru.gigabyte_artur.warcastleduel.warcastle.wcc.WccAddInstructors.GenerateStatusBarTextEffect(ru.gigabyte_artur.warcastleduel.warcastle.WarcastleDuelGame, ru.gigabyte_artur.warcastleduel.warcastle.WarcastleDuelPlayer)?rez@42.15:42.18CALLç
+ÇD:\YaDisk\synk\YandexDisk\JavaProjects\WarcastleDuel\core\src\ru\gigabyte_artur\warcastleduel\warcastle\wcc\WccAddInstructors.java+ +(2
+”ru.gigabyte_artur.warcastleduel.warcastle.WarcastleDuelCard.GenerateStatusBarTextEffect(ru.gigabyte_artur.warcastleduel.warcastle.WarcastleDuelGame, ru.gigabyte_artur.warcastleduel.warcastle.WarcastleDuelPlayer)OVERRIDEç
+ÇD:\YaDisk\synk\YandexDisk\JavaProjects\WarcastleDuel\core\src\ru\gigabyte_artur\warcastleduel\warcastle\wcc\WccAddInstructors.java( ((-2˝
+ﬂru.gigabyte_artur.warcastleduel.warcastle.wcc.WccAddInstructors.GenerateStatusBarTextEffect(ru.gigabyte_artur.warcastleduel.warcastle.WarcastleDuelGame, ru.gigabyte_artur.warcastleduel.warcastle.WarcastleDuelPlayer)!Game_in	PARAMETERç
+ÇD:\YaDisk\synk\YandexDisk\JavaProjects\WarcastleDuel\core\src\ru\gigabyte_artur\warcastleduel\warcastle\wcc\WccAddInstructors.java(@ ((G2ˇ
+·ru.gigabyte_artur.warcastleduel.warcastle.wcc.WccAddInstructors.GenerateStatusBarTextEffect(ru.gigabyte_artur.warcastleduel.warcastle.WarcastleDuelGame, ru.gigabyte_artur.warcastleduel.warcastle.WarcastleDuelPlayer)!Player_in	PARAMETERç
+ÇD:\YaDisk\synk\YandexDisk\JavaProjects\WarcastleDuel\core\src\ru\gigabyte_artur\warcastleduel\warcastle\wcc\WccAddInstructors.java(] ((f2á
+Áru.gigabyte_artur.warcastleduel.warcastle.wcc.WccAddInstructors.GenerateStatusBarTextEffect(ru.gigabyte_artur.warcastleduel.warcastle.WarcastleDuelGame, ru.gigabyte_artur.warcastleduel.warcastle.WarcastleDuelPlayer)?rez@42.15:42.18DECLARATIONç
+ÇD:\YaDisk\synk\YandexDisk\JavaProjects\WarcastleDuel\core\src\ru\gigabyte_artur\warcastleduel\warcastle\wcc\WccAddInstructors.java* *(2Ø
+java.lang.StringRETURN_TYPEç
+ÇD:\YaDisk\synk\YandexDisk\JavaProjects\WarcastleDuel\core\src\ru\gigabyte_artur\warcastleduel\warcastle\wcc\WccAddInstructors.java( ((œ
+Áru.gigabyte_artur.warcastleduel.warcastle.wcc.WccAddInstructors.GenerateStatusBarTextEffect(ru.gigabyte_artur.warcastleduel.warcastle.WarcastleDuelGame, ru.gigabyte_artur.warcastleduel.warcastle.WarcastleDuelPlayer)?rez@42.15:42.18VARIABLEç
+ÇD:\YaDisk\synk\YandexDisk\JavaProjects\WarcastleDuel\core\src\ru\gigabyte_artur\warcastleduel\warcastle\wcc\WccAddInstructors.java* *("
+typeString"
+isFinalfalse"w
+declarationStringb<mark class="modifier"> </mark>String <mark class="class-field">rez</mark> = "Added 1 instructors"*rez2®
+java.lang.StringTYPEç
+ÇD:\YaDisk\synk\YandexDisk\JavaProjects\WarcastleDuel\core\src\ru\gigabyte_artur\warcastleduel\warcastle\wcc\WccAddInstructors.java* *(π
+ﬂru.gigabyte_artur.warcastleduel.warcastle.wcc.WccAddInstructors.GenerateStatusBarTextEffect(ru.gigabyte_artur.warcastleduel.warcastle.WarcastleDuelGame, ru.gigabyte_artur.warcastleduel.warcastle.WarcastleDuelPlayer)!Game_in	PARAMETERç
+ÇD:\YaDisk\synk\YandexDisk\JavaProjects\WarcastleDuel\core\src\ru\gigabyte_artur\warcastleduel\warcastle\wcc\WccAddInstructors.java(@ ((G"
+typeWarcastleDuelGame"
+isFinalfalse".
+declarationStringWarcastleDuelGame Game_in*Game_in2”
+;ru.gigabyte_artur.warcastleduel.warcastle.WarcastleDuelGameTYPEç
+ÇD:\YaDisk\synk\YandexDisk\JavaProjects\WarcastleDuel\core\src\ru\gigabyte_artur\warcastleduel\warcastle\wcc\WccAddInstructors.java(. ((?≈
+·ru.gigabyte_artur.warcastleduel.warcastle.wcc.WccAddInstructors.GenerateStatusBarTextEffect(ru.gigabyte_artur.warcastleduel.warcastle.WarcastleDuelGame, ru.gigabyte_artur.warcastleduel.warcastle.WarcastleDuelPlayer)!Player_in	PARAMETERç
+ÇD:\YaDisk\synk\YandexDisk\JavaProjects\WarcastleDuel\core\src\ru\gigabyte_artur\warcastleduel\warcastle\wcc\WccAddInstructors.java(] ((f"
+typeWarcastleDuelPlayer"
+isFinalfalse"2
+declarationStringWarcastleDuelPlayer Player_in*	Player_in2’
+=ru.gigabyte_artur.warcastleduel.warcastle.WarcastleDuelPlayerTYPEç
+ÇD:\YaDisk\synk\YandexDisk\JavaProjects\WarcastleDuel\core\src\ru\gigabyte_artur\warcastleduel\warcastle\wcc\WccAddInstructors.java(I ((\

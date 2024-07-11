@@ -1,0 +1,222 @@
+
+ÅD:\YaDisk\synk\YandexDisk\JavaProjects\WarcastleDuel\core\src\ru\gigabyte_artur\warcastleduel\warcastle\net\WcnPackedMessage.java◊
+>ru.gigabyte_artur.warcastleduel.warcastle.net.WcnPackedMessageCLASSå
+ÅD:\YaDisk\synk\YandexDisk\JavaProjects\WarcastleDuel\core\src\ru\gigabyte_artur\warcastleduel\warcastle\net\WcnPackedMessage.java ("8
+package-ru.gigabyte_artur.warcastleduel.warcastle.net"
+isFinalfalse"
+inner classfalse"
+
+isAbstractfalse"n
+declarationStringY<mark class="modifier">public </mark><mark class="modifier">class </mark>WcnPackedMessage"
+accesspublic*WcnPackedMessage2Í
+Lru.gigabyte_artur.warcastleduel.warcastle.net.WcnPackedMessage.getGameGUID()DECLARATIONå
+ÅD:\YaDisk\synk\YandexDisk\JavaProjects\WarcastleDuel\core\src\ru\gigabyte_artur\warcastleduel\warcastle\net\WcnPackedMessage.java	 	(2˙
+\ru.gigabyte_artur.warcastleduel.warcastle.net.WcnPackedMessage.setGameGUID(java.lang.String)DECLARATIONå
+ÅD:\YaDisk\synk\YandexDisk\JavaProjects\WarcastleDuel\core\src\ru\gigabyte_artur\warcastleduel\warcastle\net\WcnPackedMessage.java (2È
+Kru.gigabyte_artur.warcastleduel.warcastle.net.WcnPackedMessage.getMessage()DECLARATIONå
+ÅD:\YaDisk\synk\YandexDisk\JavaProjects\WarcastleDuel\core\src\ru\gigabyte_artur\warcastleduel\warcastle\net\WcnPackedMessage.java (2˘
+[ru.gigabyte_artur.warcastleduel.warcastle.net.WcnPackedMessage.setMessage(java.lang.String)DECLARATIONå
+ÅD:\YaDisk\synk\YandexDisk\JavaProjects\WarcastleDuel\core\src\ru\gigabyte_artur\warcastleduel\warcastle\net\WcnPackedMessage.java (2Ò
+Sru.gigabyte_artur.warcastleduel.warcastle.net.WcnPackedMessage.getProtocolVersion()DECLARATIONå
+ÅD:\YaDisk\synk\YandexDisk\JavaProjects\WarcastleDuel\core\src\ru\gigabyte_artur\warcastleduel\warcastle\net\WcnPackedMessage.java ($2Å
+cru.gigabyte_artur.warcastleduel.warcastle.net.WcnPackedMessage.setProtocolVersion(java.lang.String)DECLARATIONå
+ÅD:\YaDisk\synk\YandexDisk\JavaProjects\WarcastleDuel\core\src\ru\gigabyte_artur\warcastleduel\warcastle\net\WcnPackedMessage.java" "("2Í
+Lru.gigabyte_artur.warcastleduel.warcastle.net.WcnPackedMessage.getTimeSend()DECLARATIONå
+ÅD:\YaDisk\synk\YandexDisk\JavaProjects\WarcastleDuel\core\src\ru\gigabyte_artur\warcastleduel\warcastle\net\WcnPackedMessage.java' '(2Ó
+Pru.gigabyte_artur.warcastleduel.warcastle.net.WcnPackedMessage.setTimeSend(long)DECLARATIONå
+ÅD:\YaDisk\synk\YandexDisk\JavaProjects\WarcastleDuel\core\src\ru\gigabyte_artur\warcastleduel\warcastle\net\WcnPackedMessage.java, ,(2Ó
+Pru.gigabyte_artur.warcastleduel.warcastle.net.WcnPackedMessage?message@4.19:4.26DECLARATIONå
+ÅD:\YaDisk\synk\YandexDisk\JavaProjects\WarcastleDuel\core\src\ru\gigabyte_artur\warcastleduel\warcastle\net\WcnPackedMessage.java (2ˆ
+Xru.gigabyte_artur.warcastleduel.warcastle.net.WcnPackedMessage?ProtocolVersion@5.19:5.34DECLARATIONå
+ÅD:\YaDisk\synk\YandexDisk\JavaProjects\WarcastleDuel\core\src\ru\gigabyte_artur\warcastleduel\warcastle\net\WcnPackedMessage.java ("2Ô
+Qru.gigabyte_artur.warcastleduel.warcastle.net.WcnPackedMessage?TimeSend@6.17:6.25DECLARATIONå
+ÅD:\YaDisk\synk\YandexDisk\JavaProjects\WarcastleDuel\core\src\ru\gigabyte_artur\warcastleduel\warcastle\net\WcnPackedMessage.java (2Ô
+Qru.gigabyte_artur.warcastleduel.warcastle.net.WcnPackedMessage?GameGUID@7.19:7.27DECLARATIONå
+ÅD:\YaDisk\synk\YandexDisk\JavaProjects\WarcastleDuel\core\src\ru\gigabyte_artur\warcastleduel\warcastle\net\WcnPackedMessage.java (÷
+Lru.gigabyte_artur.warcastleduel.warcastle.net.WcnPackedMessage.getGameGUID()METHODå
+ÅD:\YaDisk\synk\YandexDisk\JavaProjects\WarcastleDuel\core\src\ru\gigabyte_artur\warcastleduel\warcastle\net\WcnPackedMessage.java	 	("
+isFinalfalse"j
+declarationStringU<mark class="modifier">public </mark>String <mark class="method">getGameGUID</mark>()"
+isStaticfalse"
+accesspublic"
+
+isAbstractfalse"
+typeString*getGameGUID2Ë
+Qru.gigabyte_artur.warcastleduel.warcastle.net.WcnPackedMessage?GameGUID@7.19:7.27CALLå
+ÅD:\YaDisk\synk\YandexDisk\JavaProjects\WarcastleDuel\core\src\ru\gigabyte_artur\warcastleduel\warcastle\net\WcnPackedMessage.java (2Æ
+java.lang.StringRETURN_TYPEå
+ÅD:\YaDisk\synk\YandexDisk\JavaProjects\WarcastleDuel\core\src\ru\gigabyte_artur\warcastleduel\warcastle\net\WcnPackedMessage.java	 	(à
+\ru.gigabyte_artur.warcastleduel.warcastle.net.WcnPackedMessage.setGameGUID(java.lang.String)METHODå
+ÅD:\YaDisk\synk\YandexDisk\JavaProjects\WarcastleDuel\core\src\ru\gigabyte_artur\warcastleduel\warcastle\net\WcnPackedMessage.java ("
+isFinalfalse"ñ
+declarationStringÄ<mark class="modifier">public </mark><mark class="modifier">void</mark> <mark class="method">setGameGUID</mark>(String gameGUID)"
+isStaticfalse"
+accesspublic"
+
+isAbstractfalse"
+typevoid*setGameGUID2Ë
+Qru.gigabyte_artur.warcastleduel.warcastle.net.WcnPackedMessage?GameGUID@7.19:7.27CALLå
+ÅD:\YaDisk\synk\YandexDisk\JavaProjects\WarcastleDuel\core\src\ru\gigabyte_artur\warcastleduel\warcastle\net\WcnPackedMessage.java (2¸
+eru.gigabyte_artur.warcastleduel.warcastle.net.WcnPackedMessage.setGameGUID(java.lang.String)!gameGUIDCALLå
+ÅD:\YaDisk\synk\YandexDisk\JavaProjects\WarcastleDuel\core\src\ru\gigabyte_artur\warcastleduel\warcastle\net\WcnPackedMessage.java (2Å
+eru.gigabyte_artur.warcastleduel.warcastle.net.WcnPackedMessage.setGameGUID(java.lang.String)!gameGUID	PARAMETERå
+ÅD:\YaDisk\synk\YandexDisk\JavaProjects\WarcastleDuel\core\src\ru\gigabyte_artur\warcastleduel\warcastle\net\WcnPackedMessage.java# (+2¢
+voidRETURN_TYPEå
+ÅD:\YaDisk\synk\YandexDisk\JavaProjects\WarcastleDuel\core\src\ru\gigabyte_artur\warcastleduel\warcastle\net\WcnPackedMessage.java (˝
+eru.gigabyte_artur.warcastleduel.warcastle.net.WcnPackedMessage.setGameGUID(java.lang.String)!gameGUID	PARAMETERå
+ÅD:\YaDisk\synk\YandexDisk\JavaProjects\WarcastleDuel\core\src\ru\gigabyte_artur\warcastleduel\warcastle\net\WcnPackedMessage.java# (+"
+typeString"
+isFinalfalse"$
+declarationStringString gameGUID*gameGUID2ß
+java.lang.StringTYPEå
+ÅD:\YaDisk\synk\YandexDisk\JavaProjects\WarcastleDuel\core\src\ru\gigabyte_artur\warcastleduel\warcastle\net\WcnPackedMessage.java ("“
+Kru.gigabyte_artur.warcastleduel.warcastle.net.WcnPackedMessage.getMessage()METHODå
+ÅD:\YaDisk\synk\YandexDisk\JavaProjects\WarcastleDuel\core\src\ru\gigabyte_artur\warcastleduel\warcastle\net\WcnPackedMessage.java ("
+isFinalfalse"i
+declarationStringT<mark class="modifier">public </mark>String <mark class="method">getMessage</mark>()"
+isStaticfalse"
+accesspublic"
+
+isAbstractfalse"
+typeString*
+getMessage2Á
+Pru.gigabyte_artur.warcastleduel.warcastle.net.WcnPackedMessage?message@4.19:4.26CALLå
+ÅD:\YaDisk\synk\YandexDisk\JavaProjects\WarcastleDuel\core\src\ru\gigabyte_artur\warcastleduel\warcastle\net\WcnPackedMessage.java (2Æ
+java.lang.StringRETURN_TYPEå
+ÅD:\YaDisk\synk\YandexDisk\JavaProjects\WarcastleDuel\core\src\ru\gigabyte_artur\warcastleduel\warcastle\net\WcnPackedMessage.java (˛
+
+[ru.gigabyte_artur.warcastleduel.warcastle.net.WcnPackedMessage.setMessage(java.lang.String)METHODå
+ÅD:\YaDisk\synk\YandexDisk\JavaProjects\WarcastleDuel\core\src\ru\gigabyte_artur\warcastleduel\warcastle\net\WcnPackedMessage.java ("
+isFinalfalse"ì
+declarationString~<mark class="modifier">public </mark><mark class="modifier">void</mark> <mark class="method">setMessage</mark>(String message)"
+isStaticfalse"
+accesspublic"
+
+isAbstractfalse"
+typevoid*
+setMessage2˙
+cru.gigabyte_artur.warcastleduel.warcastle.net.WcnPackedMessage.setMessage(java.lang.String)!messageCALLå
+ÅD:\YaDisk\synk\YandexDisk\JavaProjects\WarcastleDuel\core\src\ru\gigabyte_artur\warcastleduel\warcastle\net\WcnPackedMessage.java (2Á
+Pru.gigabyte_artur.warcastleduel.warcastle.net.WcnPackedMessage?message@4.19:4.26CALLå
+ÅD:\YaDisk\synk\YandexDisk\JavaProjects\WarcastleDuel\core\src\ru\gigabyte_artur\warcastleduel\warcastle\net\WcnPackedMessage.java (2ˇ
+cru.gigabyte_artur.warcastleduel.warcastle.net.WcnPackedMessage.setMessage(java.lang.String)!message	PARAMETERå
+ÅD:\YaDisk\synk\YandexDisk\JavaProjects\WarcastleDuel\core\src\ru\gigabyte_artur\warcastleduel\warcastle\net\WcnPackedMessage.java" ()2¢
+voidRETURN_TYPEå
+ÅD:\YaDisk\synk\YandexDisk\JavaProjects\WarcastleDuel\core\src\ru\gigabyte_artur\warcastleduel\warcastle\net\WcnPackedMessage.java (˘
+cru.gigabyte_artur.warcastleduel.warcastle.net.WcnPackedMessage.setMessage(java.lang.String)!message	PARAMETERå
+ÅD:\YaDisk\synk\YandexDisk\JavaProjects\WarcastleDuel\core\src\ru\gigabyte_artur\warcastleduel\warcastle\net\WcnPackedMessage.java" ()"
+typeString"
+isFinalfalse"#
+declarationStringString message*message2ß
+java.lang.StringTYPEå
+ÅD:\YaDisk\synk\YandexDisk\JavaProjects\WarcastleDuel\core\src\ru\gigabyte_artur\warcastleduel\warcastle\net\WcnPackedMessage.java (!Ú
+Sru.gigabyte_artur.warcastleduel.warcastle.net.WcnPackedMessage.getProtocolVersion()METHODå
+ÅD:\YaDisk\synk\YandexDisk\JavaProjects\WarcastleDuel\core\src\ru\gigabyte_artur\warcastleduel\warcastle\net\WcnPackedMessage.java ($"
+isFinalfalse"q
+declarationString\<mark class="modifier">public </mark>String <mark class="method">getProtocolVersion</mark>()"
+isStaticfalse"
+accesspublic"
+
+isAbstractfalse"
+typeString*getProtocolVersion2Ô
+Xru.gigabyte_artur.warcastleduel.warcastle.net.WcnPackedMessage?ProtocolVersion@5.19:5.34CALLå
+ÅD:\YaDisk\synk\YandexDisk\JavaProjects\WarcastleDuel\core\src\ru\gigabyte_artur\warcastleduel\warcastle\net\WcnPackedMessage.java (2Æ
+java.lang.StringRETURN_TYPEå
+ÅD:\YaDisk\synk\YandexDisk\JavaProjects\WarcastleDuel\core\src\ru\gigabyte_artur\warcastleduel\warcastle\net\WcnPackedMessage.java («
+cru.gigabyte_artur.warcastleduel.warcastle.net.WcnPackedMessage.setProtocolVersion(java.lang.String)METHODå
+ÅD:\YaDisk\synk\YandexDisk\JavaProjects\WarcastleDuel\core\src\ru\gigabyte_artur\warcastleduel\warcastle\net\WcnPackedMessage.java" "(""
+isFinalfalse"§
+declarationStringé<mark class="modifier">public </mark><mark class="modifier">void</mark> <mark class="method">setProtocolVersion</mark>(String protocolVersion)"
+isStaticfalse"
+accesspublic"
+
+isAbstractfalse"
+typevoid*setProtocolVersion2Ô
+Xru.gigabyte_artur.warcastleduel.warcastle.net.WcnPackedMessage?ProtocolVersion@5.19:5.34CALLå
+ÅD:\YaDisk\synk\YandexDisk\JavaProjects\WarcastleDuel\core\src\ru\gigabyte_artur\warcastleduel\warcastle\net\WcnPackedMessage.java$ $(2ä
+sru.gigabyte_artur.warcastleduel.warcastle.net.WcnPackedMessage.setProtocolVersion(java.lang.String)!protocolVersionCALLå
+ÅD:\YaDisk\synk\YandexDisk\JavaProjects\WarcastleDuel\core\src\ru\gigabyte_artur\warcastleduel\warcastle\net\WcnPackedMessage.java$ $()2è
+sru.gigabyte_artur.warcastleduel.warcastle.net.WcnPackedMessage.setProtocolVersion(java.lang.String)!protocolVersion	PARAMETERå
+ÅD:\YaDisk\synk\YandexDisk\JavaProjects\WarcastleDuel\core\src\ru\gigabyte_artur\warcastleduel\warcastle\net\WcnPackedMessage.java"* "(92¢
+voidRETURN_TYPEå
+ÅD:\YaDisk\synk\YandexDisk\JavaProjects\WarcastleDuel\core\src\ru\gigabyte_artur\warcastleduel\warcastle\net\WcnPackedMessage.java" "(ô
+sru.gigabyte_artur.warcastleduel.warcastle.net.WcnPackedMessage.setProtocolVersion(java.lang.String)!protocolVersion	PARAMETERå
+ÅD:\YaDisk\synk\YandexDisk\JavaProjects\WarcastleDuel\core\src\ru\gigabyte_artur\warcastleduel\warcastle\net\WcnPackedMessage.java"* "(9"
+typeString"
+isFinalfalse"+
+declarationStringString protocolVersion*protocolVersion2ß
+java.lang.StringTYPEå
+ÅD:\YaDisk\synk\YandexDisk\JavaProjects\WarcastleDuel\core\src\ru\gigabyte_artur\warcastleduel\warcastle\net\WcnPackedMessage.java"# "()Â
+Lru.gigabyte_artur.warcastleduel.warcastle.net.WcnPackedMessage.getTimeSend()METHODå
+ÅD:\YaDisk\synk\YandexDisk\JavaProjects\WarcastleDuel\core\src\ru\gigabyte_artur\warcastleduel\warcastle\net\WcnPackedMessage.java' '("
+isFinalfalse"Ü
+declarationStringq<mark class="modifier">public </mark><mark class="modifier">long</mark> <mark class="method">getTimeSend</mark>()"
+isStaticfalse"
+accesspublic"
+
+isAbstractfalse"
+typelong*getTimeSend2Ë
+Qru.gigabyte_artur.warcastleduel.warcastle.net.WcnPackedMessage?TimeSend@6.17:6.25CALLå
+ÅD:\YaDisk\synk\YandexDisk\JavaProjects\WarcastleDuel\core\src\ru\gigabyte_artur\warcastleduel\warcastle\net\WcnPackedMessage.java) )(2¢
+longRETURN_TYPEå
+ÅD:\YaDisk\synk\YandexDisk\JavaProjects\WarcastleDuel\core\src\ru\gigabyte_artur\warcastleduel\warcastle\net\WcnPackedMessage.java' '(Ä
+Pru.gigabyte_artur.warcastleduel.warcastle.net.WcnPackedMessage.setTimeSend(long)METHODå
+ÅD:\YaDisk\synk\YandexDisk\JavaProjects\WarcastleDuel\core\src\ru\gigabyte_artur\warcastleduel\warcastle\net\WcnPackedMessage.java, ,("
+isFinalfalse"≤
+declarationStringú<mark class="modifier">public </mark><mark class="modifier">void</mark> <mark class="method">setTimeSend</mark>(<mark class="modifier">long</mark> timeSend)"
+isStaticfalse"
+accesspublic"
+
+isAbstractfalse"
+typevoid*setTimeSend2Ë
+Qru.gigabyte_artur.warcastleduel.warcastle.net.WcnPackedMessage?TimeSend@6.17:6.25CALLå
+ÅD:\YaDisk\synk\YandexDisk\JavaProjects\WarcastleDuel\core\src\ru\gigabyte_artur\warcastleduel\warcastle\net\WcnPackedMessage.java. .(2
+Yru.gigabyte_artur.warcastleduel.warcastle.net.WcnPackedMessage.setTimeSend(long)!timeSendCALLå
+ÅD:\YaDisk\synk\YandexDisk\JavaProjects\WarcastleDuel\core\src\ru\gigabyte_artur\warcastleduel\warcastle\net\WcnPackedMessage.java. .(2ı
+Yru.gigabyte_artur.warcastleduel.warcastle.net.WcnPackedMessage.setTimeSend(long)!timeSend	PARAMETERå
+ÅD:\YaDisk\synk\YandexDisk\JavaProjects\WarcastleDuel\core\src\ru\gigabyte_artur\warcastleduel\warcastle\net\WcnPackedMessage.java,! ,()2¢
+voidRETURN_TYPEå
+ÅD:\YaDisk\synk\YandexDisk\JavaProjects\WarcastleDuel\core\src\ru\gigabyte_artur\warcastleduel\warcastle\net\WcnPackedMessage.java, ,(ˇ
+Yru.gigabyte_artur.warcastleduel.warcastle.net.WcnPackedMessage.setTimeSend(long)!timeSend	PARAMETERå
+ÅD:\YaDisk\synk\YandexDisk\JavaProjects\WarcastleDuel\core\src\ru\gigabyte_artur\warcastleduel\warcastle\net\WcnPackedMessage.java,! ,()"
+typelong"
+isFinalfalse"@
+declarationString+<mark class="modifier">long</mark> timeSend*timeSend2õ
+longTYPEå
+ÅD:\YaDisk\synk\YandexDisk\JavaProjects\WarcastleDuel\core\src\ru\gigabyte_artur\warcastleduel\warcastle\net\WcnPackedMessage.java, ,( “
+Pru.gigabyte_artur.warcastleduel.warcastle.net.WcnPackedMessage?message@4.19:4.26VARIABLEå
+ÅD:\YaDisk\synk\YandexDisk\JavaProjects\WarcastleDuel\core\src\ru\gigabyte_artur\warcastleduel\warcastle\net\WcnPackedMessage.java ("
+isFinalfalse"
+typeString"j
+declarationStringU<mark class="modifier">private </mark>String <mark class="class-field">message</mark>"
+isStaticfalse"
+accessprivate*message2ß
+java.lang.StringTYPEå
+ÅD:\YaDisk\synk\YandexDisk\JavaProjects\WarcastleDuel\core\src\ru\gigabyte_artur\warcastleduel\warcastle\net\WcnPackedMessage.java (Í
+Xru.gigabyte_artur.warcastleduel.warcastle.net.WcnPackedMessage?ProtocolVersion@5.19:5.34VARIABLEå
+ÅD:\YaDisk\synk\YandexDisk\JavaProjects\WarcastleDuel\core\src\ru\gigabyte_artur\warcastleduel\warcastle\net\WcnPackedMessage.java (""
+isFinalfalse"
+typeString"r
+declarationString]<mark class="modifier">private </mark>String <mark class="class-field">ProtocolVersion</mark>"
+isStaticfalse"
+accessprivate*ProtocolVersion2ß
+java.lang.StringTYPEå
+ÅD:\YaDisk\synk\YandexDisk\JavaProjects\WarcastleDuel\core\src\ru\gigabyte_artur\warcastleduel\warcastle\net\WcnPackedMessage.java (È
+Qru.gigabyte_artur.warcastleduel.warcastle.net.WcnPackedMessage?TimeSend@6.17:6.25VARIABLEå
+ÅD:\YaDisk\synk\YandexDisk\JavaProjects\WarcastleDuel\core\src\ru\gigabyte_artur\warcastleduel\warcastle\net\WcnPackedMessage.java ("
+isFinalfalse"
+typelong"å
+declarationStringw<mark class="modifier">private </mark><mark class="modifier">long</mark> <mark class="class-field">TimeSend</mark> = 0;"
+isStaticfalse"
+accessprivate*TimeSend2õ
+longTYPEå
+ÅD:\YaDisk\synk\YandexDisk\JavaProjects\WarcastleDuel\core\src\ru\gigabyte_artur\warcastleduel\warcastle\net\WcnPackedMessage.java (€
+Qru.gigabyte_artur.warcastleduel.warcastle.net.WcnPackedMessage?GameGUID@7.19:7.27VARIABLEå
+ÅD:\YaDisk\synk\YandexDisk\JavaProjects\WarcastleDuel\core\src\ru\gigabyte_artur\warcastleduel\warcastle\net\WcnPackedMessage.java ("
+isFinalfalse"
+typeString"q
+declarationString\<mark class="modifier">private </mark>String <mark class="class-field">GameGUID</mark> = "";"
+isStaticfalse"
+accessprivate*GameGUID2ß
+java.lang.StringTYPEå
+ÅD:\YaDisk\synk\YandexDisk\JavaProjects\WarcastleDuel\core\src\ru\gigabyte_artur\warcastleduel\warcastle\net\WcnPackedMessage.java (

@@ -1,0 +1,363 @@
+
+ñD:\YaDisk\synk\YandexDisk\JavaProjects\WarcastleDuel\core\src\ru\gigabyte_artur\warcastleduel\warcastle\screen_interface\ScreenWarcastlePlyerInfo.javaú
+Sru.gigabyte_artur.warcastleduel.warcastle.screen_interface.ScreenWarcastlePlyerInfoCLASS°
+ñD:\YaDisk\synk\YandexDisk\JavaProjects\WarcastleDuel\core\src\ru\gigabyte_artur\warcastleduel\warcastle\screen_interface\ScreenWarcastlePlyerInfo.java (%"E
+package:ru.gigabyte_artur.warcastleduel.warcastle.screen_interface"
+isFinalfalse"
+inner classfalse"
+
+isAbstractfalse"µ
+declarationStringü<mark class="modifier">public </mark><mark class="modifier">class </mark>ScreenWarcastlePlyerInfo<mark class="modifier"> extends </mark>ScreenRectangledElement"
+accesspublic*ScreenWarcastlePlyerInfo2°
+nru.gigabyte_artur.warcastleduel.warcastle.screen_interface.ScreenWarcastlePlyerInfo.ScreenWarcastlePlyerInfo()DECLARATION°
+ñD:\YaDisk\synk\YandexDisk\JavaProjects\WarcastleDuel\core\src\ru\gigabyte_artur\warcastleduel\warcastle\screen_interface\ScreenWarcastlePlyerInfo.java (#2÷
+¢ru.gigabyte_artur.warcastleduel.warcastle.screen_interface.ScreenWarcastlePlyerInfo.setLinkedPlayer(ru.gigabyte_artur.warcastleduel.warcastle.WarcastleDuelPlayer)DECLARATION°
+ñD:\YaDisk\synk\YandexDisk\JavaProjects\WarcastleDuel\core\src\ru\gigabyte_artur\warcastleduel\warcastle\screen_interface\ScreenWarcastlePlyerInfo.java (2ò
+eru.gigabyte_artur.warcastleduel.warcastle.screen_interface.ScreenWarcastlePlyerInfo.getLinkedPlayer()DECLARATION°
+ñD:\YaDisk\synk\YandexDisk\JavaProjects\WarcastleDuel\core\src\ru\gigabyte_artur\warcastleduel\warcastle\screen_interface\ScreenWarcastlePlyerInfo.java (.2∑
+Éru.gigabyte_artur.warcastleduel.warcastle.screen_interface.ScreenWarcastlePlyerInfo.draw(com.badlogic.gdx.graphics.g2d.SpriteBatch)DECLARATION°
+ñD:\YaDisk\synk\YandexDisk\JavaProjects\WarcastleDuel\core\src\ru\gigabyte_artur\warcastleduel\warcastle\screen_interface\ScreenWarcastlePlyerInfo.java! !(2ü
+lru.gigabyte_artur.warcastleduel.warcastle.screen_interface.ScreenWarcastlePlyerInfo?LinkedPlayer@10.32:10.44DECLARATION°
+ñD:\YaDisk\synk\YandexDisk\JavaProjects\WarcastleDuel\core\src\ru\gigabyte_artur\warcastleduel\warcastle\screen_interface\ScreenWarcastlePlyerInfo.java
+  
+(,2ú
+iru.gigabyte_artur.warcastleduel.warcastle.screen_interface.ScreenWarcastlePlyerInfo?StatsFont@11.23:11.32DECLARATION°
+ñD:\YaDisk\synk\YandexDisk\JavaProjects\WarcastleDuel\core\src\ru\gigabyte_artur\warcastleduel\warcastle\screen_interface\ScreenWarcastlePlyerInfo.java ( 2õ
+hru.gigabyte_artur.warcastleduel.warcastle.screen_interface.ScreenWarcastlePlyerInfo?NameFont@12.23:12.31DECLARATION°
+ñD:\YaDisk\synk\YandexDisk\JavaProjects\WarcastleDuel\core\src\ru\gigabyte_artur\warcastleduel\warcastle\screen_interface\ScreenWarcastlePlyerInfo.java (2Ä
+Rru.gigabyte_artur.warcastleduel.warcastle.screen_interface.ScreenRectangledElementEXTEND°
+ñD:\YaDisk\synk\YandexDisk\JavaProjects\WarcastleDuel\core\src\ru\gigabyte_artur\warcastleduel\warcastle\screen_interface\ScreenWarcastlePlyerInfo.java. (Eî
+nru.gigabyte_artur.warcastleduel.warcastle.screen_interface.ScreenWarcastlePlyerInfo.ScreenWarcastlePlyerInfo()CONSTRUCTOR°
+ñD:\YaDisk\synk\YandexDisk\JavaProjects\WarcastleDuel\core\src\ru\gigabyte_artur\warcastleduel\warcastle\screen_interface\ScreenWarcastlePlyerInfo.java (#"p
+declarationString[<mark class="modifier">public </mark><mark class="method">ScreenWarcastlePlyerInfo</mark>()*ScreenWarcastlePlyerInfo2ï
+iru.gigabyte_artur.warcastleduel.warcastle.screen_interface.ScreenWarcastlePlyerInfo?StatsFont@11.23:11.32CALL°
+ñD:\YaDisk\synk\YandexDisk\JavaProjects\WarcastleDuel\core\src\ru\gigabyte_artur\warcastleduel\warcastle\screen_interface\ScreenWarcastlePlyerInfo.java (2ï
+iru.gigabyte_artur.warcastleduel.warcastle.screen_interface.ScreenWarcastlePlyerInfo?StatsFont@11.23:11.32CALL°
+ñD:\YaDisk\synk\YandexDisk\JavaProjects\WarcastleDuel\core\src\ru\gigabyte_artur\warcastleduel\warcastle\screen_interface\ScreenWarcastlePlyerInfo.java (2î
+hru.gigabyte_artur.warcastleduel.warcastle.screen_interface.ScreenWarcastlePlyerInfo?NameFont@12.23:12.31CALL°
+ñD:\YaDisk\synk\YandexDisk\JavaProjects\WarcastleDuel\core\src\ru\gigabyte_artur\warcastleduel\warcastle\screen_interface\ScreenWarcastlePlyerInfo.java (2î
+hru.gigabyte_artur.warcastleduel.warcastle.screen_interface.ScreenWarcastlePlyerInfo?NameFont@12.23:12.31CALL°
+ñD:\YaDisk\synk\YandexDisk\JavaProjects\WarcastleDuel\core\src\ru\gigabyte_artur\warcastleduel\warcastle\screen_interface\ScreenWarcastlePlyerInfo.java (2Ü
+Sru.gigabyte_artur.warcastleduel.warcastle.screen_interface.ScreenWarcastlePlyerInfoRETURN_TYPE°
+ñD:\YaDisk\synk\YandexDisk\JavaProjects\WarcastleDuel\core\src\ru\gigabyte_artur\warcastleduel\warcastle\screen_interface\ScreenWarcastlePlyerInfo.java (#Ç
+¢ru.gigabyte_artur.warcastleduel.warcastle.screen_interface.ScreenWarcastlePlyerInfo.setLinkedPlayer(ru.gigabyte_artur.warcastleduel.warcastle.WarcastleDuelPlayer)METHOD°
+ñD:\YaDisk\synk\YandexDisk\JavaProjects\WarcastleDuel\core\src\ru\gigabyte_artur\warcastleduel\warcastle\screen_interface\ScreenWarcastlePlyerInfo.java ("
+isFinalfalse"´
+declarationStringï<mark class="modifier">public </mark><mark class="modifier">void</mark> <mark class="method">setLinkedPlayer</mark>(WarcastleDuelPlayer linkedPlayer)"
+isStaticfalse"
+accesspublic"
+
+isAbstractfalse"
+typevoid*setLinkedPlayer2ò
+lru.gigabyte_artur.warcastleduel.warcastle.screen_interface.ScreenWarcastlePlyerInfo?LinkedPlayer@10.32:10.44CALL°
+ñD:\YaDisk\synk\YandexDisk\JavaProjects\WarcastleDuel\core\src\ru\gigabyte_artur\warcastleduel\warcastle\screen_interface\ScreenWarcastlePlyerInfo.java (2‹
+Øru.gigabyte_artur.warcastleduel.warcastle.screen_interface.ScreenWarcastlePlyerInfo.setLinkedPlayer(ru.gigabyte_artur.warcastleduel.warcastle.WarcastleDuelPlayer)!linkedPlayerCALL°
+ñD:\YaDisk\synk\YandexDisk\JavaProjects\WarcastleDuel\core\src\ru\gigabyte_artur\warcastleduel\warcastle\screen_interface\ScreenWarcastlePlyerInfo.java (#2·
+Øru.gigabyte_artur.warcastleduel.warcastle.screen_interface.ScreenWarcastlePlyerInfo.setLinkedPlayer(ru.gigabyte_artur.warcastleduel.warcastle.WarcastleDuelPlayer)!linkedPlayer	PARAMETER°
+ñD:\YaDisk\synk\YandexDisk\JavaProjects\WarcastleDuel\core\src\ru\gigabyte_artur\warcastleduel\warcastle\screen_interface\ScreenWarcastlePlyerInfo.java4 (@2∑
+voidRETURN_TYPE°
+ñD:\YaDisk\synk\YandexDisk\JavaProjects\WarcastleDuel\core\src\ru\gigabyte_artur\warcastleduel\warcastle\screen_interface\ScreenWarcastlePlyerInfo.java (¡
+Øru.gigabyte_artur.warcastleduel.warcastle.screen_interface.ScreenWarcastlePlyerInfo.setLinkedPlayer(ru.gigabyte_artur.warcastleduel.warcastle.WarcastleDuelPlayer)!linkedPlayer	PARAMETER°
+ñD:\YaDisk\synk\YandexDisk\JavaProjects\WarcastleDuel\core\src\ru\gigabyte_artur\warcastleduel\warcastle\screen_interface\ScreenWarcastlePlyerInfo.java4 (@"
+typeWarcastleDuelPlayer"
+isFinalfalse"5
+declarationString WarcastleDuelPlayer linkedPlayer*linkedPlayer2È
+=ru.gigabyte_artur.warcastleduel.warcastle.WarcastleDuelPlayerTYPE°
+ñD:\YaDisk\synk\YandexDisk\JavaProjects\WarcastleDuel\core\src\ru\gigabyte_artur\warcastleduel\warcastle\screen_interface\ScreenWarcastlePlyerInfo.java  (3ò
+eru.gigabyte_artur.warcastleduel.warcastle.screen_interface.ScreenWarcastlePlyerInfo.getLinkedPlayer()METHOD°
+ñD:\YaDisk\synk\YandexDisk\JavaProjects\WarcastleDuel\core\src\ru\gigabyte_artur\warcastleduel\warcastle\screen_interface\ScreenWarcastlePlyerInfo.java (."
+isFinalfalse"{
+declarationStringf<mark class="modifier">public </mark>WarcastleDuelPlayer <mark class="method">getLinkedPlayer</mark>()"
+isStaticfalse"
+accesspublic"
+
+isAbstractfalse"
+typeWarcastleDuelPlayer*getLinkedPlayer2ò
+lru.gigabyte_artur.warcastleduel.warcastle.screen_interface.ScreenWarcastlePlyerInfo?LinkedPlayer@10.32:10.44CALL°
+ñD:\YaDisk\synk\YandexDisk\JavaProjects\WarcastleDuel\core\src\ru\gigabyte_artur\warcastleduel\warcastle\screen_interface\ScreenWarcastlePlyerInfo.java ( 2
+=ru.gigabyte_artur.warcastleduel.warcastle.WarcastleDuelPlayerRETURN_TYPE°
+ñD:\YaDisk\synk\YandexDisk\JavaProjects\WarcastleDuel\core\src\ru\gigabyte_artur\warcastleduel\warcastle\screen_interface\ScreenWarcastlePlyerInfo.java (≠Ä
+Éru.gigabyte_artur.warcastleduel.warcastle.screen_interface.ScreenWarcastlePlyerInfo.draw(com.badlogic.gdx.graphics.g2d.SpriteBatch)METHOD°
+ñD:\YaDisk\synk\YandexDisk\JavaProjects\WarcastleDuel\core\src\ru\gigabyte_artur\warcastleduel\warcastle\screen_interface\ScreenWarcastlePlyerInfo.java! !("
+isFinalfalse"ê
+declarationString{<mark class="modifier">public </mark><mark class="modifier">void</mark> <mark class="method">draw</mark>(SpriteBatch batch)"
+isStaticfalse"
+accesspublic"
+
+isAbstractfalse"
+typevoid*draw2Ö
+Yru.gigabyte_artur.warcastleduel.warcastle.screen_interface.ScreenRectangledElement.getX()CALL°
+ñD:\YaDisk\synk\YandexDisk\JavaProjects\WarcastleDuel\core\src\ru\gigabyte_artur\warcastleduel\warcastle\screen_interface\ScreenWarcastlePlyerInfo.java% %(2Ö
+Yru.gigabyte_artur.warcastleduel.warcastle.screen_interface.ScreenRectangledElement.getY()CALL°
+ñD:\YaDisk\synk\YandexDisk\JavaProjects\WarcastleDuel\core\src\ru\gigabyte_artur\warcastleduel\warcastle\screen_interface\ScreenWarcastlePlyerInfo.java& &(2„
+7ru.gigabyte_artur.warcastleduel.gaming.Player.getName()CALL°
+ñD:\YaDisk\synk\YandexDisk\JavaProjects\WarcastleDuel\core\src\ru\gigabyte_artur\warcastleduel\warcastle\screen_interface\ScreenWarcastlePlyerInfo.java)5 )(<2ı
+Iru.gigabyte_artur.warcastleduel.warcastle.WarcastleDuelPlayer.getMorale()CALL°
+ñD:\YaDisk\synk\YandexDisk\JavaProjects\WarcastleDuel\core\src\ru\gigabyte_artur\warcastleduel\warcastle\screen_interface\ScreenWarcastlePlyerInfo.java*8 *(A2ı
+Iru.gigabyte_artur.warcastleduel.warcastle.WarcastleDuelPlayer.getAmount()CALL°
+ñD:\YaDisk\synk\YandexDisk\JavaProjects\WarcastleDuel\core\src\ru\gigabyte_artur\warcastleduel\warcastle\screen_interface\ScreenWarcastlePlyerInfo.java+8 +(A2ı
+Iru.gigabyte_artur.warcastleduel.warcastle.WarcastleDuelPlayer.getSwords()CALL°
+ñD:\YaDisk\synk\YandexDisk\JavaProjects\WarcastleDuel\core\src\ru\gigabyte_artur\warcastleduel\warcastle\screen_interface\ScreenWarcastlePlyerInfo.java.8 .(A2ˆ
+Jru.gigabyte_artur.warcastleduel.warcastle.WarcastleDuelPlayer.getPriests()CALL°
+ñD:\YaDisk\synk\YandexDisk\JavaProjects\WarcastleDuel\core\src\ru\gigabyte_artur\warcastleduel\warcastle\screen_interface\ScreenWarcastlePlyerInfo.java/9 /(C2˙
+Nru.gigabyte_artur.warcastleduel.warcastle.WarcastleDuelPlayer.getInstructors()CALL°
+ñD:\YaDisk\synk\YandexDisk\JavaProjects\WarcastleDuel\core\src\ru\gigabyte_artur\warcastleduel\warcastle\screen_interface\ScreenWarcastlePlyerInfo.java0= 0(K2˙
+Nru.gigabyte_artur.warcastleduel.warcastle.WarcastleDuelPlayer.getSwordAttack()CALL°
+ñD:\YaDisk\synk\YandexDisk\JavaProjects\WarcastleDuel\core\src\ru\gigabyte_artur\warcastleduel\warcastle\screen_interface\ScreenWarcastlePlyerInfo.java28 2(F2Ù
+Hru.gigabyte_artur.warcastleduel.warcastle.WarcastleDuelPlayer.getArmor()CALL°
+ñD:\YaDisk\synk\YandexDisk\JavaProjects\WarcastleDuel\core\src\ru\gigabyte_artur\warcastleduel\warcastle\screen_interface\ScreenWarcastlePlyerInfo.java37 3(?2˘
+Mru.gigabyte_artur.warcastleduel.warcastle.WarcastleDuelPlayer.getSwordSkill()CALL°
+ñD:\YaDisk\synk\YandexDisk\JavaProjects\WarcastleDuel\core\src\ru\gigabyte_artur\warcastleduel\warcastle\screen_interface\ScreenWarcastlePlyerInfo.java47 4(D2˜
+Kru.gigabyte_artur.warcastleduel.warcastle.WarcastleDuelPlayer.getPeasants()CALL°
+ñD:\YaDisk\synk\YandexDisk\JavaProjects\WarcastleDuel\core\src\ru\gigabyte_artur\warcastleduel\warcastle\screen_interface\ScreenWarcastlePlyerInfo.java7: 7(E2ı
+Iru.gigabyte_artur.warcastleduel.warcastle.WarcastleDuelPlayer.getHorses()CALL°
+ñD:\YaDisk\synk\YandexDisk\JavaProjects\WarcastleDuel\core\src\ru\gigabyte_artur\warcastleduel\warcastle\screen_interface\ScreenWarcastlePlyerInfo.java88 8(A2˙
+Nru.gigabyte_artur.warcastleduel.warcastle.WarcastleDuelPlayer.getHorseAttack()CALL°
+ñD:\YaDisk\synk\YandexDisk\JavaProjects\WarcastleDuel\core\src\ru\gigabyte_artur\warcastleduel\warcastle\screen_interface\ScreenWarcastlePlyerInfo.java:> :(L2Ù
+Hru.gigabyte_artur.warcastleduel.warcastle.WarcastleDuelPlayer.getDodge()CALL°
+ñD:\YaDisk\synk\YandexDisk\JavaProjects\WarcastleDuel\core\src\ru\gigabyte_artur\warcastleduel\warcastle\screen_interface\ScreenWarcastlePlyerInfo.java;7 ;(?2Û
+Gru.gigabyte_artur.warcastleduel.warcastle.WarcastleDuelPlayer.getLuck()CALL°
+ñD:\YaDisk\synk\YandexDisk\JavaProjects\WarcastleDuel\core\src\ru\gigabyte_artur\warcastleduel\warcastle\screen_interface\ScreenWarcastlePlyerInfo.java<6 <(=2≈
+òru.gigabyte_artur.warcastleduel.warcastle.screen_interface.ScreenWarcastlePlyerInfo.draw(com.badlogic.gdx.graphics.g2d.SpriteBatch)?CurrentX@36.12:36.20CALL°
+ñD:\YaDisk\synk\YandexDisk\JavaProjects\WarcastleDuel\core\src\ru\gigabyte_artur\warcastleduel\warcastle\screen_interface\ScreenWarcastlePlyerInfo.java% %(2≈
+òru.gigabyte_artur.warcastleduel.warcastle.screen_interface.ScreenWarcastlePlyerInfo.draw(com.badlogic.gdx.graphics.g2d.SpriteBatch)?CurrentY@36.22:36.30CALL°
+ñD:\YaDisk\synk\YandexDisk\JavaProjects\WarcastleDuel\core\src\ru\gigabyte_artur\warcastleduel\warcastle\screen_interface\ScreenWarcastlePlyerInfo.java& &(2î
+hru.gigabyte_artur.warcastleduel.warcastle.screen_interface.ScreenWarcastlePlyerInfo?NameFont@12.23:12.31CALL°
+ñD:\YaDisk\synk\YandexDisk\JavaProjects\WarcastleDuel\core\src\ru\gigabyte_artur\warcastleduel\warcastle\screen_interface\ScreenWarcastlePlyerInfo.java) )(2∂
+âru.gigabyte_artur.warcastleduel.warcastle.screen_interface.ScreenWarcastlePlyerInfo.draw(com.badlogic.gdx.graphics.g2d.SpriteBatch)!batchCALL°
+ñD:\YaDisk\synk\YandexDisk\JavaProjects\WarcastleDuel\core\src\ru\gigabyte_artur\warcastleduel\warcastle\screen_interface\ScreenWarcastlePlyerInfo.java) )(2ò
+lru.gigabyte_artur.warcastleduel.warcastle.screen_interface.ScreenWarcastlePlyerInfo?LinkedPlayer@10.32:10.44CALL°
+ñD:\YaDisk\synk\YandexDisk\JavaProjects\WarcastleDuel\core\src\ru\gigabyte_artur\warcastleduel\warcastle\screen_interface\ScreenWarcastlePlyerInfo.java)( )(42≈
+òru.gigabyte_artur.warcastleduel.warcastle.screen_interface.ScreenWarcastlePlyerInfo.draw(com.badlogic.gdx.graphics.g2d.SpriteBatch)?CurrentX@36.12:36.20CALL°
+ñD:\YaDisk\synk\YandexDisk\JavaProjects\WarcastleDuel\core\src\ru\gigabyte_artur\warcastleduel\warcastle\screen_interface\ScreenWarcastlePlyerInfo.java)@ )(H2…
+úru.gigabyte_artur.warcastleduel.warcastle.screen_interface.ScreenWarcastlePlyerInfo.draw(com.badlogic.gdx.graphics.g2d.SpriteBatch)?ScreenHeight@39.12:39.24CALL°
+ñD:\YaDisk\synk\YandexDisk\JavaProjects\WarcastleDuel\core\src\ru\gigabyte_artur\warcastleduel\warcastle\screen_interface\ScreenWarcastlePlyerInfo.java)J )(V2≈
+òru.gigabyte_artur.warcastleduel.warcastle.screen_interface.ScreenWarcastlePlyerInfo.draw(com.badlogic.gdx.graphics.g2d.SpriteBatch)?CurrentY@36.22:36.30CALL°
+ñD:\YaDisk\synk\YandexDisk\JavaProjects\WarcastleDuel\core\src\ru\gigabyte_artur\warcastleduel\warcastle\screen_interface\ScreenWarcastlePlyerInfo.java)Z )(b2ï
+iru.gigabyte_artur.warcastleduel.warcastle.screen_interface.ScreenWarcastlePlyerInfo?StatsFont@11.23:11.32CALL°
+ñD:\YaDisk\synk\YandexDisk\JavaProjects\WarcastleDuel\core\src\ru\gigabyte_artur\warcastleduel\warcastle\screen_interface\ScreenWarcastlePlyerInfo.java* *(2∂
+âru.gigabyte_artur.warcastleduel.warcastle.screen_interface.ScreenWarcastlePlyerInfo.draw(com.badlogic.gdx.graphics.g2d.SpriteBatch)!batchCALL°
+ñD:\YaDisk\synk\YandexDisk\JavaProjects\WarcastleDuel\core\src\ru\gigabyte_artur\warcastleduel\warcastle\screen_interface\ScreenWarcastlePlyerInfo.java* *(2ò
+lru.gigabyte_artur.warcastleduel.warcastle.screen_interface.ScreenWarcastlePlyerInfo?LinkedPlayer@10.32:10.44CALL°
+ñD:\YaDisk\synk\YandexDisk\JavaProjects\WarcastleDuel\core\src\ru\gigabyte_artur\warcastleduel\warcastle\screen_interface\ScreenWarcastlePlyerInfo.java*+ *(72≈
+òru.gigabyte_artur.warcastleduel.warcastle.screen_interface.ScreenWarcastlePlyerInfo.draw(com.badlogic.gdx.graphics.g2d.SpriteBatch)?CurrentX@36.12:36.20CALL°
+ñD:\YaDisk\synk\YandexDisk\JavaProjects\WarcastleDuel\core\src\ru\gigabyte_artur\warcastleduel\warcastle\screen_interface\ScreenWarcastlePlyerInfo.java*E *(M2…
+úru.gigabyte_artur.warcastleduel.warcastle.screen_interface.ScreenWarcastlePlyerInfo.draw(com.badlogic.gdx.graphics.g2d.SpriteBatch)?ScreenHeight@39.12:39.24CALL°
+ñD:\YaDisk\synk\YandexDisk\JavaProjects\WarcastleDuel\core\src\ru\gigabyte_artur\warcastleduel\warcastle\screen_interface\ScreenWarcastlePlyerInfo.java*U *(a2≈
+òru.gigabyte_artur.warcastleduel.warcastle.screen_interface.ScreenWarcastlePlyerInfo.draw(com.badlogic.gdx.graphics.g2d.SpriteBatch)?CurrentY@36.22:36.30CALL°
+ñD:\YaDisk\synk\YandexDisk\JavaProjects\WarcastleDuel\core\src\ru\gigabyte_artur\warcastleduel\warcastle\screen_interface\ScreenWarcastlePlyerInfo.java*e *(m2ï
+iru.gigabyte_artur.warcastleduel.warcastle.screen_interface.ScreenWarcastlePlyerInfo?StatsFont@11.23:11.32CALL°
+ñD:\YaDisk\synk\YandexDisk\JavaProjects\WarcastleDuel\core\src\ru\gigabyte_artur\warcastleduel\warcastle\screen_interface\ScreenWarcastlePlyerInfo.java+ +(2∂
+âru.gigabyte_artur.warcastleduel.warcastle.screen_interface.ScreenWarcastlePlyerInfo.draw(com.badlogic.gdx.graphics.g2d.SpriteBatch)!batchCALL°
+ñD:\YaDisk\synk\YandexDisk\JavaProjects\WarcastleDuel\core\src\ru\gigabyte_artur\warcastleduel\warcastle\screen_interface\ScreenWarcastlePlyerInfo.java+ +(2ò
+lru.gigabyte_artur.warcastleduel.warcastle.screen_interface.ScreenWarcastlePlyerInfo?LinkedPlayer@10.32:10.44CALL°
+ñD:\YaDisk\synk\YandexDisk\JavaProjects\WarcastleDuel\core\src\ru\gigabyte_artur\warcastleduel\warcastle\screen_interface\ScreenWarcastlePlyerInfo.java++ +(72≈
+òru.gigabyte_artur.warcastleduel.warcastle.screen_interface.ScreenWarcastlePlyerInfo.draw(com.badlogic.gdx.graphics.g2d.SpriteBatch)?CurrentX@36.12:36.20CALL°
+ñD:\YaDisk\synk\YandexDisk\JavaProjects\WarcastleDuel\core\src\ru\gigabyte_artur\warcastleduel\warcastle\screen_interface\ScreenWarcastlePlyerInfo.java+E +(M2…
+úru.gigabyte_artur.warcastleduel.warcastle.screen_interface.ScreenWarcastlePlyerInfo.draw(com.badlogic.gdx.graphics.g2d.SpriteBatch)?ScreenHeight@39.12:39.24CALL°
+ñD:\YaDisk\synk\YandexDisk\JavaProjects\WarcastleDuel\core\src\ru\gigabyte_artur\warcastleduel\warcastle\screen_interface\ScreenWarcastlePlyerInfo.java+U +(a2≈
+òru.gigabyte_artur.warcastleduel.warcastle.screen_interface.ScreenWarcastlePlyerInfo.draw(com.badlogic.gdx.graphics.g2d.SpriteBatch)?CurrentY@36.22:36.30CALL°
+ñD:\YaDisk\synk\YandexDisk\JavaProjects\WarcastleDuel\core\src\ru\gigabyte_artur\warcastleduel\warcastle\screen_interface\ScreenWarcastlePlyerInfo.java+e +(m2ï
+iru.gigabyte_artur.warcastleduel.warcastle.screen_interface.ScreenWarcastlePlyerInfo?StatsFont@11.23:11.32CALL°
+ñD:\YaDisk\synk\YandexDisk\JavaProjects\WarcastleDuel\core\src\ru\gigabyte_artur\warcastleduel\warcastle\screen_interface\ScreenWarcastlePlyerInfo.java. .(2∂
+âru.gigabyte_artur.warcastleduel.warcastle.screen_interface.ScreenWarcastlePlyerInfo.draw(com.badlogic.gdx.graphics.g2d.SpriteBatch)!batchCALL°
+ñD:\YaDisk\synk\YandexDisk\JavaProjects\WarcastleDuel\core\src\ru\gigabyte_artur\warcastleduel\warcastle\screen_interface\ScreenWarcastlePlyerInfo.java. .(2ò
+lru.gigabyte_artur.warcastleduel.warcastle.screen_interface.ScreenWarcastlePlyerInfo?LinkedPlayer@10.32:10.44CALL°
+ñD:\YaDisk\synk\YandexDisk\JavaProjects\WarcastleDuel\core\src\ru\gigabyte_artur\warcastleduel\warcastle\screen_interface\ScreenWarcastlePlyerInfo.java.+ .(72≈
+òru.gigabyte_artur.warcastleduel.warcastle.screen_interface.ScreenWarcastlePlyerInfo.draw(com.badlogic.gdx.graphics.g2d.SpriteBatch)?CurrentX@36.12:36.20CALL°
+ñD:\YaDisk\synk\YandexDisk\JavaProjects\WarcastleDuel\core\src\ru\gigabyte_artur\warcastleduel\warcastle\screen_interface\ScreenWarcastlePlyerInfo.java.E .(M2…
+úru.gigabyte_artur.warcastleduel.warcastle.screen_interface.ScreenWarcastlePlyerInfo.draw(com.badlogic.gdx.graphics.g2d.SpriteBatch)?ScreenHeight@39.12:39.24CALL°
+ñD:\YaDisk\synk\YandexDisk\JavaProjects\WarcastleDuel\core\src\ru\gigabyte_artur\warcastleduel\warcastle\screen_interface\ScreenWarcastlePlyerInfo.java.O .([2≈
+òru.gigabyte_artur.warcastleduel.warcastle.screen_interface.ScreenWarcastlePlyerInfo.draw(com.badlogic.gdx.graphics.g2d.SpriteBatch)?CurrentY@36.22:36.30CALL°
+ñD:\YaDisk\synk\YandexDisk\JavaProjects\WarcastleDuel\core\src\ru\gigabyte_artur\warcastleduel\warcastle\screen_interface\ScreenWarcastlePlyerInfo.java._ .(g2ï
+iru.gigabyte_artur.warcastleduel.warcastle.screen_interface.ScreenWarcastlePlyerInfo?StatsFont@11.23:11.32CALL°
+ñD:\YaDisk\synk\YandexDisk\JavaProjects\WarcastleDuel\core\src\ru\gigabyte_artur\warcastleduel\warcastle\screen_interface\ScreenWarcastlePlyerInfo.java/ /(2∂
+âru.gigabyte_artur.warcastleduel.warcastle.screen_interface.ScreenWarcastlePlyerInfo.draw(com.badlogic.gdx.graphics.g2d.SpriteBatch)!batchCALL°
+ñD:\YaDisk\synk\YandexDisk\JavaProjects\WarcastleDuel\core\src\ru\gigabyte_artur\warcastleduel\warcastle\screen_interface\ScreenWarcastlePlyerInfo.java/ /(2ò
+lru.gigabyte_artur.warcastleduel.warcastle.screen_interface.ScreenWarcastlePlyerInfo?LinkedPlayer@10.32:10.44CALL°
+ñD:\YaDisk\synk\YandexDisk\JavaProjects\WarcastleDuel\core\src\ru\gigabyte_artur\warcastleduel\warcastle\screen_interface\ScreenWarcastlePlyerInfo.java/, /(82≈
+òru.gigabyte_artur.warcastleduel.warcastle.screen_interface.ScreenWarcastlePlyerInfo.draw(com.badlogic.gdx.graphics.g2d.SpriteBatch)?CurrentX@36.12:36.20CALL°
+ñD:\YaDisk\synk\YandexDisk\JavaProjects\WarcastleDuel\core\src\ru\gigabyte_artur\warcastleduel\warcastle\screen_interface\ScreenWarcastlePlyerInfo.java/G /(O2…
+úru.gigabyte_artur.warcastleduel.warcastle.screen_interface.ScreenWarcastlePlyerInfo.draw(com.badlogic.gdx.graphics.g2d.SpriteBatch)?ScreenHeight@39.12:39.24CALL°
+ñD:\YaDisk\synk\YandexDisk\JavaProjects\WarcastleDuel\core\src\ru\gigabyte_artur\warcastleduel\warcastle\screen_interface\ScreenWarcastlePlyerInfo.java/W /(c2≈
+òru.gigabyte_artur.warcastleduel.warcastle.screen_interface.ScreenWarcastlePlyerInfo.draw(com.badlogic.gdx.graphics.g2d.SpriteBatch)?CurrentY@36.22:36.30CALL°
+ñD:\YaDisk\synk\YandexDisk\JavaProjects\WarcastleDuel\core\src\ru\gigabyte_artur\warcastleduel\warcastle\screen_interface\ScreenWarcastlePlyerInfo.java/g /(o2ï
+iru.gigabyte_artur.warcastleduel.warcastle.screen_interface.ScreenWarcastlePlyerInfo?StatsFont@11.23:11.32CALL°
+ñD:\YaDisk\synk\YandexDisk\JavaProjects\WarcastleDuel\core\src\ru\gigabyte_artur\warcastleduel\warcastle\screen_interface\ScreenWarcastlePlyerInfo.java0 0(2∂
+âru.gigabyte_artur.warcastleduel.warcastle.screen_interface.ScreenWarcastlePlyerInfo.draw(com.badlogic.gdx.graphics.g2d.SpriteBatch)!batchCALL°
+ñD:\YaDisk\synk\YandexDisk\JavaProjects\WarcastleDuel\core\src\ru\gigabyte_artur\warcastleduel\warcastle\screen_interface\ScreenWarcastlePlyerInfo.java0 0(2ò
+lru.gigabyte_artur.warcastleduel.warcastle.screen_interface.ScreenWarcastlePlyerInfo?LinkedPlayer@10.32:10.44CALL°
+ñD:\YaDisk\synk\YandexDisk\JavaProjects\WarcastleDuel\core\src\ru\gigabyte_artur\warcastleduel\warcastle\screen_interface\ScreenWarcastlePlyerInfo.java00 0(<2≈
+òru.gigabyte_artur.warcastleduel.warcastle.screen_interface.ScreenWarcastlePlyerInfo.draw(com.badlogic.gdx.graphics.g2d.SpriteBatch)?CurrentX@36.12:36.20CALL°
+ñD:\YaDisk\synk\YandexDisk\JavaProjects\WarcastleDuel\core\src\ru\gigabyte_artur\warcastleduel\warcastle\screen_interface\ScreenWarcastlePlyerInfo.java0O 0(W2…
+úru.gigabyte_artur.warcastleduel.warcastle.screen_interface.ScreenWarcastlePlyerInfo.draw(com.badlogic.gdx.graphics.g2d.SpriteBatch)?ScreenHeight@39.12:39.24CALL°
+ñD:\YaDisk\synk\YandexDisk\JavaProjects\WarcastleDuel\core\src\ru\gigabyte_artur\warcastleduel\warcastle\screen_interface\ScreenWarcastlePlyerInfo.java0_ 0(k2≈
+òru.gigabyte_artur.warcastleduel.warcastle.screen_interface.ScreenWarcastlePlyerInfo.draw(com.badlogic.gdx.graphics.g2d.SpriteBatch)?CurrentY@36.22:36.30CALL°
+ñD:\YaDisk\synk\YandexDisk\JavaProjects\WarcastleDuel\core\src\ru\gigabyte_artur\warcastleduel\warcastle\screen_interface\ScreenWarcastlePlyerInfo.java0o 0(w2ï
+iru.gigabyte_artur.warcastleduel.warcastle.screen_interface.ScreenWarcastlePlyerInfo?StatsFont@11.23:11.32CALL°
+ñD:\YaDisk\synk\YandexDisk\JavaProjects\WarcastleDuel\core\src\ru\gigabyte_artur\warcastleduel\warcastle\screen_interface\ScreenWarcastlePlyerInfo.java2 2(2∂
+âru.gigabyte_artur.warcastleduel.warcastle.screen_interface.ScreenWarcastlePlyerInfo.draw(com.badlogic.gdx.graphics.g2d.SpriteBatch)!batchCALL°
+ñD:\YaDisk\synk\YandexDisk\JavaProjects\WarcastleDuel\core\src\ru\gigabyte_artur\warcastleduel\warcastle\screen_interface\ScreenWarcastlePlyerInfo.java2 2(2ò
+lru.gigabyte_artur.warcastleduel.warcastle.screen_interface.ScreenWarcastlePlyerInfo?LinkedPlayer@10.32:10.44CALL°
+ñD:\YaDisk\synk\YandexDisk\JavaProjects\WarcastleDuel\core\src\ru\gigabyte_artur\warcastleduel\warcastle\screen_interface\ScreenWarcastlePlyerInfo.java2+ 2(72≈
+òru.gigabyte_artur.warcastleduel.warcastle.screen_interface.ScreenWarcastlePlyerInfo.draw(com.badlogic.gdx.graphics.g2d.SpriteBatch)?CurrentX@36.12:36.20CALL°
+ñD:\YaDisk\synk\YandexDisk\JavaProjects\WarcastleDuel\core\src\ru\gigabyte_artur\warcastleduel\warcastle\screen_interface\ScreenWarcastlePlyerInfo.java2J 2(R2…
+úru.gigabyte_artur.warcastleduel.warcastle.screen_interface.ScreenWarcastlePlyerInfo.draw(com.badlogic.gdx.graphics.g2d.SpriteBatch)?ScreenHeight@39.12:39.24CALL°
+ñD:\YaDisk\synk\YandexDisk\JavaProjects\WarcastleDuel\core\src\ru\gigabyte_artur\warcastleduel\warcastle\screen_interface\ScreenWarcastlePlyerInfo.java2Z 2(f2≈
+òru.gigabyte_artur.warcastleduel.warcastle.screen_interface.ScreenWarcastlePlyerInfo.draw(com.badlogic.gdx.graphics.g2d.SpriteBatch)?CurrentY@36.22:36.30CALL°
+ñD:\YaDisk\synk\YandexDisk\JavaProjects\WarcastleDuel\core\src\ru\gigabyte_artur\warcastleduel\warcastle\screen_interface\ScreenWarcastlePlyerInfo.java2j 2(r2ï
+iru.gigabyte_artur.warcastleduel.warcastle.screen_interface.ScreenWarcastlePlyerInfo?StatsFont@11.23:11.32CALL°
+ñD:\YaDisk\synk\YandexDisk\JavaProjects\WarcastleDuel\core\src\ru\gigabyte_artur\warcastleduel\warcastle\screen_interface\ScreenWarcastlePlyerInfo.java3 3(2∂
+âru.gigabyte_artur.warcastleduel.warcastle.screen_interface.ScreenWarcastlePlyerInfo.draw(com.badlogic.gdx.graphics.g2d.SpriteBatch)!batchCALL°
+ñD:\YaDisk\synk\YandexDisk\JavaProjects\WarcastleDuel\core\src\ru\gigabyte_artur\warcastleduel\warcastle\screen_interface\ScreenWarcastlePlyerInfo.java3 3(2ò
+lru.gigabyte_artur.warcastleduel.warcastle.screen_interface.ScreenWarcastlePlyerInfo?LinkedPlayer@10.32:10.44CALL°
+ñD:\YaDisk\synk\YandexDisk\JavaProjects\WarcastleDuel\core\src\ru\gigabyte_artur\warcastleduel\warcastle\screen_interface\ScreenWarcastlePlyerInfo.java3* 3(62≈
+òru.gigabyte_artur.warcastleduel.warcastle.screen_interface.ScreenWarcastlePlyerInfo.draw(com.badlogic.gdx.graphics.g2d.SpriteBatch)?CurrentX@36.12:36.20CALL°
+ñD:\YaDisk\synk\YandexDisk\JavaProjects\WarcastleDuel\core\src\ru\gigabyte_artur\warcastleduel\warcastle\screen_interface\ScreenWarcastlePlyerInfo.java3C 3(K2…
+úru.gigabyte_artur.warcastleduel.warcastle.screen_interface.ScreenWarcastlePlyerInfo.draw(com.badlogic.gdx.graphics.g2d.SpriteBatch)?ScreenHeight@39.12:39.24CALL°
+ñD:\YaDisk\synk\YandexDisk\JavaProjects\WarcastleDuel\core\src\ru\gigabyte_artur\warcastleduel\warcastle\screen_interface\ScreenWarcastlePlyerInfo.java3S 3(_2≈
+òru.gigabyte_artur.warcastleduel.warcastle.screen_interface.ScreenWarcastlePlyerInfo.draw(com.badlogic.gdx.graphics.g2d.SpriteBatch)?CurrentY@36.22:36.30CALL°
+ñD:\YaDisk\synk\YandexDisk\JavaProjects\WarcastleDuel\core\src\ru\gigabyte_artur\warcastleduel\warcastle\screen_interface\ScreenWarcastlePlyerInfo.java3c 3(k2ï
+iru.gigabyte_artur.warcastleduel.warcastle.screen_interface.ScreenWarcastlePlyerInfo?StatsFont@11.23:11.32CALL°
+ñD:\YaDisk\synk\YandexDisk\JavaProjects\WarcastleDuel\core\src\ru\gigabyte_artur\warcastleduel\warcastle\screen_interface\ScreenWarcastlePlyerInfo.java4 4(2∂
+âru.gigabyte_artur.warcastleduel.warcastle.screen_interface.ScreenWarcastlePlyerInfo.draw(com.badlogic.gdx.graphics.g2d.SpriteBatch)!batchCALL°
+ñD:\YaDisk\synk\YandexDisk\JavaProjects\WarcastleDuel\core\src\ru\gigabyte_artur\warcastleduel\warcastle\screen_interface\ScreenWarcastlePlyerInfo.java4 4(2ò
+lru.gigabyte_artur.warcastleduel.warcastle.screen_interface.ScreenWarcastlePlyerInfo?LinkedPlayer@10.32:10.44CALL°
+ñD:\YaDisk\synk\YandexDisk\JavaProjects\WarcastleDuel\core\src\ru\gigabyte_artur\warcastleduel\warcastle\screen_interface\ScreenWarcastlePlyerInfo.java4* 4(62≈
+òru.gigabyte_artur.warcastleduel.warcastle.screen_interface.ScreenWarcastlePlyerInfo.draw(com.badlogic.gdx.graphics.g2d.SpriteBatch)?CurrentX@36.12:36.20CALL°
+ñD:\YaDisk\synk\YandexDisk\JavaProjects\WarcastleDuel\core\src\ru\gigabyte_artur\warcastleduel\warcastle\screen_interface\ScreenWarcastlePlyerInfo.java4H 4(P2…
+úru.gigabyte_artur.warcastleduel.warcastle.screen_interface.ScreenWarcastlePlyerInfo.draw(com.badlogic.gdx.graphics.g2d.SpriteBatch)?ScreenHeight@39.12:39.24CALL°
+ñD:\YaDisk\synk\YandexDisk\JavaProjects\WarcastleDuel\core\src\ru\gigabyte_artur\warcastleduel\warcastle\screen_interface\ScreenWarcastlePlyerInfo.java4X 4(d2≈
+òru.gigabyte_artur.warcastleduel.warcastle.screen_interface.ScreenWarcastlePlyerInfo.draw(com.badlogic.gdx.graphics.g2d.SpriteBatch)?CurrentY@36.22:36.30CALL°
+ñD:\YaDisk\synk\YandexDisk\JavaProjects\WarcastleDuel\core\src\ru\gigabyte_artur\warcastleduel\warcastle\screen_interface\ScreenWarcastlePlyerInfo.java4h 4(p2ï
+iru.gigabyte_artur.warcastleduel.warcastle.screen_interface.ScreenWarcastlePlyerInfo?StatsFont@11.23:11.32CALL°
+ñD:\YaDisk\synk\YandexDisk\JavaProjects\WarcastleDuel\core\src\ru\gigabyte_artur\warcastleduel\warcastle\screen_interface\ScreenWarcastlePlyerInfo.java7 7(2∂
+âru.gigabyte_artur.warcastleduel.warcastle.screen_interface.ScreenWarcastlePlyerInfo.draw(com.badlogic.gdx.graphics.g2d.SpriteBatch)!batchCALL°
+ñD:\YaDisk\synk\YandexDisk\JavaProjects\WarcastleDuel\core\src\ru\gigabyte_artur\warcastleduel\warcastle\screen_interface\ScreenWarcastlePlyerInfo.java7 7(2ò
+lru.gigabyte_artur.warcastleduel.warcastle.screen_interface.ScreenWarcastlePlyerInfo?LinkedPlayer@10.32:10.44CALL°
+ñD:\YaDisk\synk\YandexDisk\JavaProjects\WarcastleDuel\core\src\ru\gigabyte_artur\warcastleduel\warcastle\screen_interface\ScreenWarcastlePlyerInfo.java7- 7(92≈
+òru.gigabyte_artur.warcastleduel.warcastle.screen_interface.ScreenWarcastlePlyerInfo.draw(com.badlogic.gdx.graphics.g2d.SpriteBatch)?CurrentX@36.12:36.20CALL°
+ñD:\YaDisk\synk\YandexDisk\JavaProjects\WarcastleDuel\core\src\ru\gigabyte_artur\warcastleduel\warcastle\screen_interface\ScreenWarcastlePlyerInfo.java7I 7(Q2…
+úru.gigabyte_artur.warcastleduel.warcastle.screen_interface.ScreenWarcastlePlyerInfo.draw(com.badlogic.gdx.graphics.g2d.SpriteBatch)?ScreenHeight@39.12:39.24CALL°
+ñD:\YaDisk\synk\YandexDisk\JavaProjects\WarcastleDuel\core\src\ru\gigabyte_artur\warcastleduel\warcastle\screen_interface\ScreenWarcastlePlyerInfo.java7S 7(_2≈
+òru.gigabyte_artur.warcastleduel.warcastle.screen_interface.ScreenWarcastlePlyerInfo.draw(com.badlogic.gdx.graphics.g2d.SpriteBatch)?CurrentY@36.22:36.30CALL°
+ñD:\YaDisk\synk\YandexDisk\JavaProjects\WarcastleDuel\core\src\ru\gigabyte_artur\warcastleduel\warcastle\screen_interface\ScreenWarcastlePlyerInfo.java7c 7(k2ï
+iru.gigabyte_artur.warcastleduel.warcastle.screen_interface.ScreenWarcastlePlyerInfo?StatsFont@11.23:11.32CALL°
+ñD:\YaDisk\synk\YandexDisk\JavaProjects\WarcastleDuel\core\src\ru\gigabyte_artur\warcastleduel\warcastle\screen_interface\ScreenWarcastlePlyerInfo.java8 8(2∂
+âru.gigabyte_artur.warcastleduel.warcastle.screen_interface.ScreenWarcastlePlyerInfo.draw(com.badlogic.gdx.graphics.g2d.SpriteBatch)!batchCALL°
+ñD:\YaDisk\synk\YandexDisk\JavaProjects\WarcastleDuel\core\src\ru\gigabyte_artur\warcastleduel\warcastle\screen_interface\ScreenWarcastlePlyerInfo.java8 8(2ò
+lru.gigabyte_artur.warcastleduel.warcastle.screen_interface.ScreenWarcastlePlyerInfo?LinkedPlayer@10.32:10.44CALL°
+ñD:\YaDisk\synk\YandexDisk\JavaProjects\WarcastleDuel\core\src\ru\gigabyte_artur\warcastleduel\warcastle\screen_interface\ScreenWarcastlePlyerInfo.java8+ 8(72≈
+òru.gigabyte_artur.warcastleduel.warcastle.screen_interface.ScreenWarcastlePlyerInfo.draw(com.badlogic.gdx.graphics.g2d.SpriteBatch)?CurrentX@36.12:36.20CALL°
+ñD:\YaDisk\synk\YandexDisk\JavaProjects\WarcastleDuel\core\src\ru\gigabyte_artur\warcastleduel\warcastle\screen_interface\ScreenWarcastlePlyerInfo.java8E 8(M2…
+úru.gigabyte_artur.warcastleduel.warcastle.screen_interface.ScreenWarcastlePlyerInfo.draw(com.badlogic.gdx.graphics.g2d.SpriteBatch)?ScreenHeight@39.12:39.24CALL°
+ñD:\YaDisk\synk\YandexDisk\JavaProjects\WarcastleDuel\core\src\ru\gigabyte_artur\warcastleduel\warcastle\screen_interface\ScreenWarcastlePlyerInfo.java8U 8(a2≈
+òru.gigabyte_artur.warcastleduel.warcastle.screen_interface.ScreenWarcastlePlyerInfo.draw(com.badlogic.gdx.graphics.g2d.SpriteBatch)?CurrentY@36.22:36.30CALL°
+ñD:\YaDisk\synk\YandexDisk\JavaProjects\WarcastleDuel\core\src\ru\gigabyte_artur\warcastleduel\warcastle\screen_interface\ScreenWarcastlePlyerInfo.java8e 8(m2ï
+iru.gigabyte_artur.warcastleduel.warcastle.screen_interface.ScreenWarcastlePlyerInfo?StatsFont@11.23:11.32CALL°
+ñD:\YaDisk\synk\YandexDisk\JavaProjects\WarcastleDuel\core\src\ru\gigabyte_artur\warcastleduel\warcastle\screen_interface\ScreenWarcastlePlyerInfo.java: :(2∂
+âru.gigabyte_artur.warcastleduel.warcastle.screen_interface.ScreenWarcastlePlyerInfo.draw(com.badlogic.gdx.graphics.g2d.SpriteBatch)!batchCALL°
+ñD:\YaDisk\synk\YandexDisk\JavaProjects\WarcastleDuel\core\src\ru\gigabyte_artur\warcastleduel\warcastle\screen_interface\ScreenWarcastlePlyerInfo.java: :(2ò
+lru.gigabyte_artur.warcastleduel.warcastle.screen_interface.ScreenWarcastlePlyerInfo?LinkedPlayer@10.32:10.44CALL°
+ñD:\YaDisk\synk\YandexDisk\JavaProjects\WarcastleDuel\core\src\ru\gigabyte_artur\warcastleduel\warcastle\screen_interface\ScreenWarcastlePlyerInfo.java:1 :(=2≈
+òru.gigabyte_artur.warcastleduel.warcastle.screen_interface.ScreenWarcastlePlyerInfo.draw(com.badlogic.gdx.graphics.g2d.SpriteBatch)?CurrentX@36.12:36.20CALL°
+ñD:\YaDisk\synk\YandexDisk\JavaProjects\WarcastleDuel\core\src\ru\gigabyte_artur\warcastleduel\warcastle\screen_interface\ScreenWarcastlePlyerInfo.java:P :(X2…
+úru.gigabyte_artur.warcastleduel.warcastle.screen_interface.ScreenWarcastlePlyerInfo.draw(com.badlogic.gdx.graphics.g2d.SpriteBatch)?ScreenHeight@39.12:39.24CALL°
+ñD:\YaDisk\synk\YandexDisk\JavaProjects\WarcastleDuel\core\src\ru\gigabyte_artur\warcastleduel\warcastle\screen_interface\ScreenWarcastlePlyerInfo.java:` :(l2≈
+òru.gigabyte_artur.warcastleduel.warcastle.screen_interface.ScreenWarcastlePlyerInfo.draw(com.badlogic.gdx.graphics.g2d.SpriteBatch)?CurrentY@36.22:36.30CALL°
+ñD:\YaDisk\synk\YandexDisk\JavaProjects\WarcastleDuel\core\src\ru\gigabyte_artur\warcastleduel\warcastle\screen_interface\ScreenWarcastlePlyerInfo.java:p :(x2ï
+iru.gigabyte_artur.warcastleduel.warcastle.screen_interface.ScreenWarcastlePlyerInfo?StatsFont@11.23:11.32CALL°
+ñD:\YaDisk\synk\YandexDisk\JavaProjects\WarcastleDuel\core\src\ru\gigabyte_artur\warcastleduel\warcastle\screen_interface\ScreenWarcastlePlyerInfo.java; ;(2∂
+âru.gigabyte_artur.warcastleduel.warcastle.screen_interface.ScreenWarcastlePlyerInfo.draw(com.badlogic.gdx.graphics.g2d.SpriteBatch)!batchCALL°
+ñD:\YaDisk\synk\YandexDisk\JavaProjects\WarcastleDuel\core\src\ru\gigabyte_artur\warcastleduel\warcastle\screen_interface\ScreenWarcastlePlyerInfo.java; ;(2ò
+lru.gigabyte_artur.warcastleduel.warcastle.screen_interface.ScreenWarcastlePlyerInfo?LinkedPlayer@10.32:10.44CALL°
+ñD:\YaDisk\synk\YandexDisk\JavaProjects\WarcastleDuel\core\src\ru\gigabyte_artur\warcastleduel\warcastle\screen_interface\ScreenWarcastlePlyerInfo.java;* ;(62≈
+òru.gigabyte_artur.warcastleduel.warcastle.screen_interface.ScreenWarcastlePlyerInfo.draw(com.badlogic.gdx.graphics.g2d.SpriteBatch)?CurrentX@36.12:36.20CALL°
+ñD:\YaDisk\synk\YandexDisk\JavaProjects\WarcastleDuel\core\src\ru\gigabyte_artur\warcastleduel\warcastle\screen_interface\ScreenWarcastlePlyerInfo.java;C ;(K2…
+úru.gigabyte_artur.warcastleduel.warcastle.screen_interface.ScreenWarcastlePlyerInfo.draw(com.badlogic.gdx.graphics.g2d.SpriteBatch)?ScreenHeight@39.12:39.24CALL°
+ñD:\YaDisk\synk\YandexDisk\JavaProjects\WarcastleDuel\core\src\ru\gigabyte_artur\warcastleduel\warcastle\screen_interface\ScreenWarcastlePlyerInfo.java;S ;(_2≈
+òru.gigabyte_artur.warcastleduel.warcastle.screen_interface.ScreenWarcastlePlyerInfo.draw(com.badlogic.gdx.graphics.g2d.SpriteBatch)?CurrentY@36.22:36.30CALL°
+ñD:\YaDisk\synk\YandexDisk\JavaProjects\WarcastleDuel\core\src\ru\gigabyte_artur\warcastleduel\warcastle\screen_interface\ScreenWarcastlePlyerInfo.java;c ;(k2ï
+iru.gigabyte_artur.warcastleduel.warcastle.screen_interface.ScreenWarcastlePlyerInfo?StatsFont@11.23:11.32CALL°
+ñD:\YaDisk\synk\YandexDisk\JavaProjects\WarcastleDuel\core\src\ru\gigabyte_artur\warcastleduel\warcastle\screen_interface\ScreenWarcastlePlyerInfo.java< <(2∂
+âru.gigabyte_artur.warcastleduel.warcastle.screen_interface.ScreenWarcastlePlyerInfo.draw(com.badlogic.gdx.graphics.g2d.SpriteBatch)!batchCALL°
+ñD:\YaDisk\synk\YandexDisk\JavaProjects\WarcastleDuel\core\src\ru\gigabyte_artur\warcastleduel\warcastle\screen_interface\ScreenWarcastlePlyerInfo.java< <(2ò
+lru.gigabyte_artur.warcastleduel.warcastle.screen_interface.ScreenWarcastlePlyerInfo?LinkedPlayer@10.32:10.44CALL°
+ñD:\YaDisk\synk\YandexDisk\JavaProjects\WarcastleDuel\core\src\ru\gigabyte_artur\warcastleduel\warcastle\screen_interface\ScreenWarcastlePlyerInfo.java<) <(52≈
+òru.gigabyte_artur.warcastleduel.warcastle.screen_interface.ScreenWarcastlePlyerInfo.draw(com.badlogic.gdx.graphics.g2d.SpriteBatch)?CurrentX@36.12:36.20CALL°
+ñD:\YaDisk\synk\YandexDisk\JavaProjects\WarcastleDuel\core\src\ru\gigabyte_artur\warcastleduel\warcastle\screen_interface\ScreenWarcastlePlyerInfo.java<A <(I2…
+úru.gigabyte_artur.warcastleduel.warcastle.screen_interface.ScreenWarcastlePlyerInfo.draw(com.badlogic.gdx.graphics.g2d.SpriteBatch)?ScreenHeight@39.12:39.24CALL°
+ñD:\YaDisk\synk\YandexDisk\JavaProjects\WarcastleDuel\core\src\ru\gigabyte_artur\warcastleduel\warcastle\screen_interface\ScreenWarcastlePlyerInfo.java<Q <(]2≈
+òru.gigabyte_artur.warcastleduel.warcastle.screen_interface.ScreenWarcastlePlyerInfo.draw(com.badlogic.gdx.graphics.g2d.SpriteBatch)?CurrentY@36.22:36.30CALL°
+ñD:\YaDisk\synk\YandexDisk\JavaProjects\WarcastleDuel\core\src\ru\gigabyte_artur\warcastleduel\warcastle\screen_interface\ScreenWarcastlePlyerInfo.java<a <(i2ª
+âru.gigabyte_artur.warcastleduel.warcastle.screen_interface.ScreenWarcastlePlyerInfo.draw(com.badlogic.gdx.graphics.g2d.SpriteBatch)!batch	PARAMETER°
+ñD:\YaDisk\synk\YandexDisk\JavaProjects\WarcastleDuel\core\src\ru\gigabyte_artur\warcastleduel\warcastle\screen_interface\ScreenWarcastlePlyerInfo.java!! !(&2Ã
+òru.gigabyte_artur.warcastleduel.warcastle.screen_interface.ScreenWarcastlePlyerInfo.draw(com.badlogic.gdx.graphics.g2d.SpriteBatch)?CurrentX@36.12:36.20DECLARATION°
+ñD:\YaDisk\synk\YandexDisk\JavaProjects\WarcastleDuel\core\src\ru\gigabyte_artur\warcastleduel\warcastle\screen_interface\ScreenWarcastlePlyerInfo.java$ $(2Ã
+òru.gigabyte_artur.warcastleduel.warcastle.screen_interface.ScreenWarcastlePlyerInfo.draw(com.badlogic.gdx.graphics.g2d.SpriteBatch)?CurrentY@36.22:36.30DECLARATION°
+ñD:\YaDisk\synk\YandexDisk\JavaProjects\WarcastleDuel\core\src\ru\gigabyte_artur\warcastleduel\warcastle\screen_interface\ScreenWarcastlePlyerInfo.java$ $(2–
+úru.gigabyte_artur.warcastleduel.warcastle.screen_interface.ScreenWarcastlePlyerInfo.draw(com.badlogic.gdx.graphics.g2d.SpriteBatch)?ScreenHeight@39.12:39.24DECLARATION°
+ñD:\YaDisk\synk\YandexDisk\JavaProjects\WarcastleDuel\core\src\ru\gigabyte_artur\warcastleduel\warcastle\screen_interface\ScreenWarcastlePlyerInfo.java' '(2∑
+voidRETURN_TYPE°
+ñD:\YaDisk\synk\YandexDisk\JavaProjects\WarcastleDuel\core\src\ru\gigabyte_artur\warcastleduel\warcastle\screen_interface\ScreenWarcastlePlyerInfo.java! !(•
+òru.gigabyte_artur.warcastleduel.warcastle.screen_interface.ScreenWarcastlePlyerInfo.draw(com.badlogic.gdx.graphics.g2d.SpriteBatch)?CurrentX@36.12:36.20VARIABLE°
+ñD:\YaDisk\synk\YandexDisk\JavaProjects\WarcastleDuel\core\src\ru\gigabyte_artur\warcastleduel\warcastle\screen_interface\ScreenWarcastlePlyerInfo.java$ $("
+typeint"
+isFinalfalse"
+declarationStringj<mark class="modifier"> </mark><mark class="modifier">int</mark> <mark class="class-field">CurrentX</mark>*CurrentX2Ø
+intTYPE°
+ñD:\YaDisk\synk\YandexDisk\JavaProjects\WarcastleDuel\core\src\ru\gigabyte_artur\warcastleduel\warcastle\screen_interface\ScreenWarcastlePlyerInfo.java$ $(•
+òru.gigabyte_artur.warcastleduel.warcastle.screen_interface.ScreenWarcastlePlyerInfo.draw(com.badlogic.gdx.graphics.g2d.SpriteBatch)?CurrentY@36.22:36.30VARIABLE°
+ñD:\YaDisk\synk\YandexDisk\JavaProjects\WarcastleDuel\core\src\ru\gigabyte_artur\warcastleduel\warcastle\screen_interface\ScreenWarcastlePlyerInfo.java$ $("
+typeint"
+isFinalfalse"
+declarationStringj<mark class="modifier"> </mark><mark class="modifier">int</mark> <mark class="class-field">CurrentY</mark>*CurrentY2Ø
+intTYPE°
+ñD:\YaDisk\synk\YandexDisk\JavaProjects\WarcastleDuel\core\src\ru\gigabyte_artur\warcastleduel\warcastle\screen_interface\ScreenWarcastlePlyerInfo.java$ $(Œ
+úru.gigabyte_artur.warcastleduel.warcastle.screen_interface.ScreenWarcastlePlyerInfo.draw(com.badlogic.gdx.graphics.g2d.SpriteBatch)?ScreenHeight@39.12:39.24VARIABLE°
+ñD:\YaDisk\synk\YandexDisk\JavaProjects\WarcastleDuel\core\src\ru\gigabyte_artur\warcastleduel\warcastle\screen_interface\ScreenWarcastlePlyerInfo.java' '("
+typeint"
+isFinalfalse"ü
+declarationStringâ<mark class="modifier"> </mark><mark class="modifier">int</mark> <mark class="class-field">ScreenHeight</mark> = Gdx.graphics.getHeight()*ScreenHeight2Ø
+intTYPE°
+ñD:\YaDisk\synk\YandexDisk\JavaProjects\WarcastleDuel\core\src\ru\gigabyte_artur\warcastleduel\warcastle\screen_interface\ScreenWarcastlePlyerInfo.java' '(È
+âru.gigabyte_artur.warcastleduel.warcastle.screen_interface.ScreenWarcastlePlyerInfo.draw(com.badlogic.gdx.graphics.g2d.SpriteBatch)!batch	PARAMETER°
+ñD:\YaDisk\synk\YandexDisk\JavaProjects\WarcastleDuel\core\src\ru\gigabyte_artur\warcastleduel\warcastle\screen_interface\ScreenWarcastlePlyerInfo.java!! !(&"
+typeSpriteBatch"
+isFinalfalse"&
+declarationStringSpriteBatch batch*batch2’
+)com.badlogic.gdx.graphics.g2d.SpriteBatchTYPE°
+ñD:\YaDisk\synk\YandexDisk\JavaProjects\WarcastleDuel\core\src\ru\gigabyte_artur\warcastleduel\warcastle\screen_interface\ScreenWarcastlePlyerInfo.java! !( È
+lru.gigabyte_artur.warcastleduel.warcastle.screen_interface.ScreenWarcastlePlyerInfo?LinkedPlayer@10.32:10.44VARIABLE°
+ñD:\YaDisk\synk\YandexDisk\JavaProjects\WarcastleDuel\core\src\ru\gigabyte_artur\warcastleduel\warcastle\screen_interface\ScreenWarcastlePlyerInfo.java
+  
+(,"
+isFinalfalse"
+typeWarcastleDuelPlayer"|
+declarationStringg<mark class="modifier">private </mark>WarcastleDuelPlayer <mark class="class-field">LinkedPlayer</mark>"
+isStaticfalse"
+accessprivate*LinkedPlayer2È
+=ru.gigabyte_artur.warcastleduel.warcastle.WarcastleDuelPlayerTYPE°
+ñD:\YaDisk\synk\YandexDisk\JavaProjects\WarcastleDuel\core\src\ru\gigabyte_artur\warcastleduel\warcastle\screen_interface\ScreenWarcastlePlyerInfo.java
+ 
+(π
+iru.gigabyte_artur.warcastleduel.warcastle.screen_interface.ScreenWarcastlePlyerInfo?StatsFont@11.23:11.32VARIABLE°
+ñD:\YaDisk\synk\YandexDisk\JavaProjects\WarcastleDuel\core\src\ru\gigabyte_artur\warcastleduel\warcastle\screen_interface\ScreenWarcastlePlyerInfo.java ( "
+isFinalfalse"
+type
+BitmapFont"p
+declarationString[<mark class="modifier">private </mark>BitmapFont <mark class="class-field">StatsFont</mark>"
+isStaticfalse"
+accessprivate*	StatsFont2‘
+(com.badlogic.gdx.graphics.g2d.BitmapFontTYPE°
+ñD:\YaDisk\synk\YandexDisk\JavaProjects\WarcastleDuel\core\src\ru\gigabyte_artur\warcastleduel\warcastle\screen_interface\ScreenWarcastlePlyerInfo.java (∂
+hru.gigabyte_artur.warcastleduel.warcastle.screen_interface.ScreenWarcastlePlyerInfo?NameFont@12.23:12.31VARIABLE°
+ñD:\YaDisk\synk\YandexDisk\JavaProjects\WarcastleDuel\core\src\ru\gigabyte_artur\warcastleduel\warcastle\screen_interface\ScreenWarcastlePlyerInfo.java ("
+isFinalfalse"
+type
+BitmapFont"o
+declarationStringZ<mark class="modifier">private </mark>BitmapFont <mark class="class-field">NameFont</mark>"
+isStaticfalse"
+accessprivate*NameFont2‘
+(com.badlogic.gdx.graphics.g2d.BitmapFontTYPE°
+ñD:\YaDisk\synk\YandexDisk\JavaProjects\WarcastleDuel\core\src\ru\gigabyte_artur\warcastleduel\warcastle\screen_interface\ScreenWarcastlePlyerInfo.java (

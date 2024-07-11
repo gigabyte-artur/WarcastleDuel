@@ -1,0 +1,373 @@
+
+~D:\YaDisk\synk\YandexDisk\JavaProjects\WarcastleDuel\core\src\ru\gigabyte_artur\warcastleduel\warcastle\net\WcnXmlBuilder.javaÚ
+;ru.gigabyte_artur.warcastleduel.warcastle.net.WcnXmlBuilderCLASSà
+~D:\YaDisk\synk\YandexDisk\JavaProjects\WarcastleDuel\core\src\ru\gigabyte_artur\warcastleduel\warcastle\net\WcnXmlBuilder.java
+ 
+("8
+package-ru.gigabyte_artur.warcastleduel.warcastle.net"
+isFinalfalse"
+inner classfalse"
+
+isAbstractfalse"k
+declarationStringV<mark class="modifier">public </mark><mark class="modifier">class </mark>WcnXmlBuilder"
+accesspublic*WcnXmlBuilder2£
+àru.gigabyte_artur.warcastleduel.warcastle.net.WcnXmlBuilder.GenerateCardPlaying(ru.gigabyte_artur.warcastleduel.warcastle.WarcastleDuelGame, ru.gigabyte_artur.warcastleduel.warcastle.WarcastleDuelPlayer, ru.gigabyte_artur.warcastleduel.warcastle.WarcastleDuelCard)DECLARATIONà
+~D:\YaDisk\synk\YandexDisk\JavaProjects\WarcastleDuel\core\src\ru\gigabyte_artur\warcastleduel\warcastle\net\WcnXmlBuilder.java (,2˙
+`ru.gigabyte_artur.warcastleduel.warcastle.net.WcnXmlBuilder.GenerateCreateGame(java.lang.String)DECLARATIONà
+~D:\YaDisk\synk\YandexDisk\JavaProjects\WarcastleDuel\core\src\ru\gigabyte_artur\warcastleduel\warcastle\net\WcnXmlBuilder.java6 6(+2˚
+aru.gigabyte_artur.warcastleduel.warcastle.net.WcnXmlBuilder?MESSAGE_TYPE_CARD_PLAYING@12.31:12.56DECLARATIONà
+~D:\YaDisk\synk\YandexDisk\JavaProjects\WarcastleDuel\core\src\ru\gigabyte_artur\warcastleduel\warcastle\net\WcnXmlBuilder.java (82˙
+`ru.gigabyte_artur.warcastleduel.warcastle.net.WcnXmlBuilder?MESSAGE_TYPE_CREATE_GAME@13.31:13.55DECLARATIONà
+~D:\YaDisk\synk\YandexDisk\JavaProjects\WarcastleDuel\core\src\ru\gigabyte_artur\warcastleduel\warcastle\net\WcnXmlBuilder.java (7âë
+àru.gigabyte_artur.warcastleduel.warcastle.net.WcnXmlBuilder.GenerateCardPlaying(ru.gigabyte_artur.warcastleduel.warcastle.WarcastleDuelGame, ru.gigabyte_artur.warcastleduel.warcastle.WarcastleDuelPlayer, ru.gigabyte_artur.warcastleduel.warcastle.WarcastleDuelCard)METHODà
+~D:\YaDisk\synk\YandexDisk\JavaProjects\WarcastleDuel\core\src\ru\gigabyte_artur\warcastleduel\warcastle\net\WcnXmlBuilder.java (,"
+isFinalfalse"„
+declarationStringÕ<mark class="modifier">public </mark><mark class="modifier">static </mark>String <mark class="method">GenerateCardPlaying</mark>(WarcastleDuelGame Game_in<mark class="modifier"><mark class="modifier">,</mark></mark> WarcastleDuelPlayer Player_in<mark class="modifier"><mark class="modifier">,</mark></mark> WarcastleDuelCard Card_in)"
+isStatictrue"
+accesspublic"
+
+isAbstractfalse"
+typeString*GenerateCardPlaying2ÿ
+Eru.gigabyte_artur.warcastleduel.warcastle.WarcastleDuelGame.getGUID()CALLà
+~D:\YaDisk\synk\YandexDisk\JavaProjects\WarcastleDuel\core\src\ru\gigabyte_artur\warcastleduel\warcastle\net\WcnXmlBuilder.java' (.2⁄
+Gru.gigabyte_artur.warcastleduel.warcastle.WarcastleDuelPlayer.getGUID()CALLà
+~D:\YaDisk\synk\YandexDisk\JavaProjects\WarcastleDuel\core\src\ru\gigabyte_artur\warcastleduel\warcastle\net\WcnXmlBuilder.java%$ %(+2ÿ
+Eru.gigabyte_artur.warcastleduel.warcastle.WarcastleDuelCard.getGUID()CALLà
+~D:\YaDisk\synk\YandexDisk\JavaProjects\WarcastleDuel\core\src\ru\gigabyte_artur\warcastleduel\warcastle\net\WcnXmlBuilder.java)  )('2¥
+†ru.gigabyte_artur.warcastleduel.warcastle.net.WcnXmlBuilder.GenerateCardPlaying(ru.gigabyte_artur.warcastleduel.warcastle.WarcastleDuelGame, ru.gigabyte_artur.warcastleduel.warcastle.WarcastleDuelPlayer, ru.gigabyte_artur.warcastleduel.warcastle.WarcastleDuelCard)?rootElement@20.16:20.27CALLà
+~D:\YaDisk\synk\YandexDisk\JavaProjects\WarcastleDuel\core\src\ru\gigabyte_artur\warcastleduel\warcastle\net\WcnXmlBuilder.java$ (/2∑
+£ru.gigabyte_artur.warcastleduel.warcastle.net.WcnXmlBuilder.GenerateCardPlaying(ru.gigabyte_artur.warcastleduel.warcastle.WarcastleDuelGame, ru.gigabyte_artur.warcastleduel.warcastle.WarcastleDuelPlayer, ru.gigabyte_artur.warcastleduel.warcastle.WarcastleDuelCard)?MessageTypeXML@26.16:26.30CALLà
+~D:\YaDisk\synk\YandexDisk\JavaProjects\WarcastleDuel\core\src\ru\gigabyte_artur\warcastleduel\warcastle\net\WcnXmlBuilder.java (2Ù
+aru.gigabyte_artur.warcastleduel.warcastle.net.WcnXmlBuilder?MESSAGE_TYPE_CARD_PLAYING@12.31:12.56CALLà
+~D:\YaDisk\synk\YandexDisk\JavaProjects\WarcastleDuel\core\src\ru\gigabyte_artur\warcastleduel\warcastle\net\WcnXmlBuilder.java (82≤
+ûru.gigabyte_artur.warcastleduel.warcastle.net.WcnXmlBuilder.GenerateCardPlaying(ru.gigabyte_artur.warcastleduel.warcastle.WarcastleDuelGame, ru.gigabyte_artur.warcastleduel.warcastle.WarcastleDuelPlayer, ru.gigabyte_artur.warcastleduel.warcastle.WarcastleDuelCard)?HeaderXML@24.16:24.25CALLà
+~D:\YaDisk\synk\YandexDisk\JavaProjects\WarcastleDuel\core\src\ru\gigabyte_artur\warcastleduel\warcastle\net\WcnXmlBuilder.java (2∑
+£ru.gigabyte_artur.warcastleduel.warcastle.net.WcnXmlBuilder.GenerateCardPlaying(ru.gigabyte_artur.warcastleduel.warcastle.WarcastleDuelGame, ru.gigabyte_artur.warcastleduel.warcastle.WarcastleDuelPlayer, ru.gigabyte_artur.warcastleduel.warcastle.WarcastleDuelCard)?MessageTypeXML@26.16:26.30CALLà
+~D:\YaDisk\synk\YandexDisk\JavaProjects\WarcastleDuel\core\src\ru\gigabyte_artur\warcastleduel\warcastle\net\WcnXmlBuilder.java (+2∑
+£ru.gigabyte_artur.warcastleduel.warcastle.net.WcnXmlBuilder.GenerateCardPlaying(ru.gigabyte_artur.warcastleduel.warcastle.WarcastleDuelGame, ru.gigabyte_artur.warcastleduel.warcastle.WarcastleDuelPlayer, ru.gigabyte_artur.warcastleduel.warcastle.WarcastleDuelCard)?GamePlayingXML@30.16:30.30CALLà
+~D:\YaDisk\synk\YandexDisk\JavaProjects\WarcastleDuel\core\src\ru\gigabyte_artur\warcastleduel\warcastle\net\WcnXmlBuilder.java (2§
+êru.gigabyte_artur.warcastleduel.warcastle.net.WcnXmlBuilder.GenerateCardPlaying(ru.gigabyte_artur.warcastleduel.warcastle.WarcastleDuelGame, ru.gigabyte_artur.warcastleduel.warcastle.WarcastleDuelPlayer, ru.gigabyte_artur.warcastleduel.warcastle.WarcastleDuelCard)!Game_inCALLà
+~D:\YaDisk\synk\YandexDisk\JavaProjects\WarcastleDuel\core\src\ru\gigabyte_artur\warcastleduel\warcastle\net\WcnXmlBuilder.java (&2≤
+ûru.gigabyte_artur.warcastleduel.warcastle.net.WcnXmlBuilder.GenerateCardPlaying(ru.gigabyte_artur.warcastleduel.warcastle.WarcastleDuelGame, ru.gigabyte_artur.warcastleduel.warcastle.WarcastleDuelPlayer, ru.gigabyte_artur.warcastleduel.warcastle.WarcastleDuelCard)?HeaderXML@24.16:24.25CALLà
+~D:\YaDisk\synk\YandexDisk\JavaProjects\WarcastleDuel\core\src\ru\gigabyte_artur\warcastleduel\warcastle\net\WcnXmlBuilder.java   (2∑
+£ru.gigabyte_artur.warcastleduel.warcastle.net.WcnXmlBuilder.GenerateCardPlaying(ru.gigabyte_artur.warcastleduel.warcastle.WarcastleDuelGame, ru.gigabyte_artur.warcastleduel.warcastle.WarcastleDuelPlayer, ru.gigabyte_artur.warcastleduel.warcastle.WarcastleDuelCard)?GamePlayingXML@30.16:30.30CALLà
+~D:\YaDisk\synk\YandexDisk\JavaProjects\WarcastleDuel\core\src\ru\gigabyte_artur\warcastleduel\warcastle\net\WcnXmlBuilder.java   (+2≤
+ûru.gigabyte_artur.warcastleduel.warcastle.net.WcnXmlBuilder.GenerateCardPlaying(ru.gigabyte_artur.warcastleduel.warcastle.WarcastleDuelGame, ru.gigabyte_artur.warcastleduel.warcastle.WarcastleDuelPlayer, ru.gigabyte_artur.warcastleduel.warcastle.WarcastleDuelCard)?PlayerXML@36.16:36.25CALLà
+~D:\YaDisk\synk\YandexDisk\JavaProjects\WarcastleDuel\core\src\ru\gigabyte_artur\warcastleduel\warcastle\net\WcnXmlBuilder.java% %(2¶
+íru.gigabyte_artur.warcastleduel.warcastle.net.WcnXmlBuilder.GenerateCardPlaying(ru.gigabyte_artur.warcastleduel.warcastle.WarcastleDuelGame, ru.gigabyte_artur.warcastleduel.warcastle.WarcastleDuelPlayer, ru.gigabyte_artur.warcastleduel.warcastle.WarcastleDuelCard)!Player_inCALLà
+~D:\YaDisk\synk\YandexDisk\JavaProjects\WarcastleDuel\core\src\ru\gigabyte_artur\warcastleduel\warcastle\net\WcnXmlBuilder.java% %(#2∞
+úru.gigabyte_artur.warcastleduel.warcastle.net.WcnXmlBuilder.GenerateCardPlaying(ru.gigabyte_artur.warcastleduel.warcastle.WarcastleDuelGame, ru.gigabyte_artur.warcastleduel.warcastle.WarcastleDuelPlayer, ru.gigabyte_artur.warcastleduel.warcastle.WarcastleDuelCard)?BodyXML@34.16:34.23CALLà
+~D:\YaDisk\synk\YandexDisk\JavaProjects\WarcastleDuel\core\src\ru\gigabyte_artur\warcastleduel\warcastle\net\WcnXmlBuilder.java& &(2≤
+ûru.gigabyte_artur.warcastleduel.warcastle.net.WcnXmlBuilder.GenerateCardPlaying(ru.gigabyte_artur.warcastleduel.warcastle.WarcastleDuelGame, ru.gigabyte_artur.warcastleduel.warcastle.WarcastleDuelPlayer, ru.gigabyte_artur.warcastleduel.warcastle.WarcastleDuelCard)?PlayerXML@36.16:36.25CALLà
+~D:\YaDisk\synk\YandexDisk\JavaProjects\WarcastleDuel\core\src\ru\gigabyte_artur\warcastleduel\warcastle\net\WcnXmlBuilder.java& &($2∞
+úru.gigabyte_artur.warcastleduel.warcastle.net.WcnXmlBuilder.GenerateCardPlaying(ru.gigabyte_artur.warcastleduel.warcastle.WarcastleDuelGame, ru.gigabyte_artur.warcastleduel.warcastle.WarcastleDuelPlayer, ru.gigabyte_artur.warcastleduel.warcastle.WarcastleDuelCard)?CardXML@40.16:40.23CALLà
+~D:\YaDisk\synk\YandexDisk\JavaProjects\WarcastleDuel\core\src\ru\gigabyte_artur\warcastleduel\warcastle\net\WcnXmlBuilder.java) )(2§
+êru.gigabyte_artur.warcastleduel.warcastle.net.WcnXmlBuilder.GenerateCardPlaying(ru.gigabyte_artur.warcastleduel.warcastle.WarcastleDuelGame, ru.gigabyte_artur.warcastleduel.warcastle.WarcastleDuelPlayer, ru.gigabyte_artur.warcastleduel.warcastle.WarcastleDuelCard)!Card_inCALLà
+~D:\YaDisk\synk\YandexDisk\JavaProjects\WarcastleDuel\core\src\ru\gigabyte_artur\warcastleduel\warcastle\net\WcnXmlBuilder.java) )(2∞
+úru.gigabyte_artur.warcastleduel.warcastle.net.WcnXmlBuilder.GenerateCardPlaying(ru.gigabyte_artur.warcastleduel.warcastle.WarcastleDuelGame, ru.gigabyte_artur.warcastleduel.warcastle.WarcastleDuelPlayer, ru.gigabyte_artur.warcastleduel.warcastle.WarcastleDuelCard)?BodyXML@34.16:34.23CALLà
+~D:\YaDisk\synk\YandexDisk\JavaProjects\WarcastleDuel\core\src\ru\gigabyte_artur\warcastleduel\warcastle\net\WcnXmlBuilder.java* *(2∞
+úru.gigabyte_artur.warcastleduel.warcastle.net.WcnXmlBuilder.GenerateCardPlaying(ru.gigabyte_artur.warcastleduel.warcastle.WarcastleDuelGame, ru.gigabyte_artur.warcastleduel.warcastle.WarcastleDuelPlayer, ru.gigabyte_artur.warcastleduel.warcastle.WarcastleDuelCard)?CardXML@40.16:40.23CALLà
+~D:\YaDisk\synk\YandexDisk\JavaProjects\WarcastleDuel\core\src\ru\gigabyte_artur\warcastleduel\warcastle\net\WcnXmlBuilder.java* *("2¥
+†ru.gigabyte_artur.warcastleduel.warcastle.net.WcnXmlBuilder.GenerateCardPlaying(ru.gigabyte_artur.warcastleduel.warcastle.WarcastleDuelGame, ru.gigabyte_artur.warcastleduel.warcastle.WarcastleDuelPlayer, ru.gigabyte_artur.warcastleduel.warcastle.WarcastleDuelCard)?rootElement@20.16:20.27CALLà
+~D:\YaDisk\synk\YandexDisk\JavaProjects\WarcastleDuel\core\src\ru\gigabyte_artur\warcastleduel\warcastle\net\WcnXmlBuilder.java, ,(2≤
+ûru.gigabyte_artur.warcastleduel.warcastle.net.WcnXmlBuilder.GenerateCardPlaying(ru.gigabyte_artur.warcastleduel.warcastle.WarcastleDuelGame, ru.gigabyte_artur.warcastleduel.warcastle.WarcastleDuelPlayer, ru.gigabyte_artur.warcastleduel.warcastle.WarcastleDuelCard)?HeaderXML@24.16:24.25CALLà
+~D:\YaDisk\synk\YandexDisk\JavaProjects\WarcastleDuel\core\src\ru\gigabyte_artur\warcastleduel\warcastle\net\WcnXmlBuilder.java, ,((2¥
+†ru.gigabyte_artur.warcastleduel.warcastle.net.WcnXmlBuilder.GenerateCardPlaying(ru.gigabyte_artur.warcastleduel.warcastle.WarcastleDuelGame, ru.gigabyte_artur.warcastleduel.warcastle.WarcastleDuelPlayer, ru.gigabyte_artur.warcastleduel.warcastle.WarcastleDuelCard)?rootElement@20.16:20.27CALLà
+~D:\YaDisk\synk\YandexDisk\JavaProjects\WarcastleDuel\core\src\ru\gigabyte_artur\warcastleduel\warcastle\net\WcnXmlBuilder.java- -(2∞
+úru.gigabyte_artur.warcastleduel.warcastle.net.WcnXmlBuilder.GenerateCardPlaying(ru.gigabyte_artur.warcastleduel.warcastle.WarcastleDuelGame, ru.gigabyte_artur.warcastleduel.warcastle.WarcastleDuelPlayer, ru.gigabyte_artur.warcastleduel.warcastle.WarcastleDuelCard)?BodyXML@34.16:34.23CALLà
+~D:\YaDisk\synk\YandexDisk\JavaProjects\WarcastleDuel\core\src\ru\gigabyte_artur\warcastleduel\warcastle\net\WcnXmlBuilder.java- -(&2≤
+ûru.gigabyte_artur.warcastleduel.warcastle.net.WcnXmlBuilder.GenerateCardPlaying(ru.gigabyte_artur.warcastleduel.warcastle.WarcastleDuelGame, ru.gigabyte_artur.warcastleduel.warcastle.WarcastleDuelPlayer, ru.gigabyte_artur.warcastleduel.warcastle.WarcastleDuelCard)?xmlOutput@47.21:47.30CALLà
+~D:\YaDisk\synk\YandexDisk\JavaProjects\WarcastleDuel\core\src\ru\gigabyte_artur\warcastleduel\warcastle\net\WcnXmlBuilder.java0 0(2¨
+òru.gigabyte_artur.warcastleduel.warcastle.net.WcnXmlBuilder.GenerateCardPlaying(ru.gigabyte_artur.warcastleduel.warcastle.WarcastleDuelGame, ru.gigabyte_artur.warcastleduel.warcastle.WarcastleDuelPlayer, ru.gigabyte_artur.warcastleduel.warcastle.WarcastleDuelCard)?rez@18.15:18.18CALLà
+~D:\YaDisk\synk\YandexDisk\JavaProjects\WarcastleDuel\core\src\ru\gigabyte_artur\warcastleduel\warcastle\net\WcnXmlBuilder.java1 1(2≤
+ûru.gigabyte_artur.warcastleduel.warcastle.net.WcnXmlBuilder.GenerateCardPlaying(ru.gigabyte_artur.warcastleduel.warcastle.WarcastleDuelGame, ru.gigabyte_artur.warcastleduel.warcastle.WarcastleDuelPlayer, ru.gigabyte_artur.warcastleduel.warcastle.WarcastleDuelCard)?xmlOutput@47.21:47.30CALLà
+~D:\YaDisk\synk\YandexDisk\JavaProjects\WarcastleDuel\core\src\ru\gigabyte_artur\warcastleduel\warcastle\net\WcnXmlBuilder.java1 1(2¨
+òru.gigabyte_artur.warcastleduel.warcastle.net.WcnXmlBuilder.GenerateCardPlaying(ru.gigabyte_artur.warcastleduel.warcastle.WarcastleDuelGame, ru.gigabyte_artur.warcastleduel.warcastle.WarcastleDuelPlayer, ru.gigabyte_artur.warcastleduel.warcastle.WarcastleDuelCard)?doc@22.17:22.20CALLà
+~D:\YaDisk\synk\YandexDisk\JavaProjects\WarcastleDuel\core\src\ru\gigabyte_artur\warcastleduel\warcastle\net\WcnXmlBuilder.java1% 1((2¨
+òru.gigabyte_artur.warcastleduel.warcastle.net.WcnXmlBuilder.GenerateCardPlaying(ru.gigabyte_artur.warcastleduel.warcastle.WarcastleDuelGame, ru.gigabyte_artur.warcastleduel.warcastle.WarcastleDuelPlayer, ru.gigabyte_artur.warcastleduel.warcastle.WarcastleDuelCard)?rez@18.15:18.18CALLà
+~D:\YaDisk\synk\YandexDisk\JavaProjects\WarcastleDuel\core\src\ru\gigabyte_artur\warcastleduel\warcastle\net\WcnXmlBuilder.java2 2(2©
+êru.gigabyte_artur.warcastleduel.warcastle.net.WcnXmlBuilder.GenerateCardPlaying(ru.gigabyte_artur.warcastleduel.warcastle.WarcastleDuelGame, ru.gigabyte_artur.warcastleduel.warcastle.WarcastleDuelPlayer, ru.gigabyte_artur.warcastleduel.warcastle.WarcastleDuelCard)!Game_in	PARAMETERà
+~D:\YaDisk\synk\YandexDisk\JavaProjects\WarcastleDuel\core\src\ru\gigabyte_artur\warcastleduel\warcastle\net\WcnXmlBuilder.java? (F2´
+íru.gigabyte_artur.warcastleduel.warcastle.net.WcnXmlBuilder.GenerateCardPlaying(ru.gigabyte_artur.warcastleduel.warcastle.WarcastleDuelGame, ru.gigabyte_artur.warcastleduel.warcastle.WarcastleDuelPlayer, ru.gigabyte_artur.warcastleduel.warcastle.WarcastleDuelCard)!Player_in	PARAMETERà
+~D:\YaDisk\synk\YandexDisk\JavaProjects\WarcastleDuel\core\src\ru\gigabyte_artur\warcastleduel\warcastle\net\WcnXmlBuilder.java\ (e2™
+êru.gigabyte_artur.warcastleduel.warcastle.net.WcnXmlBuilder.GenerateCardPlaying(ru.gigabyte_artur.warcastleduel.warcastle.WarcastleDuelGame, ru.gigabyte_artur.warcastleduel.warcastle.WarcastleDuelPlayer, ru.gigabyte_artur.warcastleduel.warcastle.WarcastleDuelCard)!Card_in	PARAMETERâ
+~D:\YaDisk\synk\YandexDisk\JavaProjects\WarcastleDuel\core\src\ru\gigabyte_artur\warcastleduel\warcastle\net\WcnXmlBuilder.javay (Ä2≥
+òru.gigabyte_artur.warcastleduel.warcastle.net.WcnXmlBuilder.GenerateCardPlaying(ru.gigabyte_artur.warcastleduel.warcastle.WarcastleDuelGame, ru.gigabyte_artur.warcastleduel.warcastle.WarcastleDuelPlayer, ru.gigabyte_artur.warcastleduel.warcastle.WarcastleDuelCard)?rez@18.15:18.18DECLARATIONà
+~D:\YaDisk\synk\YandexDisk\JavaProjects\WarcastleDuel\core\src\ru\gigabyte_artur\warcastleduel\warcastle\net\WcnXmlBuilder.java (2ª
+†ru.gigabyte_artur.warcastleduel.warcastle.net.WcnXmlBuilder.GenerateCardPlaying(ru.gigabyte_artur.warcastleduel.warcastle.WarcastleDuelGame, ru.gigabyte_artur.warcastleduel.warcastle.WarcastleDuelPlayer, ru.gigabyte_artur.warcastleduel.warcastle.WarcastleDuelCard)?rootElement@20.16:20.27DECLARATIONà
+~D:\YaDisk\synk\YandexDisk\JavaProjects\WarcastleDuel\core\src\ru\gigabyte_artur\warcastleduel\warcastle\net\WcnXmlBuilder.java (2≥
+òru.gigabyte_artur.warcastleduel.warcastle.net.WcnXmlBuilder.GenerateCardPlaying(ru.gigabyte_artur.warcastleduel.warcastle.WarcastleDuelGame, ru.gigabyte_artur.warcastleduel.warcastle.WarcastleDuelPlayer, ru.gigabyte_artur.warcastleduel.warcastle.WarcastleDuelCard)?doc@22.17:22.20DECLARATIONà
+~D:\YaDisk\synk\YandexDisk\JavaProjects\WarcastleDuel\core\src\ru\gigabyte_artur\warcastleduel\warcastle\net\WcnXmlBuilder.java (2π
+ûru.gigabyte_artur.warcastleduel.warcastle.net.WcnXmlBuilder.GenerateCardPlaying(ru.gigabyte_artur.warcastleduel.warcastle.WarcastleDuelGame, ru.gigabyte_artur.warcastleduel.warcastle.WarcastleDuelPlayer, ru.gigabyte_artur.warcastleduel.warcastle.WarcastleDuelCard)?HeaderXML@24.16:24.25DECLARATIONà
+~D:\YaDisk\synk\YandexDisk\JavaProjects\WarcastleDuel\core\src\ru\gigabyte_artur\warcastleduel\warcastle\net\WcnXmlBuilder.java (2æ
+£ru.gigabyte_artur.warcastleduel.warcastle.net.WcnXmlBuilder.GenerateCardPlaying(ru.gigabyte_artur.warcastleduel.warcastle.WarcastleDuelGame, ru.gigabyte_artur.warcastleduel.warcastle.WarcastleDuelPlayer, ru.gigabyte_artur.warcastleduel.warcastle.WarcastleDuelCard)?MessageTypeXML@26.16:26.30DECLARATIONà
+~D:\YaDisk\synk\YandexDisk\JavaProjects\WarcastleDuel\core\src\ru\gigabyte_artur\warcastleduel\warcastle\net\WcnXmlBuilder.java (2æ
+£ru.gigabyte_artur.warcastleduel.warcastle.net.WcnXmlBuilder.GenerateCardPlaying(ru.gigabyte_artur.warcastleduel.warcastle.WarcastleDuelGame, ru.gigabyte_artur.warcastleduel.warcastle.WarcastleDuelPlayer, ru.gigabyte_artur.warcastleduel.warcastle.WarcastleDuelCard)?GamePlayingXML@30.16:30.30DECLARATIONà
+~D:\YaDisk\synk\YandexDisk\JavaProjects\WarcastleDuel\core\src\ru\gigabyte_artur\warcastleduel\warcastle\net\WcnXmlBuilder.java (2∑
+úru.gigabyte_artur.warcastleduel.warcastle.net.WcnXmlBuilder.GenerateCardPlaying(ru.gigabyte_artur.warcastleduel.warcastle.WarcastleDuelGame, ru.gigabyte_artur.warcastleduel.warcastle.WarcastleDuelPlayer, ru.gigabyte_artur.warcastleduel.warcastle.WarcastleDuelCard)?BodyXML@34.16:34.23DECLARATIONà
+~D:\YaDisk\synk\YandexDisk\JavaProjects\WarcastleDuel\core\src\ru\gigabyte_artur\warcastleduel\warcastle\net\WcnXmlBuilder.java" "(2π
+ûru.gigabyte_artur.warcastleduel.warcastle.net.WcnXmlBuilder.GenerateCardPlaying(ru.gigabyte_artur.warcastleduel.warcastle.WarcastleDuelGame, ru.gigabyte_artur.warcastleduel.warcastle.WarcastleDuelPlayer, ru.gigabyte_artur.warcastleduel.warcastle.WarcastleDuelCard)?PlayerXML@36.16:36.25DECLARATIONà
+~D:\YaDisk\synk\YandexDisk\JavaProjects\WarcastleDuel\core\src\ru\gigabyte_artur\warcastleduel\warcastle\net\WcnXmlBuilder.java$ $(2∑
+úru.gigabyte_artur.warcastleduel.warcastle.net.WcnXmlBuilder.GenerateCardPlaying(ru.gigabyte_artur.warcastleduel.warcastle.WarcastleDuelGame, ru.gigabyte_artur.warcastleduel.warcastle.WarcastleDuelPlayer, ru.gigabyte_artur.warcastleduel.warcastle.WarcastleDuelCard)?CardXML@40.16:40.23DECLARATIONà
+~D:\YaDisk\synk\YandexDisk\JavaProjects\WarcastleDuel\core\src\ru\gigabyte_artur\warcastleduel\warcastle\net\WcnXmlBuilder.java( ((2π
+ûru.gigabyte_artur.warcastleduel.warcastle.net.WcnXmlBuilder.GenerateCardPlaying(ru.gigabyte_artur.warcastleduel.warcastle.WarcastleDuelGame, ru.gigabyte_artur.warcastleduel.warcastle.WarcastleDuelPlayer, ru.gigabyte_artur.warcastleduel.warcastle.WarcastleDuelCard)?xmlOutput@47.21:47.30DECLARATIONà
+~D:\YaDisk\synk\YandexDisk\JavaProjects\WarcastleDuel\core\src\ru\gigabyte_artur\warcastleduel\warcastle\net\WcnXmlBuilder.java/ /(2™
+java.lang.StringRETURN_TYPEà
+~D:\YaDisk\synk\YandexDisk\JavaProjects\WarcastleDuel\core\src\ru\gigabyte_artur\warcastleduel\warcastle\net\WcnXmlBuilder.java („
+òru.gigabyte_artur.warcastleduel.warcastle.net.WcnXmlBuilder.GenerateCardPlaying(ru.gigabyte_artur.warcastleduel.warcastle.WarcastleDuelGame, ru.gigabyte_artur.warcastleduel.warcastle.WarcastleDuelPlayer, ru.gigabyte_artur.warcastleduel.warcastle.WarcastleDuelCard)?rez@18.15:18.18VARIABLEà
+~D:\YaDisk\synk\YandexDisk\JavaProjects\WarcastleDuel\core\src\ru\gigabyte_artur\warcastleduel\warcastle\net\WcnXmlBuilder.java ("
+typeString"
+isFinalfalse"d
+declarationStringO<mark class="modifier"> </mark>String <mark class="class-field">rez</mark> = ""*rez2£
+java.lang.StringTYPEà
+~D:\YaDisk\synk\YandexDisk\JavaProjects\WarcastleDuel\core\src\ru\gigabyte_artur\warcastleduel\warcastle\net\WcnXmlBuilder.java (ì
+†ru.gigabyte_artur.warcastleduel.warcastle.net.WcnXmlBuilder.GenerateCardPlaying(ru.gigabyte_artur.warcastleduel.warcastle.WarcastleDuelGame, ru.gigabyte_artur.warcastleduel.warcastle.WarcastleDuelPlayer, ru.gigabyte_artur.warcastleduel.warcastle.WarcastleDuelCard)?rootElement@20.16:20.27VARIABLEà
+~D:\YaDisk\synk\YandexDisk\JavaProjects\WarcastleDuel\core\src\ru\gigabyte_artur\warcastleduel\warcastle\net\WcnXmlBuilder.java ("
+typeElement"
+isFinalfalse"Å
+declarationStringl<mark class="modifier"> </mark>Element <mark class="class-field">rootElement</mark> = new Element("Message")*rootElement2§
+org.jdom2.ElementTYPEà
+~D:\YaDisk\synk\YandexDisk\JavaProjects\WarcastleDuel\core\src\ru\gigabyte_artur\warcastleduel\warcastle\net\WcnXmlBuilder.java (∑	
+òru.gigabyte_artur.warcastleduel.warcastle.net.WcnXmlBuilder.GenerateCardPlaying(ru.gigabyte_artur.warcastleduel.warcastle.WarcastleDuelGame, ru.gigabyte_artur.warcastleduel.warcastle.WarcastleDuelPlayer, ru.gigabyte_artur.warcastleduel.warcastle.WarcastleDuelCard)?doc@22.17:22.20VARIABLEà
+~D:\YaDisk\synk\YandexDisk\JavaProjects\WarcastleDuel\core\src\ru\gigabyte_artur\warcastleduel\warcastle\net\WcnXmlBuilder.java ("
+typeDocument"
+isFinalfalse"}
+declarationStringh<mark class="modifier"> </mark>Document <mark class="class-field">doc</mark> = new Document(rootElement)*doc2•
+org.jdom2.DocumentTYPEà
+~D:\YaDisk\synk\YandexDisk\JavaProjects\WarcastleDuel\core\src\ru\gigabyte_artur\warcastleduel\warcastle\net\WcnXmlBuilder.java (2¥
+†ru.gigabyte_artur.warcastleduel.warcastle.net.WcnXmlBuilder.GenerateCardPlaying(ru.gigabyte_artur.warcastleduel.warcastle.WarcastleDuelGame, ru.gigabyte_artur.warcastleduel.warcastle.WarcastleDuelPlayer, ru.gigabyte_artur.warcastleduel.warcastle.WarcastleDuelCard)?rootElement@20.16:20.27CALLà
+~D:\YaDisk\synk\YandexDisk\JavaProjects\WarcastleDuel\core\src\ru\gigabyte_artur\warcastleduel\warcastle\net\WcnXmlBuilder.java$ (/ã
+ûru.gigabyte_artur.warcastleduel.warcastle.net.WcnXmlBuilder.GenerateCardPlaying(ru.gigabyte_artur.warcastleduel.warcastle.WarcastleDuelGame, ru.gigabyte_artur.warcastleduel.warcastle.WarcastleDuelPlayer, ru.gigabyte_artur.warcastleduel.warcastle.WarcastleDuelCard)?HeaderXML@24.16:24.25VARIABLEà
+~D:\YaDisk\synk\YandexDisk\JavaProjects\WarcastleDuel\core\src\ru\gigabyte_artur\warcastleduel\warcastle\net\WcnXmlBuilder.java ("
+typeElement"
+isFinalfalse"~
+declarationStringi<mark class="modifier"> </mark>Element <mark class="class-field">HeaderXML</mark> = new Element("Header")*	HeaderXML2§
+org.jdom2.ElementTYPEà
+~D:\YaDisk\synk\YandexDisk\JavaProjects\WarcastleDuel\core\src\ru\gigabyte_artur\warcastleduel\warcastle\net\WcnXmlBuilder.java (†
+£ru.gigabyte_artur.warcastleduel.warcastle.net.WcnXmlBuilder.GenerateCardPlaying(ru.gigabyte_artur.warcastleduel.warcastle.WarcastleDuelGame, ru.gigabyte_artur.warcastleduel.warcastle.WarcastleDuelPlayer, ru.gigabyte_artur.warcastleduel.warcastle.WarcastleDuelCard)?MessageTypeXML@26.16:26.30VARIABLEà
+~D:\YaDisk\synk\YandexDisk\JavaProjects\WarcastleDuel\core\src\ru\gigabyte_artur\warcastleduel\warcastle\net\WcnXmlBuilder.java ("
+typeElement"
+isFinalfalse"à
+declarationStrings<mark class="modifier"> </mark>Element <mark class="class-field">MessageTypeXML</mark> = new Element("MessageType")*MessageTypeXML2§
+org.jdom2.ElementTYPEà
+~D:\YaDisk\synk\YandexDisk\JavaProjects\WarcastleDuel\core\src\ru\gigabyte_artur\warcastleduel\warcastle\net\WcnXmlBuilder.java (ô
+£ru.gigabyte_artur.warcastleduel.warcastle.net.WcnXmlBuilder.GenerateCardPlaying(ru.gigabyte_artur.warcastleduel.warcastle.WarcastleDuelGame, ru.gigabyte_artur.warcastleduel.warcastle.WarcastleDuelPlayer, ru.gigabyte_artur.warcastleduel.warcastle.WarcastleDuelCard)?GamePlayingXML@30.16:30.30VARIABLEà
+~D:\YaDisk\synk\YandexDisk\JavaProjects\WarcastleDuel\core\src\ru\gigabyte_artur\warcastleduel\warcastle\net\WcnXmlBuilder.java ("
+typeElement"
+isFinalfalse"Å
+declarationStringl<mark class="modifier"> </mark>Element <mark class="class-field">GamePlayingXML</mark> = new Element("Game")*GamePlayingXML2§
+org.jdom2.ElementTYPEà
+~D:\YaDisk\synk\YandexDisk\JavaProjects\WarcastleDuel\core\src\ru\gigabyte_artur\warcastleduel\warcastle\net\WcnXmlBuilder.java (É
+úru.gigabyte_artur.warcastleduel.warcastle.net.WcnXmlBuilder.GenerateCardPlaying(ru.gigabyte_artur.warcastleduel.warcastle.WarcastleDuelGame, ru.gigabyte_artur.warcastleduel.warcastle.WarcastleDuelPlayer, ru.gigabyte_artur.warcastleduel.warcastle.WarcastleDuelCard)?BodyXML@34.16:34.23VARIABLEà
+~D:\YaDisk\synk\YandexDisk\JavaProjects\WarcastleDuel\core\src\ru\gigabyte_artur\warcastleduel\warcastle\net\WcnXmlBuilder.java" "("
+typeElement"
+isFinalfalse"z
+declarationStringe<mark class="modifier"> </mark>Element <mark class="class-field">BodyXML</mark> = new Element("Body")*BodyXML2§
+org.jdom2.ElementTYPEà
+~D:\YaDisk\synk\YandexDisk\JavaProjects\WarcastleDuel\core\src\ru\gigabyte_artur\warcastleduel\warcastle\net\WcnXmlBuilder.java" "(ã
+ûru.gigabyte_artur.warcastleduel.warcastle.net.WcnXmlBuilder.GenerateCardPlaying(ru.gigabyte_artur.warcastleduel.warcastle.WarcastleDuelGame, ru.gigabyte_artur.warcastleduel.warcastle.WarcastleDuelPlayer, ru.gigabyte_artur.warcastleduel.warcastle.WarcastleDuelCard)?PlayerXML@36.16:36.25VARIABLEà
+~D:\YaDisk\synk\YandexDisk\JavaProjects\WarcastleDuel\core\src\ru\gigabyte_artur\warcastleduel\warcastle\net\WcnXmlBuilder.java$ $("
+typeElement"
+isFinalfalse"~
+declarationStringi<mark class="modifier"> </mark>Element <mark class="class-field">PlayerXML</mark> = new Element("Player")*	PlayerXML2§
+org.jdom2.ElementTYPEà
+~D:\YaDisk\synk\YandexDisk\JavaProjects\WarcastleDuel\core\src\ru\gigabyte_artur\warcastleduel\warcastle\net\WcnXmlBuilder.java$ $(É
+úru.gigabyte_artur.warcastleduel.warcastle.net.WcnXmlBuilder.GenerateCardPlaying(ru.gigabyte_artur.warcastleduel.warcastle.WarcastleDuelGame, ru.gigabyte_artur.warcastleduel.warcastle.WarcastleDuelPlayer, ru.gigabyte_artur.warcastleduel.warcastle.WarcastleDuelCard)?CardXML@40.16:40.23VARIABLEà
+~D:\YaDisk\synk\YandexDisk\JavaProjects\WarcastleDuel\core\src\ru\gigabyte_artur\warcastleduel\warcastle\net\WcnXmlBuilder.java( (("
+typeElement"
+isFinalfalse"z
+declarationStringe<mark class="modifier"> </mark>Element <mark class="class-field">CardXML</mark> = new Element("Card")*CardXML2§
+org.jdom2.ElementTYPEà
+~D:\YaDisk\synk\YandexDisk\JavaProjects\WarcastleDuel\core\src\ru\gigabyte_artur\warcastleduel\warcastle\net\WcnXmlBuilder.java( ((ü
+ûru.gigabyte_artur.warcastleduel.warcastle.net.WcnXmlBuilder.GenerateCardPlaying(ru.gigabyte_artur.warcastleduel.warcastle.WarcastleDuelGame, ru.gigabyte_artur.warcastleduel.warcastle.WarcastleDuelPlayer, ru.gigabyte_artur.warcastleduel.warcastle.WarcastleDuelCard)?xmlOutput@47.21:47.30VARIABLEà
+~D:\YaDisk\synk\YandexDisk\JavaProjects\WarcastleDuel\core\src\ru\gigabyte_artur\warcastleduel\warcastle\net\WcnXmlBuilder.java/ /("
+typeXMLOutputter"
+isFinalfalse"Ä
+declarationStringk<mark class="modifier"> </mark>XMLOutputter <mark class="class-field">xmlOutput</mark> = new XMLOutputter()*	xmlOutput2∞
+org.jdom2.output.XMLOutputterTYPEà
+~D:\YaDisk\synk\YandexDisk\JavaProjects\WarcastleDuel\core\src\ru\gigabyte_artur\warcastleduel\warcastle\net\WcnXmlBuilder.java/ /(‡
+êru.gigabyte_artur.warcastleduel.warcastle.net.WcnXmlBuilder.GenerateCardPlaying(ru.gigabyte_artur.warcastleduel.warcastle.WarcastleDuelGame, ru.gigabyte_artur.warcastleduel.warcastle.WarcastleDuelPlayer, ru.gigabyte_artur.warcastleduel.warcastle.WarcastleDuelCard)!Game_in	PARAMETERà
+~D:\YaDisk\synk\YandexDisk\JavaProjects\WarcastleDuel\core\src\ru\gigabyte_artur\warcastleduel\warcastle\net\WcnXmlBuilder.java? (F"
+typeWarcastleDuelGame"
+isFinalfalse".
+declarationStringWarcastleDuelGame Game_in*Game_in2Œ
+;ru.gigabyte_artur.warcastleduel.warcastle.WarcastleDuelGameTYPEà
+~D:\YaDisk\synk\YandexDisk\JavaProjects\WarcastleDuel\core\src\ru\gigabyte_artur\warcastleduel\warcastle\net\WcnXmlBuilder.java- (>Ï
+íru.gigabyte_artur.warcastleduel.warcastle.net.WcnXmlBuilder.GenerateCardPlaying(ru.gigabyte_artur.warcastleduel.warcastle.WarcastleDuelGame, ru.gigabyte_artur.warcastleduel.warcastle.WarcastleDuelPlayer, ru.gigabyte_artur.warcastleduel.warcastle.WarcastleDuelCard)!Player_in	PARAMETERà
+~D:\YaDisk\synk\YandexDisk\JavaProjects\WarcastleDuel\core\src\ru\gigabyte_artur\warcastleduel\warcastle\net\WcnXmlBuilder.java\ (e"
+typeWarcastleDuelPlayer"
+isFinalfalse"2
+declarationStringWarcastleDuelPlayer Player_in*	Player_in2–
+=ru.gigabyte_artur.warcastleduel.warcastle.WarcastleDuelPlayerTYPEà
+~D:\YaDisk\synk\YandexDisk\JavaProjects\WarcastleDuel\core\src\ru\gigabyte_artur\warcastleduel\warcastle\net\WcnXmlBuilder.javaH ([·
+êru.gigabyte_artur.warcastleduel.warcastle.net.WcnXmlBuilder.GenerateCardPlaying(ru.gigabyte_artur.warcastleduel.warcastle.WarcastleDuelGame, ru.gigabyte_artur.warcastleduel.warcastle.WarcastleDuelPlayer, ru.gigabyte_artur.warcastleduel.warcastle.WarcastleDuelCard)!Card_in	PARAMETERâ
+~D:\YaDisk\synk\YandexDisk\JavaProjects\WarcastleDuel\core\src\ru\gigabyte_artur\warcastleduel\warcastle\net\WcnXmlBuilder.javay (Ä"
+typeWarcastleDuelCard"
+isFinalfalse".
+declarationStringWarcastleDuelCard Card_in*Card_in2Œ
+;ru.gigabyte_artur.warcastleduel.warcastle.WarcastleDuelCardTYPEà
+~D:\YaDisk\synk\YandexDisk\JavaProjects\WarcastleDuel\core\src\ru\gigabyte_artur\warcastleduel\warcastle\net\WcnXmlBuilder.javag (x F
+`ru.gigabyte_artur.warcastleduel.warcastle.net.WcnXmlBuilder.GenerateCreateGame(java.lang.String)METHODà
+~D:\YaDisk\synk\YandexDisk\JavaProjects\WarcastleDuel\core\src\ru\gigabyte_artur\warcastleduel\warcastle\net\WcnXmlBuilder.java6 6(+"
+isFinalfalse"®
+declarationStringí<mark class="modifier">public </mark><mark class="modifier">static </mark>String <mark class="method">GenerateCreateGame</mark>(String PlayerName)"
+isStatictrue"
+accesspublic"
+
+isAbstractfalse"
+typeString*GenerateCreateGame2ã
+xru.gigabyte_artur.warcastleduel.warcastle.net.WcnXmlBuilder.GenerateCreateGame(java.lang.String)?rootElement@58.16:58.27CALLà
+~D:\YaDisk\synk\YandexDisk\JavaProjects\WarcastleDuel\core\src\ru\gigabyte_artur\warcastleduel\warcastle\net\WcnXmlBuilder.java<$ <(/2é
+{ru.gigabyte_artur.warcastleduel.warcastle.net.WcnXmlBuilder.GenerateCreateGame(java.lang.String)?MessageTypeXML@64.16:64.30CALLà
+~D:\YaDisk\synk\YandexDisk\JavaProjects\WarcastleDuel\core\src\ru\gigabyte_artur\warcastleduel\warcastle\net\WcnXmlBuilder.javaA A(2Û
+`ru.gigabyte_artur.warcastleduel.warcastle.net.WcnXmlBuilder?MESSAGE_TYPE_CREATE_GAME@13.31:13.55CALLà
+~D:\YaDisk\synk\YandexDisk\JavaProjects\WarcastleDuel\core\src\ru\gigabyte_artur\warcastleduel\warcastle\net\WcnXmlBuilder.javaA A(72â
+vru.gigabyte_artur.warcastleduel.warcastle.net.WcnXmlBuilder.GenerateCreateGame(java.lang.String)?HeaderXML@62.16:62.25CALLà
+~D:\YaDisk\synk\YandexDisk\JavaProjects\WarcastleDuel\core\src\ru\gigabyte_artur\warcastleduel\warcastle\net\WcnXmlBuilder.javaB B(2é
+{ru.gigabyte_artur.warcastleduel.warcastle.net.WcnXmlBuilder.GenerateCreateGame(java.lang.String)?MessageTypeXML@64.16:64.30CALLà
+~D:\YaDisk\synk\YandexDisk\JavaProjects\WarcastleDuel\core\src\ru\gigabyte_artur\warcastleduel\warcastle\net\WcnXmlBuilder.javaB B(+2é
+{ru.gigabyte_artur.warcastleduel.warcastle.net.WcnXmlBuilder.GenerateCreateGame(java.lang.String)?GamePlayingXML@68.16:68.30CALLà
+~D:\YaDisk\synk\YandexDisk\JavaProjects\WarcastleDuel\core\src\ru\gigabyte_artur\warcastleduel\warcastle\net\WcnXmlBuilder.javaE E(2â
+vru.gigabyte_artur.warcastleduel.warcastle.net.WcnXmlBuilder.GenerateCreateGame(java.lang.String)?HeaderXML@62.16:62.25CALLà
+~D:\YaDisk\synk\YandexDisk\JavaProjects\WarcastleDuel\core\src\ru\gigabyte_artur\warcastleduel\warcastle\net\WcnXmlBuilder.javaF F(2é
+{ru.gigabyte_artur.warcastleduel.warcastle.net.WcnXmlBuilder.GenerateCreateGame(java.lang.String)?GamePlayingXML@68.16:68.30CALLà
+~D:\YaDisk\synk\YandexDisk\JavaProjects\WarcastleDuel\core\src\ru\gigabyte_artur\warcastleduel\warcastle\net\WcnXmlBuilder.javaF F(+2â
+vru.gigabyte_artur.warcastleduel.warcastle.net.WcnXmlBuilder.GenerateCreateGame(java.lang.String)?PlayerXML@74.16:74.25CALLà
+~D:\YaDisk\synk\YandexDisk\JavaProjects\WarcastleDuel\core\src\ru\gigabyte_artur\warcastleduel\warcastle\net\WcnXmlBuilder.javaK K(2˛
+kru.gigabyte_artur.warcastleduel.warcastle.net.WcnXmlBuilder.GenerateCreateGame(java.lang.String)!PlayerNameCALLà
+~D:\YaDisk\synk\YandexDisk\JavaProjects\WarcastleDuel\core\src\ru\gigabyte_artur\warcastleduel\warcastle\net\WcnXmlBuilder.javaK K($2á
+tru.gigabyte_artur.warcastleduel.warcastle.net.WcnXmlBuilder.GenerateCreateGame(java.lang.String)?BodyXML@72.16:72.23CALLà
+~D:\YaDisk\synk\YandexDisk\JavaProjects\WarcastleDuel\core\src\ru\gigabyte_artur\warcastleduel\warcastle\net\WcnXmlBuilder.javaL L(2â
+vru.gigabyte_artur.warcastleduel.warcastle.net.WcnXmlBuilder.GenerateCreateGame(java.lang.String)?PlayerXML@74.16:74.25CALLà
+~D:\YaDisk\synk\YandexDisk\JavaProjects\WarcastleDuel\core\src\ru\gigabyte_artur\warcastleduel\warcastle\net\WcnXmlBuilder.javaL L($2ã
+xru.gigabyte_artur.warcastleduel.warcastle.net.WcnXmlBuilder.GenerateCreateGame(java.lang.String)?rootElement@58.16:58.27CALLà
+~D:\YaDisk\synk\YandexDisk\JavaProjects\WarcastleDuel\core\src\ru\gigabyte_artur\warcastleduel\warcastle\net\WcnXmlBuilder.javaN N(2â
+vru.gigabyte_artur.warcastleduel.warcastle.net.WcnXmlBuilder.GenerateCreateGame(java.lang.String)?HeaderXML@62.16:62.25CALLà
+~D:\YaDisk\synk\YandexDisk\JavaProjects\WarcastleDuel\core\src\ru\gigabyte_artur\warcastleduel\warcastle\net\WcnXmlBuilder.javaN N((2ã
+xru.gigabyte_artur.warcastleduel.warcastle.net.WcnXmlBuilder.GenerateCreateGame(java.lang.String)?rootElement@58.16:58.27CALLà
+~D:\YaDisk\synk\YandexDisk\JavaProjects\WarcastleDuel\core\src\ru\gigabyte_artur\warcastleduel\warcastle\net\WcnXmlBuilder.javaO O(2á
+tru.gigabyte_artur.warcastleduel.warcastle.net.WcnXmlBuilder.GenerateCreateGame(java.lang.String)?BodyXML@72.16:72.23CALLà
+~D:\YaDisk\synk\YandexDisk\JavaProjects\WarcastleDuel\core\src\ru\gigabyte_artur\warcastleduel\warcastle\net\WcnXmlBuilder.javaO O(&2â
+vru.gigabyte_artur.warcastleduel.warcastle.net.WcnXmlBuilder.GenerateCreateGame(java.lang.String)?xmlOutput@81.21:81.30CALLà
+~D:\YaDisk\synk\YandexDisk\JavaProjects\WarcastleDuel\core\src\ru\gigabyte_artur\warcastleduel\warcastle\net\WcnXmlBuilder.javaR R(2É
+pru.gigabyte_artur.warcastleduel.warcastle.net.WcnXmlBuilder.GenerateCreateGame(java.lang.String)?rez@56.15:56.18CALLà
+~D:\YaDisk\synk\YandexDisk\JavaProjects\WarcastleDuel\core\src\ru\gigabyte_artur\warcastleduel\warcastle\net\WcnXmlBuilder.javaS S(2â
+vru.gigabyte_artur.warcastleduel.warcastle.net.WcnXmlBuilder.GenerateCreateGame(java.lang.String)?xmlOutput@81.21:81.30CALLà
+~D:\YaDisk\synk\YandexDisk\JavaProjects\WarcastleDuel\core\src\ru\gigabyte_artur\warcastleduel\warcastle\net\WcnXmlBuilder.javaS S(2É
+pru.gigabyte_artur.warcastleduel.warcastle.net.WcnXmlBuilder.GenerateCreateGame(java.lang.String)?doc@60.17:60.20CALLà
+~D:\YaDisk\synk\YandexDisk\JavaProjects\WarcastleDuel\core\src\ru\gigabyte_artur\warcastleduel\warcastle\net\WcnXmlBuilder.javaS% S((2É
+pru.gigabyte_artur.warcastleduel.warcastle.net.WcnXmlBuilder.GenerateCreateGame(java.lang.String)?rez@56.15:56.18CALLà
+~D:\YaDisk\synk\YandexDisk\JavaProjects\WarcastleDuel\core\src\ru\gigabyte_artur\warcastleduel\warcastle\net\WcnXmlBuilder.javaT T(2É
+kru.gigabyte_artur.warcastleduel.warcastle.net.WcnXmlBuilder.GenerateCreateGame(java.lang.String)!PlayerName	PARAMETERà
+~D:\YaDisk\synk\YandexDisk\JavaProjects\WarcastleDuel\core\src\ru\gigabyte_artur\warcastleduel\warcastle\net\WcnXmlBuilder.java63 6(=2ä
+pru.gigabyte_artur.warcastleduel.warcastle.net.WcnXmlBuilder.GenerateCreateGame(java.lang.String)?rez@56.15:56.18DECLARATIONà
+~D:\YaDisk\synk\YandexDisk\JavaProjects\WarcastleDuel\core\src\ru\gigabyte_artur\warcastleduel\warcastle\net\WcnXmlBuilder.java8 8(2í
+xru.gigabyte_artur.warcastleduel.warcastle.net.WcnXmlBuilder.GenerateCreateGame(java.lang.String)?rootElement@58.16:58.27DECLARATIONà
+~D:\YaDisk\synk\YandexDisk\JavaProjects\WarcastleDuel\core\src\ru\gigabyte_artur\warcastleduel\warcastle\net\WcnXmlBuilder.java: :(2ä
+pru.gigabyte_artur.warcastleduel.warcastle.net.WcnXmlBuilder.GenerateCreateGame(java.lang.String)?doc@60.17:60.20DECLARATIONà
+~D:\YaDisk\synk\YandexDisk\JavaProjects\WarcastleDuel\core\src\ru\gigabyte_artur\warcastleduel\warcastle\net\WcnXmlBuilder.java< <(2ê
+vru.gigabyte_artur.warcastleduel.warcastle.net.WcnXmlBuilder.GenerateCreateGame(java.lang.String)?HeaderXML@62.16:62.25DECLARATIONà
+~D:\YaDisk\synk\YandexDisk\JavaProjects\WarcastleDuel\core\src\ru\gigabyte_artur\warcastleduel\warcastle\net\WcnXmlBuilder.java> >(2ï
+{ru.gigabyte_artur.warcastleduel.warcastle.net.WcnXmlBuilder.GenerateCreateGame(java.lang.String)?MessageTypeXML@64.16:64.30DECLARATIONà
+~D:\YaDisk\synk\YandexDisk\JavaProjects\WarcastleDuel\core\src\ru\gigabyte_artur\warcastleduel\warcastle\net\WcnXmlBuilder.java@ @(2ï
+{ru.gigabyte_artur.warcastleduel.warcastle.net.WcnXmlBuilder.GenerateCreateGame(java.lang.String)?GamePlayingXML@68.16:68.30DECLARATIONà
+~D:\YaDisk\synk\YandexDisk\JavaProjects\WarcastleDuel\core\src\ru\gigabyte_artur\warcastleduel\warcastle\net\WcnXmlBuilder.javaD D(2é
+tru.gigabyte_artur.warcastleduel.warcastle.net.WcnXmlBuilder.GenerateCreateGame(java.lang.String)?BodyXML@72.16:72.23DECLARATIONà
+~D:\YaDisk\synk\YandexDisk\JavaProjects\WarcastleDuel\core\src\ru\gigabyte_artur\warcastleduel\warcastle\net\WcnXmlBuilder.javaH H(2ê
+vru.gigabyte_artur.warcastleduel.warcastle.net.WcnXmlBuilder.GenerateCreateGame(java.lang.String)?PlayerXML@74.16:74.25DECLARATIONà
+~D:\YaDisk\synk\YandexDisk\JavaProjects\WarcastleDuel\core\src\ru\gigabyte_artur\warcastleduel\warcastle\net\WcnXmlBuilder.javaJ J(2ê
+vru.gigabyte_artur.warcastleduel.warcastle.net.WcnXmlBuilder.GenerateCreateGame(java.lang.String)?xmlOutput@81.21:81.30DECLARATIONà
+~D:\YaDisk\synk\YandexDisk\JavaProjects\WarcastleDuel\core\src\ru\gigabyte_artur\warcastleduel\warcastle\net\WcnXmlBuilder.javaQ Q(2™
+java.lang.StringRETURN_TYPEà
+~D:\YaDisk\synk\YandexDisk\JavaProjects\WarcastleDuel\core\src\ru\gigabyte_artur\warcastleduel\warcastle\net\WcnXmlBuilder.java6 6(∫
+pru.gigabyte_artur.warcastleduel.warcastle.net.WcnXmlBuilder.GenerateCreateGame(java.lang.String)?rez@56.15:56.18VARIABLEà
+~D:\YaDisk\synk\YandexDisk\JavaProjects\WarcastleDuel\core\src\ru\gigabyte_artur\warcastleduel\warcastle\net\WcnXmlBuilder.java8 8("
+typeString"
+isFinalfalse"d
+declarationStringO<mark class="modifier"> </mark>String <mark class="class-field">rez</mark> = ""*rez2£
+java.lang.StringTYPEà
+~D:\YaDisk\synk\YandexDisk\JavaProjects\WarcastleDuel\core\src\ru\gigabyte_artur\warcastleduel\warcastle\net\WcnXmlBuilder.java8 8(Í
+xru.gigabyte_artur.warcastleduel.warcastle.net.WcnXmlBuilder.GenerateCreateGame(java.lang.String)?rootElement@58.16:58.27VARIABLEà
+~D:\YaDisk\synk\YandexDisk\JavaProjects\WarcastleDuel\core\src\ru\gigabyte_artur\warcastleduel\warcastle\net\WcnXmlBuilder.java: :("
+typeElement"
+isFinalfalse"Å
+declarationStringl<mark class="modifier"> </mark>Element <mark class="class-field">rootElement</mark> = new Element("Message")*rootElement2§
+org.jdom2.ElementTYPEà
+~D:\YaDisk\synk\YandexDisk\JavaProjects\WarcastleDuel\core\src\ru\gigabyte_artur\warcastleduel\warcastle\net\WcnXmlBuilder.java: :(Â
+pru.gigabyte_artur.warcastleduel.warcastle.net.WcnXmlBuilder.GenerateCreateGame(java.lang.String)?doc@60.17:60.20VARIABLEà
+~D:\YaDisk\synk\YandexDisk\JavaProjects\WarcastleDuel\core\src\ru\gigabyte_artur\warcastleduel\warcastle\net\WcnXmlBuilder.java< <("
+typeDocument"
+isFinalfalse"}
+declarationStringh<mark class="modifier"> </mark>Document <mark class="class-field">doc</mark> = new Document(rootElement)*doc2•
+org.jdom2.DocumentTYPEà
+~D:\YaDisk\synk\YandexDisk\JavaProjects\WarcastleDuel\core\src\ru\gigabyte_artur\warcastleduel\warcastle\net\WcnXmlBuilder.java< <(2ã
+xru.gigabyte_artur.warcastleduel.warcastle.net.WcnXmlBuilder.GenerateCreateGame(java.lang.String)?rootElement@58.16:58.27CALLà
+~D:\YaDisk\synk\YandexDisk\JavaProjects\WarcastleDuel\core\src\ru\gigabyte_artur\warcastleduel\warcastle\net\WcnXmlBuilder.java<$ <(/‚
+vru.gigabyte_artur.warcastleduel.warcastle.net.WcnXmlBuilder.GenerateCreateGame(java.lang.String)?HeaderXML@62.16:62.25VARIABLEà
+~D:\YaDisk\synk\YandexDisk\JavaProjects\WarcastleDuel\core\src\ru\gigabyte_artur\warcastleduel\warcastle\net\WcnXmlBuilder.java> >("
+typeElement"
+isFinalfalse"~
+declarationStringi<mark class="modifier"> </mark>Element <mark class="class-field">HeaderXML</mark> = new Element("Header")*	HeaderXML2§
+org.jdom2.ElementTYPEà
+~D:\YaDisk\synk\YandexDisk\JavaProjects\WarcastleDuel\core\src\ru\gigabyte_artur\warcastleduel\warcastle\net\WcnXmlBuilder.java> >(˜
+{ru.gigabyte_artur.warcastleduel.warcastle.net.WcnXmlBuilder.GenerateCreateGame(java.lang.String)?MessageTypeXML@64.16:64.30VARIABLEà
+~D:\YaDisk\synk\YandexDisk\JavaProjects\WarcastleDuel\core\src\ru\gigabyte_artur\warcastleduel\warcastle\net\WcnXmlBuilder.java@ @("
+typeElement"
+isFinalfalse"à
+declarationStrings<mark class="modifier"> </mark>Element <mark class="class-field">MessageTypeXML</mark> = new Element("MessageType")*MessageTypeXML2§
+org.jdom2.ElementTYPEà
+~D:\YaDisk\synk\YandexDisk\JavaProjects\WarcastleDuel\core\src\ru\gigabyte_artur\warcastleduel\warcastle\net\WcnXmlBuilder.java@ @(
+{ru.gigabyte_artur.warcastleduel.warcastle.net.WcnXmlBuilder.GenerateCreateGame(java.lang.String)?GamePlayingXML@68.16:68.30VARIABLEà
+~D:\YaDisk\synk\YandexDisk\JavaProjects\WarcastleDuel\core\src\ru\gigabyte_artur\warcastleduel\warcastle\net\WcnXmlBuilder.javaD D("
+typeElement"
+isFinalfalse"Å
+declarationStringl<mark class="modifier"> </mark>Element <mark class="class-field">GamePlayingXML</mark> = new Element("Game")*GamePlayingXML2§
+org.jdom2.ElementTYPEà
+~D:\YaDisk\synk\YandexDisk\JavaProjects\WarcastleDuel\core\src\ru\gigabyte_artur\warcastleduel\warcastle\net\WcnXmlBuilder.javaD D(⁄
+tru.gigabyte_artur.warcastleduel.warcastle.net.WcnXmlBuilder.GenerateCreateGame(java.lang.String)?BodyXML@72.16:72.23VARIABLEà
+~D:\YaDisk\synk\YandexDisk\JavaProjects\WarcastleDuel\core\src\ru\gigabyte_artur\warcastleduel\warcastle\net\WcnXmlBuilder.javaH H("
+typeElement"
+isFinalfalse"z
+declarationStringe<mark class="modifier"> </mark>Element <mark class="class-field">BodyXML</mark> = new Element("Body")*BodyXML2§
+org.jdom2.ElementTYPEà
+~D:\YaDisk\synk\YandexDisk\JavaProjects\WarcastleDuel\core\src\ru\gigabyte_artur\warcastleduel\warcastle\net\WcnXmlBuilder.javaH H(Á
+vru.gigabyte_artur.warcastleduel.warcastle.net.WcnXmlBuilder.GenerateCreateGame(java.lang.String)?PlayerXML@74.16:74.25VARIABLEà
+~D:\YaDisk\synk\YandexDisk\JavaProjects\WarcastleDuel\core\src\ru\gigabyte_artur\warcastleduel\warcastle\net\WcnXmlBuilder.javaJ J("
+typeElement"
+isFinalfalse"Ç
+declarationStringm<mark class="modifier"> </mark>Element <mark class="class-field">PlayerXML</mark> = new Element("PlayerName")*	PlayerXML2§
+org.jdom2.ElementTYPEà
+~D:\YaDisk\synk\YandexDisk\JavaProjects\WarcastleDuel\core\src\ru\gigabyte_artur\warcastleduel\warcastle\net\WcnXmlBuilder.javaJ J(ˆ
+vru.gigabyte_artur.warcastleduel.warcastle.net.WcnXmlBuilder.GenerateCreateGame(java.lang.String)?xmlOutput@81.21:81.30VARIABLEà
+~D:\YaDisk\synk\YandexDisk\JavaProjects\WarcastleDuel\core\src\ru\gigabyte_artur\warcastleduel\warcastle\net\WcnXmlBuilder.javaQ Q("
+typeXMLOutputter"
+isFinalfalse"Ä
+declarationStringk<mark class="modifier"> </mark>XMLOutputter <mark class="class-field">xmlOutput</mark> = new XMLOutputter()*	xmlOutput2∞
+org.jdom2.output.XMLOutputterTYPEà
+~D:\YaDisk\synk\YandexDisk\JavaProjects\WarcastleDuel\core\src\ru\gigabyte_artur\warcastleduel\warcastle\net\WcnXmlBuilder.javaQ Q(ˇ
+kru.gigabyte_artur.warcastleduel.warcastle.net.WcnXmlBuilder.GenerateCreateGame(java.lang.String)!PlayerName	PARAMETERà
+~D:\YaDisk\synk\YandexDisk\JavaProjects\WarcastleDuel\core\src\ru\gigabyte_artur\warcastleduel\warcastle\net\WcnXmlBuilder.java63 6(="
+typeString"
+isFinalfalse"&
+declarationStringString PlayerName*
+PlayerName2£
+java.lang.StringTYPEà
+~D:\YaDisk\synk\YandexDisk\JavaProjects\WarcastleDuel\core\src\ru\gigabyte_artur\warcastleduel\warcastle\net\WcnXmlBuilder.java6, 6(2‘
+aru.gigabyte_artur.warcastleduel.warcastle.net.WcnXmlBuilder?MESSAGE_TYPE_CARD_PLAYING@12.31:12.56VALUEà
+~D:\YaDisk\synk\YandexDisk\JavaProjects\WarcastleDuel\core\src\ru\gigabyte_artur\warcastleduel\warcastle\net\WcnXmlBuilder.java (8"
+isFinaltrue"
+typeString"÷
+declarationString¿<mark class="modifier">public </mark><mark class="modifier">static </mark><mark class="modifier">final </mark>String <mark class="class-field">MESSAGE_TYPE_CARD_PLAYING</mark> = "CardPlaying";"
+isStatictrue"
+accesspublic*MESSAGE_TYPE_CARD_PLAYING2£
+java.lang.StringTYPEà
+~D:\YaDisk\synk\YandexDisk\JavaProjects\WarcastleDuel\core\src\ru\gigabyte_artur\warcastleduel\warcastle\net\WcnXmlBuilder.java (–
+`ru.gigabyte_artur.warcastleduel.warcastle.net.WcnXmlBuilder?MESSAGE_TYPE_CREATE_GAME@13.31:13.55VALUEà
+~D:\YaDisk\synk\YandexDisk\JavaProjects\WarcastleDuel\core\src\ru\gigabyte_artur\warcastleduel\warcastle\net\WcnXmlBuilder.java (7"
+isFinaltrue"
+typeString"‘
+declarationStringæ<mark class="modifier">public </mark><mark class="modifier">static </mark><mark class="modifier">final </mark>String <mark class="class-field">MESSAGE_TYPE_CREATE_GAME</mark> = "CreateGame";"
+isStatictrue"
+accesspublic*MESSAGE_TYPE_CREATE_GAME2£
+java.lang.StringTYPEà
+~D:\YaDisk\synk\YandexDisk\JavaProjects\WarcastleDuel\core\src\ru\gigabyte_artur\warcastleduel\warcastle\net\WcnXmlBuilder.java (

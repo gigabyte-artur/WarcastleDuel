@@ -1,0 +1,54 @@
+
+vD:\YaDisk\synk\YandexDisk\JavaProjects\WarcastleDuel\desktop\src\com\gigabyte_artur\warcastleduel\DesktopLauncher.javañ
+0com.gigabyte_artur.warcastleduel.DesktopLauncherCLASSÄ
+vD:\YaDisk\synk\YandexDisk\JavaProjects\WarcastleDuel\desktop\src\com\gigabyte_artur\warcastleduel\DesktopLauncher.java ("+
+package com.gigabyte_artur.warcastleduel"
+isFinalfalse"
+inner classfalse"
+
+isAbstractfalse"m
+declarationStringX<mark class="modifier">public </mark><mark class="modifier">class </mark>DesktopLauncher"
+accesspublic*DesktopLauncher2€
+Icom.gigabyte_artur.warcastleduel.DesktopLauncher.main(java.lang.String[])DECLARATIONÄ
+vD:\YaDisk\synk\YandexDisk\JavaProjects\WarcastleDuel\desktop\src\com\gigabyte_artur\warcastleduel\DesktopLauncher.java (‹
+Icom.gigabyte_artur.warcastleduel.DesktopLauncher.main(java.lang.String[])METHODÄ
+vD:\YaDisk\synk\YandexDisk\JavaProjects\WarcastleDuel\desktop\src\com\gigabyte_artur\warcastleduel\DesktopLauncher.java ("
+isFinalfalse"±
+declarationStringõ<mark class="modifier">public </mark><mark class="modifier">static </mark><mark class="modifier">void</mark> <mark class="method">main</mark>(String[] arg)"
+isStatictrue"
+accesspublic"
+
+isAbstractfalse"
+typevoid*main2Ë
+]ru.gigabyte_artur.warcastleduel.warcastle.WarcastleDuelApplication.WarcastleDuelApplication()CALLÄ
+vD:\YaDisk\synk\YandexDisk\JavaProjects\WarcastleDuel\desktop\src\com\gigabyte_artur\warcastleduel\DesktopLauncher.java (42Â
+Zcom.gigabyte_artur.warcastleduel.DesktopLauncher.main(java.lang.String[])?config@9.33:9.39CALLÄ
+vD:\YaDisk\synk\YandexDisk\JavaProjects\WarcastleDuel\desktop\src\com\gigabyte_artur\warcastleduel\DesktopLauncher.java
+ 
+(2Â
+Zcom.gigabyte_artur.warcastleduel.DesktopLauncher.main(java.lang.String[])?config@9.33:9.39CALLÄ
+vD:\YaDisk\synk\YandexDisk\JavaProjects\WarcastleDuel\desktop\src\com\gigabyte_artur\warcastleduel\DesktopLauncher.java (2Â
+Zcom.gigabyte_artur.warcastleduel.DesktopLauncher.main(java.lang.String[])?config@9.33:9.39CALLÄ
+vD:\YaDisk\synk\YandexDisk\JavaProjects\WarcastleDuel\desktop\src\com\gigabyte_artur\warcastleduel\DesktopLauncher.java (2Â
+Zcom.gigabyte_artur.warcastleduel.DesktopLauncher.main(java.lang.String[])?config@9.33:9.39CALLÄ
+vD:\YaDisk\synk\YandexDisk\JavaProjects\WarcastleDuel\desktop\src\com\gigabyte_artur\warcastleduel\DesktopLauncher.java8 (>2›
+Mcom.gigabyte_artur.warcastleduel.DesktopLauncher.main(java.lang.String[])!arg	PARAMETERÄ
+vD:\YaDisk\synk\YandexDisk\JavaProjects\WarcastleDuel\desktop\src\com\gigabyte_artur\warcastleduel\DesktopLauncher.java# (&2Ï
+Zcom.gigabyte_artur.warcastleduel.DesktopLauncher.main(java.lang.String[])?config@9.33:9.39DECLARATIONÄ
+vD:\YaDisk\synk\YandexDisk\JavaProjects\WarcastleDuel\desktop\src\com\gigabyte_artur\warcastleduel\DesktopLauncher.java	! 	('2ñ
+voidRETURN_TYPEÄ
+vD:\YaDisk\synk\YandexDisk\JavaProjects\WarcastleDuel\desktop\src\com\gigabyte_artur\warcastleduel\DesktopLauncher.java (ù
+Zcom.gigabyte_artur.warcastleduel.DesktopLauncher.main(java.lang.String[])?config@9.33:9.39VARIABLEÄ
+vD:\YaDisk\synk\YandexDisk\JavaProjects\WarcastleDuel\desktop\src\com\gigabyte_artur\warcastleduel\DesktopLauncher.java	! 	('"&
+typeLwjgl3ApplicationConfiguration"
+isFinalfalse"¢
+declarationStringå<mark class="modifier"> </mark>Lwjgl3ApplicationConfiguration <mark class="class-field">config</mark> = new Lwjgl3ApplicationConfiguration()*config2 
+?com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfigurationTYPEÄ
+vD:\YaDisk\synk\YandexDisk\JavaProjects\WarcastleDuel\desktop\src\com\gigabyte_artur\warcastleduel\DesktopLauncher.java	 	( …
+Mcom.gigabyte_artur.warcastleduel.DesktopLauncher.main(java.lang.String[])!arg	PARAMETERÄ
+vD:\YaDisk\synk\YandexDisk\JavaProjects\WarcastleDuel\desktop\src\com\gigabyte_artur\warcastleduel\DesktopLauncher.java# (&"
+typeString[]"
+isFinalfalse"!
+declarationStringString[] arg*arg2ù
+java.lang.String[]TYPEÄ
+vD:\YaDisk\synk\YandexDisk\JavaProjects\WarcastleDuel\desktop\src\com\gigabyte_artur\warcastleduel\DesktopLauncher.java ("

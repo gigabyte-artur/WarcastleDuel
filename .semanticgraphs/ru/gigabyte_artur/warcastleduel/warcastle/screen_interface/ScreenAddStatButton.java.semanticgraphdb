@@ -1,0 +1,277 @@
+
+ëD:\YaDisk\synk\YandexDisk\JavaProjects\WarcastleDuel\core\src\ru\gigabyte_artur\warcastleduel\warcastle\screen_interface\ScreenAddStatButton.javaÄ
+Nru.gigabyte_artur.warcastleduel.warcastle.screen_interface.ScreenAddStatButtonCLASSú
+ëD:\YaDisk\synk\YandexDisk\JavaProjects\WarcastleDuel\core\src\ru\gigabyte_artur\warcastleduel\warcastle\screen_interface\ScreenAddStatButton.java ( "E
+package:ru.gigabyte_artur.warcastleduel.warcastle.screen_interface"
+isFinalfalse"
+inner classfalse"
+
+isAbstractfalse"•
+declarationStringè<mark class="modifier">public </mark><mark class="modifier">class </mark>ScreenAddStatButton<mark class="modifier"> extends </mark>ScreenButton"
+accesspublic*ScreenAddStatButton2í
+dru.gigabyte_artur.warcastleduel.warcastle.screen_interface.ScreenAddStatButton.ScreenAddStatButton()DECLARATIONú
+ëD:\YaDisk\synk\YandexDisk\JavaProjects\WarcastleDuel\core\src\ru\gigabyte_artur\warcastleduel\warcastle\screen_interface\ScreenAddStatButton.java (2ê
+·ru.gigabyte_artur.warcastleduel.warcastle.screen_interface.ScreenAddStatButton.ScreenAddStatButton(ru.gigabyte_artur.warcastleduel.warcastle.WarcastleDuelPlayer, int, int, int, int, int, com.badlogic.gdx.scenes.scene2d.Stage)DECLARATIONú
+ëD:\YaDisk\synk\YandexDisk\JavaProjects\WarcastleDuel\core\src\ru\gigabyte_artur\warcastleduel\warcastle\screen_interface\ScreenAddStatButton.java   (2Œ
+üru.gigabyte_artur.warcastleduel.warcastle.screen_interface.ScreenAddStatButton.setChangingPlayer(ru.gigabyte_artur.warcastleduel.warcastle.WarcastleDuelPlayer)DECLARATIONú
+ëD:\YaDisk\synk\YandexDisk\JavaProjects\WarcastleDuel\core\src\ru\gigabyte_artur\warcastleduel\warcastle\screen_interface\ScreenAddStatButton.java (!2ã
+]ru.gigabyte_artur.warcastleduel.warcastle.screen_interface.ScreenAddStatButton.setStatId(int)DECLARATIONú
+ëD:\YaDisk\synk\YandexDisk\JavaProjects\WarcastleDuel\core\src\ru\gigabyte_artur\warcastleduel\warcastle\screen_interface\ScreenAddStatButton.java (2à
+Zru.gigabyte_artur.warcastleduel.warcastle.screen_interface.ScreenAddStatButton.getStatId()DECLARATIONú
+ëD:\YaDisk\synk\YandexDisk\JavaProjects\WarcastleDuel\core\src\ru\gigabyte_artur\warcastleduel\warcastle\screen_interface\ScreenAddStatButton.java (2à
+Zru.gigabyte_artur.warcastleduel.warcastle.screen_interface.ScreenAddStatButton.ActButton()DECLARATIONú
+ëD:\YaDisk\synk\YandexDisk\JavaProjects\WarcastleDuel\core\src\ru\gigabyte_artur\warcastleduel\warcastle\screen_interface\ScreenAddStatButton.java/ /(2ï
+gru.gigabyte_artur.warcastleduel.warcastle.screen_interface.ScreenAddStatButton?ChangingPlayer@8.24:8.38DECLARATIONú
+ëD:\YaDisk\synk\YandexDisk\JavaProjects\WarcastleDuel\core\src\ru\gigabyte_artur\warcastleduel\warcastle\screen_interface\ScreenAddStatButton.java (&2å
+^ru.gigabyte_artur.warcastleduel.warcastle.screen_interface.ScreenAddStatButton?StatId@9.8:9.14DECLARATIONú
+ëD:\YaDisk\synk\YandexDisk\JavaProjects\WarcastleDuel\core\src\ru\gigabyte_artur\warcastleduel\warcastle\screen_interface\ScreenAddStatButton.java	 	(2
+Gru.gigabyte_artur.warcastleduel.warcastle.screen_interface.ScreenButtonEXTENDú
+ëD:\YaDisk\synk\YandexDisk\JavaProjects\WarcastleDuel\core\src\ru\gigabyte_artur\warcastleduel\warcastle\screen_interface\ScreenAddStatButton.java) (5®
+dru.gigabyte_artur.warcastleduel.warcastle.screen_interface.ScreenAddStatButton.ScreenAddStatButton()CONSTRUCTORú
+ëD:\YaDisk\synk\YandexDisk\JavaProjects\WarcastleDuel\core\src\ru\gigabyte_artur\warcastleduel\warcastle\screen_interface\ScreenAddStatButton.java ("k
+declarationStringV<mark class="modifier">public </mark><mark class="method">ScreenAddStatButton</mark>()*ScreenAddStatButton2Ñ
+]ru.gigabyte_artur.warcastleduel.warcastle.screen_interface.ScreenAddStatButton.setStatId(int)CALLú
+ëD:\YaDisk\synk\YandexDisk\JavaProjects\WarcastleDuel\core\src\ru\gigabyte_artur\warcastleduel\warcastle\screen_interface\ScreenAddStatButton.java (2˙
+Sru.gigabyte_artur.warcastleduel.warcastle.WarcastleDuelPlayer.WarcastleDuelPlayer()CALLú
+ëD:\YaDisk\synk\YandexDisk\JavaProjects\WarcastleDuel\core\src\ru\gigabyte_artur\warcastleduel\warcastle\screen_interface\ScreenAddStatButton.java" (52é
+gru.gigabyte_artur.warcastleduel.warcastle.screen_interface.ScreenAddStatButton?ChangingPlayer@8.24:8.38CALLú
+ëD:\YaDisk\synk\YandexDisk\JavaProjects\WarcastleDuel\core\src\ru\gigabyte_artur\warcastleduel\warcastle\screen_interface\ScreenAddStatButton.java (2¸
+Nru.gigabyte_artur.warcastleduel.warcastle.screen_interface.ScreenAddStatButtonRETURN_TYPEú
+ëD:\YaDisk\synk\YandexDisk\JavaProjects\WarcastleDuel\core\src\ru\gigabyte_artur\warcastleduel\warcastle\screen_interface\ScreenAddStatButton.java (‚B
+·ru.gigabyte_artur.warcastleduel.warcastle.screen_interface.ScreenAddStatButton.ScreenAddStatButton(ru.gigabyte_artur.warcastleduel.warcastle.WarcastleDuelPlayer, int, int, int, int, int, com.badlogic.gdx.scenes.scene2d.Stage)CONSTRUCTORú
+ëD:\YaDisk\synk\YandexDisk\JavaProjects\WarcastleDuel\core\src\ru\gigabyte_artur\warcastleduel\warcastle\screen_interface\ScreenAddStatButton.java   ("’
+declarationStringø<mark class="modifier">public </mark><mark class="method">ScreenAddStatButton</mark>(WarcastleDuelPlayer Player_in<mark class="modifier"><mark class="modifier">,</mark></mark> <mark class="modifier">int</mark> Stat_in<mark class="modifier"><mark class="modifier">,</mark></mark> <mark class="modifier">int</mark> x_in<mark class="modifier"><mark class="modifier">,</mark></mark> <mark class="modifier">int</mark> y_in<mark class="modifier"><mark class="modifier">,</mark></mark> <mark class="modifier">int</mark> width_in<mark class="modifier"><mark class="modifier">,</mark></mark> <mark class="modifier">int</mark> height_in<mark class="modifier"><mark class="modifier">,</mark></mark> Stage Stage_in)*ScreenAddStatButton2ë
+jru.gigabyte_artur.warcastleduel.warcastle.screen_interface.ScreenButton.SetTextureByPath(java.lang.String)CALLú
+ëD:\YaDisk\synk\YandexDisk\JavaProjects\WarcastleDuel\core\src\ru\gigabyte_artur\warcastleduel\warcastle\screen_interface\ScreenAddStatButton.java# #(2ô
+rru.gigabyte_artur.warcastleduel.warcastle.screen_interface.ScreenButton.SetDisabledTextureByPath(java.lang.String)CALLú
+ëD:\YaDisk\synk\YandexDisk\JavaProjects\WarcastleDuel\core\src\ru\gigabyte_artur\warcastleduel\warcastle\screen_interface\ScreenAddStatButton.java$ $( 2Ñ
+]ru.gigabyte_artur.warcastleduel.warcastle.screen_interface.ScreenAddStatButton.setStatId(int)CALLú
+ëD:\YaDisk\synk\YandexDisk\JavaProjects\WarcastleDuel\core\src\ru\gigabyte_artur\warcastleduel\warcastle\screen_interface\ScreenAddStatButton.java% %(2«
+üru.gigabyte_artur.warcastleduel.warcastle.screen_interface.ScreenAddStatButton.setChangingPlayer(ru.gigabyte_artur.warcastleduel.warcastle.WarcastleDuelPlayer)CALLú
+ëD:\YaDisk\synk\YandexDisk\JavaProjects\WarcastleDuel\core\src\ru\gigabyte_artur\warcastleduel\warcastle\screen_interface\ScreenAddStatButton.java& &(2•
+~ru.gigabyte_artur.warcastleduel.warcastle.screen_interface.ScreenButton.setScreensStage(com.badlogic.gdx.scenes.scene2d.Stage)CALLú
+ëD:\YaDisk\synk\YandexDisk\JavaProjects\WarcastleDuel\core\src\ru\gigabyte_artur\warcastleduel\warcastle\screen_interface\ScreenAddStatButton.java' '(2ë
+Èru.gigabyte_artur.warcastleduel.warcastle.screen_interface.ScreenAddStatButton.ScreenAddStatButton(ru.gigabyte_artur.warcastleduel.warcastle.WarcastleDuelPlayer, int, int, int, int, int, com.badlogic.gdx.scenes.scene2d.Stage)!Stat_inCALLú
+ëD:\YaDisk\synk\YandexDisk\JavaProjects\WarcastleDuel\core\src\ru\gigabyte_artur\warcastleduel\warcastle\screen_interface\ScreenAddStatButton.java% %(2ì
+Îru.gigabyte_artur.warcastleduel.warcastle.screen_interface.ScreenAddStatButton.ScreenAddStatButton(ru.gigabyte_artur.warcastleduel.warcastle.WarcastleDuelPlayer, int, int, int, int, int, com.badlogic.gdx.scenes.scene2d.Stage)!Player_inCALLú
+ëD:\YaDisk\synk\YandexDisk\JavaProjects\WarcastleDuel\core\src\ru\gigabyte_artur\warcastleduel\warcastle\screen_interface\ScreenAddStatButton.java& &(#2í
+Íru.gigabyte_artur.warcastleduel.warcastle.screen_interface.ScreenAddStatButton.ScreenAddStatButton(ru.gigabyte_artur.warcastleduel.warcastle.WarcastleDuelPlayer, int, int, int, int, int, com.badlogic.gdx.scenes.scene2d.Stage)!Stage_inCALLú
+ëD:\YaDisk\synk\YandexDisk\JavaProjects\WarcastleDuel\core\src\ru\gigabyte_artur\warcastleduel\warcastle\screen_interface\ScreenAddStatButton.java' '( 2é
+Êru.gigabyte_artur.warcastleduel.warcastle.screen_interface.ScreenAddStatButton.ScreenAddStatButton(ru.gigabyte_artur.warcastleduel.warcastle.WarcastleDuelPlayer, int, int, int, int, int, com.badlogic.gdx.scenes.scene2d.Stage)!x_inCALLú
+ëD:\YaDisk\synk\YandexDisk\JavaProjects\WarcastleDuel\core\src\ru\gigabyte_artur\warcastleduel\warcastle\screen_interface\ScreenAddStatButton.java( ((2é
+Êru.gigabyte_artur.warcastleduel.warcastle.screen_interface.ScreenAddStatButton.ScreenAddStatButton(ru.gigabyte_artur.warcastleduel.warcastle.WarcastleDuelPlayer, int, int, int, int, int, com.badlogic.gdx.scenes.scene2d.Stage)!y_inCALLú
+ëD:\YaDisk\synk\YandexDisk\JavaProjects\WarcastleDuel\core\src\ru\gigabyte_artur\warcastleduel\warcastle\screen_interface\ScreenAddStatButton.java( ((2í
+Íru.gigabyte_artur.warcastleduel.warcastle.screen_interface.ScreenAddStatButton.ScreenAddStatButton(ru.gigabyte_artur.warcastleduel.warcastle.WarcastleDuelPlayer, int, int, int, int, int, com.badlogic.gdx.scenes.scene2d.Stage)!width_inCALLú
+ëD:\YaDisk\synk\YandexDisk\JavaProjects\WarcastleDuel\core\src\ru\gigabyte_artur\warcastleduel\warcastle\screen_interface\ScreenAddStatButton.java) )(2ì
+Îru.gigabyte_artur.warcastleduel.warcastle.screen_interface.ScreenAddStatButton.ScreenAddStatButton(ru.gigabyte_artur.warcastleduel.warcastle.WarcastleDuelPlayer, int, int, int, int, int, com.badlogic.gdx.scenes.scene2d.Stage)!height_inCALLú
+ëD:\YaDisk\synk\YandexDisk\JavaProjects\WarcastleDuel\core\src\ru\gigabyte_artur\warcastleduel\warcastle\screen_interface\ScreenAddStatButton.java* *(2ò
+Îru.gigabyte_artur.warcastleduel.warcastle.screen_interface.ScreenAddStatButton.ScreenAddStatButton(ru.gigabyte_artur.warcastleduel.warcastle.WarcastleDuelPlayer, int, int, int, int, int, com.badlogic.gdx.scenes.scene2d.Stage)!Player_in	PARAMETERú
+ëD:\YaDisk\synk\YandexDisk\JavaProjects\WarcastleDuel\core\src\ru\gigabyte_artur\warcastleduel\warcastle\screen_interface\ScreenAddStatButton.java 3  (<2ñ
+Èru.gigabyte_artur.warcastleduel.warcastle.screen_interface.ScreenAddStatButton.ScreenAddStatButton(ru.gigabyte_artur.warcastleduel.warcastle.WarcastleDuelPlayer, int, int, int, int, int, com.badlogic.gdx.scenes.scene2d.Stage)!Stat_in	PARAMETERú
+ëD:\YaDisk\synk\YandexDisk\JavaProjects\WarcastleDuel\core\src\ru\gigabyte_artur\warcastleduel\warcastle\screen_interface\ScreenAddStatButton.java B  (I2ì
+Êru.gigabyte_artur.warcastleduel.warcastle.screen_interface.ScreenAddStatButton.ScreenAddStatButton(ru.gigabyte_artur.warcastleduel.warcastle.WarcastleDuelPlayer, int, int, int, int, int, com.badlogic.gdx.scenes.scene2d.Stage)!x_in	PARAMETERú
+ëD:\YaDisk\synk\YandexDisk\JavaProjects\WarcastleDuel\core\src\ru\gigabyte_artur\warcastleduel\warcastle\screen_interface\ScreenAddStatButton.java O  (S2ì
+Êru.gigabyte_artur.warcastleduel.warcastle.screen_interface.ScreenAddStatButton.ScreenAddStatButton(ru.gigabyte_artur.warcastleduel.warcastle.WarcastleDuelPlayer, int, int, int, int, int, com.badlogic.gdx.scenes.scene2d.Stage)!y_in	PARAMETERú
+ëD:\YaDisk\synk\YandexDisk\JavaProjects\WarcastleDuel\core\src\ru\gigabyte_artur\warcastleduel\warcastle\screen_interface\ScreenAddStatButton.java Y  (]2ó
+Íru.gigabyte_artur.warcastleduel.warcastle.screen_interface.ScreenAddStatButton.ScreenAddStatButton(ru.gigabyte_artur.warcastleduel.warcastle.WarcastleDuelPlayer, int, int, int, int, int, com.badlogic.gdx.scenes.scene2d.Stage)!width_in	PARAMETERú
+ëD:\YaDisk\synk\YandexDisk\JavaProjects\WarcastleDuel\core\src\ru\gigabyte_artur\warcastleduel\warcastle\screen_interface\ScreenAddStatButton.java c  (k2ò
+Îru.gigabyte_artur.warcastleduel.warcastle.screen_interface.ScreenAddStatButton.ScreenAddStatButton(ru.gigabyte_artur.warcastleduel.warcastle.WarcastleDuelPlayer, int, int, int, int, int, com.badlogic.gdx.scenes.scene2d.Stage)!height_in	PARAMETERú
+ëD:\YaDisk\synk\YandexDisk\JavaProjects\WarcastleDuel\core\src\ru\gigabyte_artur\warcastleduel\warcastle\screen_interface\ScreenAddStatButton.java q  (z2ô
+Íru.gigabyte_artur.warcastleduel.warcastle.screen_interface.ScreenAddStatButton.ScreenAddStatButton(ru.gigabyte_artur.warcastleduel.warcastle.WarcastleDuelPlayer, int, int, int, int, int, com.badlogic.gdx.scenes.scene2d.Stage)!Stage_in	PARAMETERû
+ëD:\YaDisk\synk\YandexDisk\JavaProjects\WarcastleDuel\core\src\ru\gigabyte_artur\warcastleduel\warcastle\screen_interface\ScreenAddStatButton.java Ç  (ä2¸
+Nru.gigabyte_artur.warcastleduel.warcastle.screen_interface.ScreenAddStatButtonRETURN_TYPEú
+ëD:\YaDisk\synk\YandexDisk\JavaProjects\WarcastleDuel\core\src\ru\gigabyte_artur\warcastleduel\warcastle\screen_interface\ScreenAddStatButton.java   (Ì
+Îru.gigabyte_artur.warcastleduel.warcastle.screen_interface.ScreenAddStatButton.ScreenAddStatButton(ru.gigabyte_artur.warcastleduel.warcastle.WarcastleDuelPlayer, int, int, int, int, int, com.badlogic.gdx.scenes.scene2d.Stage)!Player_in	PARAMETERú
+ëD:\YaDisk\synk\YandexDisk\JavaProjects\WarcastleDuel\core\src\ru\gigabyte_artur\warcastleduel\warcastle\screen_interface\ScreenAddStatButton.java 3  (<"
+typeWarcastleDuelPlayer"
+isFinalfalse"2
+declarationStringWarcastleDuelPlayer Player_in*	Player_in2‰
+=ru.gigabyte_artur.warcastleduel.warcastle.WarcastleDuelPlayerTYPEú
+ëD:\YaDisk\synk\YandexDisk\JavaProjects\WarcastleDuel\core\src\ru\gigabyte_artur\warcastleduel\warcastle\screen_interface\ScreenAddStatButton.java   (2´
+Èru.gigabyte_artur.warcastleduel.warcastle.screen_interface.ScreenAddStatButton.ScreenAddStatButton(ru.gigabyte_artur.warcastleduel.warcastle.WarcastleDuelPlayer, int, int, int, int, int, com.badlogic.gdx.scenes.scene2d.Stage)!Stat_in	PARAMETERú
+ëD:\YaDisk\synk\YandexDisk\JavaProjects\WarcastleDuel\core\src\ru\gigabyte_artur\warcastleduel\warcastle\screen_interface\ScreenAddStatButton.java B  (I"
+typeint"
+isFinalfalse">
+declarationString)<mark class="modifier">int</mark> Stat_in*Stat_in2™
+intTYPEú
+ëD:\YaDisk\synk\YandexDisk\JavaProjects\WarcastleDuel\core\src\ru\gigabyte_artur\warcastleduel\warcastle\screen_interface\ScreenAddStatButton.java >  (A¢
+Êru.gigabyte_artur.warcastleduel.warcastle.screen_interface.ScreenAddStatButton.ScreenAddStatButton(ru.gigabyte_artur.warcastleduel.warcastle.WarcastleDuelPlayer, int, int, int, int, int, com.badlogic.gdx.scenes.scene2d.Stage)!x_in	PARAMETERú
+ëD:\YaDisk\synk\YandexDisk\JavaProjects\WarcastleDuel\core\src\ru\gigabyte_artur\warcastleduel\warcastle\screen_interface\ScreenAddStatButton.java O  (S"
+typeint"
+isFinalfalse";
+declarationString&<mark class="modifier">int</mark> x_in*x_in2™
+intTYPEú
+ëD:\YaDisk\synk\YandexDisk\JavaProjects\WarcastleDuel\core\src\ru\gigabyte_artur\warcastleduel\warcastle\screen_interface\ScreenAddStatButton.java K  (N¢
+Êru.gigabyte_artur.warcastleduel.warcastle.screen_interface.ScreenAddStatButton.ScreenAddStatButton(ru.gigabyte_artur.warcastleduel.warcastle.WarcastleDuelPlayer, int, int, int, int, int, com.badlogic.gdx.scenes.scene2d.Stage)!y_in	PARAMETERú
+ëD:\YaDisk\synk\YandexDisk\JavaProjects\WarcastleDuel\core\src\ru\gigabyte_artur\warcastleduel\warcastle\screen_interface\ScreenAddStatButton.java Y  (]"
+typeint"
+isFinalfalse";
+declarationString&<mark class="modifier">int</mark> y_in*y_in2™
+intTYPEú
+ëD:\YaDisk\synk\YandexDisk\JavaProjects\WarcastleDuel\core\src\ru\gigabyte_artur\warcastleduel\warcastle\screen_interface\ScreenAddStatButton.java U  (XÆ
+Íru.gigabyte_artur.warcastleduel.warcastle.screen_interface.ScreenAddStatButton.ScreenAddStatButton(ru.gigabyte_artur.warcastleduel.warcastle.WarcastleDuelPlayer, int, int, int, int, int, com.badlogic.gdx.scenes.scene2d.Stage)!width_in	PARAMETERú
+ëD:\YaDisk\synk\YandexDisk\JavaProjects\WarcastleDuel\core\src\ru\gigabyte_artur\warcastleduel\warcastle\screen_interface\ScreenAddStatButton.java c  (k"
+typeint"
+isFinalfalse"?
+declarationString*<mark class="modifier">int</mark> width_in*width_in2™
+intTYPEú
+ëD:\YaDisk\synk\YandexDisk\JavaProjects\WarcastleDuel\core\src\ru\gigabyte_artur\warcastleduel\warcastle\screen_interface\ScreenAddStatButton.java _  (b±
+Îru.gigabyte_artur.warcastleduel.warcastle.screen_interface.ScreenAddStatButton.ScreenAddStatButton(ru.gigabyte_artur.warcastleduel.warcastle.WarcastleDuelPlayer, int, int, int, int, int, com.badlogic.gdx.scenes.scene2d.Stage)!height_in	PARAMETERú
+ëD:\YaDisk\synk\YandexDisk\JavaProjects\WarcastleDuel\core\src\ru\gigabyte_artur\warcastleduel\warcastle\screen_interface\ScreenAddStatButton.java q  (z"
+typeint"
+isFinalfalse"@
+declarationString+<mark class="modifier">int</mark> height_in*	height_in2™
+intTYPEú
+ëD:\YaDisk\synk\YandexDisk\JavaProjects\WarcastleDuel\core\src\ru\gigabyte_artur\warcastleduel\warcastle\screen_interface\ScreenAddStatButton.java m  (pπ
+Íru.gigabyte_artur.warcastleduel.warcastle.screen_interface.ScreenAddStatButton.ScreenAddStatButton(ru.gigabyte_artur.warcastleduel.warcastle.WarcastleDuelPlayer, int, int, int, int, int, com.badlogic.gdx.scenes.scene2d.Stage)!Stage_in	PARAMETERû
+ëD:\YaDisk\synk\YandexDisk\JavaProjects\WarcastleDuel\core\src\ru\gigabyte_artur\warcastleduel\warcastle\screen_interface\ScreenAddStatButton.java Ç  (ä"
+typeStage"
+isFinalfalse"#
+declarationStringStage Stage_in*Stage_in2Õ
+%com.badlogic.gdx.scenes.scene2d.StageTYPEù
+ëD:\YaDisk\synk\YandexDisk\JavaProjects\WarcastleDuel\core\src\ru\gigabyte_artur\warcastleduel\warcastle\screen_interface\ScreenAddStatButton.java |  (ÅÂ
+üru.gigabyte_artur.warcastleduel.warcastle.screen_interface.ScreenAddStatButton.setChangingPlayer(ru.gigabyte_artur.warcastleduel.warcastle.WarcastleDuelPlayer)METHODú
+ëD:\YaDisk\synk\YandexDisk\JavaProjects\WarcastleDuel\core\src\ru\gigabyte_artur\warcastleduel\warcastle\screen_interface\ScreenAddStatButton.java (!"
+isFinalfalse"Ø
+declarationStringô<mark class="modifier">public </mark><mark class="modifier">void</mark> <mark class="method">setChangingPlayer</mark>(WarcastleDuelPlayer changingPlayer)"
+isStaticfalse"
+accesspublic"
+
+isAbstractfalse"
+typevoid*setChangingPlayer2é
+gru.gigabyte_artur.warcastleduel.warcastle.screen_interface.ScreenAddStatButton?ChangingPlayer@8.24:8.38CALLú
+ëD:\YaDisk\synk\YandexDisk\JavaProjects\WarcastleDuel\core\src\ru\gigabyte_artur\warcastleduel\warcastle\screen_interface\ScreenAddStatButton.java (2÷
+Æru.gigabyte_artur.warcastleduel.warcastle.screen_interface.ScreenAddStatButton.setChangingPlayer(ru.gigabyte_artur.warcastleduel.warcastle.WarcastleDuelPlayer)!changingPlayerCALLú
+ëD:\YaDisk\synk\YandexDisk\JavaProjects\WarcastleDuel\core\src\ru\gigabyte_artur\warcastleduel\warcastle\screen_interface\ScreenAddStatButton.java ('2€
+Æru.gigabyte_artur.warcastleduel.warcastle.screen_interface.ScreenAddStatButton.setChangingPlayer(ru.gigabyte_artur.warcastleduel.warcastle.WarcastleDuelPlayer)!changingPlayer	PARAMETERú
+ëD:\YaDisk\synk\YandexDisk\JavaProjects\WarcastleDuel\core\src\ru\gigabyte_artur\warcastleduel\warcastle\screen_interface\ScreenAddStatButton.java6 (D2≤
+voidRETURN_TYPEú
+ëD:\YaDisk\synk\YandexDisk\JavaProjects\WarcastleDuel\core\src\ru\gigabyte_artur\warcastleduel\warcastle\screen_interface\ScreenAddStatButton.java (∫
+Æru.gigabyte_artur.warcastleduel.warcastle.screen_interface.ScreenAddStatButton.setChangingPlayer(ru.gigabyte_artur.warcastleduel.warcastle.WarcastleDuelPlayer)!changingPlayer	PARAMETERú
+ëD:\YaDisk\synk\YandexDisk\JavaProjects\WarcastleDuel\core\src\ru\gigabyte_artur\warcastleduel\warcastle\screen_interface\ScreenAddStatButton.java6 (D"
+typeWarcastleDuelPlayer"
+isFinalfalse"7
+declarationString"WarcastleDuelPlayer changingPlayer*changingPlayer2‰
+=ru.gigabyte_artur.warcastleduel.warcastle.WarcastleDuelPlayerTYPEú
+ëD:\YaDisk\synk\YandexDisk\JavaProjects\WarcastleDuel\core\src\ru\gigabyte_artur\warcastleduel\warcastle\screen_interface\ScreenAddStatButton.java" (5˘
+]ru.gigabyte_artur.warcastleduel.warcastle.screen_interface.ScreenAddStatButton.setStatId(int)METHODú
+ëD:\YaDisk\synk\YandexDisk\JavaProjects\WarcastleDuel\core\src\ru\gigabyte_artur\warcastleduel\warcastle\screen_interface\ScreenAddStatButton.java ("
+isFinalfalse"≠
+declarationStringó<mark class="modifier">public </mark><mark class="modifier">void</mark> <mark class="method">setStatId</mark>(<mark class="modifier">int</mark> statId)"
+isStaticfalse"
+accesspublic"
+
+isAbstractfalse"
+typevoid*	setStatId2Ö
+^ru.gigabyte_artur.warcastleduel.warcastle.screen_interface.ScreenAddStatButton?StatId@9.8:9.14CALLú
+ëD:\YaDisk\synk\YandexDisk\JavaProjects\WarcastleDuel\core\src\ru\gigabyte_artur\warcastleduel\warcastle\screen_interface\ScreenAddStatButton.java (2ã
+dru.gigabyte_artur.warcastleduel.warcastle.screen_interface.ScreenAddStatButton.setStatId(int)!statIdCALLú
+ëD:\YaDisk\synk\YandexDisk\JavaProjects\WarcastleDuel\core\src\ru\gigabyte_artur\warcastleduel\warcastle\screen_interface\ScreenAddStatButton.java (2ê
+dru.gigabyte_artur.warcastleduel.warcastle.screen_interface.ScreenAddStatButton.setStatId(int)!statId	PARAMETERú
+ëD:\YaDisk\synk\YandexDisk\JavaProjects\WarcastleDuel\core\src\ru\gigabyte_artur\warcastleduel\warcastle\screen_interface\ScreenAddStatButton.java ($2≤
+voidRETURN_TYPEú
+ëD:\YaDisk\synk\YandexDisk\JavaProjects\WarcastleDuel\core\src\ru\gigabyte_artur\warcastleduel\warcastle\screen_interface\ScreenAddStatButton.java (£
+dru.gigabyte_artur.warcastleduel.warcastle.screen_interface.ScreenAddStatButton.setStatId(int)!statId	PARAMETERú
+ëD:\YaDisk\synk\YandexDisk\JavaProjects\WarcastleDuel\core\src\ru\gigabyte_artur\warcastleduel\warcastle\screen_interface\ScreenAddStatButton.java ($"
+typeint"
+isFinalfalse"=
+declarationString(<mark class="modifier">int</mark> statId*statId2™
+intTYPEú
+ëD:\YaDisk\synk\YandexDisk\JavaProjects\WarcastleDuel\core\src\ru\gigabyte_artur\warcastleduel\warcastle\screen_interface\ScreenAddStatButton.java (©
+Zru.gigabyte_artur.warcastleduel.warcastle.screen_interface.ScreenAddStatButton.getStatId()METHODú
+ëD:\YaDisk\synk\YandexDisk\JavaProjects\WarcastleDuel\core\src\ru\gigabyte_artur\warcastleduel\warcastle\screen_interface\ScreenAddStatButton.java ("
+isFinalfalse"É
+declarationStringn<mark class="modifier">public </mark><mark class="modifier">int</mark> <mark class="method">getStatId</mark>()"
+isStaticfalse"
+accesspublic"
+
+isAbstractfalse"
+typeint*	getStatId2Ö
+^ru.gigabyte_artur.warcastleduel.warcastle.screen_interface.ScreenAddStatButton?StatId@9.8:9.14CALLú
+ëD:\YaDisk\synk\YandexDisk\JavaProjects\WarcastleDuel\core\src\ru\gigabyte_artur\warcastleduel\warcastle\screen_interface\ScreenAddStatButton.java (2±
+intRETURN_TYPEú
+ëD:\YaDisk\synk\YandexDisk\JavaProjects\WarcastleDuel\core\src\ru\gigabyte_artur\warcastleduel\warcastle\screen_interface\ScreenAddStatButton.java (¨-
+Zru.gigabyte_artur.warcastleduel.warcastle.screen_interface.ScreenAddStatButton.ActButton()METHODú
+ëD:\YaDisk\synk\YandexDisk\JavaProjects\WarcastleDuel\core\src\ru\gigabyte_artur\warcastleduel\warcastle\screen_interface\ScreenAddStatButton.java/ /("
+isFinalfalse"≥
+declarationStringù<mark class="annotation">@Override</mark> <br><mark class="modifier">public </mark><mark class="modifier">void</mark> <mark class="method">ActButton</mark>()"
+isStaticfalse"
+accesspublic"
+
+isAbstractfalse"
+typevoid*	ActButton2Å
+Zru.gigabyte_artur.warcastleduel.warcastle.screen_interface.ScreenAddStatButton.getStatId()CALLú
+ëD:\YaDisk\synk\YandexDisk\JavaProjects\WarcastleDuel\core\src\ru\gigabyte_artur\warcastleduel\warcastle\screen_interface\ScreenAddStatButton.java1 1('2˜
+Pru.gigabyte_artur.warcastleduel.warcastle.WarcastleDuelPlayer.PriceStatById(int)CALLú
+ëD:\YaDisk\synk\YandexDisk\JavaProjects\WarcastleDuel\core\src\ru\gigabyte_artur\warcastleduel\warcastle\screen_interface\ScreenAddStatButton.java3 3(,2
+Iru.gigabyte_artur.warcastleduel.warcastle.WarcastleDuelPlayer.getAmount()CALLú
+ëD:\YaDisk\synk\YandexDisk\JavaProjects\WarcastleDuel\core\src\ru\gigabyte_artur\warcastleduel\warcastle\screen_interface\ScreenAddStatButton.java4$ 4(-2Ä
+Yru.gigabyte_artur.warcastleduel.warcastle.WarcastleDuelPlayer.IncrementStatById(int, int)CALLú
+ëD:\YaDisk\synk\YandexDisk\JavaProjects\WarcastleDuel\core\src\ru\gigabyte_artur\warcastleduel\warcastle\screen_interface\ScreenAddStatButton.java6 6(,2˘
+Rru.gigabyte_artur.warcastleduel.warcastle.WarcastleDuelPlayer.IncrementAmount(int)CALLú
+ëD:\YaDisk\synk\YandexDisk\JavaProjects\WarcastleDuel\core\src\ru\gigabyte_artur\warcastleduel\warcastle\screen_interface\ScreenAddStatButton.java7 7(*2‘
+-java.io.PrintStream.println(java.lang.String)CALLú
+ëD:\YaDisk\synk\YandexDisk\JavaProjects\WarcastleDuel\core\src\ru\gigabyte_artur\warcastleduel\warcastle\screen_interface\ScreenAddStatButton.java; ;(2ì
+lru.gigabyte_artur.warcastleduel.warcastle.screen_interface.ScreenAddStatButton.ActButton()?Price@50.12:50.17CALLú
+ëD:\YaDisk\synk\YandexDisk\JavaProjects\WarcastleDuel\core\src\ru\gigabyte_artur\warcastleduel\warcastle\screen_interface\ScreenAddStatButton.java3 3(2é
+gru.gigabyte_artur.warcastleduel.warcastle.screen_interface.ScreenAddStatButton?ChangingPlayer@8.24:8.38CALLú
+ëD:\YaDisk\synk\YandexDisk\JavaProjects\WarcastleDuel\core\src\ru\gigabyte_artur\warcastleduel\warcastle\screen_interface\ScreenAddStatButton.java3 3(2ò
+qru.gigabyte_artur.warcastleduel.warcastle.screen_interface.ScreenAddStatButton.ActButton()?CurrStatId@49.12:49.22CALLú
+ëD:\YaDisk\synk\YandexDisk\JavaProjects\WarcastleDuel\core\src\ru\gigabyte_artur\warcastleduel\warcastle\screen_interface\ScreenAddStatButton.java3- 3(72ì
+lru.gigabyte_artur.warcastleduel.warcastle.screen_interface.ScreenAddStatButton.ActButton()?Price@50.12:50.17CALLú
+ëD:\YaDisk\synk\YandexDisk\JavaProjects\WarcastleDuel\core\src\ru\gigabyte_artur\warcastleduel\warcastle\screen_interface\ScreenAddStatButton.java4 4(2é
+gru.gigabyte_artur.warcastleduel.warcastle.screen_interface.ScreenAddStatButton?ChangingPlayer@8.24:8.38CALLú
+ëD:\YaDisk\synk\YandexDisk\JavaProjects\WarcastleDuel\core\src\ru\gigabyte_artur\warcastleduel\warcastle\screen_interface\ScreenAddStatButton.java4 4(#2é
+gru.gigabyte_artur.warcastleduel.warcastle.screen_interface.ScreenAddStatButton?ChangingPlayer@8.24:8.38CALLú
+ëD:\YaDisk\synk\YandexDisk\JavaProjects\WarcastleDuel\core\src\ru\gigabyte_artur\warcastleduel\warcastle\screen_interface\ScreenAddStatButton.java6 6(2ò
+qru.gigabyte_artur.warcastleduel.warcastle.screen_interface.ScreenAddStatButton.ActButton()?CurrStatId@49.12:49.22CALLú
+ëD:\YaDisk\synk\YandexDisk\JavaProjects\WarcastleDuel\core\src\ru\gigabyte_artur\warcastleduel\warcastle\screen_interface\ScreenAddStatButton.java6- 6(72é
+gru.gigabyte_artur.warcastleduel.warcastle.screen_interface.ScreenAddStatButton?ChangingPlayer@8.24:8.38CALLú
+ëD:\YaDisk\synk\YandexDisk\JavaProjects\WarcastleDuel\core\src\ru\gigabyte_artur\warcastleduel\warcastle\screen_interface\ScreenAddStatButton.java7 7(2ì
+lru.gigabyte_artur.warcastleduel.warcastle.screen_interface.ScreenAddStatButton.ActButton()?Price@50.12:50.17CALLú
+ëD:\YaDisk\synk\YandexDisk\JavaProjects\WarcastleDuel\core\src\ru\gigabyte_artur\warcastleduel\warcastle\screen_interface\ScreenAddStatButton.java7, 7(12ì
+lru.gigabyte_artur.warcastleduel.warcastle.screen_interface.ScreenAddStatButton.ActButton()?Price@50.12:50.17CALLú
+ëD:\YaDisk\synk\YandexDisk\JavaProjects\WarcastleDuel\core\src\ru\gigabyte_artur\warcastleduel\warcastle\screen_interface\ScreenAddStatButton.java;= ;(B2˛
+Sru.gigabyte_artur.warcastleduel.warcastle.screen_interface.ScreenButton.ActButton()OVERRIDEú
+ëD:\YaDisk\synk\YandexDisk\JavaProjects\WarcastleDuel\core\src\ru\gigabyte_artur\warcastleduel\warcastle\screen_interface\ScreenAddStatButton.java/ /(2ü
+qru.gigabyte_artur.warcastleduel.warcastle.screen_interface.ScreenAddStatButton.ActButton()?CurrStatId@49.12:49.22DECLARATIONú
+ëD:\YaDisk\synk\YandexDisk\JavaProjects\WarcastleDuel\core\src\ru\gigabyte_artur\warcastleduel\warcastle\screen_interface\ScreenAddStatButton.java1 1(2ö
+lru.gigabyte_artur.warcastleduel.warcastle.screen_interface.ScreenAddStatButton.ActButton()?Price@50.12:50.17DECLARATIONú
+ëD:\YaDisk\synk\YandexDisk\JavaProjects\WarcastleDuel\core\src\ru\gigabyte_artur\warcastleduel\warcastle\screen_interface\ScreenAddStatButton.java2 2(2≤
+voidRETURN_TYPEú
+ëD:\YaDisk\synk\YandexDisk\JavaProjects\WarcastleDuel\core\src\ru\gigabyte_artur\warcastleduel\warcastle\screen_interface\ScreenAddStatButton.java/ /(Æ
+qru.gigabyte_artur.warcastleduel.warcastle.screen_interface.ScreenAddStatButton.ActButton()?CurrStatId@49.12:49.22VARIABLEú
+ëD:\YaDisk\synk\YandexDisk\JavaProjects\WarcastleDuel\core\src\ru\gigabyte_artur\warcastleduel\warcastle\screen_interface\ScreenAddStatButton.java1 1("
+typeint"
+isFinalfalse"≥
+declarationStringù<mark class="modifier"> </mark><mark class="modifier">int</mark> <mark class="class-field">CurrStatId</mark> = <mark class="modifier">this</mark>.getStatId()*
+CurrStatId2™
+intTYPEú
+ëD:\YaDisk\synk\YandexDisk\JavaProjects\WarcastleDuel\core\src\ru\gigabyte_artur\warcastleduel\warcastle\screen_interface\ScreenAddStatButton.java1 1(2Å
+Zru.gigabyte_artur.warcastleduel.warcastle.screen_interface.ScreenAddStatButton.getStatId()CALLú
+ëD:\YaDisk\synk\YandexDisk\JavaProjects\WarcastleDuel\core\src\ru\gigabyte_artur\warcastleduel\warcastle\screen_interface\ScreenAddStatButton.java1 1('Ë
+lru.gigabyte_artur.warcastleduel.warcastle.screen_interface.ScreenAddStatButton.ActButton()?Price@50.12:50.17VARIABLEú
+ëD:\YaDisk\synk\YandexDisk\JavaProjects\WarcastleDuel\core\src\ru\gigabyte_artur\warcastleduel\warcastle\screen_interface\ScreenAddStatButton.java2 2("
+typeint"
+isFinalfalse"|
+declarationStringg<mark class="modifier"> </mark><mark class="modifier">int</mark> <mark class="class-field">Price</mark>*Price2™
+intTYPEú
+ëD:\YaDisk\synk\YandexDisk\JavaProjects\WarcastleDuel\core\src\ru\gigabyte_artur\warcastleduel\warcastle\screen_interface\ScreenAddStatButton.java2 2(ﬂ
+gru.gigabyte_artur.warcastleduel.warcastle.screen_interface.ScreenAddStatButton?ChangingPlayer@8.24:8.38VARIABLEú
+ëD:\YaDisk\synk\YandexDisk\JavaProjects\WarcastleDuel\core\src\ru\gigabyte_artur\warcastleduel\warcastle\screen_interface\ScreenAddStatButton.java (&"
+isFinalfalse"
+typeWarcastleDuelPlayer"w
+declarationStringb<mark class="modifier"> </mark>WarcastleDuelPlayer <mark class="class-field">ChangingPlayer</mark>"
+isStaticfalse"
+accesspackage_private*ChangingPlayer2‰
+=ru.gigabyte_artur.warcastleduel.warcastle.WarcastleDuelPlayerTYPEú
+ëD:\YaDisk\synk\YandexDisk\JavaProjects\WarcastleDuel\core\src\ru\gigabyte_artur\warcastleduel\warcastle\screen_interface\ScreenAddStatButton.java (ä
+^ru.gigabyte_artur.warcastleduel.warcastle.screen_interface.ScreenAddStatButton?StatId@9.8:9.14VARIABLEú
+ëD:\YaDisk\synk\YandexDisk\JavaProjects\WarcastleDuel\core\src\ru\gigabyte_artur\warcastleduel\warcastle\screen_interface\ScreenAddStatButton.java	 	("
+isFinalfalse"
+typeint"}
+declarationStringh<mark class="modifier"> </mark><mark class="modifier">int</mark> <mark class="class-field">StatId</mark>"
+isStaticfalse"
+accesspackage_private*StatId2™
+intTYPEú
+ëD:\YaDisk\synk\YandexDisk\JavaProjects\WarcastleDuel\core\src\ru\gigabyte_artur\warcastleduel\warcastle\screen_interface\ScreenAddStatButton.java	 	(

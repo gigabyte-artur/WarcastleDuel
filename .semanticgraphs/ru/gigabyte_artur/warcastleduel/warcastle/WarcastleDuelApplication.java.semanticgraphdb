@@ -1,0 +1,112 @@
+
+ÖD:\YaDisk\synk\YandexDisk\JavaProjects\WarcastleDuel\core\src\ru\gigabyte_artur\warcastleduel\warcastle\WarcastleDuelApplication.java 
+Bru.gigabyte_artur.warcastleduel.warcastle.WarcastleDuelApplicationCLASSê
+ÖD:\YaDisk\synk\YandexDisk\JavaProjects\WarcastleDuel\core\src\ru\gigabyte_artur\warcastleduel\warcastle\WarcastleDuelApplication.java (%"4
+package)ru.gigabyte_artur.warcastleduel.warcastle"
+isFinalfalse"
+inner classfalse"
+
+isAbstractfalse"∞
+declarationStringö<mark class="modifier">public </mark><mark class="modifier">class </mark>WarcastleDuelApplication<mark class="modifier"> extends </mark>ApplicationAdapter"
+accesspublic*WarcastleDuelApplication2Ì
+Kru.gigabyte_artur.warcastleduel.warcastle.WarcastleDuelApplication.create()DECLARATIONê
+ÖD:\YaDisk\synk\YandexDisk\JavaProjects\WarcastleDuel\core\src\ru\gigabyte_artur\warcastleduel\warcastle\WarcastleDuelApplication.java (2Ì
+Kru.gigabyte_artur.warcastleduel.warcastle.WarcastleDuelApplication.render()DECLARATIONê
+ÖD:\YaDisk\synk\YandexDisk\JavaProjects\WarcastleDuel\core\src\ru\gigabyte_artur\warcastleduel\warcastle\WarcastleDuelApplication.java (2á
+eru.gigabyte_artur.warcastleduel.warcastle.WarcastleDuelApplication.setScreen(com.badlogic.gdx.Screen)DECLARATIONê
+ÖD:\YaDisk\synk\YandexDisk\JavaProjects\WarcastleDuel\core\src\ru\gigabyte_artur\warcastleduel\warcastle\WarcastleDuelApplication.java (2Ó
+Lru.gigabyte_artur.warcastleduel.warcastle.WarcastleDuelApplication.dispose()DECLARATIONê
+ÖD:\YaDisk\synk\YandexDisk\JavaProjects\WarcastleDuel\core\src\ru\gigabyte_artur\warcastleduel\warcastle\WarcastleDuelApplication.java (2˝
+[ru.gigabyte_artur.warcastleduel.warcastle.WarcastleDuelApplication?JoinGameScreen@8.37:8.51DECLARATIONê
+ÖD:\YaDisk\synk\YandexDisk\JavaProjects\WarcastleDuel\core\src\ru\gigabyte_artur\warcastleduel\warcastle\WarcastleDuelApplication.java% (32˘
+Wru.gigabyte_artur.warcastleduel.warcastle.WarcastleDuelApplication?ShownScreen@9.8:9.19DECLARATIONê
+ÖD:\YaDisk\synk\YandexDisk\JavaProjects\WarcastleDuel\core\src\ru\gigabyte_artur\warcastleduel\warcastle\WarcastleDuelApplication.java	 	(2¿
+#com.badlogic.gdx.ApplicationAdapterEXTENDê
+ÖD:\YaDisk\synk\YandexDisk\JavaProjects\WarcastleDuel\core\src\ru\gigabyte_artur\warcastleduel\warcastle\WarcastleDuelApplication.java. (@ﬂ
+Kru.gigabyte_artur.warcastleduel.warcastle.WarcastleDuelApplication.create()METHODê
+ÖD:\YaDisk\synk\YandexDisk\JavaProjects\WarcastleDuel\core\src\ru\gigabyte_artur\warcastleduel\warcastle\WarcastleDuelApplication.java ("
+isFinalfalse"∞
+declarationStringö<mark class="annotation">@Override</mark> <br><mark class="modifier">public </mark><mark class="modifier">void</mark> <mark class="method">create</mark>()"
+isStaticfalse"
+accesspublic"
+
+isAbstractfalse"
+typevoid*create2Ä
+eru.gigabyte_artur.warcastleduel.warcastle.WarcastleDuelApplication.setScreen(com.badlogic.gdx.Screen)CALLê
+ÖD:\YaDisk\synk\YandexDisk\JavaProjects\WarcastleDuel\core\src\ru\gigabyte_artur\warcastleduel\warcastle\WarcastleDuelApplication.java (2¡
+•ru.gigabyte_artur.warcastleduel.warcastle.WarcastleDuelJoinGameScreen.WarcastleDuelJoinGameScreen(ru.gigabyte_artur.warcastleduel.warcastle.WarcastleDuelApplication)CALLê
+ÖD:\YaDisk\synk\YandexDisk\JavaProjects\WarcastleDuel\core\src\ru\gigabyte_artur\warcastleduel\warcastle\WarcastleDuelApplication.java (22ˆ
+[ru.gigabyte_artur.warcastleduel.warcastle.WarcastleDuelApplication?JoinGameScreen@8.37:8.51CALLê
+ÖD:\YaDisk\synk\YandexDisk\JavaProjects\WarcastleDuel\core\src\ru\gigabyte_artur\warcastleduel\warcastle\WarcastleDuelApplication.java (2ˆ
+[ru.gigabyte_artur.warcastleduel.warcastle.WarcastleDuelApplication?JoinGameScreen@8.37:8.51CALLê
+ÖD:\YaDisk\synk\YandexDisk\JavaProjects\WarcastleDuel\core\src\ru\gigabyte_artur\warcastleduel\warcastle\WarcastleDuelApplication.java (2¶
+voidRETURN_TYPEê
+ÖD:\YaDisk\synk\YandexDisk\JavaProjects\WarcastleDuel\core\src\ru\gigabyte_artur\warcastleduel\warcastle\WarcastleDuelApplication.java (õ
+Kru.gigabyte_artur.warcastleduel.warcastle.WarcastleDuelApplication.render()METHODê
+ÖD:\YaDisk\synk\YandexDisk\JavaProjects\WarcastleDuel\core\src\ru\gigabyte_artur\warcastleduel\warcastle\WarcastleDuelApplication.java ("
+isFinalfalse"∞
+declarationStringö<mark class="annotation">@Override</mark> <br><mark class="modifier">public </mark><mark class="modifier">void</mark> <mark class="method">render</mark>()"
+isStaticfalse"
+accesspublic"
+
+isAbstractfalse"
+typevoid*render2Ú
+Wru.gigabyte_artur.warcastleduel.warcastle.WarcastleDuelApplication?ShownScreen@9.8:9.19CALLê
+ÖD:\YaDisk\synk\YandexDisk\JavaProjects\WarcastleDuel\core\src\ru\gigabyte_artur\warcastleduel\warcastle\WarcastleDuelApplication.java (2¶
+voidRETURN_TYPEê
+ÖD:\YaDisk\synk\YandexDisk\JavaProjects\WarcastleDuel\core\src\ru\gigabyte_artur\warcastleduel\warcastle\WarcastleDuelApplication.java (º
+eru.gigabyte_artur.warcastleduel.warcastle.WarcastleDuelApplication.setScreen(com.badlogic.gdx.Screen)METHODê
+ÖD:\YaDisk\synk\YandexDisk\JavaProjects\WarcastleDuel\core\src\ru\gigabyte_artur\warcastleduel\warcastle\WarcastleDuelApplication.java ("
+isFinalfalse"ë
+declarationString|<mark class="modifier">public </mark><mark class="modifier">void</mark> <mark class="method">setScreen</mark>(Screen screen)"
+isStaticfalse"
+accesspublic"
+
+isAbstractfalse"
+typevoid*	setScreen2á
+lru.gigabyte_artur.warcastleduel.warcastle.WarcastleDuelApplication.setScreen(com.badlogic.gdx.Screen)!screenCALLê
+ÖD:\YaDisk\synk\YandexDisk\JavaProjects\WarcastleDuel\core\src\ru\gigabyte_artur\warcastleduel\warcastle\WarcastleDuelApplication.java (2Ú
+Wru.gigabyte_artur.warcastleduel.warcastle.WarcastleDuelApplication?ShownScreen@9.8:9.19CALLê
+ÖD:\YaDisk\synk\YandexDisk\JavaProjects\WarcastleDuel\core\src\ru\gigabyte_artur\warcastleduel\warcastle\WarcastleDuelApplication.java (2á
+lru.gigabyte_artur.warcastleduel.warcastle.WarcastleDuelApplication.setScreen(com.badlogic.gdx.Screen)!screenCALLê
+ÖD:\YaDisk\synk\YandexDisk\JavaProjects\WarcastleDuel\core\src\ru\gigabyte_artur\warcastleduel\warcastle\WarcastleDuelApplication.java (2å
+lru.gigabyte_artur.warcastleduel.warcastle.WarcastleDuelApplication.setScreen(com.badlogic.gdx.Screen)!screen	PARAMETERê
+ÖD:\YaDisk\synk\YandexDisk\JavaProjects\WarcastleDuel\core\src\ru\gigabyte_artur\warcastleduel\warcastle\WarcastleDuelApplication.java ($2¶
+voidRETURN_TYPEê
+ÖD:\YaDisk\synk\YandexDisk\JavaProjects\WarcastleDuel\core\src\ru\gigabyte_artur\warcastleduel\warcastle\WarcastleDuelApplication.java (è
+lru.gigabyte_artur.warcastleduel.warcastle.WarcastleDuelApplication.setScreen(com.badlogic.gdx.Screen)!screen	PARAMETERê
+ÖD:\YaDisk\synk\YandexDisk\JavaProjects\WarcastleDuel\core\src\ru\gigabyte_artur\warcastleduel\warcastle\WarcastleDuelApplication.java ($"
+typeScreen"
+isFinalfalse""
+declarationStringScreen screen*screen2≤
+com.badlogic.gdx.ScreenTYPEê
+ÖD:\YaDisk\synk\YandexDisk\JavaProjects\WarcastleDuel\core\src\ru\gigabyte_artur\warcastleduel\warcastle\WarcastleDuelApplication.java (©
+Lru.gigabyte_artur.warcastleduel.warcastle.WarcastleDuelApplication.dispose()METHODê
+ÖD:\YaDisk\synk\YandexDisk\JavaProjects\WarcastleDuel\core\src\ru\gigabyte_artur\warcastleduel\warcastle\WarcastleDuelApplication.java ("
+isFinalfalse"±
+declarationStringõ<mark class="annotation">@Override</mark> <br><mark class="modifier">public </mark><mark class="modifier">void</mark> <mark class="method">dispose</mark>()"
+isStaticfalse"
+accesspublic"
+
+isAbstractfalse"
+typevoid*dispose2¶
+voidRETURN_TYPEê
+ÖD:\YaDisk\synk\YandexDisk\JavaProjects\WarcastleDuel\core\src\ru\gigabyte_artur\warcastleduel\warcastle\WarcastleDuelApplication.java (”
+[ru.gigabyte_artur.warcastleduel.warcastle.WarcastleDuelApplication?JoinGameScreen@8.37:8.51VARIABLEê
+ÖD:\YaDisk\synk\YandexDisk\JavaProjects\WarcastleDuel\core\src\ru\gigabyte_artur\warcastleduel\warcastle\WarcastleDuelApplication.java% (3"
+isFinalfalse"#
+typeWarcastleDuelJoinGameScreen"Ü
+declarationStringq<mark class="modifier">private </mark>WarcastleDuelJoinGameScreen <mark class="class-field">JoinGameScreen</mark>"
+isStaticfalse"
+accessprivate*JoinGameScreen2‡
+Eru.gigabyte_artur.warcastleduel.warcastle.WarcastleDuelJoinGameScreenTYPEê
+ÖD:\YaDisk\synk\YandexDisk\JavaProjects\WarcastleDuel\core\src\ru\gigabyte_artur\warcastleduel\warcastle\WarcastleDuelApplication.java	 ($Ò
+Wru.gigabyte_artur.warcastleduel.warcastle.WarcastleDuelApplication?ShownScreen@9.8:9.19VARIABLEê
+ÖD:\YaDisk\synk\YandexDisk\JavaProjects\WarcastleDuel\core\src\ru\gigabyte_artur\warcastleduel\warcastle\WarcastleDuelApplication.java	 	("
+isFinalfalse"
+typeScreen"g
+declarationStringR<mark class="modifier"> </mark>Screen <mark class="class-field">ShownScreen</mark>"
+isStaticfalse"
+accesspackage_private*ShownScreen2≤
+com.badlogic.gdx.ScreenTYPEê
+ÖD:\YaDisk\synk\YandexDisk\JavaProjects\WarcastleDuel\core\src\ru\gigabyte_artur\warcastleduel\warcastle\WarcastleDuelApplication.java	 	(

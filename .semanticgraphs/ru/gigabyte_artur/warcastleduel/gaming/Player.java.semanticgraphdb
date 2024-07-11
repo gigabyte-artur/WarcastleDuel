@@ -1,0 +1,719 @@
+
+pD:\YaDisk\synk\YandexDisk\JavaProjects\WarcastleDuel\core\src\ru\gigabyte_artur\warcastleduel\gaming\Player.java‰
+-ru.gigabyte_artur.warcastleduel.gaming.PlayerCLASSz
+pD:\YaDisk\synk\YandexDisk\JavaProjects\WarcastleDuel\core\src\ru\gigabyte_artur\warcastleduel\gaming\Player.java ("1
+package&ru.gigabyte_artur.warcastleduel.gaming"
+isFinalfalse"
+inner classfalse"
+
+isAbstractfalse"d
+declarationStringO<mark class="modifier">public </mark><mark class="modifier">class </mark>Player"
+accesspublic*Player2¡
+6ru.gigabyte_artur.warcastleduel.gaming.Player.Player()DECLARATIONz
+pD:\YaDisk\synk\YandexDisk\JavaProjects\WarcastleDuel\core\src\ru\gigabyte_artur\warcastleduel\gaming\Player.java
+ 
+(2Ó
+cru.gigabyte_artur.warcastleduel.gaming.Player.Player(ru.gigabyte_artur.warcastleduel.gaming.Player)DECLARATIONz
+pD:\YaDisk\synk\YandexDisk\JavaProjects\WarcastleDuel\core\src\ru\gigabyte_artur\warcastleduel\gaming\Player.java (2¬
+7ru.gigabyte_artur.warcastleduel.gaming.Player.getName()DECLARATIONz
+pD:\YaDisk\synk\YandexDisk\JavaProjects\WarcastleDuel\core\src\ru\gigabyte_artur\warcastleduel\gaming\Player.java (2“
+Gru.gigabyte_artur.warcastleduel.gaming.Player.setName(java.lang.String)DECLARATIONz
+pD:\YaDisk\synk\YandexDisk\JavaProjects\WarcastleDuel\core\src\ru\gigabyte_artur\warcastleduel\gaming\Player.java (2ø
+4ru.gigabyte_artur.warcastleduel.gaming.Player.copy()DECLARATIONz
+pD:\YaDisk\synk\YandexDisk\JavaProjects\WarcastleDuel\core\src\ru\gigabyte_artur\warcastleduel\gaming\Player.java (2Œ
+Cru.gigabyte_artur.warcastleduel.gaming.Player.GetRandomNamesArray()DECLARATIONz
+pD:\YaDisk\synk\YandexDisk\JavaProjects\WarcastleDuel\core\src\ru\gigabyte_artur\warcastleduel\gaming\Player.java% %(12 
+=ru.gigabyte_artur.warcastleduel.gaming.Player.SetRandomName()DECLARATION|
+pD:\YaDisk\synk\YandexDisk\JavaProjects\WarcastleDuel\core\src\ru\gigabyte_artur\warcastleduel\gaming\Player.javaî î(2ƒ
+7ru.gigabyte_artur.warcastleduel.gaming.Player.NewGame()DECLARATION|
+pD:\YaDisk\synk\YandexDisk\JavaProjects\WarcastleDuel\core\src\ru\gigabyte_artur\warcastleduel\gaming\Player.java§ §(2ˇ
+rru.gigabyte_artur.warcastleduel.gaming.Player.Play(ru.gigabyte_artur.warcastleduel.gaming.TwoPlayersGame, boolean)DECLARATION|
+pD:\YaDisk\synk\YandexDisk\JavaProjects\WarcastleDuel\core\src\ru\gigabyte_artur\warcastleduel\gaming\Player.java¨ ¨(2«
+<ru.gigabyte_artur.warcastleduel.gaming.Player?name@8.19:8.23DECLARATIONz
+pD:\YaDisk\synk\YandexDisk\JavaProjects\WarcastleDuel\core\src\ru\gigabyte_artur\warcastleduel\gaming\Player.java (®
+6ru.gigabyte_artur.warcastleduel.gaming.Player.Player()CONSTRUCTORz
+pD:\YaDisk\synk\YandexDisk\JavaProjects\WarcastleDuel\core\src\ru\gigabyte_artur\warcastleduel\gaming\Player.java
+ 
+("^
+declarationStringI<mark class="modifier">public </mark><mark class="method">Player</mark>()*Player2¡
+=ru.gigabyte_artur.warcastleduel.gaming.Player.SetRandomName()CALLz
+pD:\YaDisk\synk\YandexDisk\JavaProjects\WarcastleDuel\core\src\ru\gigabyte_artur\warcastleduel\gaming\Player.java (2∏
+-ru.gigabyte_artur.warcastleduel.gaming.PlayerRETURN_TYPEz
+pD:\YaDisk\synk\YandexDisk\JavaProjects\WarcastleDuel\core\src\ru\gigabyte_artur\warcastleduel\gaming\Player.java
+ 
+(ö
+cru.gigabyte_artur.warcastleduel.gaming.Player.Player(ru.gigabyte_artur.warcastleduel.gaming.Player)CONSTRUCTORz
+pD:\YaDisk\synk\YandexDisk\JavaProjects\WarcastleDuel\core\src\ru\gigabyte_artur\warcastleduel\gaming\Player.java ("n
+declarationStringY<mark class="modifier">public </mark><mark class="method">Player</mark>(Player player_in)*Player2À
+Gru.gigabyte_artur.warcastleduel.gaming.Player.setName(java.lang.String)CALLz
+pD:\YaDisk\synk\YandexDisk\JavaProjects\WarcastleDuel\core\src\ru\gigabyte_artur\warcastleduel\gaming\Player.java (2ª
+7ru.gigabyte_artur.warcastleduel.gaming.Player.getName()CALLz
+pD:\YaDisk\synk\YandexDisk\JavaProjects\WarcastleDuel\core\src\ru\gigabyte_artur\warcastleduel\gaming\Player.java (!2Ò
+mru.gigabyte_artur.warcastleduel.gaming.Player.Player(ru.gigabyte_artur.warcastleduel.gaming.Player)!player_inCALLz
+pD:\YaDisk\synk\YandexDisk\JavaProjects\WarcastleDuel\core\src\ru\gigabyte_artur\warcastleduel\gaming\Player.java (2ˆ
+mru.gigabyte_artur.warcastleduel.gaming.Player.Player(ru.gigabyte_artur.warcastleduel.gaming.Player)!player_in	PARAMETERz
+pD:\YaDisk\synk\YandexDisk\JavaProjects\WarcastleDuel\core\src\ru\gigabyte_artur\warcastleduel\gaming\Player.java ("2∏
+-ru.gigabyte_artur.warcastleduel.gaming.PlayerRETURN_TYPEz
+pD:\YaDisk\synk\YandexDisk\JavaProjects\WarcastleDuel\core\src\ru\gigabyte_artur\warcastleduel\gaming\Player.java (˛
+mru.gigabyte_artur.warcastleduel.gaming.Player.Player(ru.gigabyte_artur.warcastleduel.gaming.Player)!player_in	PARAMETERz
+pD:\YaDisk\synk\YandexDisk\JavaProjects\WarcastleDuel\core\src\ru\gigabyte_artur\warcastleduel\gaming\Player.java (""
+typePlayer"
+isFinalfalse"%
+declarationStringPlayer player_in*	player_in2±
+-ru.gigabyte_artur.warcastleduel.gaming.PlayerTYPEz
+pD:\YaDisk\synk\YandexDisk\JavaProjects\WarcastleDuel\core\src\ru\gigabyte_artur\warcastleduel\gaming\Player.java (Î
+7ru.gigabyte_artur.warcastleduel.gaming.Player.getName()METHODz
+pD:\YaDisk\synk\YandexDisk\JavaProjects\WarcastleDuel\core\src\ru\gigabyte_artur\warcastleduel\gaming\Player.java ("
+isFinalfalse"f
+declarationStringQ<mark class="modifier">public </mark>String <mark class="method">getName</mark>()"
+isStaticfalse"
+accesspublic"
+
+isAbstractfalse"
+typeString*getName2¿
+<ru.gigabyte_artur.warcastleduel.gaming.Player?name@8.19:8.23CALLz
+pD:\YaDisk\synk\YandexDisk\JavaProjects\WarcastleDuel\core\src\ru\gigabyte_artur\warcastleduel\gaming\Player.java (2õ
+java.lang.StringRETURN_TYPEz
+pD:\YaDisk\synk\YandexDisk\JavaProjects\WarcastleDuel\core\src\ru\gigabyte_artur\warcastleduel\gaming\Player.java (¿	
+Gru.gigabyte_artur.warcastleduel.gaming.Player.setName(java.lang.String)METHODz
+pD:\YaDisk\synk\YandexDisk\JavaProjects\WarcastleDuel\core\src\ru\gigabyte_artur\warcastleduel\gaming\Player.java ("
+isFinalfalse"ç
+declarationStringx<mark class="modifier">public </mark><mark class="modifier">void</mark> <mark class="method">setName</mark>(String name)"
+isStaticfalse"
+accesspublic"
+
+isAbstractfalse"
+typevoid*setName2–
+Lru.gigabyte_artur.warcastleduel.gaming.Player.setName(java.lang.String)!nameCALLz
+pD:\YaDisk\synk\YandexDisk\JavaProjects\WarcastleDuel\core\src\ru\gigabyte_artur\warcastleduel\gaming\Player.java (2¿
+<ru.gigabyte_artur.warcastleduel.gaming.Player?name@8.19:8.23CALLz
+pD:\YaDisk\synk\YandexDisk\JavaProjects\WarcastleDuel\core\src\ru\gigabyte_artur\warcastleduel\gaming\Player.java (2’
+Lru.gigabyte_artur.warcastleduel.gaming.Player.setName(java.lang.String)!name	PARAMETERz
+pD:\YaDisk\synk\YandexDisk\JavaProjects\WarcastleDuel\core\src\ru\gigabyte_artur\warcastleduel\gaming\Player.java (#2è
+voidRETURN_TYPEz
+pD:\YaDisk\synk\YandexDisk\JavaProjects\WarcastleDuel\core\src\ru\gigabyte_artur\warcastleduel\gaming\Player.java (∂
+Lru.gigabyte_artur.warcastleduel.gaming.Player.setName(java.lang.String)!name	PARAMETERz
+pD:\YaDisk\synk\YandexDisk\JavaProjects\WarcastleDuel\core\src\ru\gigabyte_artur\warcastleduel\gaming\Player.java (#"
+typeString"
+isFinalfalse" 
+declarationStringString name*name2î
+java.lang.StringTYPEz
+pD:\YaDisk\synk\YandexDisk\JavaProjects\WarcastleDuel\core\src\ru\gigabyte_artur\warcastleduel\gaming\Player.java (¶
+4ru.gigabyte_artur.warcastleduel.gaming.Player.copy()METHODz
+pD:\YaDisk\synk\YandexDisk\JavaProjects\WarcastleDuel\core\src\ru\gigabyte_artur\warcastleduel\gaming\Player.java ("
+isFinalfalse"c
+declarationStringN<mark class="modifier">public </mark>Player <mark class="method">copy</mark>()"
+isStaticfalse"
+accesspublic"
+
+isAbstractfalse"
+typePlayer*copy2Á
+cru.gigabyte_artur.warcastleduel.gaming.Player.Player(ru.gigabyte_artur.warcastleduel.gaming.Player)CALLz
+pD:\YaDisk\synk\YandexDisk\JavaProjects\WarcastleDuel\core\src\ru\gigabyte_artur\warcastleduel\gaming\Player.java! !(2∏
+-ru.gigabyte_artur.warcastleduel.gaming.PlayerRETURN_TYPEz
+pD:\YaDisk\synk\YandexDisk\JavaProjects\WarcastleDuel\core\src\ru\gigabyte_artur\warcastleduel\gaming\Player.java (∞ø
+Cru.gigabyte_artur.warcastleduel.gaming.Player.GetRandomNamesArray()METHODz
+pD:\YaDisk\synk\YandexDisk\JavaProjects\WarcastleDuel\core\src\ru\gigabyte_artur\warcastleduel\gaming\Player.java% %(1"
+isFinalfalse"Ñ
+declarationStringo<mark class="modifier">private </mark>ArrayList&lt;String&gt; <mark class="method">GetRandomNamesArray</mark>()"
+isStaticfalse"
+accessprivate"
+
+isAbstractfalse"
+typeArrayList<String>*GetRandomNamesArray2û
+java.util.ArrayList.add(E)CALLz
+pD:\YaDisk\synk\YandexDisk\JavaProjects\WarcastleDuel\core\src\ru\gigabyte_artur\warcastleduel\gaming\Player.java( ((2û
+java.util.ArrayList.add(E)CALLz
+pD:\YaDisk\synk\YandexDisk\JavaProjects\WarcastleDuel\core\src\ru\gigabyte_artur\warcastleduel\gaming\Player.java) )(2û
+java.util.ArrayList.add(E)CALLz
+pD:\YaDisk\synk\YandexDisk\JavaProjects\WarcastleDuel\core\src\ru\gigabyte_artur\warcastleduel\gaming\Player.java* *(2û
+java.util.ArrayList.add(E)CALLz
+pD:\YaDisk\synk\YandexDisk\JavaProjects\WarcastleDuel\core\src\ru\gigabyte_artur\warcastleduel\gaming\Player.java+ +(2û
+java.util.ArrayList.add(E)CALLz
+pD:\YaDisk\synk\YandexDisk\JavaProjects\WarcastleDuel\core\src\ru\gigabyte_artur\warcastleduel\gaming\Player.java, ,(2û
+java.util.ArrayList.add(E)CALLz
+pD:\YaDisk\synk\YandexDisk\JavaProjects\WarcastleDuel\core\src\ru\gigabyte_artur\warcastleduel\gaming\Player.java- -(2û
+java.util.ArrayList.add(E)CALLz
+pD:\YaDisk\synk\YandexDisk\JavaProjects\WarcastleDuel\core\src\ru\gigabyte_artur\warcastleduel\gaming\Player.java. .(2û
+java.util.ArrayList.add(E)CALLz
+pD:\YaDisk\synk\YandexDisk\JavaProjects\WarcastleDuel\core\src\ru\gigabyte_artur\warcastleduel\gaming\Player.java/ /(2û
+java.util.ArrayList.add(E)CALLz
+pD:\YaDisk\synk\YandexDisk\JavaProjects\WarcastleDuel\core\src\ru\gigabyte_artur\warcastleduel\gaming\Player.java0 0(2û
+java.util.ArrayList.add(E)CALLz
+pD:\YaDisk\synk\YandexDisk\JavaProjects\WarcastleDuel\core\src\ru\gigabyte_artur\warcastleduel\gaming\Player.java1 1(2û
+java.util.ArrayList.add(E)CALLz
+pD:\YaDisk\synk\YandexDisk\JavaProjects\WarcastleDuel\core\src\ru\gigabyte_artur\warcastleduel\gaming\Player.java2 2(2û
+java.util.ArrayList.add(E)CALLz
+pD:\YaDisk\synk\YandexDisk\JavaProjects\WarcastleDuel\core\src\ru\gigabyte_artur\warcastleduel\gaming\Player.java3 3(2û
+java.util.ArrayList.add(E)CALLz
+pD:\YaDisk\synk\YandexDisk\JavaProjects\WarcastleDuel\core\src\ru\gigabyte_artur\warcastleduel\gaming\Player.java4 4(2û
+java.util.ArrayList.add(E)CALLz
+pD:\YaDisk\synk\YandexDisk\JavaProjects\WarcastleDuel\core\src\ru\gigabyte_artur\warcastleduel\gaming\Player.java5 5(2û
+java.util.ArrayList.add(E)CALLz
+pD:\YaDisk\synk\YandexDisk\JavaProjects\WarcastleDuel\core\src\ru\gigabyte_artur\warcastleduel\gaming\Player.java6 6(2û
+java.util.ArrayList.add(E)CALLz
+pD:\YaDisk\synk\YandexDisk\JavaProjects\WarcastleDuel\core\src\ru\gigabyte_artur\warcastleduel\gaming\Player.java7 7(2û
+java.util.ArrayList.add(E)CALLz
+pD:\YaDisk\synk\YandexDisk\JavaProjects\WarcastleDuel\core\src\ru\gigabyte_artur\warcastleduel\gaming\Player.java8 8(2û
+java.util.ArrayList.add(E)CALLz
+pD:\YaDisk\synk\YandexDisk\JavaProjects\WarcastleDuel\core\src\ru\gigabyte_artur\warcastleduel\gaming\Player.java9 9(2û
+java.util.ArrayList.add(E)CALLz
+pD:\YaDisk\synk\YandexDisk\JavaProjects\WarcastleDuel\core\src\ru\gigabyte_artur\warcastleduel\gaming\Player.java: :(2û
+java.util.ArrayList.add(E)CALLz
+pD:\YaDisk\synk\YandexDisk\JavaProjects\WarcastleDuel\core\src\ru\gigabyte_artur\warcastleduel\gaming\Player.java; ;(2û
+java.util.ArrayList.add(E)CALLz
+pD:\YaDisk\synk\YandexDisk\JavaProjects\WarcastleDuel\core\src\ru\gigabyte_artur\warcastleduel\gaming\Player.java< <(2û
+java.util.ArrayList.add(E)CALLz
+pD:\YaDisk\synk\YandexDisk\JavaProjects\WarcastleDuel\core\src\ru\gigabyte_artur\warcastleduel\gaming\Player.java= =(2û
+java.util.ArrayList.add(E)CALLz
+pD:\YaDisk\synk\YandexDisk\JavaProjects\WarcastleDuel\core\src\ru\gigabyte_artur\warcastleduel\gaming\Player.java> >(2û
+java.util.ArrayList.add(E)CALLz
+pD:\YaDisk\synk\YandexDisk\JavaProjects\WarcastleDuel\core\src\ru\gigabyte_artur\warcastleduel\gaming\Player.java? ?(2û
+java.util.ArrayList.add(E)CALLz
+pD:\YaDisk\synk\YandexDisk\JavaProjects\WarcastleDuel\core\src\ru\gigabyte_artur\warcastleduel\gaming\Player.java@ @(2û
+java.util.ArrayList.add(E)CALLz
+pD:\YaDisk\synk\YandexDisk\JavaProjects\WarcastleDuel\core\src\ru\gigabyte_artur\warcastleduel\gaming\Player.javaA A(2û
+java.util.ArrayList.add(E)CALLz
+pD:\YaDisk\synk\YandexDisk\JavaProjects\WarcastleDuel\core\src\ru\gigabyte_artur\warcastleduel\gaming\Player.javaB B(2û
+java.util.ArrayList.add(E)CALLz
+pD:\YaDisk\synk\YandexDisk\JavaProjects\WarcastleDuel\core\src\ru\gigabyte_artur\warcastleduel\gaming\Player.javaC C(2û
+java.util.ArrayList.add(E)CALLz
+pD:\YaDisk\synk\YandexDisk\JavaProjects\WarcastleDuel\core\src\ru\gigabyte_artur\warcastleduel\gaming\Player.javaD D(2û
+java.util.ArrayList.add(E)CALLz
+pD:\YaDisk\synk\YandexDisk\JavaProjects\WarcastleDuel\core\src\ru\gigabyte_artur\warcastleduel\gaming\Player.javaE E(2û
+java.util.ArrayList.add(E)CALLz
+pD:\YaDisk\synk\YandexDisk\JavaProjects\WarcastleDuel\core\src\ru\gigabyte_artur\warcastleduel\gaming\Player.javaF F(2û
+java.util.ArrayList.add(E)CALLz
+pD:\YaDisk\synk\YandexDisk\JavaProjects\WarcastleDuel\core\src\ru\gigabyte_artur\warcastleduel\gaming\Player.javaG G(2û
+java.util.ArrayList.add(E)CALLz
+pD:\YaDisk\synk\YandexDisk\JavaProjects\WarcastleDuel\core\src\ru\gigabyte_artur\warcastleduel\gaming\Player.javaH H(2û
+java.util.ArrayList.add(E)CALLz
+pD:\YaDisk\synk\YandexDisk\JavaProjects\WarcastleDuel\core\src\ru\gigabyte_artur\warcastleduel\gaming\Player.javaI I(2û
+java.util.ArrayList.add(E)CALLz
+pD:\YaDisk\synk\YandexDisk\JavaProjects\WarcastleDuel\core\src\ru\gigabyte_artur\warcastleduel\gaming\Player.javaJ J(2û
+java.util.ArrayList.add(E)CALLz
+pD:\YaDisk\synk\YandexDisk\JavaProjects\WarcastleDuel\core\src\ru\gigabyte_artur\warcastleduel\gaming\Player.javaK K(2û
+java.util.ArrayList.add(E)CALLz
+pD:\YaDisk\synk\YandexDisk\JavaProjects\WarcastleDuel\core\src\ru\gigabyte_artur\warcastleduel\gaming\Player.javaL L(2û
+java.util.ArrayList.add(E)CALLz
+pD:\YaDisk\synk\YandexDisk\JavaProjects\WarcastleDuel\core\src\ru\gigabyte_artur\warcastleduel\gaming\Player.javaM M(2û
+java.util.ArrayList.add(E)CALLz
+pD:\YaDisk\synk\YandexDisk\JavaProjects\WarcastleDuel\core\src\ru\gigabyte_artur\warcastleduel\gaming\Player.javaN N(2û
+java.util.ArrayList.add(E)CALLz
+pD:\YaDisk\synk\YandexDisk\JavaProjects\WarcastleDuel\core\src\ru\gigabyte_artur\warcastleduel\gaming\Player.javaO O(2û
+java.util.ArrayList.add(E)CALLz
+pD:\YaDisk\synk\YandexDisk\JavaProjects\WarcastleDuel\core\src\ru\gigabyte_artur\warcastleduel\gaming\Player.javaP P(2û
+java.util.ArrayList.add(E)CALLz
+pD:\YaDisk\synk\YandexDisk\JavaProjects\WarcastleDuel\core\src\ru\gigabyte_artur\warcastleduel\gaming\Player.javaQ Q(2û
+java.util.ArrayList.add(E)CALLz
+pD:\YaDisk\synk\YandexDisk\JavaProjects\WarcastleDuel\core\src\ru\gigabyte_artur\warcastleduel\gaming\Player.javaR R(2û
+java.util.ArrayList.add(E)CALLz
+pD:\YaDisk\synk\YandexDisk\JavaProjects\WarcastleDuel\core\src\ru\gigabyte_artur\warcastleduel\gaming\Player.javaS S(2û
+java.util.ArrayList.add(E)CALLz
+pD:\YaDisk\synk\YandexDisk\JavaProjects\WarcastleDuel\core\src\ru\gigabyte_artur\warcastleduel\gaming\Player.javaT T(2û
+java.util.ArrayList.add(E)CALLz
+pD:\YaDisk\synk\YandexDisk\JavaProjects\WarcastleDuel\core\src\ru\gigabyte_artur\warcastleduel\gaming\Player.javaU U(2û
+java.util.ArrayList.add(E)CALLz
+pD:\YaDisk\synk\YandexDisk\JavaProjects\WarcastleDuel\core\src\ru\gigabyte_artur\warcastleduel\gaming\Player.javaV V(2û
+java.util.ArrayList.add(E)CALLz
+pD:\YaDisk\synk\YandexDisk\JavaProjects\WarcastleDuel\core\src\ru\gigabyte_artur\warcastleduel\gaming\Player.javaW W(2û
+java.util.ArrayList.add(E)CALLz
+pD:\YaDisk\synk\YandexDisk\JavaProjects\WarcastleDuel\core\src\ru\gigabyte_artur\warcastleduel\gaming\Player.javaX X(2û
+java.util.ArrayList.add(E)CALLz
+pD:\YaDisk\synk\YandexDisk\JavaProjects\WarcastleDuel\core\src\ru\gigabyte_artur\warcastleduel\gaming\Player.javaY Y(2û
+java.util.ArrayList.add(E)CALLz
+pD:\YaDisk\synk\YandexDisk\JavaProjects\WarcastleDuel\core\src\ru\gigabyte_artur\warcastleduel\gaming\Player.javaZ Z(2û
+java.util.ArrayList.add(E)CALLz
+pD:\YaDisk\synk\YandexDisk\JavaProjects\WarcastleDuel\core\src\ru\gigabyte_artur\warcastleduel\gaming\Player.java[ [(2û
+java.util.ArrayList.add(E)CALLz
+pD:\YaDisk\synk\YandexDisk\JavaProjects\WarcastleDuel\core\src\ru\gigabyte_artur\warcastleduel\gaming\Player.java\ \(2û
+java.util.ArrayList.add(E)CALLz
+pD:\YaDisk\synk\YandexDisk\JavaProjects\WarcastleDuel\core\src\ru\gigabyte_artur\warcastleduel\gaming\Player.java] ](2û
+java.util.ArrayList.add(E)CALLz
+pD:\YaDisk\synk\YandexDisk\JavaProjects\WarcastleDuel\core\src\ru\gigabyte_artur\warcastleduel\gaming\Player.java^ ^(2û
+java.util.ArrayList.add(E)CALLz
+pD:\YaDisk\synk\YandexDisk\JavaProjects\WarcastleDuel\core\src\ru\gigabyte_artur\warcastleduel\gaming\Player.java_ _(2û
+java.util.ArrayList.add(E)CALLz
+pD:\YaDisk\synk\YandexDisk\JavaProjects\WarcastleDuel\core\src\ru\gigabyte_artur\warcastleduel\gaming\Player.java` `(2û
+java.util.ArrayList.add(E)CALLz
+pD:\YaDisk\synk\YandexDisk\JavaProjects\WarcastleDuel\core\src\ru\gigabyte_artur\warcastleduel\gaming\Player.javaa a(2û
+java.util.ArrayList.add(E)CALLz
+pD:\YaDisk\synk\YandexDisk\JavaProjects\WarcastleDuel\core\src\ru\gigabyte_artur\warcastleduel\gaming\Player.javab b(2û
+java.util.ArrayList.add(E)CALLz
+pD:\YaDisk\synk\YandexDisk\JavaProjects\WarcastleDuel\core\src\ru\gigabyte_artur\warcastleduel\gaming\Player.javac c(2û
+java.util.ArrayList.add(E)CALLz
+pD:\YaDisk\synk\YandexDisk\JavaProjects\WarcastleDuel\core\src\ru\gigabyte_artur\warcastleduel\gaming\Player.javad d(2û
+java.util.ArrayList.add(E)CALLz
+pD:\YaDisk\synk\YandexDisk\JavaProjects\WarcastleDuel\core\src\ru\gigabyte_artur\warcastleduel\gaming\Player.javae e(2û
+java.util.ArrayList.add(E)CALLz
+pD:\YaDisk\synk\YandexDisk\JavaProjects\WarcastleDuel\core\src\ru\gigabyte_artur\warcastleduel\gaming\Player.javaf f(2û
+java.util.ArrayList.add(E)CALLz
+pD:\YaDisk\synk\YandexDisk\JavaProjects\WarcastleDuel\core\src\ru\gigabyte_artur\warcastleduel\gaming\Player.javag g(2û
+java.util.ArrayList.add(E)CALLz
+pD:\YaDisk\synk\YandexDisk\JavaProjects\WarcastleDuel\core\src\ru\gigabyte_artur\warcastleduel\gaming\Player.javah h(2û
+java.util.ArrayList.add(E)CALLz
+pD:\YaDisk\synk\YandexDisk\JavaProjects\WarcastleDuel\core\src\ru\gigabyte_artur\warcastleduel\gaming\Player.javai i(2û
+java.util.ArrayList.add(E)CALLz
+pD:\YaDisk\synk\YandexDisk\JavaProjects\WarcastleDuel\core\src\ru\gigabyte_artur\warcastleduel\gaming\Player.javaj j(2û
+java.util.ArrayList.add(E)CALLz
+pD:\YaDisk\synk\YandexDisk\JavaProjects\WarcastleDuel\core\src\ru\gigabyte_artur\warcastleduel\gaming\Player.javak k(2û
+java.util.ArrayList.add(E)CALLz
+pD:\YaDisk\synk\YandexDisk\JavaProjects\WarcastleDuel\core\src\ru\gigabyte_artur\warcastleduel\gaming\Player.javal l(2û
+java.util.ArrayList.add(E)CALLz
+pD:\YaDisk\synk\YandexDisk\JavaProjects\WarcastleDuel\core\src\ru\gigabyte_artur\warcastleduel\gaming\Player.javam m(2û
+java.util.ArrayList.add(E)CALLz
+pD:\YaDisk\synk\YandexDisk\JavaProjects\WarcastleDuel\core\src\ru\gigabyte_artur\warcastleduel\gaming\Player.javan n(2û
+java.util.ArrayList.add(E)CALLz
+pD:\YaDisk\synk\YandexDisk\JavaProjects\WarcastleDuel\core\src\ru\gigabyte_artur\warcastleduel\gaming\Player.javao o(2û
+java.util.ArrayList.add(E)CALLz
+pD:\YaDisk\synk\YandexDisk\JavaProjects\WarcastleDuel\core\src\ru\gigabyte_artur\warcastleduel\gaming\Player.javap p(2û
+java.util.ArrayList.add(E)CALLz
+pD:\YaDisk\synk\YandexDisk\JavaProjects\WarcastleDuel\core\src\ru\gigabyte_artur\warcastleduel\gaming\Player.javaq q(2û
+java.util.ArrayList.add(E)CALLz
+pD:\YaDisk\synk\YandexDisk\JavaProjects\WarcastleDuel\core\src\ru\gigabyte_artur\warcastleduel\gaming\Player.javar r(2û
+java.util.ArrayList.add(E)CALLz
+pD:\YaDisk\synk\YandexDisk\JavaProjects\WarcastleDuel\core\src\ru\gigabyte_artur\warcastleduel\gaming\Player.javas s(2û
+java.util.ArrayList.add(E)CALLz
+pD:\YaDisk\synk\YandexDisk\JavaProjects\WarcastleDuel\core\src\ru\gigabyte_artur\warcastleduel\gaming\Player.javat t(2û
+java.util.ArrayList.add(E)CALLz
+pD:\YaDisk\synk\YandexDisk\JavaProjects\WarcastleDuel\core\src\ru\gigabyte_artur\warcastleduel\gaming\Player.javau u(2û
+java.util.ArrayList.add(E)CALLz
+pD:\YaDisk\synk\YandexDisk\JavaProjects\WarcastleDuel\core\src\ru\gigabyte_artur\warcastleduel\gaming\Player.javav v(2û
+java.util.ArrayList.add(E)CALLz
+pD:\YaDisk\synk\YandexDisk\JavaProjects\WarcastleDuel\core\src\ru\gigabyte_artur\warcastleduel\gaming\Player.javaw w(2û
+java.util.ArrayList.add(E)CALLz
+pD:\YaDisk\synk\YandexDisk\JavaProjects\WarcastleDuel\core\src\ru\gigabyte_artur\warcastleduel\gaming\Player.javax x(2û
+java.util.ArrayList.add(E)CALLz
+pD:\YaDisk\synk\YandexDisk\JavaProjects\WarcastleDuel\core\src\ru\gigabyte_artur\warcastleduel\gaming\Player.javay y(2û
+java.util.ArrayList.add(E)CALLz
+pD:\YaDisk\synk\YandexDisk\JavaProjects\WarcastleDuel\core\src\ru\gigabyte_artur\warcastleduel\gaming\Player.javaz z(2û
+java.util.ArrayList.add(E)CALLz
+pD:\YaDisk\synk\YandexDisk\JavaProjects\WarcastleDuel\core\src\ru\gigabyte_artur\warcastleduel\gaming\Player.java{ {(2û
+java.util.ArrayList.add(E)CALLz
+pD:\YaDisk\synk\YandexDisk\JavaProjects\WarcastleDuel\core\src\ru\gigabyte_artur\warcastleduel\gaming\Player.java| |(2û
+java.util.ArrayList.add(E)CALLz
+pD:\YaDisk\synk\YandexDisk\JavaProjects\WarcastleDuel\core\src\ru\gigabyte_artur\warcastleduel\gaming\Player.java} }(2û
+java.util.ArrayList.add(E)CALLz
+pD:\YaDisk\synk\YandexDisk\JavaProjects\WarcastleDuel\core\src\ru\gigabyte_artur\warcastleduel\gaming\Player.java~ ~(2û
+java.util.ArrayList.add(E)CALLz
+pD:\YaDisk\synk\YandexDisk\JavaProjects\WarcastleDuel\core\src\ru\gigabyte_artur\warcastleduel\gaming\Player.java (2†
+java.util.ArrayList.add(E)CALL|
+pD:\YaDisk\synk\YandexDisk\JavaProjects\WarcastleDuel\core\src\ru\gigabyte_artur\warcastleduel\gaming\Player.javaÄ Ä(2†
+java.util.ArrayList.add(E)CALL|
+pD:\YaDisk\synk\YandexDisk\JavaProjects\WarcastleDuel\core\src\ru\gigabyte_artur\warcastleduel\gaming\Player.javaÅ Å(2†
+java.util.ArrayList.add(E)CALL|
+pD:\YaDisk\synk\YandexDisk\JavaProjects\WarcastleDuel\core\src\ru\gigabyte_artur\warcastleduel\gaming\Player.javaÇ Ç(2†
+java.util.ArrayList.add(E)CALL|
+pD:\YaDisk\synk\YandexDisk\JavaProjects\WarcastleDuel\core\src\ru\gigabyte_artur\warcastleduel\gaming\Player.javaÉ É(2†
+java.util.ArrayList.add(E)CALL|
+pD:\YaDisk\synk\YandexDisk\JavaProjects\WarcastleDuel\core\src\ru\gigabyte_artur\warcastleduel\gaming\Player.javaÑ Ñ(2†
+java.util.ArrayList.add(E)CALL|
+pD:\YaDisk\synk\YandexDisk\JavaProjects\WarcastleDuel\core\src\ru\gigabyte_artur\warcastleduel\gaming\Player.javaÖ Ö(2†
+java.util.ArrayList.add(E)CALL|
+pD:\YaDisk\synk\YandexDisk\JavaProjects\WarcastleDuel\core\src\ru\gigabyte_artur\warcastleduel\gaming\Player.javaÜ Ü(2†
+java.util.ArrayList.add(E)CALL|
+pD:\YaDisk\synk\YandexDisk\JavaProjects\WarcastleDuel\core\src\ru\gigabyte_artur\warcastleduel\gaming\Player.javaá á(2†
+java.util.ArrayList.add(E)CALL|
+pD:\YaDisk\synk\YandexDisk\JavaProjects\WarcastleDuel\core\src\ru\gigabyte_artur\warcastleduel\gaming\Player.javaà à(2†
+java.util.ArrayList.add(E)CALL|
+pD:\YaDisk\synk\YandexDisk\JavaProjects\WarcastleDuel\core\src\ru\gigabyte_artur\warcastleduel\gaming\Player.javaâ â(2†
+java.util.ArrayList.add(E)CALL|
+pD:\YaDisk\synk\YandexDisk\JavaProjects\WarcastleDuel\core\src\ru\gigabyte_artur\warcastleduel\gaming\Player.javaä ä(2†
+java.util.ArrayList.add(E)CALL|
+pD:\YaDisk\synk\YandexDisk\JavaProjects\WarcastleDuel\core\src\ru\gigabyte_artur\warcastleduel\gaming\Player.javaã ã(2†
+java.util.ArrayList.add(E)CALL|
+pD:\YaDisk\synk\YandexDisk\JavaProjects\WarcastleDuel\core\src\ru\gigabyte_artur\warcastleduel\gaming\Player.javaå å(2†
+java.util.ArrayList.add(E)CALL|
+pD:\YaDisk\synk\YandexDisk\JavaProjects\WarcastleDuel\core\src\ru\gigabyte_artur\warcastleduel\gaming\Player.javaç ç(2†
+java.util.ArrayList.add(E)CALL|
+pD:\YaDisk\synk\YandexDisk\JavaProjects\WarcastleDuel\core\src\ru\gigabyte_artur\warcastleduel\gaming\Player.javaé é(2†
+java.util.ArrayList.add(E)CALL|
+pD:\YaDisk\synk\YandexDisk\JavaProjects\WarcastleDuel\core\src\ru\gigabyte_artur\warcastleduel\gaming\Player.javaè è(2£
+java.util.ArrayList.ArrayList()CALLz
+pD:\YaDisk\synk\YandexDisk\JavaProjects\WarcastleDuel\core\src\ru\gigabyte_artur\warcastleduel\gaming\Player.java'$ '(/2◊
+Sru.gigabyte_artur.warcastleduel.gaming.Player.GetRandomNamesArray()?rez@39.26:39.29CALLz
+pD:\YaDisk\synk\YandexDisk\JavaProjects\WarcastleDuel\core\src\ru\gigabyte_artur\warcastleduel\gaming\Player.java( ((2◊
+Sru.gigabyte_artur.warcastleduel.gaming.Player.GetRandomNamesArray()?rez@39.26:39.29CALLz
+pD:\YaDisk\synk\YandexDisk\JavaProjects\WarcastleDuel\core\src\ru\gigabyte_artur\warcastleduel\gaming\Player.java) )(2◊
+Sru.gigabyte_artur.warcastleduel.gaming.Player.GetRandomNamesArray()?rez@39.26:39.29CALLz
+pD:\YaDisk\synk\YandexDisk\JavaProjects\WarcastleDuel\core\src\ru\gigabyte_artur\warcastleduel\gaming\Player.java* *(2◊
+Sru.gigabyte_artur.warcastleduel.gaming.Player.GetRandomNamesArray()?rez@39.26:39.29CALLz
+pD:\YaDisk\synk\YandexDisk\JavaProjects\WarcastleDuel\core\src\ru\gigabyte_artur\warcastleduel\gaming\Player.java+ +(2◊
+Sru.gigabyte_artur.warcastleduel.gaming.Player.GetRandomNamesArray()?rez@39.26:39.29CALLz
+pD:\YaDisk\synk\YandexDisk\JavaProjects\WarcastleDuel\core\src\ru\gigabyte_artur\warcastleduel\gaming\Player.java, ,(2◊
+Sru.gigabyte_artur.warcastleduel.gaming.Player.GetRandomNamesArray()?rez@39.26:39.29CALLz
+pD:\YaDisk\synk\YandexDisk\JavaProjects\WarcastleDuel\core\src\ru\gigabyte_artur\warcastleduel\gaming\Player.java- -(2◊
+Sru.gigabyte_artur.warcastleduel.gaming.Player.GetRandomNamesArray()?rez@39.26:39.29CALLz
+pD:\YaDisk\synk\YandexDisk\JavaProjects\WarcastleDuel\core\src\ru\gigabyte_artur\warcastleduel\gaming\Player.java. .(2◊
+Sru.gigabyte_artur.warcastleduel.gaming.Player.GetRandomNamesArray()?rez@39.26:39.29CALLz
+pD:\YaDisk\synk\YandexDisk\JavaProjects\WarcastleDuel\core\src\ru\gigabyte_artur\warcastleduel\gaming\Player.java/ /(2◊
+Sru.gigabyte_artur.warcastleduel.gaming.Player.GetRandomNamesArray()?rez@39.26:39.29CALLz
+pD:\YaDisk\synk\YandexDisk\JavaProjects\WarcastleDuel\core\src\ru\gigabyte_artur\warcastleduel\gaming\Player.java0 0(2◊
+Sru.gigabyte_artur.warcastleduel.gaming.Player.GetRandomNamesArray()?rez@39.26:39.29CALLz
+pD:\YaDisk\synk\YandexDisk\JavaProjects\WarcastleDuel\core\src\ru\gigabyte_artur\warcastleduel\gaming\Player.java1 1(2◊
+Sru.gigabyte_artur.warcastleduel.gaming.Player.GetRandomNamesArray()?rez@39.26:39.29CALLz
+pD:\YaDisk\synk\YandexDisk\JavaProjects\WarcastleDuel\core\src\ru\gigabyte_artur\warcastleduel\gaming\Player.java2 2(2◊
+Sru.gigabyte_artur.warcastleduel.gaming.Player.GetRandomNamesArray()?rez@39.26:39.29CALLz
+pD:\YaDisk\synk\YandexDisk\JavaProjects\WarcastleDuel\core\src\ru\gigabyte_artur\warcastleduel\gaming\Player.java3 3(2◊
+Sru.gigabyte_artur.warcastleduel.gaming.Player.GetRandomNamesArray()?rez@39.26:39.29CALLz
+pD:\YaDisk\synk\YandexDisk\JavaProjects\WarcastleDuel\core\src\ru\gigabyte_artur\warcastleduel\gaming\Player.java4 4(2◊
+Sru.gigabyte_artur.warcastleduel.gaming.Player.GetRandomNamesArray()?rez@39.26:39.29CALLz
+pD:\YaDisk\synk\YandexDisk\JavaProjects\WarcastleDuel\core\src\ru\gigabyte_artur\warcastleduel\gaming\Player.java5 5(2◊
+Sru.gigabyte_artur.warcastleduel.gaming.Player.GetRandomNamesArray()?rez@39.26:39.29CALLz
+pD:\YaDisk\synk\YandexDisk\JavaProjects\WarcastleDuel\core\src\ru\gigabyte_artur\warcastleduel\gaming\Player.java6 6(2◊
+Sru.gigabyte_artur.warcastleduel.gaming.Player.GetRandomNamesArray()?rez@39.26:39.29CALLz
+pD:\YaDisk\synk\YandexDisk\JavaProjects\WarcastleDuel\core\src\ru\gigabyte_artur\warcastleduel\gaming\Player.java7 7(2◊
+Sru.gigabyte_artur.warcastleduel.gaming.Player.GetRandomNamesArray()?rez@39.26:39.29CALLz
+pD:\YaDisk\synk\YandexDisk\JavaProjects\WarcastleDuel\core\src\ru\gigabyte_artur\warcastleduel\gaming\Player.java8 8(2◊
+Sru.gigabyte_artur.warcastleduel.gaming.Player.GetRandomNamesArray()?rez@39.26:39.29CALLz
+pD:\YaDisk\synk\YandexDisk\JavaProjects\WarcastleDuel\core\src\ru\gigabyte_artur\warcastleduel\gaming\Player.java9 9(2◊
+Sru.gigabyte_artur.warcastleduel.gaming.Player.GetRandomNamesArray()?rez@39.26:39.29CALLz
+pD:\YaDisk\synk\YandexDisk\JavaProjects\WarcastleDuel\core\src\ru\gigabyte_artur\warcastleduel\gaming\Player.java: :(2◊
+Sru.gigabyte_artur.warcastleduel.gaming.Player.GetRandomNamesArray()?rez@39.26:39.29CALLz
+pD:\YaDisk\synk\YandexDisk\JavaProjects\WarcastleDuel\core\src\ru\gigabyte_artur\warcastleduel\gaming\Player.java; ;(2◊
+Sru.gigabyte_artur.warcastleduel.gaming.Player.GetRandomNamesArray()?rez@39.26:39.29CALLz
+pD:\YaDisk\synk\YandexDisk\JavaProjects\WarcastleDuel\core\src\ru\gigabyte_artur\warcastleduel\gaming\Player.java< <(2◊
+Sru.gigabyte_artur.warcastleduel.gaming.Player.GetRandomNamesArray()?rez@39.26:39.29CALLz
+pD:\YaDisk\synk\YandexDisk\JavaProjects\WarcastleDuel\core\src\ru\gigabyte_artur\warcastleduel\gaming\Player.java= =(2◊
+Sru.gigabyte_artur.warcastleduel.gaming.Player.GetRandomNamesArray()?rez@39.26:39.29CALLz
+pD:\YaDisk\synk\YandexDisk\JavaProjects\WarcastleDuel\core\src\ru\gigabyte_artur\warcastleduel\gaming\Player.java> >(2◊
+Sru.gigabyte_artur.warcastleduel.gaming.Player.GetRandomNamesArray()?rez@39.26:39.29CALLz
+pD:\YaDisk\synk\YandexDisk\JavaProjects\WarcastleDuel\core\src\ru\gigabyte_artur\warcastleduel\gaming\Player.java? ?(2◊
+Sru.gigabyte_artur.warcastleduel.gaming.Player.GetRandomNamesArray()?rez@39.26:39.29CALLz
+pD:\YaDisk\synk\YandexDisk\JavaProjects\WarcastleDuel\core\src\ru\gigabyte_artur\warcastleduel\gaming\Player.java@ @(2◊
+Sru.gigabyte_artur.warcastleduel.gaming.Player.GetRandomNamesArray()?rez@39.26:39.29CALLz
+pD:\YaDisk\synk\YandexDisk\JavaProjects\WarcastleDuel\core\src\ru\gigabyte_artur\warcastleduel\gaming\Player.javaA A(2◊
+Sru.gigabyte_artur.warcastleduel.gaming.Player.GetRandomNamesArray()?rez@39.26:39.29CALLz
+pD:\YaDisk\synk\YandexDisk\JavaProjects\WarcastleDuel\core\src\ru\gigabyte_artur\warcastleduel\gaming\Player.javaB B(2◊
+Sru.gigabyte_artur.warcastleduel.gaming.Player.GetRandomNamesArray()?rez@39.26:39.29CALLz
+pD:\YaDisk\synk\YandexDisk\JavaProjects\WarcastleDuel\core\src\ru\gigabyte_artur\warcastleduel\gaming\Player.javaC C(2◊
+Sru.gigabyte_artur.warcastleduel.gaming.Player.GetRandomNamesArray()?rez@39.26:39.29CALLz
+pD:\YaDisk\synk\YandexDisk\JavaProjects\WarcastleDuel\core\src\ru\gigabyte_artur\warcastleduel\gaming\Player.javaD D(2◊
+Sru.gigabyte_artur.warcastleduel.gaming.Player.GetRandomNamesArray()?rez@39.26:39.29CALLz
+pD:\YaDisk\synk\YandexDisk\JavaProjects\WarcastleDuel\core\src\ru\gigabyte_artur\warcastleduel\gaming\Player.javaE E(2◊
+Sru.gigabyte_artur.warcastleduel.gaming.Player.GetRandomNamesArray()?rez@39.26:39.29CALLz
+pD:\YaDisk\synk\YandexDisk\JavaProjects\WarcastleDuel\core\src\ru\gigabyte_artur\warcastleduel\gaming\Player.javaF F(2◊
+Sru.gigabyte_artur.warcastleduel.gaming.Player.GetRandomNamesArray()?rez@39.26:39.29CALLz
+pD:\YaDisk\synk\YandexDisk\JavaProjects\WarcastleDuel\core\src\ru\gigabyte_artur\warcastleduel\gaming\Player.javaG G(2◊
+Sru.gigabyte_artur.warcastleduel.gaming.Player.GetRandomNamesArray()?rez@39.26:39.29CALLz
+pD:\YaDisk\synk\YandexDisk\JavaProjects\WarcastleDuel\core\src\ru\gigabyte_artur\warcastleduel\gaming\Player.javaH H(2◊
+Sru.gigabyte_artur.warcastleduel.gaming.Player.GetRandomNamesArray()?rez@39.26:39.29CALLz
+pD:\YaDisk\synk\YandexDisk\JavaProjects\WarcastleDuel\core\src\ru\gigabyte_artur\warcastleduel\gaming\Player.javaI I(2◊
+Sru.gigabyte_artur.warcastleduel.gaming.Player.GetRandomNamesArray()?rez@39.26:39.29CALLz
+pD:\YaDisk\synk\YandexDisk\JavaProjects\WarcastleDuel\core\src\ru\gigabyte_artur\warcastleduel\gaming\Player.javaJ J(2◊
+Sru.gigabyte_artur.warcastleduel.gaming.Player.GetRandomNamesArray()?rez@39.26:39.29CALLz
+pD:\YaDisk\synk\YandexDisk\JavaProjects\WarcastleDuel\core\src\ru\gigabyte_artur\warcastleduel\gaming\Player.javaK K(2◊
+Sru.gigabyte_artur.warcastleduel.gaming.Player.GetRandomNamesArray()?rez@39.26:39.29CALLz
+pD:\YaDisk\synk\YandexDisk\JavaProjects\WarcastleDuel\core\src\ru\gigabyte_artur\warcastleduel\gaming\Player.javaL L(2◊
+Sru.gigabyte_artur.warcastleduel.gaming.Player.GetRandomNamesArray()?rez@39.26:39.29CALLz
+pD:\YaDisk\synk\YandexDisk\JavaProjects\WarcastleDuel\core\src\ru\gigabyte_artur\warcastleduel\gaming\Player.javaM M(2◊
+Sru.gigabyte_artur.warcastleduel.gaming.Player.GetRandomNamesArray()?rez@39.26:39.29CALLz
+pD:\YaDisk\synk\YandexDisk\JavaProjects\WarcastleDuel\core\src\ru\gigabyte_artur\warcastleduel\gaming\Player.javaN N(2◊
+Sru.gigabyte_artur.warcastleduel.gaming.Player.GetRandomNamesArray()?rez@39.26:39.29CALLz
+pD:\YaDisk\synk\YandexDisk\JavaProjects\WarcastleDuel\core\src\ru\gigabyte_artur\warcastleduel\gaming\Player.javaO O(2◊
+Sru.gigabyte_artur.warcastleduel.gaming.Player.GetRandomNamesArray()?rez@39.26:39.29CALLz
+pD:\YaDisk\synk\YandexDisk\JavaProjects\WarcastleDuel\core\src\ru\gigabyte_artur\warcastleduel\gaming\Player.javaP P(2◊
+Sru.gigabyte_artur.warcastleduel.gaming.Player.GetRandomNamesArray()?rez@39.26:39.29CALLz
+pD:\YaDisk\synk\YandexDisk\JavaProjects\WarcastleDuel\core\src\ru\gigabyte_artur\warcastleduel\gaming\Player.javaQ Q(2◊
+Sru.gigabyte_artur.warcastleduel.gaming.Player.GetRandomNamesArray()?rez@39.26:39.29CALLz
+pD:\YaDisk\synk\YandexDisk\JavaProjects\WarcastleDuel\core\src\ru\gigabyte_artur\warcastleduel\gaming\Player.javaR R(2◊
+Sru.gigabyte_artur.warcastleduel.gaming.Player.GetRandomNamesArray()?rez@39.26:39.29CALLz
+pD:\YaDisk\synk\YandexDisk\JavaProjects\WarcastleDuel\core\src\ru\gigabyte_artur\warcastleduel\gaming\Player.javaS S(2◊
+Sru.gigabyte_artur.warcastleduel.gaming.Player.GetRandomNamesArray()?rez@39.26:39.29CALLz
+pD:\YaDisk\synk\YandexDisk\JavaProjects\WarcastleDuel\core\src\ru\gigabyte_artur\warcastleduel\gaming\Player.javaT T(2◊
+Sru.gigabyte_artur.warcastleduel.gaming.Player.GetRandomNamesArray()?rez@39.26:39.29CALLz
+pD:\YaDisk\synk\YandexDisk\JavaProjects\WarcastleDuel\core\src\ru\gigabyte_artur\warcastleduel\gaming\Player.javaU U(2◊
+Sru.gigabyte_artur.warcastleduel.gaming.Player.GetRandomNamesArray()?rez@39.26:39.29CALLz
+pD:\YaDisk\synk\YandexDisk\JavaProjects\WarcastleDuel\core\src\ru\gigabyte_artur\warcastleduel\gaming\Player.javaV V(2◊
+Sru.gigabyte_artur.warcastleduel.gaming.Player.GetRandomNamesArray()?rez@39.26:39.29CALLz
+pD:\YaDisk\synk\YandexDisk\JavaProjects\WarcastleDuel\core\src\ru\gigabyte_artur\warcastleduel\gaming\Player.javaW W(2◊
+Sru.gigabyte_artur.warcastleduel.gaming.Player.GetRandomNamesArray()?rez@39.26:39.29CALLz
+pD:\YaDisk\synk\YandexDisk\JavaProjects\WarcastleDuel\core\src\ru\gigabyte_artur\warcastleduel\gaming\Player.javaX X(2◊
+Sru.gigabyte_artur.warcastleduel.gaming.Player.GetRandomNamesArray()?rez@39.26:39.29CALLz
+pD:\YaDisk\synk\YandexDisk\JavaProjects\WarcastleDuel\core\src\ru\gigabyte_artur\warcastleduel\gaming\Player.javaY Y(2◊
+Sru.gigabyte_artur.warcastleduel.gaming.Player.GetRandomNamesArray()?rez@39.26:39.29CALLz
+pD:\YaDisk\synk\YandexDisk\JavaProjects\WarcastleDuel\core\src\ru\gigabyte_artur\warcastleduel\gaming\Player.javaZ Z(2◊
+Sru.gigabyte_artur.warcastleduel.gaming.Player.GetRandomNamesArray()?rez@39.26:39.29CALLz
+pD:\YaDisk\synk\YandexDisk\JavaProjects\WarcastleDuel\core\src\ru\gigabyte_artur\warcastleduel\gaming\Player.java[ [(2◊
+Sru.gigabyte_artur.warcastleduel.gaming.Player.GetRandomNamesArray()?rez@39.26:39.29CALLz
+pD:\YaDisk\synk\YandexDisk\JavaProjects\WarcastleDuel\core\src\ru\gigabyte_artur\warcastleduel\gaming\Player.java\ \(2◊
+Sru.gigabyte_artur.warcastleduel.gaming.Player.GetRandomNamesArray()?rez@39.26:39.29CALLz
+pD:\YaDisk\synk\YandexDisk\JavaProjects\WarcastleDuel\core\src\ru\gigabyte_artur\warcastleduel\gaming\Player.java] ](2◊
+Sru.gigabyte_artur.warcastleduel.gaming.Player.GetRandomNamesArray()?rez@39.26:39.29CALLz
+pD:\YaDisk\synk\YandexDisk\JavaProjects\WarcastleDuel\core\src\ru\gigabyte_artur\warcastleduel\gaming\Player.java^ ^(2◊
+Sru.gigabyte_artur.warcastleduel.gaming.Player.GetRandomNamesArray()?rez@39.26:39.29CALLz
+pD:\YaDisk\synk\YandexDisk\JavaProjects\WarcastleDuel\core\src\ru\gigabyte_artur\warcastleduel\gaming\Player.java_ _(2◊
+Sru.gigabyte_artur.warcastleduel.gaming.Player.GetRandomNamesArray()?rez@39.26:39.29CALLz
+pD:\YaDisk\synk\YandexDisk\JavaProjects\WarcastleDuel\core\src\ru\gigabyte_artur\warcastleduel\gaming\Player.java` `(2◊
+Sru.gigabyte_artur.warcastleduel.gaming.Player.GetRandomNamesArray()?rez@39.26:39.29CALLz
+pD:\YaDisk\synk\YandexDisk\JavaProjects\WarcastleDuel\core\src\ru\gigabyte_artur\warcastleduel\gaming\Player.javaa a(2◊
+Sru.gigabyte_artur.warcastleduel.gaming.Player.GetRandomNamesArray()?rez@39.26:39.29CALLz
+pD:\YaDisk\synk\YandexDisk\JavaProjects\WarcastleDuel\core\src\ru\gigabyte_artur\warcastleduel\gaming\Player.javab b(2◊
+Sru.gigabyte_artur.warcastleduel.gaming.Player.GetRandomNamesArray()?rez@39.26:39.29CALLz
+pD:\YaDisk\synk\YandexDisk\JavaProjects\WarcastleDuel\core\src\ru\gigabyte_artur\warcastleduel\gaming\Player.javac c(2◊
+Sru.gigabyte_artur.warcastleduel.gaming.Player.GetRandomNamesArray()?rez@39.26:39.29CALLz
+pD:\YaDisk\synk\YandexDisk\JavaProjects\WarcastleDuel\core\src\ru\gigabyte_artur\warcastleduel\gaming\Player.javad d(2◊
+Sru.gigabyte_artur.warcastleduel.gaming.Player.GetRandomNamesArray()?rez@39.26:39.29CALLz
+pD:\YaDisk\synk\YandexDisk\JavaProjects\WarcastleDuel\core\src\ru\gigabyte_artur\warcastleduel\gaming\Player.javae e(2◊
+Sru.gigabyte_artur.warcastleduel.gaming.Player.GetRandomNamesArray()?rez@39.26:39.29CALLz
+pD:\YaDisk\synk\YandexDisk\JavaProjects\WarcastleDuel\core\src\ru\gigabyte_artur\warcastleduel\gaming\Player.javaf f(2◊
+Sru.gigabyte_artur.warcastleduel.gaming.Player.GetRandomNamesArray()?rez@39.26:39.29CALLz
+pD:\YaDisk\synk\YandexDisk\JavaProjects\WarcastleDuel\core\src\ru\gigabyte_artur\warcastleduel\gaming\Player.javag g(2◊
+Sru.gigabyte_artur.warcastleduel.gaming.Player.GetRandomNamesArray()?rez@39.26:39.29CALLz
+pD:\YaDisk\synk\YandexDisk\JavaProjects\WarcastleDuel\core\src\ru\gigabyte_artur\warcastleduel\gaming\Player.javah h(2◊
+Sru.gigabyte_artur.warcastleduel.gaming.Player.GetRandomNamesArray()?rez@39.26:39.29CALLz
+pD:\YaDisk\synk\YandexDisk\JavaProjects\WarcastleDuel\core\src\ru\gigabyte_artur\warcastleduel\gaming\Player.javai i(2◊
+Sru.gigabyte_artur.warcastleduel.gaming.Player.GetRandomNamesArray()?rez@39.26:39.29CALLz
+pD:\YaDisk\synk\YandexDisk\JavaProjects\WarcastleDuel\core\src\ru\gigabyte_artur\warcastleduel\gaming\Player.javaj j(2◊
+Sru.gigabyte_artur.warcastleduel.gaming.Player.GetRandomNamesArray()?rez@39.26:39.29CALLz
+pD:\YaDisk\synk\YandexDisk\JavaProjects\WarcastleDuel\core\src\ru\gigabyte_artur\warcastleduel\gaming\Player.javak k(2◊
+Sru.gigabyte_artur.warcastleduel.gaming.Player.GetRandomNamesArray()?rez@39.26:39.29CALLz
+pD:\YaDisk\synk\YandexDisk\JavaProjects\WarcastleDuel\core\src\ru\gigabyte_artur\warcastleduel\gaming\Player.javal l(2◊
+Sru.gigabyte_artur.warcastleduel.gaming.Player.GetRandomNamesArray()?rez@39.26:39.29CALLz
+pD:\YaDisk\synk\YandexDisk\JavaProjects\WarcastleDuel\core\src\ru\gigabyte_artur\warcastleduel\gaming\Player.javam m(2◊
+Sru.gigabyte_artur.warcastleduel.gaming.Player.GetRandomNamesArray()?rez@39.26:39.29CALLz
+pD:\YaDisk\synk\YandexDisk\JavaProjects\WarcastleDuel\core\src\ru\gigabyte_artur\warcastleduel\gaming\Player.javan n(2◊
+Sru.gigabyte_artur.warcastleduel.gaming.Player.GetRandomNamesArray()?rez@39.26:39.29CALLz
+pD:\YaDisk\synk\YandexDisk\JavaProjects\WarcastleDuel\core\src\ru\gigabyte_artur\warcastleduel\gaming\Player.javao o(2◊
+Sru.gigabyte_artur.warcastleduel.gaming.Player.GetRandomNamesArray()?rez@39.26:39.29CALLz
+pD:\YaDisk\synk\YandexDisk\JavaProjects\WarcastleDuel\core\src\ru\gigabyte_artur\warcastleduel\gaming\Player.javap p(2◊
+Sru.gigabyte_artur.warcastleduel.gaming.Player.GetRandomNamesArray()?rez@39.26:39.29CALLz
+pD:\YaDisk\synk\YandexDisk\JavaProjects\WarcastleDuel\core\src\ru\gigabyte_artur\warcastleduel\gaming\Player.javaq q(2◊
+Sru.gigabyte_artur.warcastleduel.gaming.Player.GetRandomNamesArray()?rez@39.26:39.29CALLz
+pD:\YaDisk\synk\YandexDisk\JavaProjects\WarcastleDuel\core\src\ru\gigabyte_artur\warcastleduel\gaming\Player.javar r(2◊
+Sru.gigabyte_artur.warcastleduel.gaming.Player.GetRandomNamesArray()?rez@39.26:39.29CALLz
+pD:\YaDisk\synk\YandexDisk\JavaProjects\WarcastleDuel\core\src\ru\gigabyte_artur\warcastleduel\gaming\Player.javas s(2◊
+Sru.gigabyte_artur.warcastleduel.gaming.Player.GetRandomNamesArray()?rez@39.26:39.29CALLz
+pD:\YaDisk\synk\YandexDisk\JavaProjects\WarcastleDuel\core\src\ru\gigabyte_artur\warcastleduel\gaming\Player.javat t(2◊
+Sru.gigabyte_artur.warcastleduel.gaming.Player.GetRandomNamesArray()?rez@39.26:39.29CALLz
+pD:\YaDisk\synk\YandexDisk\JavaProjects\WarcastleDuel\core\src\ru\gigabyte_artur\warcastleduel\gaming\Player.javau u(2◊
+Sru.gigabyte_artur.warcastleduel.gaming.Player.GetRandomNamesArray()?rez@39.26:39.29CALLz
+pD:\YaDisk\synk\YandexDisk\JavaProjects\WarcastleDuel\core\src\ru\gigabyte_artur\warcastleduel\gaming\Player.javav v(2◊
+Sru.gigabyte_artur.warcastleduel.gaming.Player.GetRandomNamesArray()?rez@39.26:39.29CALLz
+pD:\YaDisk\synk\YandexDisk\JavaProjects\WarcastleDuel\core\src\ru\gigabyte_artur\warcastleduel\gaming\Player.javaw w(2◊
+Sru.gigabyte_artur.warcastleduel.gaming.Player.GetRandomNamesArray()?rez@39.26:39.29CALLz
+pD:\YaDisk\synk\YandexDisk\JavaProjects\WarcastleDuel\core\src\ru\gigabyte_artur\warcastleduel\gaming\Player.javax x(2◊
+Sru.gigabyte_artur.warcastleduel.gaming.Player.GetRandomNamesArray()?rez@39.26:39.29CALLz
+pD:\YaDisk\synk\YandexDisk\JavaProjects\WarcastleDuel\core\src\ru\gigabyte_artur\warcastleduel\gaming\Player.javay y(2◊
+Sru.gigabyte_artur.warcastleduel.gaming.Player.GetRandomNamesArray()?rez@39.26:39.29CALLz
+pD:\YaDisk\synk\YandexDisk\JavaProjects\WarcastleDuel\core\src\ru\gigabyte_artur\warcastleduel\gaming\Player.javaz z(2◊
+Sru.gigabyte_artur.warcastleduel.gaming.Player.GetRandomNamesArray()?rez@39.26:39.29CALLz
+pD:\YaDisk\synk\YandexDisk\JavaProjects\WarcastleDuel\core\src\ru\gigabyte_artur\warcastleduel\gaming\Player.java{ {(2◊
+Sru.gigabyte_artur.warcastleduel.gaming.Player.GetRandomNamesArray()?rez@39.26:39.29CALLz
+pD:\YaDisk\synk\YandexDisk\JavaProjects\WarcastleDuel\core\src\ru\gigabyte_artur\warcastleduel\gaming\Player.java| |(2◊
+Sru.gigabyte_artur.warcastleduel.gaming.Player.GetRandomNamesArray()?rez@39.26:39.29CALLz
+pD:\YaDisk\synk\YandexDisk\JavaProjects\WarcastleDuel\core\src\ru\gigabyte_artur\warcastleduel\gaming\Player.java} }(2◊
+Sru.gigabyte_artur.warcastleduel.gaming.Player.GetRandomNamesArray()?rez@39.26:39.29CALLz
+pD:\YaDisk\synk\YandexDisk\JavaProjects\WarcastleDuel\core\src\ru\gigabyte_artur\warcastleduel\gaming\Player.java~ ~(2◊
+Sru.gigabyte_artur.warcastleduel.gaming.Player.GetRandomNamesArray()?rez@39.26:39.29CALLz
+pD:\YaDisk\synk\YandexDisk\JavaProjects\WarcastleDuel\core\src\ru\gigabyte_artur\warcastleduel\gaming\Player.java (2Ÿ
+Sru.gigabyte_artur.warcastleduel.gaming.Player.GetRandomNamesArray()?rez@39.26:39.29CALL|
+pD:\YaDisk\synk\YandexDisk\JavaProjects\WarcastleDuel\core\src\ru\gigabyte_artur\warcastleduel\gaming\Player.javaÄ Ä(2Ÿ
+Sru.gigabyte_artur.warcastleduel.gaming.Player.GetRandomNamesArray()?rez@39.26:39.29CALL|
+pD:\YaDisk\synk\YandexDisk\JavaProjects\WarcastleDuel\core\src\ru\gigabyte_artur\warcastleduel\gaming\Player.javaÅ Å(2Ÿ
+Sru.gigabyte_artur.warcastleduel.gaming.Player.GetRandomNamesArray()?rez@39.26:39.29CALL|
+pD:\YaDisk\synk\YandexDisk\JavaProjects\WarcastleDuel\core\src\ru\gigabyte_artur\warcastleduel\gaming\Player.javaÇ Ç(2Ÿ
+Sru.gigabyte_artur.warcastleduel.gaming.Player.GetRandomNamesArray()?rez@39.26:39.29CALL|
+pD:\YaDisk\synk\YandexDisk\JavaProjects\WarcastleDuel\core\src\ru\gigabyte_artur\warcastleduel\gaming\Player.javaÉ É(2Ÿ
+Sru.gigabyte_artur.warcastleduel.gaming.Player.GetRandomNamesArray()?rez@39.26:39.29CALL|
+pD:\YaDisk\synk\YandexDisk\JavaProjects\WarcastleDuel\core\src\ru\gigabyte_artur\warcastleduel\gaming\Player.javaÑ Ñ(2Ÿ
+Sru.gigabyte_artur.warcastleduel.gaming.Player.GetRandomNamesArray()?rez@39.26:39.29CALL|
+pD:\YaDisk\synk\YandexDisk\JavaProjects\WarcastleDuel\core\src\ru\gigabyte_artur\warcastleduel\gaming\Player.javaÖ Ö(2Ÿ
+Sru.gigabyte_artur.warcastleduel.gaming.Player.GetRandomNamesArray()?rez@39.26:39.29CALL|
+pD:\YaDisk\synk\YandexDisk\JavaProjects\WarcastleDuel\core\src\ru\gigabyte_artur\warcastleduel\gaming\Player.javaÜ Ü(2Ÿ
+Sru.gigabyte_artur.warcastleduel.gaming.Player.GetRandomNamesArray()?rez@39.26:39.29CALL|
+pD:\YaDisk\synk\YandexDisk\JavaProjects\WarcastleDuel\core\src\ru\gigabyte_artur\warcastleduel\gaming\Player.javaá á(2Ÿ
+Sru.gigabyte_artur.warcastleduel.gaming.Player.GetRandomNamesArray()?rez@39.26:39.29CALL|
+pD:\YaDisk\synk\YandexDisk\JavaProjects\WarcastleDuel\core\src\ru\gigabyte_artur\warcastleduel\gaming\Player.javaà à(2Ÿ
+Sru.gigabyte_artur.warcastleduel.gaming.Player.GetRandomNamesArray()?rez@39.26:39.29CALL|
+pD:\YaDisk\synk\YandexDisk\JavaProjects\WarcastleDuel\core\src\ru\gigabyte_artur\warcastleduel\gaming\Player.javaâ â(2Ÿ
+Sru.gigabyte_artur.warcastleduel.gaming.Player.GetRandomNamesArray()?rez@39.26:39.29CALL|
+pD:\YaDisk\synk\YandexDisk\JavaProjects\WarcastleDuel\core\src\ru\gigabyte_artur\warcastleduel\gaming\Player.javaä ä(2Ÿ
+Sru.gigabyte_artur.warcastleduel.gaming.Player.GetRandomNamesArray()?rez@39.26:39.29CALL|
+pD:\YaDisk\synk\YandexDisk\JavaProjects\WarcastleDuel\core\src\ru\gigabyte_artur\warcastleduel\gaming\Player.javaã ã(2Ÿ
+Sru.gigabyte_artur.warcastleduel.gaming.Player.GetRandomNamesArray()?rez@39.26:39.29CALL|
+pD:\YaDisk\synk\YandexDisk\JavaProjects\WarcastleDuel\core\src\ru\gigabyte_artur\warcastleduel\gaming\Player.javaå å(2Ÿ
+Sru.gigabyte_artur.warcastleduel.gaming.Player.GetRandomNamesArray()?rez@39.26:39.29CALL|
+pD:\YaDisk\synk\YandexDisk\JavaProjects\WarcastleDuel\core\src\ru\gigabyte_artur\warcastleduel\gaming\Player.javaç ç(2Ÿ
+Sru.gigabyte_artur.warcastleduel.gaming.Player.GetRandomNamesArray()?rez@39.26:39.29CALL|
+pD:\YaDisk\synk\YandexDisk\JavaProjects\WarcastleDuel\core\src\ru\gigabyte_artur\warcastleduel\gaming\Player.javaé é(2Ÿ
+Sru.gigabyte_artur.warcastleduel.gaming.Player.GetRandomNamesArray()?rez@39.26:39.29CALL|
+pD:\YaDisk\synk\YandexDisk\JavaProjects\WarcastleDuel\core\src\ru\gigabyte_artur\warcastleduel\gaming\Player.javaè è(2Ÿ
+Sru.gigabyte_artur.warcastleduel.gaming.Player.GetRandomNamesArray()?rez@39.26:39.29CALL|
+pD:\YaDisk\synk\YandexDisk\JavaProjects\WarcastleDuel\core\src\ru\gigabyte_artur\warcastleduel\gaming\Player.javaê ê(2ﬁ
+Sru.gigabyte_artur.warcastleduel.gaming.Player.GetRandomNamesArray()?rez@39.26:39.29DECLARATIONz
+pD:\YaDisk\synk\YandexDisk\JavaProjects\WarcastleDuel\core\src\ru\gigabyte_artur\warcastleduel\gaming\Player.java' '(2û
+java.util.ArrayListRETURN_TYPEz
+pD:\YaDisk\synk\YandexDisk\JavaProjects\WarcastleDuel\core\src\ru\gigabyte_artur\warcastleduel\gaming\Player.java% %(2§
+java.lang.StringRETURN_TYPE_ARGUMENTz
+pD:\YaDisk\synk\YandexDisk\JavaProjects\WarcastleDuel\core\src\ru\gigabyte_artur\warcastleduel\gaming\Player.java% %(Ì
+Sru.gigabyte_artur.warcastleduel.gaming.Player.GetRandomNamesArray()?rez@39.26:39.29VARIABLEz
+pD:\YaDisk\synk\YandexDisk\JavaProjects\WarcastleDuel\core\src\ru\gigabyte_artur\warcastleduel\gaming\Player.java' '("
+typeArrayList<String>"
+isFinalfalse"~
+declarationStringi<mark class="modifier"> </mark>ArrayList<String> <mark class="class-field">rez</mark> = new ArrayList<>()*rez2ó
+java.util.ArrayListTYPEz
+pD:\YaDisk\synk\YandexDisk\JavaProjects\WarcastleDuel\core\src\ru\gigabyte_artur\warcastleduel\gaming\Player.java' '(2ù
+java.lang.StringTYPE_ARGUMENTz
+pD:\YaDisk\synk\YandexDisk\JavaProjects\WarcastleDuel\core\src\ru\gigabyte_artur\warcastleduel\gaming\Player.java' '(2£
+java.util.ArrayList.ArrayList()CALLz
+pD:\YaDisk\synk\YandexDisk\JavaProjects\WarcastleDuel\core\src\ru\gigabyte_artur\warcastleduel\gaming\Player.java'$ '(/Æ%
+=ru.gigabyte_artur.warcastleduel.gaming.Player.SetRandomName()METHOD|
+pD:\YaDisk\synk\YandexDisk\JavaProjects\WarcastleDuel\core\src\ru\gigabyte_artur\warcastleduel\gaming\Player.javaî î("
+isFinalfalse"à
+declarationStrings<mark class="modifier">public </mark><mark class="modifier">void</mark> <mark class="method">SetRandomName</mark>()"
+isStaticfalse"
+accesspublic"
+
+isAbstractfalse"
+typevoid*SetRandomName2…
+Cru.gigabyte_artur.warcastleduel.gaming.Player.GetRandomNamesArray()CALL|
+pD:\YaDisk\synk\YandexDisk\JavaProjects\WarcastleDuel\core\src\ru\gigabyte_artur\warcastleduel\gaming\Player.javaò' ò(:2†
+java.util.ArrayList.size()CALL|
+pD:\YaDisk\synk\YandexDisk\JavaProjects\WarcastleDuel\core\src\ru\gigabyte_artur\warcastleduel\gaming\Player.javaö# ö('2£
+java.util.Random.nextInt(int)CALL|
+pD:\YaDisk\synk\YandexDisk\JavaProjects\WarcastleDuel\core\src\ru\gigabyte_artur\warcastleduel\gaming\Player.javaù ù(#2¢
+java.util.ArrayList.get(int)CALL|
+pD:\YaDisk\synk\YandexDisk\JavaProjects\WarcastleDuel\core\src\ru\gigabyte_artur\warcastleduel\gaming\Player.javaû! û($2Õ
+Gru.gigabyte_artur.warcastleduel.gaming.Player.setName(java.lang.String)CALL|
+pD:\YaDisk\synk\YandexDisk\JavaProjects\WarcastleDuel\core\src\ru\gigabyte_artur\warcastleduel\gaming\Player.javaü ü(2ü
+java.util.Random.Random()CALL|
+pD:\YaDisk\synk\YandexDisk\JavaProjects\WarcastleDuel\core\src\ru\gigabyte_artur\warcastleduel\gaming\Player.javañ" ñ((2‹
+Vru.gigabyte_artur.warcastleduel.gaming.Player.SetRandomName()?ArrayNames@152.26:152.36CALL|
+pD:\YaDisk\synk\YandexDisk\JavaProjects\WarcastleDuel\core\src\ru\gigabyte_artur\warcastleduel\gaming\Player.javaö ö("2€
+Uru.gigabyte_artur.warcastleduel.gaming.Player.SetRandomName()?NamesSize@154.12:154.21CALL|
+pD:\YaDisk\synk\YandexDisk\JavaProjects\WarcastleDuel\core\src\ru\gigabyte_artur\warcastleduel\gaming\Player.javaõ õ(2ÿ
+Rru.gigabyte_artur.warcastleduel.gaming.Player.SetRandomName()?IdName@151.12:151.18CALL|
+pD:\YaDisk\synk\YandexDisk\JavaProjects\WarcastleDuel\core\src\ru\gigabyte_artur\warcastleduel\gaming\Player.javaù ù(2ÿ
+Rru.gigabyte_artur.warcastleduel.gaming.Player.SetRandomName()?random@150.21:150.27CALL|
+pD:\YaDisk\synk\YandexDisk\JavaProjects\WarcastleDuel\core\src\ru\gigabyte_artur\warcastleduel\gaming\Player.javaù ù(2€
+Uru.gigabyte_artur.warcastleduel.gaming.Player.SetRandomName()?NamesSize@154.12:154.21CALL|
+pD:\YaDisk\synk\YandexDisk\JavaProjects\WarcastleDuel\core\src\ru\gigabyte_artur\warcastleduel\gaming\Player.javaù$ ù(-2Ÿ
+Sru.gigabyte_artur.warcastleduel.gaming.Player.SetRandomName()?NewName@153.15:153.22CALL|
+pD:\YaDisk\synk\YandexDisk\JavaProjects\WarcastleDuel\core\src\ru\gigabyte_artur\warcastleduel\gaming\Player.javaû û(2‹
+Vru.gigabyte_artur.warcastleduel.gaming.Player.SetRandomName()?ArrayNames@152.26:152.36CALL|
+pD:\YaDisk\synk\YandexDisk\JavaProjects\WarcastleDuel\core\src\ru\gigabyte_artur\warcastleduel\gaming\Player.javaû û( 2ÿ
+Rru.gigabyte_artur.warcastleduel.gaming.Player.SetRandomName()?IdName@151.12:151.18CALL|
+pD:\YaDisk\synk\YandexDisk\JavaProjects\WarcastleDuel\core\src\ru\gigabyte_artur\warcastleduel\gaming\Player.javaû% û(+2Ÿ
+Sru.gigabyte_artur.warcastleduel.gaming.Player.SetRandomName()?NewName@153.15:153.22CALL|
+pD:\YaDisk\synk\YandexDisk\JavaProjects\WarcastleDuel\core\src\ru\gigabyte_artur\warcastleduel\gaming\Player.javaü ü(2ﬂ
+Rru.gigabyte_artur.warcastleduel.gaming.Player.SetRandomName()?random@150.21:150.27DECLARATION|
+pD:\YaDisk\synk\YandexDisk\JavaProjects\WarcastleDuel\core\src\ru\gigabyte_artur\warcastleduel\gaming\Player.javañ ñ(2ﬂ
+Rru.gigabyte_artur.warcastleduel.gaming.Player.SetRandomName()?IdName@151.12:151.18DECLARATION|
+pD:\YaDisk\synk\YandexDisk\JavaProjects\WarcastleDuel\core\src\ru\gigabyte_artur\warcastleduel\gaming\Player.javaó ó(2„
+Vru.gigabyte_artur.warcastleduel.gaming.Player.SetRandomName()?ArrayNames@152.26:152.36DECLARATION|
+pD:\YaDisk\synk\YandexDisk\JavaProjects\WarcastleDuel\core\src\ru\gigabyte_artur\warcastleduel\gaming\Player.javaò ò($2‡
+Sru.gigabyte_artur.warcastleduel.gaming.Player.SetRandomName()?NewName@153.15:153.22DECLARATION|
+pD:\YaDisk\synk\YandexDisk\JavaProjects\WarcastleDuel\core\src\ru\gigabyte_artur\warcastleduel\gaming\Player.javaô ô(2‚
+Uru.gigabyte_artur.warcastleduel.gaming.Player.SetRandomName()?NamesSize@154.12:154.21DECLARATION|
+pD:\YaDisk\synk\YandexDisk\JavaProjects\WarcastleDuel\core\src\ru\gigabyte_artur\warcastleduel\gaming\Player.javaö ö(2ë
+voidRETURN_TYPE|
+pD:\YaDisk\synk\YandexDisk\JavaProjects\WarcastleDuel\core\src\ru\gigabyte_artur\warcastleduel\gaming\Player.javaî î(÷
+Rru.gigabyte_artur.warcastleduel.gaming.Player.SetRandomName()?random@150.21:150.27VALUE|
+pD:\YaDisk\synk\YandexDisk\JavaProjects\WarcastleDuel\core\src\ru\gigabyte_artur\warcastleduel\gaming\Player.javañ ñ("
+typeRandom"
+isFinaltrue"ñ
+declarationStringÄ<mark class="modifier"> </mark><mark class="modifier">final </mark>Random <mark class="class-field">random</mark> = new Random()*random2ñ
+java.util.RandomTYPE|
+pD:\YaDisk\synk\YandexDisk\JavaProjects\WarcastleDuel\core\src\ru\gigabyte_artur\warcastleduel\gaming\Player.javañ ñ(2ü
+java.util.Random.Random()CALL|
+pD:\YaDisk\synk\YandexDisk\JavaProjects\WarcastleDuel\core\src\ru\gigabyte_artur\warcastleduel\gaming\Player.javañ" ñ((é
+Rru.gigabyte_artur.warcastleduel.gaming.Player.SetRandomName()?IdName@151.12:151.18VARIABLE|
+pD:\YaDisk\synk\YandexDisk\JavaProjects\WarcastleDuel\core\src\ru\gigabyte_artur\warcastleduel\gaming\Player.javaó ó("
+typeint"
+isFinalfalse"}
+declarationStringh<mark class="modifier"> </mark><mark class="modifier">int</mark> <mark class="class-field">IdName</mark>*IdName2â
+intTYPE|
+pD:\YaDisk\synk\YandexDisk\JavaProjects\WarcastleDuel\core\src\ru\gigabyte_artur\warcastleduel\gaming\Player.javaó ó(Ø
+Vru.gigabyte_artur.warcastleduel.gaming.Player.SetRandomName()?ArrayNames@152.26:152.36VARIABLE|
+pD:\YaDisk\synk\YandexDisk\JavaProjects\WarcastleDuel\core\src\ru\gigabyte_artur\warcastleduel\gaming\Player.javaò ò($"
+typeArrayList<String>"
+isFinalfalse"â
+declarationStringt<mark class="modifier"> </mark>ArrayList<String> <mark class="class-field">ArrayNames</mark> = GetRandomNamesArray()*
+ArrayNames2ô
+java.util.ArrayListTYPE|
+pD:\YaDisk\synk\YandexDisk\JavaProjects\WarcastleDuel\core\src\ru\gigabyte_artur\warcastleduel\gaming\Player.javaò ò(2ü
+java.lang.StringTYPE_ARGUMENT|
+pD:\YaDisk\synk\YandexDisk\JavaProjects\WarcastleDuel\core\src\ru\gigabyte_artur\warcastleduel\gaming\Player.javaò ò(2…
+Cru.gigabyte_artur.warcastleduel.gaming.Player.GetRandomNamesArray()CALL|
+pD:\YaDisk\synk\YandexDisk\JavaProjects\WarcastleDuel\core\src\ru\gigabyte_artur\warcastleduel\gaming\Player.javaò' ò(:Ü
+Sru.gigabyte_artur.warcastleduel.gaming.Player.SetRandomName()?NewName@153.15:153.22VARIABLE|
+pD:\YaDisk\synk\YandexDisk\JavaProjects\WarcastleDuel\core\src\ru\gigabyte_artur\warcastleduel\gaming\Player.javaô ô("
+typeString"
+isFinalfalse"c
+declarationStringN<mark class="modifier"> </mark>String <mark class="class-field">NewName</mark>*NewName2ñ
+java.lang.StringTYPE|
+pD:\YaDisk\synk\YandexDisk\JavaProjects\WarcastleDuel\core\src\ru\gigabyte_artur\warcastleduel\gaming\Player.javaô ô(Æ
+Uru.gigabyte_artur.warcastleduel.gaming.Player.SetRandomName()?NamesSize@154.12:154.21VARIABLE|
+pD:\YaDisk\synk\YandexDisk\JavaProjects\WarcastleDuel\core\src\ru\gigabyte_artur\warcastleduel\gaming\Player.javaö ö("
+typeint"
+isFinalfalse"î
+declarationString<mark class="modifier"> </mark><mark class="modifier">int</mark> <mark class="class-field">NamesSize</mark> = ArrayNames.size()*	NamesSize2â
+intTYPE|
+pD:\YaDisk\synk\YandexDisk\JavaProjects\WarcastleDuel\core\src\ru\gigabyte_artur\warcastleduel\gaming\Player.javaö ö(2†
+java.util.ArrayList.size()CALL|
+pD:\YaDisk\synk\YandexDisk\JavaProjects\WarcastleDuel\core\src\ru\gigabyte_artur\warcastleduel\gaming\Player.javaö# ö('2‹
+Vru.gigabyte_artur.warcastleduel.gaming.Player.SetRandomName()?ArrayNames@152.26:152.36CALL|
+pD:\YaDisk\synk\YandexDisk\JavaProjects\WarcastleDuel\core\src\ru\gigabyte_artur\warcastleduel\gaming\Player.javaö ö("ª
+7ru.gigabyte_artur.warcastleduel.gaming.Player.NewGame()METHOD|
+pD:\YaDisk\synk\YandexDisk\JavaProjects\WarcastleDuel\core\src\ru\gigabyte_artur\warcastleduel\gaming\Player.java§ §("
+isFinalfalse"Ç
+declarationStringm<mark class="modifier">public </mark><mark class="modifier">void</mark> <mark class="method">NewGame</mark>()"
+isStaticfalse"
+accesspublic"
+
+isAbstractfalse"
+typevoid*NewGame2ë
+voidRETURN_TYPE|
+pD:\YaDisk\synk\YandexDisk\JavaProjects\WarcastleDuel\core\src\ru\gigabyte_artur\warcastleduel\gaming\Player.java§ §(¥
+rru.gigabyte_artur.warcastleduel.gaming.Player.Play(ru.gigabyte_artur.warcastleduel.gaming.TwoPlayersGame, boolean)METHOD|
+pD:\YaDisk\synk\YandexDisk\JavaProjects\WarcastleDuel\core\src\ru\gigabyte_artur\warcastleduel\gaming\Player.java¨ ¨("
+isFinalfalse"Ç
+declarationStringÏ<mark class="modifier">public </mark><mark class="modifier">int</mark> <mark class="method">Play</mark>(TwoPlayersGame game_in<mark class="modifier"><mark class="modifier">,</mark></mark> <mark class="modifier">boolean</mark> silent_in)"
+isStaticfalse"
+accesspublic"
+
+isAbstractfalse"
+typeint*Play2ã
+Ñru.gigabyte_artur.warcastleduel.gaming.Player.Play(ru.gigabyte_artur.warcastleduel.gaming.TwoPlayersGame, boolean)?rez@174.12:174.15CALL|
+pD:\YaDisk\synk\YandexDisk\JavaProjects\WarcastleDuel\core\src\ru\gigabyte_artur\warcastleduel\gaming\Player.javaØ Ø(2ã
+Ñru.gigabyte_artur.warcastleduel.gaming.Player.Play(ru.gigabyte_artur.warcastleduel.gaming.TwoPlayersGame, boolean)?rez@174.12:174.15CALL|
+pD:\YaDisk\synk\YandexDisk\JavaProjects\WarcastleDuel\core\src\ru\gigabyte_artur\warcastleduel\gaming\Player.java∞ ∞(2Ö
+zru.gigabyte_artur.warcastleduel.gaming.Player.Play(ru.gigabyte_artur.warcastleduel.gaming.TwoPlayersGame, boolean)!game_in	PARAMETER|
+pD:\YaDisk\synk\YandexDisk\JavaProjects\WarcastleDuel\core\src\ru\gigabyte_artur\warcastleduel\gaming\Player.java¨# ¨(*2á
+|ru.gigabyte_artur.warcastleduel.gaming.Player.Play(ru.gigabyte_artur.warcastleduel.gaming.TwoPlayersGame, boolean)!silent_in	PARAMETER|
+pD:\YaDisk\synk\YandexDisk\JavaProjects\WarcastleDuel\core\src\ru\gigabyte_artur\warcastleduel\gaming\Player.java¨4 ¨(=2í
+Ñru.gigabyte_artur.warcastleduel.gaming.Player.Play(ru.gigabyte_artur.warcastleduel.gaming.TwoPlayersGame, boolean)?rez@174.12:174.15DECLARATION|
+pD:\YaDisk\synk\YandexDisk\JavaProjects\WarcastleDuel\core\src\ru\gigabyte_artur\warcastleduel\gaming\Player.javaÆ Æ(2ê
+intRETURN_TYPE|
+pD:\YaDisk\synk\YandexDisk\JavaProjects\WarcastleDuel\core\src\ru\gigabyte_artur\warcastleduel\gaming\Player.java¨ ¨(ª
+Ñru.gigabyte_artur.warcastleduel.gaming.Player.Play(ru.gigabyte_artur.warcastleduel.gaming.TwoPlayersGame, boolean)?rez@174.12:174.15VARIABLE|
+pD:\YaDisk\synk\YandexDisk\JavaProjects\WarcastleDuel\core\src\ru\gigabyte_artur\warcastleduel\gaming\Player.javaÆ Æ("
+typeint"
+isFinalfalse"z
+declarationStringe<mark class="modifier"> </mark><mark class="modifier">int</mark> <mark class="class-field">rez</mark>*rez2â
+intTYPE|
+pD:\YaDisk\synk\YandexDisk\JavaProjects\WarcastleDuel\core\src\ru\gigabyte_artur\warcastleduel\gaming\Player.javaÆ Æ(£
+zru.gigabyte_artur.warcastleduel.gaming.Player.Play(ru.gigabyte_artur.warcastleduel.gaming.TwoPlayersGame, boolean)!game_in	PARAMETER|
+pD:\YaDisk\synk\YandexDisk\JavaProjects\WarcastleDuel\core\src\ru\gigabyte_artur\warcastleduel\gaming\Player.java¨# ¨(*"
+typeTwoPlayersGame"
+isFinalfalse"+
+declarationStringTwoPlayersGame game_in*game_in2ª
+5ru.gigabyte_artur.warcastleduel.gaming.TwoPlayersGameTYPE|
+pD:\YaDisk\synk\YandexDisk\JavaProjects\WarcastleDuel\core\src\ru\gigabyte_artur\warcastleduel\gaming\Player.java¨ ¨("ã
+|ru.gigabyte_artur.warcastleduel.gaming.Player.Play(ru.gigabyte_artur.warcastleduel.gaming.TwoPlayersGame, boolean)!silent_in	PARAMETER|
+pD:\YaDisk\synk\YandexDisk\JavaProjects\WarcastleDuel\core\src\ru\gigabyte_artur\warcastleduel\gaming\Player.java¨4 ¨(="
+typeboolean"
+isFinalfalse"D
+declarationString/<mark class="modifier">boolean</mark> silent_in*	silent_in2ç
+booleanTYPE|
+pD:\YaDisk\synk\YandexDisk\JavaProjects\WarcastleDuel\core\src\ru\gigabyte_artur\warcastleduel\gaming\Player.java¨, ¨(3í
+<ru.gigabyte_artur.warcastleduel.gaming.Player?name@8.19:8.23VARIABLEz
+pD:\YaDisk\synk\YandexDisk\JavaProjects\WarcastleDuel\core\src\ru\gigabyte_artur\warcastleduel\gaming\Player.java ("
+isFinalfalse"
+typeString"g
+declarationStringR<mark class="modifier">private </mark>String <mark class="class-field">name</mark>"
+isStaticfalse"
+accessprivate*name2î
+java.lang.StringTYPEz
+pD:\YaDisk\synk\YandexDisk\JavaProjects\WarcastleDuel\core\src\ru\gigabyte_artur\warcastleduel\gaming\Player.java (

@@ -1,0 +1,218 @@
+
+xD:\YaDisk\synk\YandexDisk\JavaProjects\WarcastleDuel\core\src\ru\gigabyte_artur\warcastleduel\gaming\TwoPlayersGame.java¶
+5ru.gigabyte_artur.warcastleduel.gaming.TwoPlayersGameCLASSÇ
+xD:\YaDisk\synk\YandexDisk\JavaProjects\WarcastleDuel\core\src\ru\gigabyte_artur\warcastleduel\gaming\TwoPlayersGame.java ($"1
+package&ru.gigabyte_artur.warcastleduel.gaming"
+isFinalfalse"
+inner classfalse"
+
+isAbstracttrue" 
+declarationString¥<mark class="modifier">public </mark><mark class="modifier">abstract </mark><mark class="modifier">class </mark>TwoPlayersGame<mark class="modifier"> extends </mark>MultiPlayerGame"
+accesspublic*TwoPlayersGame2⁄
+Fru.gigabyte_artur.warcastleduel.gaming.TwoPlayersGame.TwoPlayersGame()DECLARATIONÇ
+xD:\YaDisk\synk\YandexDisk\JavaProjects\WarcastleDuel\core\src\ru\gigabyte_artur\warcastleduel\gaming\TwoPlayersGame.java (2≥
+ûru.gigabyte_artur.warcastleduel.gaming.TwoPlayersGame.SetPlayers(ru.gigabyte_artur.warcastleduel.gaming.Player, ru.gigabyte_artur.warcastleduel.gaming.Player)DECLARATIONÇ
+xD:\YaDisk\synk\YandexDisk\JavaProjects\WarcastleDuel\core\src\ru\gigabyte_artur\warcastleduel\gaming\TwoPlayersGame.java (2Ö
+qru.gigabyte_artur.warcastleduel.gaming.TwoPlayersGame.PlayWithUser(ru.gigabyte_artur.warcastleduel.gaming.Player)DECLARATIONÇ
+xD:\YaDisk\synk\YandexDisk\JavaProjects\WarcastleDuel\core\src\ru\gigabyte_artur\warcastleduel\gaming\TwoPlayersGame.java (2÷
+Bru.gigabyte_artur.warcastleduel.gaming.TwoPlayersGame.getPlayer1()DECLARATIONÇ
+xD:\YaDisk\synk\YandexDisk\JavaProjects\WarcastleDuel\core\src\ru\gigabyte_artur\warcastleduel\gaming\TwoPlayersGame.java (2÷
+Bru.gigabyte_artur.warcastleduel.gaming.TwoPlayersGame.getPlayer2()DECLARATIONÇ
+xD:\YaDisk\synk\YandexDisk\JavaProjects\WarcastleDuel\core\src\ru\gigabyte_artur\warcastleduel\gaming\TwoPlayersGame.java   (2Ê
+Rru.gigabyte_artur.warcastleduel.gaming.TwoPlayersGame.GetStandardNumberOfPlayers()DECLARATIONÇ
+xD:\YaDisk\synk\YandexDisk\JavaProjects\WarcastleDuel\core\src\ru\gigabyte_artur\warcastleduel\gaming\TwoPlayersGame.java& &()2Ñ
+pru.gigabyte_artur.warcastleduel.gaming.TwoPlayersGame.GetOpponent(ru.gigabyte_artur.warcastleduel.gaming.Player)DECLARATIONÇ
+xD:\YaDisk\synk\YandexDisk\JavaProjects\WarcastleDuel\core\src\ru\gigabyte_artur\warcastleduel\gaming\TwoPlayersGame.java- -(2≈
+6ru.gigabyte_artur.warcastleduel.gaming.MultiPlayerGameEXTENDÇ
+xD:\YaDisk\synk\YandexDisk\JavaProjects\WarcastleDuel\core\src\ru\gigabyte_artur\warcastleduel\gaming\TwoPlayersGame.java- (<˘
+Fru.gigabyte_artur.warcastleduel.gaming.TwoPlayersGame.TwoPlayersGame()CONSTRUCTORÇ
+xD:\YaDisk\synk\YandexDisk\JavaProjects\WarcastleDuel\core\src\ru\gigabyte_artur\warcastleduel\gaming\TwoPlayersGame.java ("f
+declarationStringQ<mark class="modifier">public </mark><mark class="method">TwoPlayersGame</mark>()*TwoPlayersGame2ÿ
+Kru.gigabyte_artur.warcastleduel.gaming.MultiPlayerGame.SetEmptyPlayers(int)CALLÇ
+xD:\YaDisk\synk\YandexDisk\JavaProjects\WarcastleDuel\core\src\ru\gigabyte_artur\warcastleduel\gaming\TwoPlayersGame.java (2…
+5ru.gigabyte_artur.warcastleduel.gaming.TwoPlayersGameRETURN_TYPEÇ
+xD:\YaDisk\synk\YandexDisk\JavaProjects\WarcastleDuel\core\src\ru\gigabyte_artur\warcastleduel\gaming\TwoPlayersGame.java (ö
+ûru.gigabyte_artur.warcastleduel.gaming.TwoPlayersGame.SetPlayers(ru.gigabyte_artur.warcastleduel.gaming.Player, ru.gigabyte_artur.warcastleduel.gaming.Player)METHODÇ
+xD:\YaDisk\synk\YandexDisk\JavaProjects\WarcastleDuel\core\src\ru\gigabyte_artur\warcastleduel\gaming\TwoPlayersGame.java ("
+isFinalfalse"Ê
+declarationString–<mark class="modifier">public </mark><mark class="modifier">void</mark> <mark class="method">SetPlayers</mark>(Player player1_in<mark class="modifier"><mark class="modifier">,</mark></mark> Player player2_in)"
+isStaticfalse"
+accesspublic"
+
+isAbstractfalse"
+typevoid*
+SetPlayers2Ö
+xru.gigabyte_artur.warcastleduel.gaming.MultiPlayerGame.setPlayerById(int, ru.gigabyte_artur.warcastleduel.gaming.Player)CALLÇ
+xD:\YaDisk\synk\YandexDisk\JavaProjects\WarcastleDuel\core\src\ru\gigabyte_artur\warcastleduel\gaming\TwoPlayersGame.java (2Ö
+xru.gigabyte_artur.warcastleduel.gaming.MultiPlayerGame.setPlayerById(int, ru.gigabyte_artur.warcastleduel.gaming.Player)CALLÇ
+xD:\YaDisk\synk\YandexDisk\JavaProjects\WarcastleDuel\core\src\ru\gigabyte_artur\warcastleduel\gaming\TwoPlayersGame.java (2∑
+©ru.gigabyte_artur.warcastleduel.gaming.TwoPlayersGame.SetPlayers(ru.gigabyte_artur.warcastleduel.gaming.Player, ru.gigabyte_artur.warcastleduel.gaming.Player)!player1_inCALLÇ
+xD:\YaDisk\synk\YandexDisk\JavaProjects\WarcastleDuel\core\src\ru\gigabyte_artur\warcastleduel\gaming\TwoPlayersGame.java ((2∑
+©ru.gigabyte_artur.warcastleduel.gaming.TwoPlayersGame.SetPlayers(ru.gigabyte_artur.warcastleduel.gaming.Player, ru.gigabyte_artur.warcastleduel.gaming.Player)!player2_inCALLÇ
+xD:\YaDisk\synk\YandexDisk\JavaProjects\WarcastleDuel\core\src\ru\gigabyte_artur\warcastleduel\gaming\TwoPlayersGame.java ((2º
+©ru.gigabyte_artur.warcastleduel.gaming.TwoPlayersGame.SetPlayers(ru.gigabyte_artur.warcastleduel.gaming.Player, ru.gigabyte_artur.warcastleduel.gaming.Player)!player1_in	PARAMETERÇ
+xD:\YaDisk\synk\YandexDisk\JavaProjects\WarcastleDuel\core\src\ru\gigabyte_artur\warcastleduel\gaming\TwoPlayersGame.java" (,2º
+©ru.gigabyte_artur.warcastleduel.gaming.TwoPlayersGame.SetPlayers(ru.gigabyte_artur.warcastleduel.gaming.Player, ru.gigabyte_artur.warcastleduel.gaming.Player)!player2_in	PARAMETERÇ
+xD:\YaDisk\synk\YandexDisk\JavaProjects\WarcastleDuel\core\src\ru\gigabyte_artur\warcastleduel\gaming\TwoPlayersGame.java5 (?2ò
+voidRETURN_TYPEÇ
+xD:\YaDisk\synk\YandexDisk\JavaProjects\WarcastleDuel\core\src\ru\gigabyte_artur\warcastleduel\gaming\TwoPlayersGame.java (œ
+©ru.gigabyte_artur.warcastleduel.gaming.TwoPlayersGame.SetPlayers(ru.gigabyte_artur.warcastleduel.gaming.Player, ru.gigabyte_artur.warcastleduel.gaming.Player)!player1_in	PARAMETERÇ
+xD:\YaDisk\synk\YandexDisk\JavaProjects\WarcastleDuel\core\src\ru\gigabyte_artur\warcastleduel\gaming\TwoPlayersGame.java" (,"
+typePlayer"
+isFinalfalse"&
+declarationStringPlayer player1_in*
+player1_in2∫
+-ru.gigabyte_artur.warcastleduel.gaming.PlayerTYPEÇ
+xD:\YaDisk\synk\YandexDisk\JavaProjects\WarcastleDuel\core\src\ru\gigabyte_artur\warcastleduel\gaming\TwoPlayersGame.java (!œ
+©ru.gigabyte_artur.warcastleduel.gaming.TwoPlayersGame.SetPlayers(ru.gigabyte_artur.warcastleduel.gaming.Player, ru.gigabyte_artur.warcastleduel.gaming.Player)!player2_in	PARAMETERÇ
+xD:\YaDisk\synk\YandexDisk\JavaProjects\WarcastleDuel\core\src\ru\gigabyte_artur\warcastleduel\gaming\TwoPlayersGame.java5 (?"
+typePlayer"
+isFinalfalse"&
+declarationStringPlayer player2_in*
+player2_in2∫
+-ru.gigabyte_artur.warcastleduel.gaming.PlayerTYPEÇ
+xD:\YaDisk\synk\YandexDisk\JavaProjects\WarcastleDuel\core\src\ru\gigabyte_artur\warcastleduel\gaming\TwoPlayersGame.java. (4÷
+qru.gigabyte_artur.warcastleduel.gaming.TwoPlayersGame.PlayWithUser(ru.gigabyte_artur.warcastleduel.gaming.Player)METHODÇ
+xD:\YaDisk\synk\YandexDisk\JavaProjects\WarcastleDuel\core\src\ru\gigabyte_artur\warcastleduel\gaming\TwoPlayersGame.java ("
+isFinalfalse"ó
+declarationStringÅ<mark class="modifier">public </mark><mark class="modifier">int</mark> <mark class="method">PlayWithUser</mark>(Player player_in)"
+isStaticfalse"
+accesspublic"
+
+isAbstractfalse"
+typeint*PlayWithUser2è
+Åru.gigabyte_artur.warcastleduel.gaming.TwoPlayersGame.PlayWithUser(ru.gigabyte_artur.warcastleduel.gaming.Player)?rez@21.12:21.15CALLÇ
+xD:\YaDisk\synk\YandexDisk\JavaProjects\WarcastleDuel\core\src\ru\gigabyte_artur\warcastleduel\gaming\TwoPlayersGame.java (2ç
+{ru.gigabyte_artur.warcastleduel.gaming.TwoPlayersGame.PlayWithUser(ru.gigabyte_artur.warcastleduel.gaming.Player)!player_in	PARAMETERÇ
+xD:\YaDisk\synk\YandexDisk\JavaProjects\WarcastleDuel\core\src\ru\gigabyte_artur\warcastleduel\gaming\TwoPlayersGame.java# (,2ñ
+Åru.gigabyte_artur.warcastleduel.gaming.TwoPlayersGame.PlayWithUser(ru.gigabyte_artur.warcastleduel.gaming.Player)?rez@21.12:21.15DECLARATIONÇ
+xD:\YaDisk\synk\YandexDisk\JavaProjects\WarcastleDuel\core\src\ru\gigabyte_artur\warcastleduel\gaming\TwoPlayersGame.java (2ó
+intRETURN_TYPEÇ
+xD:\YaDisk\synk\YandexDisk\JavaProjects\WarcastleDuel\core\src\ru\gigabyte_artur\warcastleduel\gaming\TwoPlayersGame.java (À
+Åru.gigabyte_artur.warcastleduel.gaming.TwoPlayersGame.PlayWithUser(ru.gigabyte_artur.warcastleduel.gaming.Player)?rez@21.12:21.15VARIABLEÇ
+xD:\YaDisk\synk\YandexDisk\JavaProjects\WarcastleDuel\core\src\ru\gigabyte_artur\warcastleduel\gaming\TwoPlayersGame.java ("
+typeint"
+isFinalfalse"
+declarationStringj<mark class="modifier"> </mark><mark class="modifier">int</mark> <mark class="class-field">rez</mark> = -1*rez2ê
+intTYPEÇ
+xD:\YaDisk\synk\YandexDisk\JavaProjects\WarcastleDuel\core\src\ru\gigabyte_artur\warcastleduel\gaming\TwoPlayersGame.java (û
+{ru.gigabyte_artur.warcastleduel.gaming.TwoPlayersGame.PlayWithUser(ru.gigabyte_artur.warcastleduel.gaming.Player)!player_in	PARAMETERÇ
+xD:\YaDisk\synk\YandexDisk\JavaProjects\WarcastleDuel\core\src\ru\gigabyte_artur\warcastleduel\gaming\TwoPlayersGame.java# (,"
+typePlayer"
+isFinalfalse"%
+declarationStringPlayer player_in*	player_in2∫
+-ru.gigabyte_artur.warcastleduel.gaming.PlayerTYPEÇ
+xD:\YaDisk\synk\YandexDisk\JavaProjects\WarcastleDuel\core\src\ru\gigabyte_artur\warcastleduel\gaming\TwoPlayersGame.java ("¡
+Bru.gigabyte_artur.warcastleduel.gaming.TwoPlayersGame.getPlayer1()METHODÇ
+xD:\YaDisk\synk\YandexDisk\JavaProjects\WarcastleDuel\core\src\ru\gigabyte_artur\warcastleduel\gaming\TwoPlayersGame.java ("
+isFinalfalse"i
+declarationStringT<mark class="modifier">public </mark>Player <mark class="method">getPlayer1</mark>()"
+isStaticfalse"
+accesspublic"
+
+isAbstractfalse"
+typePlayer*
+getPlayer12÷
+Iru.gigabyte_artur.warcastleduel.gaming.MultiPlayerGame.getPlayerById(int)CALLÇ
+xD:\YaDisk\synk\YandexDisk\JavaProjects\WarcastleDuel\core\src\ru\gigabyte_artur\warcastleduel\gaming\TwoPlayersGame.java (!2¡
+-ru.gigabyte_artur.warcastleduel.gaming.PlayerRETURN_TYPEÇ
+xD:\YaDisk\synk\YandexDisk\JavaProjects\WarcastleDuel\core\src\ru\gigabyte_artur\warcastleduel\gaming\TwoPlayersGame.java (¡
+Bru.gigabyte_artur.warcastleduel.gaming.TwoPlayersGame.getPlayer2()METHODÇ
+xD:\YaDisk\synk\YandexDisk\JavaProjects\WarcastleDuel\core\src\ru\gigabyte_artur\warcastleduel\gaming\TwoPlayersGame.java   ("
+isFinalfalse"i
+declarationStringT<mark class="modifier">public </mark>Player <mark class="method">getPlayer2</mark>()"
+isStaticfalse"
+accesspublic"
+
+isAbstractfalse"
+typePlayer*
+getPlayer22÷
+Iru.gigabyte_artur.warcastleduel.gaming.MultiPlayerGame.getPlayerById(int)CALLÇ
+xD:\YaDisk\synk\YandexDisk\JavaProjects\WarcastleDuel\core\src\ru\gigabyte_artur\warcastleduel\gaming\TwoPlayersGame.java" "(!2¡
+-ru.gigabyte_artur.warcastleduel.gaming.PlayerRETURN_TYPEÇ
+xD:\YaDisk\synk\YandexDisk\JavaProjects\WarcastleDuel\core\src\ru\gigabyte_artur\warcastleduel\gaming\TwoPlayersGame.java   (à
+Rru.gigabyte_artur.warcastleduel.gaming.TwoPlayersGame.GetStandardNumberOfPlayers()METHODÇ
+xD:\YaDisk\synk\YandexDisk\JavaProjects\WarcastleDuel\core\src\ru\gigabyte_artur\warcastleduel\gaming\TwoPlayersGame.java& &()"
+isFinalfalse"√
+declarationString≠<mark class="annotation">@Override</mark> <br><mark class="modifier">public </mark><mark class="modifier">int</mark> <mark class="method">GetStandardNumberOfPlayers</mark>()"
+isStaticfalse"
+accesspublic"
+
+isAbstractfalse"
+typeint*GetStandardNumberOfPlayers2Ô
+bru.gigabyte_artur.warcastleduel.gaming.TwoPlayersGame.GetStandardNumberOfPlayers()?rez@40.12:40.15CALLÇ
+xD:\YaDisk\synk\YandexDisk\JavaProjects\WarcastleDuel\core\src\ru\gigabyte_artur\warcastleduel\gaming\TwoPlayersGame.java) )(2‰
+Sru.gigabyte_artur.warcastleduel.gaming.MultiPlayerGame.GetStandardNumberOfPlayers()OVERRIDEÇ
+xD:\YaDisk\synk\YandexDisk\JavaProjects\WarcastleDuel\core\src\ru\gigabyte_artur\warcastleduel\gaming\TwoPlayersGame.java& &()2ˆ
+bru.gigabyte_artur.warcastleduel.gaming.TwoPlayersGame.GetStandardNumberOfPlayers()?rez@40.12:40.15DECLARATIONÇ
+xD:\YaDisk\synk\YandexDisk\JavaProjects\WarcastleDuel\core\src\ru\gigabyte_artur\warcastleduel\gaming\TwoPlayersGame.java( ((2ó
+intRETURN_TYPEÇ
+xD:\YaDisk\synk\YandexDisk\JavaProjects\WarcastleDuel\core\src\ru\gigabyte_artur\warcastleduel\gaming\TwoPlayersGame.java& &(™
+bru.gigabyte_artur.warcastleduel.gaming.TwoPlayersGame.GetStandardNumberOfPlayers()?rez@40.12:40.15VARIABLEÇ
+xD:\YaDisk\synk\YandexDisk\JavaProjects\WarcastleDuel\core\src\ru\gigabyte_artur\warcastleduel\gaming\TwoPlayersGame.java( (("
+typeint"
+isFinalfalse"~
+declarationStringi<mark class="modifier"> </mark><mark class="modifier">int</mark> <mark class="class-field">rez</mark> = 2*rez2ê
+intTYPEÇ
+xD:\YaDisk\synk\YandexDisk\JavaProjects\WarcastleDuel\core\src\ru\gigabyte_artur\warcastleduel\gaming\TwoPlayersGame.java( ((§$
+pru.gigabyte_artur.warcastleduel.gaming.TwoPlayersGame.GetOpponent(ru.gigabyte_artur.warcastleduel.gaming.Player)METHODÇ
+xD:\YaDisk\synk\YandexDisk\JavaProjects\WarcastleDuel\core\src\ru\gigabyte_artur\warcastleduel\gaming\TwoPlayersGame.java- -("
+isFinalfalse"z
+declarationStringe<mark class="modifier">public </mark>Player <mark class="method">GetOpponent</mark>(Player Player_in)"
+isStaticfalse"
+accesspublic"
+
+isAbstractfalse"
+typePlayer*GetOpponent2∂
+)java.lang.Object.equals(java.lang.Object)CALLÇ
+xD:\YaDisk\synk\YandexDisk\JavaProjects\WarcastleDuel\core\src\ru\gigabyte_artur\warcastleduel\gaming\TwoPlayersGame.java0 0($2œ
+Bru.gigabyte_artur.warcastleduel.gaming.TwoPlayersGame.getPlayer1()CALLÇ
+xD:\YaDisk\synk\YandexDisk\JavaProjects\WarcastleDuel\core\src\ru\gigabyte_artur\warcastleduel\gaming\TwoPlayersGame.java0 0(2œ
+Bru.gigabyte_artur.warcastleduel.gaming.TwoPlayersGame.getPlayer2()CALLÇ
+xD:\YaDisk\synk\YandexDisk\JavaProjects\WarcastleDuel\core\src\ru\gigabyte_artur\warcastleduel\gaming\TwoPlayersGame.java1 1(!2∂
+)java.lang.Object.equals(java.lang.Object)CALLÇ
+xD:\YaDisk\synk\YandexDisk\JavaProjects\WarcastleDuel\core\src\ru\gigabyte_artur\warcastleduel\gaming\TwoPlayersGame.java4" 4((2œ
+Bru.gigabyte_artur.warcastleduel.gaming.TwoPlayersGame.getPlayer2()CALLÇ
+xD:\YaDisk\synk\YandexDisk\JavaProjects\WarcastleDuel\core\src\ru\gigabyte_artur\warcastleduel\gaming\TwoPlayersGame.java4 4(2œ
+Bru.gigabyte_artur.warcastleduel.gaming.TwoPlayersGame.getPlayer1()CALLÇ
+xD:\YaDisk\synk\YandexDisk\JavaProjects\WarcastleDuel\core\src\ru\gigabyte_artur\warcastleduel\gaming\TwoPlayersGame.java5 5(%2∫
+-java.io.PrintStream.println(java.lang.String)CALLÇ
+xD:\YaDisk\synk\YandexDisk\JavaProjects\WarcastleDuel\core\src\ru\gigabyte_artur\warcastleduel\gaming\TwoPlayersGame.java7 7("2ƒ
+7ru.gigabyte_artur.warcastleduel.gaming.Player.getName()CALLÇ
+xD:\YaDisk\synk\YandexDisk\JavaProjects\WarcastleDuel\core\src\ru\gigabyte_artur\warcastleduel\gaming\TwoPlayersGame.java7W 7(^2√
+6ru.gigabyte_artur.warcastleduel.gaming.Player.Player()CALLÇ
+xD:\YaDisk\synk\YandexDisk\JavaProjects\WarcastleDuel\core\src\ru\gigabyte_artur\warcastleduel\gaming\TwoPlayersGame.java/ /(2á
+zru.gigabyte_artur.warcastleduel.gaming.TwoPlayersGame.GetOpponent(ru.gigabyte_artur.warcastleduel.gaming.Player)!Player_inCALLÇ
+xD:\YaDisk\synk\YandexDisk\JavaProjects\WarcastleDuel\core\src\ru\gigabyte_artur\warcastleduel\gaming\TwoPlayersGame.java0% 0(.2é
+Äru.gigabyte_artur.warcastleduel.gaming.TwoPlayersGame.GetOpponent(ru.gigabyte_artur.warcastleduel.gaming.Player)?rez@47.15:47.18CALLÇ
+xD:\YaDisk\synk\YandexDisk\JavaProjects\WarcastleDuel\core\src\ru\gigabyte_artur\warcastleduel\gaming\TwoPlayersGame.java1 1(2á
+zru.gigabyte_artur.warcastleduel.gaming.TwoPlayersGame.GetOpponent(ru.gigabyte_artur.warcastleduel.gaming.Player)!Player_inCALLÇ
+xD:\YaDisk\synk\YandexDisk\JavaProjects\WarcastleDuel\core\src\ru\gigabyte_artur\warcastleduel\gaming\TwoPlayersGame.java4) 4(22é
+Äru.gigabyte_artur.warcastleduel.gaming.TwoPlayersGame.GetOpponent(ru.gigabyte_artur.warcastleduel.gaming.Player)?rez@47.15:47.18CALLÇ
+xD:\YaDisk\synk\YandexDisk\JavaProjects\WarcastleDuel\core\src\ru\gigabyte_artur\warcastleduel\gaming\TwoPlayersGame.java5 5(2á
+zru.gigabyte_artur.warcastleduel.gaming.TwoPlayersGame.GetOpponent(ru.gigabyte_artur.warcastleduel.gaming.Player)!Player_inCALLÇ
+xD:\YaDisk\synk\YandexDisk\JavaProjects\WarcastleDuel\core\src\ru\gigabyte_artur\warcastleduel\gaming\TwoPlayersGame.java7M 7(V2é
+Äru.gigabyte_artur.warcastleduel.gaming.TwoPlayersGame.GetOpponent(ru.gigabyte_artur.warcastleduel.gaming.Player)?rez@47.15:47.18CALLÇ
+xD:\YaDisk\synk\YandexDisk\JavaProjects\WarcastleDuel\core\src\ru\gigabyte_artur\warcastleduel\gaming\TwoPlayersGame.java9 9(2å
+zru.gigabyte_artur.warcastleduel.gaming.TwoPlayersGame.GetOpponent(ru.gigabyte_artur.warcastleduel.gaming.Player)!Player_in	PARAMETERÇ
+xD:\YaDisk\synk\YandexDisk\JavaProjects\WarcastleDuel\core\src\ru\gigabyte_artur\warcastleduel\gaming\TwoPlayersGame.java-% -(.2ï
+Äru.gigabyte_artur.warcastleduel.gaming.TwoPlayersGame.GetOpponent(ru.gigabyte_artur.warcastleduel.gaming.Player)?rez@47.15:47.18DECLARATIONÇ
+xD:\YaDisk\synk\YandexDisk\JavaProjects\WarcastleDuel\core\src\ru\gigabyte_artur\warcastleduel\gaming\TwoPlayersGame.java/ /(2¡
+-ru.gigabyte_artur.warcastleduel.gaming.PlayerRETURN_TYPEÇ
+xD:\YaDisk\synk\YandexDisk\JavaProjects\WarcastleDuel\core\src\ru\gigabyte_artur\warcastleduel\gaming\TwoPlayersGame.java- -(¨
+Äru.gigabyte_artur.warcastleduel.gaming.TwoPlayersGame.GetOpponent(ru.gigabyte_artur.warcastleduel.gaming.Player)?rez@47.15:47.18VARIABLEÇ
+xD:\YaDisk\synk\YandexDisk\JavaProjects\WarcastleDuel\core\src\ru\gigabyte_artur\warcastleduel\gaming\TwoPlayersGame.java/ /("
+typePlayer"
+isFinalfalse"n
+declarationStringY<mark class="modifier"> </mark>Player <mark class="class-field">rez</mark> = new Player()*rez2∫
+-ru.gigabyte_artur.warcastleduel.gaming.PlayerTYPEÇ
+xD:\YaDisk\synk\YandexDisk\JavaProjects\WarcastleDuel\core\src\ru\gigabyte_artur\warcastleduel\gaming\TwoPlayersGame.java/ /(2√
+6ru.gigabyte_artur.warcastleduel.gaming.Player.Player()CALLÇ
+xD:\YaDisk\synk\YandexDisk\JavaProjects\WarcastleDuel\core\src\ru\gigabyte_artur\warcastleduel\gaming\TwoPlayersGame.java/ /(ù
+zru.gigabyte_artur.warcastleduel.gaming.TwoPlayersGame.GetOpponent(ru.gigabyte_artur.warcastleduel.gaming.Player)!Player_in	PARAMETERÇ
+xD:\YaDisk\synk\YandexDisk\JavaProjects\WarcastleDuel\core\src\ru\gigabyte_artur\warcastleduel\gaming\TwoPlayersGame.java-% -(."
+typePlayer"
+isFinalfalse"%
+declarationStringPlayer Player_in*	Player_in2∫
+-ru.gigabyte_artur.warcastleduel.gaming.PlayerTYPEÇ
+xD:\YaDisk\synk\YandexDisk\JavaProjects\WarcastleDuel\core\src\ru\gigabyte_artur\warcastleduel\gaming\TwoPlayersGame.java- -($

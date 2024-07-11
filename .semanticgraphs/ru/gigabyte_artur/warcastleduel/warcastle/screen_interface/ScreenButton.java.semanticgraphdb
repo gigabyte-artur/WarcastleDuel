@@ -1,0 +1,404 @@
+
+äD:\YaDisk\synk\YandexDisk\JavaProjects\WarcastleDuel\core\src\ru\gigabyte_artur\warcastleduel\warcastle\screen_interface\ScreenButton.javaŒ$
+Gru.gigabyte_artur.warcastleduel.warcastle.screen_interface.ScreenButtonCLASSï
+äD:\YaDisk\synk\YandexDisk\JavaProjects\WarcastleDuel\core\src\ru\gigabyte_artur\warcastleduel\warcastle\screen_interface\ScreenButton.java (""E
+package:ru.gigabyte_artur.warcastleduel.warcastle.screen_interface"
+isFinalfalse"
+inner classfalse"
+
+isAbstracttrue"ƒ
+declarationStringÆ<mark class="modifier">public </mark><mark class="modifier">abstract </mark><mark class="modifier">class </mark>ScreenButton<mark class="modifier"> extends </mark>ImageButton"
+accesspublic*ScreenButton2˝
+Vru.gigabyte_artur.warcastleduel.warcastle.screen_interface.ScreenButton.ScreenButton()DECLARATIONï
+äD:\YaDisk\synk\YandexDisk\JavaProjects\WarcastleDuel\core\src\ru\gigabyte_artur\warcastleduel\warcastle\screen_interface\ScreenButton.java (2¨
+Ñru.gigabyte_artur.warcastleduel.warcastle.screen_interface.ScreenButton.ScreenButton(com.badlogic.gdx.scenes.scene2d.utils.Drawable)DECLARATIONï
+äD:\YaDisk\synk\YandexDisk\JavaProjects\WarcastleDuel\core\src\ru\gigabyte_artur\warcastleduel\warcastle\screen_interface\ScreenButton.java+ +(2˙
+Sru.gigabyte_artur.warcastleduel.warcastle.screen_interface.ScreenButton.ActButton()DECLARATIONï
+äD:\YaDisk\synk\YandexDisk\JavaProjects\WarcastleDuel\core\src\ru\gigabyte_artur\warcastleduel\warcastle\screen_interface\ScreenButton.java1 1("2©
+Åru.gigabyte_artur.warcastleduel.warcastle.screen_interface.ScreenButton.setAfterActButton(com.badlogic.gdx.scenes.scene2d.Action)DECLARATIONï
+äD:\YaDisk\synk\YandexDisk\JavaProjects\WarcastleDuel\core\src\ru\gigabyte_artur\warcastleduel\warcastle\screen_interface\ScreenButton.java3 3(!2¢
+{ru.gigabyte_artur.warcastleduel.warcastle.screen_interface.ScreenButton.setButtonTexture(com.badlogic.gdx.graphics.Texture)DECLARATIONï
+äD:\YaDisk\synk\YandexDisk\JavaProjects\WarcastleDuel\core\src\ru\gigabyte_artur\warcastleduel\warcastle\screen_interface\ScreenButton.java8 8( 2§
+}ru.gigabyte_artur.warcastleduel.warcastle.screen_interface.ScreenButton.SetDisabledTexture(com.badlogic.gdx.graphics.Texture)DECLARATIONï
+äD:\YaDisk\synk\YandexDisk\JavaProjects\WarcastleDuel\core\src\ru\gigabyte_artur\warcastleduel\warcastle\screen_interface\ScreenButton.java@ @("2ë
+jru.gigabyte_artur.warcastleduel.warcastle.screen_interface.ScreenButton.SetTextureByPath(java.lang.String)DECLARATIONï
+äD:\YaDisk\synk\YandexDisk\JavaProjects\WarcastleDuel\core\src\ru\gigabyte_artur\warcastleduel\warcastle\screen_interface\ScreenButton.javaH H( 2ô
+rru.gigabyte_artur.warcastleduel.warcastle.screen_interface.ScreenButton.SetDisabledTextureByPath(java.lang.String)DECLARATIONï
+äD:\YaDisk\synk\YandexDisk\JavaProjects\WarcastleDuel\core\src\ru\gigabyte_artur\warcastleduel\warcastle\screen_interface\ScreenButton.javaN N((2•
+~ru.gigabyte_artur.warcastleduel.warcastle.screen_interface.ScreenButton.setScreensStage(com.badlogic.gdx.scenes.scene2d.Stage)DECLARATIONï
+äD:\YaDisk\synk\YandexDisk\JavaProjects\WarcastleDuel\core\src\ru\gigabyte_artur\warcastleduel\warcastle\screen_interface\ScreenButton.javaT T(2¸
+Uru.gigabyte_artur.warcastleduel.warcastle.screen_interface.ScreenButton.Render(float)DECLARATIONï
+äD:\YaDisk\synk\YandexDisk\JavaProjects\WarcastleDuel\core\src\ru\gigabyte_artur\warcastleduel\warcastle\screen_interface\ScreenButton.java[ [(2à
+aru.gigabyte_artur.warcastleduel.warcastle.screen_interface.ScreenButton?ButtonTexture@16.20:16.33DECLARATIONï
+äD:\YaDisk\synk\YandexDisk\JavaProjects\WarcastleDuel\core\src\ru\gigabyte_artur\warcastleduel\warcastle\screen_interface\ScreenButton.java (!2ä
+cru.gigabyte_artur.warcastleduel.warcastle.screen_interface.ScreenButton?DisabledTexture@17.20:17.35DECLARATIONï
+äD:\YaDisk\synk\YandexDisk\JavaProjects\WarcastleDuel\core\src\ru\gigabyte_artur\warcastleduel\warcastle\screen_interface\ScreenButton.java (#2á
+`ru.gigabyte_artur.warcastleduel.warcastle.screen_interface.ScreenButton?ScreensStage@18.18:18.30DECLARATIONï
+äD:\YaDisk\synk\YandexDisk\JavaProjects\WarcastleDuel\core\src\ru\gigabyte_artur\warcastleduel\warcastle\screen_interface\ScreenButton.java (2â
+bru.gigabyte_artur.warcastleduel.warcastle.screen_interface.ScreenButton?AfterActButton@20.11:20.25DECLARATIONï
+äD:\YaDisk\synk\YandexDisk\JavaProjects\WarcastleDuel\core\src\ru\gigabyte_artur\warcastleduel\warcastle\screen_interface\ScreenButton.java (2–
+.com.badlogic.gdx.scenes.scene2d.ui.ImageButtonEXTENDï
+äD:\YaDisk\synk\YandexDisk\JavaProjects\WarcastleDuel\core\src\ru\gigabyte_artur\warcastleduel\warcastle\screen_interface\ScreenButton.java+ (6‰
+Vru.gigabyte_artur.warcastleduel.warcastle.screen_interface.ScreenButton.ScreenButton()CONSTRUCTORï
+äD:\YaDisk\synk\YandexDisk\JavaProjects\WarcastleDuel\core\src\ru\gigabyte_artur\warcastleduel\warcastle\screen_interface\ScreenButton.java ("d
+declarationStringO<mark class="modifier">public </mark><mark class="method">ScreenButton</mark>()*ScreenButton2Û
+Sru.gigabyte_artur.warcastleduel.warcastle.screen_interface.ScreenButton.ActButton()CALLï
+äD:\YaDisk\synk\YandexDisk\JavaProjects\WarcastleDuel\core\src\ru\gigabyte_artur\warcastleduel\warcastle\screen_interface\ScreenButton.java% %(2Å
+aru.gigabyte_artur.warcastleduel.warcastle.screen_interface.ScreenButton?ButtonTexture@16.20:16.33CALLï
+äD:\YaDisk\synk\YandexDisk\JavaProjects\WarcastleDuel\core\src\ru\gigabyte_artur\warcastleduel\warcastle\screen_interface\ScreenButton.java (2Ä
+`ru.gigabyte_artur.warcastleduel.warcastle.screen_interface.ScreenButton?ScreensStage@18.18:18.30CALLï
+äD:\YaDisk\synk\YandexDisk\JavaProjects\WarcastleDuel\core\src\ru\gigabyte_artur\warcastleduel\warcastle\screen_interface\ScreenButton.java   (2Ç
+bru.gigabyte_artur.warcastleduel.warcastle.screen_interface.ScreenButton?AfterActButton@20.11:20.25CALLï
+äD:\YaDisk\synk\YandexDisk\JavaProjects\WarcastleDuel\core\src\ru\gigabyte_artur\warcastleduel\warcastle\screen_interface\ScreenButton.java& &(2Ó
+Gru.gigabyte_artur.warcastleduel.warcastle.screen_interface.ScreenButtonRETURN_TYPEï
+äD:\YaDisk\synk\YandexDisk\JavaProjects\WarcastleDuel\core\src\ru\gigabyte_artur\warcastleduel\warcastle\screen_interface\ScreenButton.java (Ö
+æru.gigabyte_artur.warcastleduel.warcastle.screen_interface.ScreenButton.Anonymous-297f846f-af82-4efd-b5bb-d4ec74727282.clicked(com.badlogic.gdx.scenes.scene2d.InputEvent, float, float)!event	PARAMETERï
+äD:\YaDisk\synk\YandexDisk\JavaProjects\WarcastleDuel\core\src\ru\gigabyte_artur\warcastleduel\warcastle\screen_interface\ScreenButton.java$+ $(0"
+type
+InputEvent"
+isFinalfalse"%
+declarationStringInputEvent event*event2 
+*com.badlogic.gdx.scenes.scene2d.InputEventTYPEï
+äD:\YaDisk\synk\YandexDisk\JavaProjects\WarcastleDuel\core\src\ru\gigabyte_artur\warcastleduel\warcastle\screen_interface\ScreenButton.java$  $(*Ë
+∫ru.gigabyte_artur.warcastleduel.warcastle.screen_interface.ScreenButton.Anonymous-7e50e723-3021-415b-9166-d99fb3f93da5.clicked(com.badlogic.gdx.scenes.scene2d.InputEvent, float, float)!x	PARAMETERï
+äD:\YaDisk\synk\YandexDisk\JavaProjects\WarcastleDuel\core\src\ru\gigabyte_artur\warcastleduel\warcastle\screen_interface\ScreenButton.java$8 $(9"
+typefloat"
+isFinalfalse":
+declarationString%<mark class="modifier">float</mark> x*x2•
+floatTYPEï
+äD:\YaDisk\synk\YandexDisk\JavaProjects\WarcastleDuel\core\src\ru\gigabyte_artur\warcastleduel\warcastle\screen_interface\ScreenButton.java$2 $(7Ë
+∫ru.gigabyte_artur.warcastleduel.warcastle.screen_interface.ScreenButton.Anonymous-62e300d1-16bc-4d9a-b8ff-02fdd0695cc0.clicked(com.badlogic.gdx.scenes.scene2d.InputEvent, float, float)!y	PARAMETERï
+äD:\YaDisk\synk\YandexDisk\JavaProjects\WarcastleDuel\core\src\ru\gigabyte_artur\warcastleduel\warcastle\screen_interface\ScreenButton.java$A $(B"
+typefloat"
+isFinalfalse":
+declarationString%<mark class="modifier">float</mark> y*y2•
+floatTYPEï
+äD:\YaDisk\synk\YandexDisk\JavaProjects\WarcastleDuel\core\src\ru\gigabyte_artur\warcastleduel\warcastle\screen_interface\ScreenButton.java$; $(@â
+
+Ñru.gigabyte_artur.warcastleduel.warcastle.screen_interface.ScreenButton.ScreenButton(com.badlogic.gdx.scenes.scene2d.utils.Drawable)CONSTRUCTORï
+äD:\YaDisk\synk\YandexDisk\JavaProjects\WarcastleDuel\core\src\ru\gigabyte_artur\warcastleduel\warcastle\screen_interface\ScreenButton.java+ +("u
+declarationString`<mark class="modifier">public </mark><mark class="method">ScreenButton</mark>(Drawable drawable)*ScreenButton2Æ
+çru.gigabyte_artur.warcastleduel.warcastle.screen_interface.ScreenButton.ScreenButton(com.badlogic.gdx.scenes.scene2d.utils.Drawable)!drawableCALLï
+äD:\YaDisk\synk\YandexDisk\JavaProjects\WarcastleDuel\core\src\ru\gigabyte_artur\warcastleduel\warcastle\screen_interface\ScreenButton.java- -(2≥
+çru.gigabyte_artur.warcastleduel.warcastle.screen_interface.ScreenButton.ScreenButton(com.badlogic.gdx.scenes.scene2d.utils.Drawable)!drawable	PARAMETERï
+äD:\YaDisk\synk\YandexDisk\JavaProjects\WarcastleDuel\core\src\ru\gigabyte_artur\warcastleduel\warcastle\screen_interface\ScreenButton.java+! +()2Ó
+Gru.gigabyte_artur.warcastleduel.warcastle.screen_interface.ScreenButtonRETURN_TYPEï
+äD:\YaDisk\synk\YandexDisk\JavaProjects\WarcastleDuel\core\src\ru\gigabyte_artur\warcastleduel\warcastle\screen_interface\ScreenButton.java+ +(⁄
+çru.gigabyte_artur.warcastleduel.warcastle.screen_interface.ScreenButton.ScreenButton(com.badlogic.gdx.scenes.scene2d.utils.Drawable)!drawable	PARAMETERï
+äD:\YaDisk\synk\YandexDisk\JavaProjects\WarcastleDuel\core\src\ru\gigabyte_artur\warcastleduel\warcastle\screen_interface\ScreenButton.java+! +()"
+typeDrawable"
+isFinalfalse"&
+declarationStringDrawable drawable*drawable2Œ
+.com.badlogic.gdx.scenes.scene2d.utils.DrawableTYPEï
+äD:\YaDisk\synk\YandexDisk\JavaProjects\WarcastleDuel\core\src\ru\gigabyte_artur\warcastleduel\warcastle\screen_interface\ScreenButton.java+ +( ∂
+Sru.gigabyte_artur.warcastleduel.warcastle.screen_interface.ScreenButton.ActButton()METHODï
+äD:\YaDisk\synk\YandexDisk\JavaProjects\WarcastleDuel\core\src\ru\gigabyte_artur\warcastleduel\warcastle\screen_interface\ScreenButton.java1 1(""
+isFinalfalse"¨
+declarationStringñ<mark class="modifier">public </mark><mark class="modifier">abstract </mark><mark class="modifier">void</mark> <mark class="method">ActButton</mark>()"
+isStaticfalse"
+accesspublic"
+
+isAbstracttrue"
+typevoid*	ActButton2´
+voidRETURN_TYPEï
+äD:\YaDisk\synk\YandexDisk\JavaProjects\WarcastleDuel\core\src\ru\gigabyte_artur\warcastleduel\warcastle\screen_interface\ScreenButton.java1 1(÷
+Åru.gigabyte_artur.warcastleduel.warcastle.screen_interface.ScreenButton.setAfterActButton(com.badlogic.gdx.scenes.scene2d.Action)METHODï
+äD:\YaDisk\synk\YandexDisk\JavaProjects\WarcastleDuel\core\src\ru\gigabyte_artur\warcastleduel\warcastle\screen_interface\ScreenButton.java3 3(!"
+isFinalfalse"¢
+declarationStringå<mark class="modifier">public </mark><mark class="modifier">void</mark> <mark class="method">setAfterActButton</mark>(Action afterActButton)"
+isStaticfalse"
+accesspublic"
+
+isAbstractfalse"
+typevoid*setAfterActButton2Ç
+bru.gigabyte_artur.warcastleduel.warcastle.screen_interface.ScreenButton?AfterActButton@20.11:20.25CALLï
+äD:\YaDisk\synk\YandexDisk\JavaProjects\WarcastleDuel\core\src\ru\gigabyte_artur\warcastleduel\warcastle\screen_interface\ScreenButton.java5 5(2±
+êru.gigabyte_artur.warcastleduel.warcastle.screen_interface.ScreenButton.setAfterActButton(com.badlogic.gdx.scenes.scene2d.Action)!afterActButtonCALLï
+äD:\YaDisk\synk\YandexDisk\JavaProjects\WarcastleDuel\core\src\ru\gigabyte_artur\warcastleduel\warcastle\screen_interface\ScreenButton.java5 5('2∂
+êru.gigabyte_artur.warcastleduel.warcastle.screen_interface.ScreenButton.setAfterActButton(com.badlogic.gdx.scenes.scene2d.Action)!afterActButton	PARAMETERï
+äD:\YaDisk\synk\YandexDisk\JavaProjects\WarcastleDuel\core\src\ru\gigabyte_artur\warcastleduel\warcastle\screen_interface\ScreenButton.java3) 3(72´
+voidRETURN_TYPEï
+äD:\YaDisk\synk\YandexDisk\JavaProjects\WarcastleDuel\core\src\ru\gigabyte_artur\warcastleduel\warcastle\screen_interface\ScreenButton.java3 3(›
+êru.gigabyte_artur.warcastleduel.warcastle.screen_interface.ScreenButton.setAfterActButton(com.badlogic.gdx.scenes.scene2d.Action)!afterActButton	PARAMETERï
+äD:\YaDisk\synk\YandexDisk\JavaProjects\WarcastleDuel\core\src\ru\gigabyte_artur\warcastleduel\warcastle\screen_interface\ScreenButton.java3) 3(7"
+typeAction"
+isFinalfalse"*
+declarationStringAction afterActButton*afterActButton2∆
+&com.badlogic.gdx.scenes.scene2d.ActionTYPEï
+äD:\YaDisk\synk\YandexDisk\JavaProjects\WarcastleDuel\core\src\ru\gigabyte_artur\warcastleduel\warcastle\screen_interface\ScreenButton.java3" 3((ø
+{ru.gigabyte_artur.warcastleduel.warcastle.screen_interface.ScreenButton.setButtonTexture(com.badlogic.gdx.graphics.Texture)METHODï
+äD:\YaDisk\synk\YandexDisk\JavaProjects\WarcastleDuel\core\src\ru\gigabyte_artur\warcastleduel\warcastle\screen_interface\ScreenButton.java8 8( "
+isFinalfalse"§
+declarationStringé<mark class="modifier">public </mark><mark class="modifier">void</mark> <mark class="method">setButtonTexture</mark>(Texture buttonTexture_in)"
+isStaticfalse"
+accesspublic"
+
+isAbstractfalse"
+typevoid*setButtonTexture2Å
+aru.gigabyte_artur.warcastleduel.warcastle.screen_interface.ScreenButton?ButtonTexture@16.20:16.33CALLï
+äD:\YaDisk\synk\YandexDisk\JavaProjects\WarcastleDuel\core\src\ru\gigabyte_artur\warcastleduel\warcastle\screen_interface\ScreenButton.java: :(2≠
+åru.gigabyte_artur.warcastleduel.warcastle.screen_interface.ScreenButton.setButtonTexture(com.badlogic.gdx.graphics.Texture)!buttonTexture_inCALLï
+äD:\YaDisk\synk\YandexDisk\JavaProjects\WarcastleDuel\core\src\ru\gigabyte_artur\warcastleduel\warcastle\screen_interface\ScreenButton.java: :((2Å
+aru.gigabyte_artur.warcastleduel.warcastle.screen_interface.ScreenButton?ButtonTexture@16.20:16.33CALLï
+äD:\YaDisk\synk\YandexDisk\JavaProjects\WarcastleDuel\core\src\ru\gigabyte_artur\warcastleduel\warcastle\screen_interface\ScreenButton.java;; ;(H2π
+òru.gigabyte_artur.warcastleduel.warcastle.screen_interface.ScreenButton.setButtonTexture(com.badlogic.gdx.graphics.Texture)?newTextureRegion@59.22:59.38CALLï
+äD:\YaDisk\synk\YandexDisk\JavaProjects\WarcastleDuel\core\src\ru\gigabyte_artur\warcastleduel\warcastle\screen_interface\ScreenButton.java<F <(V2¥
+ìru.gigabyte_artur.warcastleduel.warcastle.screen_interface.ScreenButton.setButtonTexture(com.badlogic.gdx.graphics.Texture)?newDrawable@60.30:60.41CALLï
+äD:\YaDisk\synk\YandexDisk\JavaProjects\WarcastleDuel\core\src\ru\gigabyte_artur\warcastleduel\warcastle\screen_interface\ScreenButton.java=" =(-2≤
+åru.gigabyte_artur.warcastleduel.warcastle.screen_interface.ScreenButton.setButtonTexture(com.badlogic.gdx.graphics.Texture)!buttonTexture_in	PARAMETERï
+äD:\YaDisk\synk\YandexDisk\JavaProjects\WarcastleDuel\core\src\ru\gigabyte_artur\warcastleduel\warcastle\screen_interface\ScreenButton.java8) 8(92¿
+òru.gigabyte_artur.warcastleduel.warcastle.screen_interface.ScreenButton.setButtonTexture(com.badlogic.gdx.graphics.Texture)?newTextureRegion@59.22:59.38DECLARATIONï
+äD:\YaDisk\synk\YandexDisk\JavaProjects\WarcastleDuel\core\src\ru\gigabyte_artur\warcastleduel\warcastle\screen_interface\ScreenButton.java; ;(&2ª
+ìru.gigabyte_artur.warcastleduel.warcastle.screen_interface.ScreenButton.setButtonTexture(com.badlogic.gdx.graphics.Texture)?newDrawable@60.30:60.41DECLARATIONï
+äD:\YaDisk\synk\YandexDisk\JavaProjects\WarcastleDuel\core\src\ru\gigabyte_artur\warcastleduel\warcastle\screen_interface\ScreenButton.java< <()2´
+voidRETURN_TYPEï
+äD:\YaDisk\synk\YandexDisk\JavaProjects\WarcastleDuel\core\src\ru\gigabyte_artur\warcastleduel\warcastle\screen_interface\ScreenButton.java8 8(‰
+òru.gigabyte_artur.warcastleduel.warcastle.screen_interface.ScreenButton.setButtonTexture(com.badlogic.gdx.graphics.Texture)?newTextureRegion@59.22:59.38VARIABLEï
+äD:\YaDisk\synk\YandexDisk\JavaProjects\WarcastleDuel\core\src\ru\gigabyte_artur\warcastleduel\warcastle\screen_interface\ScreenButton.java; ;(&"
+typeTextureRegion"
+isFinalfalse"ó
+declarationStringÅ<mark class="modifier"> </mark>TextureRegion <mark class="class-field">newTextureRegion</mark> = new TextureRegion(ButtonTexture)*newTextureRegion2À
++com.badlogic.gdx.graphics.g2d.TextureRegionTYPEï
+äD:\YaDisk\synk\YandexDisk\JavaProjects\WarcastleDuel\core\src\ru\gigabyte_artur\warcastleduel\warcastle\screen_interface\ScreenButton.java; ;(2Å
+aru.gigabyte_artur.warcastleduel.warcastle.screen_interface.ScreenButton?ButtonTexture@16.20:16.33CALLï
+äD:\YaDisk\synk\YandexDisk\JavaProjects\WarcastleDuel\core\src\ru\gigabyte_artur\warcastleduel\warcastle\screen_interface\ScreenButton.java;; ;(H∏
+ìru.gigabyte_artur.warcastleduel.warcastle.screen_interface.ScreenButton.setButtonTexture(com.badlogic.gdx.graphics.Texture)?newDrawable@60.30:60.41VARIABLEï
+äD:\YaDisk\synk\YandexDisk\JavaProjects\WarcastleDuel\core\src\ru\gigabyte_artur\warcastleduel\warcastle\screen_interface\ScreenButton.java< <()"
+typeTextureRegionDrawable"
+isFinalfalse"•
+declarationStringè<mark class="modifier"> </mark>TextureRegionDrawable <mark class="class-field">newDrawable</mark> = new TextureRegionDrawable(newTextureRegion)*newDrawable2€
+;com.badlogic.gdx.scenes.scene2d.utils.TextureRegionDrawableTYPEï
+äD:\YaDisk\synk\YandexDisk\JavaProjects\WarcastleDuel\core\src\ru\gigabyte_artur\warcastleduel\warcastle\screen_interface\ScreenButton.java< <(2π
+òru.gigabyte_artur.warcastleduel.warcastle.screen_interface.ScreenButton.setButtonTexture(com.badlogic.gdx.graphics.Texture)?newTextureRegion@59.22:59.38CALLï
+äD:\YaDisk\synk\YandexDisk\JavaProjects\WarcastleDuel\core\src\ru\gigabyte_artur\warcastleduel\warcastle\screen_interface\ScreenButton.java<F <(V⁄
+åru.gigabyte_artur.warcastleduel.warcastle.screen_interface.ScreenButton.setButtonTexture(com.badlogic.gdx.graphics.Texture)!buttonTexture_in	PARAMETERï
+äD:\YaDisk\synk\YandexDisk\JavaProjects\WarcastleDuel\core\src\ru\gigabyte_artur\warcastleduel\warcastle\screen_interface\ScreenButton.java8) 8(9"
+typeTexture"
+isFinalfalse"-
+declarationStringTexture buttonTexture_in*buttonTexture_in2¡
+!com.badlogic.gdx.graphics.TextureTYPEï
+äD:\YaDisk\synk\YandexDisk\JavaProjects\WarcastleDuel\core\src\ru\gigabyte_artur\warcastleduel\warcastle\screen_interface\ScreenButton.java8! 8((’
+}ru.gigabyte_artur.warcastleduel.warcastle.screen_interface.ScreenButton.SetDisabledTexture(com.badlogic.gdx.graphics.Texture)METHODï
+äD:\YaDisk\synk\YandexDisk\JavaProjects\WarcastleDuel\core\src\ru\gigabyte_artur\warcastleduel\warcastle\screen_interface\ScreenButton.java@ @(""
+isFinalfalse"¶
+declarationStringê<mark class="modifier">public </mark><mark class="modifier">void</mark> <mark class="method">SetDisabledTexture</mark>(Texture buttonTexture_in)"
+isStaticfalse"
+accesspublic"
+
+isAbstractfalse"
+typevoid*SetDisabledTexture2É
+cru.gigabyte_artur.warcastleduel.warcastle.screen_interface.ScreenButton?DisabledTexture@17.20:17.35CALLï
+äD:\YaDisk\synk\YandexDisk\JavaProjects\WarcastleDuel\core\src\ru\gigabyte_artur\warcastleduel\warcastle\screen_interface\ScreenButton.javaB B(2Ø
+éru.gigabyte_artur.warcastleduel.warcastle.screen_interface.ScreenButton.SetDisabledTexture(com.badlogic.gdx.graphics.Texture)!buttonTexture_inCALLï
+äD:\YaDisk\synk\YandexDisk\JavaProjects\WarcastleDuel\core\src\ru\gigabyte_artur\warcastleduel\warcastle\screen_interface\ScreenButton.javaB B(*2É
+cru.gigabyte_artur.warcastleduel.warcastle.screen_interface.ScreenButton?DisabledTexture@17.20:17.35CALLï
+äD:\YaDisk\synk\YandexDisk\JavaProjects\WarcastleDuel\core\src\ru\gigabyte_artur\warcastleduel\warcastle\screen_interface\ScreenButton.javaC; C(J2ª
+öru.gigabyte_artur.warcastleduel.warcastle.screen_interface.ScreenButton.SetDisabledTexture(com.badlogic.gdx.graphics.Texture)?newTextureRegion@67.22:67.38CALLï
+äD:\YaDisk\synk\YandexDisk\JavaProjects\WarcastleDuel\core\src\ru\gigabyte_artur\warcastleduel\warcastle\screen_interface\ScreenButton.javaDF D(V2∂
+ïru.gigabyte_artur.warcastleduel.warcastle.screen_interface.ScreenButton.SetDisabledTexture(com.badlogic.gdx.graphics.Texture)?newDrawable@68.30:68.41CALLï
+äD:\YaDisk\synk\YandexDisk\JavaProjects\WarcastleDuel\core\src\ru\gigabyte_artur\warcastleduel\warcastle\screen_interface\ScreenButton.javaE( E(32¥
+éru.gigabyte_artur.warcastleduel.warcastle.screen_interface.ScreenButton.SetDisabledTexture(com.badlogic.gdx.graphics.Texture)!buttonTexture_in	PARAMETERï
+äD:\YaDisk\synk\YandexDisk\JavaProjects\WarcastleDuel\core\src\ru\gigabyte_artur\warcastleduel\warcastle\screen_interface\ScreenButton.java@+ @(;2¬
+öru.gigabyte_artur.warcastleduel.warcastle.screen_interface.ScreenButton.SetDisabledTexture(com.badlogic.gdx.graphics.Texture)?newTextureRegion@67.22:67.38DECLARATIONï
+äD:\YaDisk\synk\YandexDisk\JavaProjects\WarcastleDuel\core\src\ru\gigabyte_artur\warcastleduel\warcastle\screen_interface\ScreenButton.javaC C(&2Ω
+ïru.gigabyte_artur.warcastleduel.warcastle.screen_interface.ScreenButton.SetDisabledTexture(com.badlogic.gdx.graphics.Texture)?newDrawable@68.30:68.41DECLARATIONï
+äD:\YaDisk\synk\YandexDisk\JavaProjects\WarcastleDuel\core\src\ru\gigabyte_artur\warcastleduel\warcastle\screen_interface\ScreenButton.javaD D()2´
+voidRETURN_TYPEï
+äD:\YaDisk\synk\YandexDisk\JavaProjects\WarcastleDuel\core\src\ru\gigabyte_artur\warcastleduel\warcastle\screen_interface\ScreenButton.java@ @(Í
+öru.gigabyte_artur.warcastleduel.warcastle.screen_interface.ScreenButton.SetDisabledTexture(com.badlogic.gdx.graphics.Texture)?newTextureRegion@67.22:67.38VARIABLEï
+äD:\YaDisk\synk\YandexDisk\JavaProjects\WarcastleDuel\core\src\ru\gigabyte_artur\warcastleduel\warcastle\screen_interface\ScreenButton.javaC C(&"
+typeTextureRegion"
+isFinalfalse"ô
+declarationStringÉ<mark class="modifier"> </mark>TextureRegion <mark class="class-field">newTextureRegion</mark> = new TextureRegion(DisabledTexture)*newTextureRegion2À
++com.badlogic.gdx.graphics.g2d.TextureRegionTYPEï
+äD:\YaDisk\synk\YandexDisk\JavaProjects\WarcastleDuel\core\src\ru\gigabyte_artur\warcastleduel\warcastle\screen_interface\ScreenButton.javaC C(2É
+cru.gigabyte_artur.warcastleduel.warcastle.screen_interface.ScreenButton?DisabledTexture@17.20:17.35CALLï
+äD:\YaDisk\synk\YandexDisk\JavaProjects\WarcastleDuel\core\src\ru\gigabyte_artur\warcastleduel\warcastle\screen_interface\ScreenButton.javaC; C(Jº
+ïru.gigabyte_artur.warcastleduel.warcastle.screen_interface.ScreenButton.SetDisabledTexture(com.badlogic.gdx.graphics.Texture)?newDrawable@68.30:68.41VARIABLEï
+äD:\YaDisk\synk\YandexDisk\JavaProjects\WarcastleDuel\core\src\ru\gigabyte_artur\warcastleduel\warcastle\screen_interface\ScreenButton.javaD D()"
+typeTextureRegionDrawable"
+isFinalfalse"•
+declarationStringè<mark class="modifier"> </mark>TextureRegionDrawable <mark class="class-field">newDrawable</mark> = new TextureRegionDrawable(newTextureRegion)*newDrawable2€
+;com.badlogic.gdx.scenes.scene2d.utils.TextureRegionDrawableTYPEï
+äD:\YaDisk\synk\YandexDisk\JavaProjects\WarcastleDuel\core\src\ru\gigabyte_artur\warcastleduel\warcastle\screen_interface\ScreenButton.javaD D(2ª
+öru.gigabyte_artur.warcastleduel.warcastle.screen_interface.ScreenButton.SetDisabledTexture(com.badlogic.gdx.graphics.Texture)?newTextureRegion@67.22:67.38CALLï
+äD:\YaDisk\synk\YandexDisk\JavaProjects\WarcastleDuel\core\src\ru\gigabyte_artur\warcastleduel\warcastle\screen_interface\ScreenButton.javaDF D(V‹
+éru.gigabyte_artur.warcastleduel.warcastle.screen_interface.ScreenButton.SetDisabledTexture(com.badlogic.gdx.graphics.Texture)!buttonTexture_in	PARAMETERï
+äD:\YaDisk\synk\YandexDisk\JavaProjects\WarcastleDuel\core\src\ru\gigabyte_artur\warcastleduel\warcastle\screen_interface\ScreenButton.java@+ @(;"
+typeTexture"
+isFinalfalse"-
+declarationStringTexture buttonTexture_in*buttonTexture_in2¡
+!com.badlogic.gdx.graphics.TextureTYPEï
+äD:\YaDisk\synk\YandexDisk\JavaProjects\WarcastleDuel\core\src\ru\gigabyte_artur\warcastleduel\warcastle\screen_interface\ScreenButton.java@# @(*ÿ
+jru.gigabyte_artur.warcastleduel.warcastle.screen_interface.ScreenButton.SetTextureByPath(java.lang.String)METHODï
+äD:\YaDisk\synk\YandexDisk\JavaProjects\WarcastleDuel\core\src\ru\gigabyte_artur\warcastleduel\warcastle\screen_interface\ScreenButton.javaH H( "
+isFinalfalse"ó
+declarationStringÅ<mark class="modifier">public </mark><mark class="modifier">void</mark> <mark class="method">SetTextureByPath</mark>(String path)"
+isStaticfalse"
+accesspublic"
+
+isAbstractfalse"
+typevoid*SetTextureByPath2õ
+{ru.gigabyte_artur.warcastleduel.warcastle.screen_interface.ScreenButton.setButtonTexture(com.badlogic.gdx.graphics.Texture)CALLï
+äD:\YaDisk\synk\YandexDisk\JavaProjects\WarcastleDuel\core\src\ru\gigabyte_artur\warcastleduel\warcastle\screen_interface\ScreenButton.javaK K(2è
+oru.gigabyte_artur.warcastleduel.warcastle.screen_interface.ScreenButton.SetTextureByPath(java.lang.String)!pathCALLï
+äD:\YaDisk\synk\YandexDisk\JavaProjects\WarcastleDuel\core\src\ru\gigabyte_artur\warcastleduel\warcastle\screen_interface\ScreenButton.javaJ< J(@2¢
+Åru.gigabyte_artur.warcastleduel.warcastle.screen_interface.ScreenButton.SetTextureByPath(java.lang.String)?newTexture@74.16:74.26CALLï
+äD:\YaDisk\synk\YandexDisk\JavaProjects\WarcastleDuel\core\src\ru\gigabyte_artur\warcastleduel\warcastle\screen_interface\ScreenButton.javaK K(#2î
+oru.gigabyte_artur.warcastleduel.warcastle.screen_interface.ScreenButton.SetTextureByPath(java.lang.String)!path	PARAMETERï
+äD:\YaDisk\synk\YandexDisk\JavaProjects\WarcastleDuel\core\src\ru\gigabyte_artur\warcastleduel\warcastle\screen_interface\ScreenButton.javaH( H(,2©
+Åru.gigabyte_artur.warcastleduel.warcastle.screen_interface.ScreenButton.SetTextureByPath(java.lang.String)?newTexture@74.16:74.26DECLARATIONï
+äD:\YaDisk\synk\YandexDisk\JavaProjects\WarcastleDuel\core\src\ru\gigabyte_artur\warcastleduel\warcastle\screen_interface\ScreenButton.javaJ J(2´
+voidRETURN_TYPEï
+äD:\YaDisk\synk\YandexDisk\JavaProjects\WarcastleDuel\core\src\ru\gigabyte_artur\warcastleduel\warcastle\screen_interface\ScreenButton.javaH H(Ω
+Åru.gigabyte_artur.warcastleduel.warcastle.screen_interface.ScreenButton.SetTextureByPath(java.lang.String)?newTexture@74.16:74.26VARIABLEï
+äD:\YaDisk\synk\YandexDisk\JavaProjects\WarcastleDuel\core\src\ru\gigabyte_artur\warcastleduel\warcastle\screen_interface\ScreenButton.javaJ J("
+typeTexture"
+isFinalfalse"è
+declarationStringz<mark class="modifier"> </mark>Texture <mark class="class-field">newTexture</mark> = new Texture(Gdx.files.internal(path))*
+newTexture2¡
+!com.badlogic.gdx.graphics.TextureTYPEï
+äD:\YaDisk\synk\YandexDisk\JavaProjects\WarcastleDuel\core\src\ru\gigabyte_artur\warcastleduel\warcastle\screen_interface\ScreenButton.javaJ J(2è
+oru.gigabyte_artur.warcastleduel.warcastle.screen_interface.ScreenButton.SetTextureByPath(java.lang.String)!pathCALLï
+äD:\YaDisk\synk\YandexDisk\JavaProjects\WarcastleDuel\core\src\ru\gigabyte_artur\warcastleduel\warcastle\screen_interface\ScreenButton.javaJ< J(@ë
+oru.gigabyte_artur.warcastleduel.warcastle.screen_interface.ScreenButton.SetTextureByPath(java.lang.String)!path	PARAMETERï
+äD:\YaDisk\synk\YandexDisk\JavaProjects\WarcastleDuel\core\src\ru\gigabyte_artur\warcastleduel\warcastle\screen_interface\ScreenButton.javaH( H(,"
+typeString"
+isFinalfalse" 
+declarationStringString path*path2∞
+java.lang.StringTYPEï
+äD:\YaDisk\synk\YandexDisk\JavaProjects\WarcastleDuel\core\src\ru\gigabyte_artur\warcastleduel\warcastle\screen_interface\ScreenButton.javaH! H('í
+rru.gigabyte_artur.warcastleduel.warcastle.screen_interface.ScreenButton.SetDisabledTextureByPath(java.lang.String)METHODï
+äD:\YaDisk\synk\YandexDisk\JavaProjects\WarcastleDuel\core\src\ru\gigabyte_artur\warcastleduel\warcastle\screen_interface\ScreenButton.javaN N(("
+isFinalfalse"ü
+declarationStringâ<mark class="modifier">public </mark><mark class="modifier">void</mark> <mark class="method">SetDisabledTextureByPath</mark>(String path)"
+isStaticfalse"
+accesspublic"
+
+isAbstractfalse"
+typevoid*SetDisabledTextureByPath2ù
+}ru.gigabyte_artur.warcastleduel.warcastle.screen_interface.ScreenButton.SetDisabledTexture(com.badlogic.gdx.graphics.Texture)CALLï
+äD:\YaDisk\synk\YandexDisk\JavaProjects\WarcastleDuel\core\src\ru\gigabyte_artur\warcastleduel\warcastle\screen_interface\ScreenButton.javaQ Q(2ó
+wru.gigabyte_artur.warcastleduel.warcastle.screen_interface.ScreenButton.SetDisabledTextureByPath(java.lang.String)!pathCALLï
+äD:\YaDisk\synk\YandexDisk\JavaProjects\WarcastleDuel\core\src\ru\gigabyte_artur\warcastleduel\warcastle\screen_interface\ScreenButton.javaP< P(@2™
+âru.gigabyte_artur.warcastleduel.warcastle.screen_interface.ScreenButton.SetDisabledTextureByPath(java.lang.String)?newTexture@80.16:80.26CALLï
+äD:\YaDisk\synk\YandexDisk\JavaProjects\WarcastleDuel\core\src\ru\gigabyte_artur\warcastleduel\warcastle\screen_interface\ScreenButton.javaQ Q(%2ú
+wru.gigabyte_artur.warcastleduel.warcastle.screen_interface.ScreenButton.SetDisabledTextureByPath(java.lang.String)!path	PARAMETERï
+äD:\YaDisk\synk\YandexDisk\JavaProjects\WarcastleDuel\core\src\ru\gigabyte_artur\warcastleduel\warcastle\screen_interface\ScreenButton.javaN0 N(42±
+âru.gigabyte_artur.warcastleduel.warcastle.screen_interface.ScreenButton.SetDisabledTextureByPath(java.lang.String)?newTexture@80.16:80.26DECLARATIONï
+äD:\YaDisk\synk\YandexDisk\JavaProjects\WarcastleDuel\core\src\ru\gigabyte_artur\warcastleduel\warcastle\screen_interface\ScreenButton.javaP P(2´
+voidRETURN_TYPEï
+äD:\YaDisk\synk\YandexDisk\JavaProjects\WarcastleDuel\core\src\ru\gigabyte_artur\warcastleduel\warcastle\screen_interface\ScreenButton.javaN N(Õ
+âru.gigabyte_artur.warcastleduel.warcastle.screen_interface.ScreenButton.SetDisabledTextureByPath(java.lang.String)?newTexture@80.16:80.26VARIABLEï
+äD:\YaDisk\synk\YandexDisk\JavaProjects\WarcastleDuel\core\src\ru\gigabyte_artur\warcastleduel\warcastle\screen_interface\ScreenButton.javaP P("
+typeTexture"
+isFinalfalse"è
+declarationStringz<mark class="modifier"> </mark>Texture <mark class="class-field">newTexture</mark> = new Texture(Gdx.files.internal(path))*
+newTexture2¡
+!com.badlogic.gdx.graphics.TextureTYPEï
+äD:\YaDisk\synk\YandexDisk\JavaProjects\WarcastleDuel\core\src\ru\gigabyte_artur\warcastleduel\warcastle\screen_interface\ScreenButton.javaP P(2ó
+wru.gigabyte_artur.warcastleduel.warcastle.screen_interface.ScreenButton.SetDisabledTextureByPath(java.lang.String)!pathCALLï
+äD:\YaDisk\synk\YandexDisk\JavaProjects\WarcastleDuel\core\src\ru\gigabyte_artur\warcastleduel\warcastle\screen_interface\ScreenButton.javaP< P(@ô
+wru.gigabyte_artur.warcastleduel.warcastle.screen_interface.ScreenButton.SetDisabledTextureByPath(java.lang.String)!path	PARAMETERï
+äD:\YaDisk\synk\YandexDisk\JavaProjects\WarcastleDuel\core\src\ru\gigabyte_artur\warcastleduel\warcastle\screen_interface\ScreenButton.javaN0 N(4"
+typeString"
+isFinalfalse" 
+declarationStringString path*path2∞
+java.lang.StringTYPEï
+äD:\YaDisk\synk\YandexDisk\JavaProjects\WarcastleDuel\core\src\ru\gigabyte_artur\warcastleduel\warcastle\screen_interface\ScreenButton.javaN) N(/≈
+~ru.gigabyte_artur.warcastleduel.warcastle.screen_interface.ScreenButton.setScreensStage(com.badlogic.gdx.scenes.scene2d.Stage)METHODï
+äD:\YaDisk\synk\YandexDisk\JavaProjects\WarcastleDuel\core\src\ru\gigabyte_artur\warcastleduel\warcastle\screen_interface\ScreenButton.javaT T("
+isFinalfalse"ù
+declarationStringá<mark class="modifier">public </mark><mark class="modifier">void</mark> <mark class="method">setScreensStage</mark>(Stage screensStage)"
+isStaticfalse"
+accesspublic"
+
+isAbstractfalse"
+typevoid*setScreensStage2Ä
+`ru.gigabyte_artur.warcastleduel.warcastle.screen_interface.ScreenButton?ScreensStage@18.18:18.30CALLï
+äD:\YaDisk\synk\YandexDisk\JavaProjects\WarcastleDuel\core\src\ru\gigabyte_artur\warcastleduel\warcastle\screen_interface\ScreenButton.javaV V(2¨
+ãru.gigabyte_artur.warcastleduel.warcastle.screen_interface.ScreenButton.setScreensStage(com.badlogic.gdx.scenes.scene2d.Stage)!screensStageCALLï
+äD:\YaDisk\synk\YandexDisk\JavaProjects\WarcastleDuel\core\src\ru\gigabyte_artur\warcastleduel\warcastle\screen_interface\ScreenButton.javaV V(#2Ä
+`ru.gigabyte_artur.warcastleduel.warcastle.screen_interface.ScreenButton?ScreensStage@18.18:18.30CALLï
+äD:\YaDisk\synk\YandexDisk\JavaProjects\WarcastleDuel\core\src\ru\gigabyte_artur\warcastleduel\warcastle\screen_interface\ScreenButton.javaW$ W(02Ä
+`ru.gigabyte_artur.warcastleduel.warcastle.screen_interface.ScreenButton?ScreensStage@18.18:18.30CALLï
+äD:\YaDisk\synk\YandexDisk\JavaProjects\WarcastleDuel\core\src\ru\gigabyte_artur\warcastleduel\warcastle\screen_interface\ScreenButton.javaX X(2±
+ãru.gigabyte_artur.warcastleduel.warcastle.screen_interface.ScreenButton.setScreensStage(com.badlogic.gdx.scenes.scene2d.Stage)!screensStage	PARAMETERï
+äD:\YaDisk\synk\YandexDisk\JavaProjects\WarcastleDuel\core\src\ru\gigabyte_artur\warcastleduel\warcastle\screen_interface\ScreenButton.javaT& T(22´
+voidRETURN_TYPEï
+äD:\YaDisk\synk\YandexDisk\JavaProjects\WarcastleDuel\core\src\ru\gigabyte_artur\warcastleduel\warcastle\screen_interface\ScreenButton.javaT T(—
+ãru.gigabyte_artur.warcastleduel.warcastle.screen_interface.ScreenButton.setScreensStage(com.badlogic.gdx.scenes.scene2d.Stage)!screensStage	PARAMETERï
+äD:\YaDisk\synk\YandexDisk\JavaProjects\WarcastleDuel\core\src\ru\gigabyte_artur\warcastleduel\warcastle\screen_interface\ScreenButton.javaT& T(2"
+typeStage"
+isFinalfalse"'
+declarationStringStage screensStage*screensStage2≈
+%com.badlogic.gdx.scenes.scene2d.StageTYPEï
+äD:\YaDisk\synk\YandexDisk\JavaProjects\WarcastleDuel\core\src\ru\gigabyte_artur\warcastleduel\warcastle\screen_interface\ScreenButton.javaT  T(%º
+Uru.gigabyte_artur.warcastleduel.warcastle.screen_interface.ScreenButton.Render(float)METHODï
+äD:\YaDisk\synk\YandexDisk\JavaProjects\WarcastleDuel\core\src\ru\gigabyte_artur\warcastleduel\warcastle\screen_interface\ScreenButton.java[ [("
+isFinalfalse"´
+declarationStringï<mark class="modifier">public </mark><mark class="modifier">void</mark> <mark class="method">Render</mark>(<mark class="modifier">float</mark> delta)"
+isStaticfalse"
+accesspublic"
+
+isAbstractfalse"
+typevoid*Render2Ä
+`ru.gigabyte_artur.warcastleduel.warcastle.screen_interface.ScreenButton?ScreensStage@18.18:18.30CALLï
+äD:\YaDisk\synk\YandexDisk\JavaProjects\WarcastleDuel\core\src\ru\gigabyte_artur\warcastleduel\warcastle\screen_interface\ScreenButton.java^ ^(2˚
+[ru.gigabyte_artur.warcastleduel.warcastle.screen_interface.ScreenButton.Render(float)!deltaCALLï
+äD:\YaDisk\synk\YandexDisk\JavaProjects\WarcastleDuel\core\src\ru\gigabyte_artur\warcastleduel\warcastle\screen_interface\ScreenButton.java^ ^(2Ä
+`ru.gigabyte_artur.warcastleduel.warcastle.screen_interface.ScreenButton?ScreensStage@18.18:18.30CALLï
+äD:\YaDisk\synk\YandexDisk\JavaProjects\WarcastleDuel\core\src\ru\gigabyte_artur\warcastleduel\warcastle\screen_interface\ScreenButton.java_ _(2Ä
+[ru.gigabyte_artur.warcastleduel.warcastle.screen_interface.ScreenButton.Render(float)!delta	PARAMETERï
+äD:\YaDisk\synk\YandexDisk\JavaProjects\WarcastleDuel\core\src\ru\gigabyte_artur\warcastleduel\warcastle\screen_interface\ScreenButton.java[ [("2´
+voidRETURN_TYPEï
+äD:\YaDisk\synk\YandexDisk\JavaProjects\WarcastleDuel\core\src\ru\gigabyte_artur\warcastleduel\warcastle\screen_interface\ScreenButton.java[ [(ê
+[ru.gigabyte_artur.warcastleduel.warcastle.screen_interface.ScreenButton.Render(float)!delta	PARAMETERï
+äD:\YaDisk\synk\YandexDisk\JavaProjects\WarcastleDuel\core\src\ru\gigabyte_artur\warcastleduel\warcastle\screen_interface\ScreenButton.java[ [(""
+typefloat"
+isFinalfalse">
+declarationString)<mark class="modifier">float</mark> delta*delta2•
+floatTYPEï
+äD:\YaDisk\synk\YandexDisk\JavaProjects\WarcastleDuel\core\src\ru\gigabyte_artur\warcastleduel\warcastle\screen_interface\ScreenButton.java[ [(î
+aru.gigabyte_artur.warcastleduel.warcastle.screen_interface.ScreenButton?ButtonTexture@16.20:16.33VARIABLEï
+äD:\YaDisk\synk\YandexDisk\JavaProjects\WarcastleDuel\core\src\ru\gigabyte_artur\warcastleduel\warcastle\screen_interface\ScreenButton.java (!"
+isFinalfalse"
+typeTexture"q
+declarationString\<mark class="modifier">private </mark>Texture <mark class="class-field">ButtonTexture</mark>"
+isStaticfalse"
+accessprivate*ButtonTexture2¡
+!com.badlogic.gdx.graphics.TextureTYPEï
+äD:\YaDisk\synk\YandexDisk\JavaProjects\WarcastleDuel\core\src\ru\gigabyte_artur\warcastleduel\warcastle\screen_interface\ScreenButton.java (ö
+cru.gigabyte_artur.warcastleduel.warcastle.screen_interface.ScreenButton?DisabledTexture@17.20:17.35VARIABLEï
+äD:\YaDisk\synk\YandexDisk\JavaProjects\WarcastleDuel\core\src\ru\gigabyte_artur\warcastleduel\warcastle\screen_interface\ScreenButton.java (#"
+isFinalfalse"
+typeTexture"s
+declarationString^<mark class="modifier">private </mark>Texture <mark class="class-field">DisabledTexture</mark>"
+isStaticfalse"
+accessprivate*DisabledTexture2¡
+!com.badlogic.gdx.graphics.TextureTYPEï
+äD:\YaDisk\synk\YandexDisk\JavaProjects\WarcastleDuel\core\src\ru\gigabyte_artur\warcastleduel\warcastle\screen_interface\ScreenButton.java (ë
+`ru.gigabyte_artur.warcastleduel.warcastle.screen_interface.ScreenButton?ScreensStage@18.18:18.30VARIABLEï
+äD:\YaDisk\synk\YandexDisk\JavaProjects\WarcastleDuel\core\src\ru\gigabyte_artur\warcastleduel\warcastle\screen_interface\ScreenButton.java ("
+isFinalfalse"
+typeStage"n
+declarationStringY<mark class="modifier">private </mark>Stage <mark class="class-field">ScreensStage</mark>"
+isStaticfalse"
+accessprivate*ScreensStage2≈
+%com.badlogic.gdx.scenes.scene2d.StageTYPEï
+äD:\YaDisk\synk\YandexDisk\JavaProjects\WarcastleDuel\core\src\ru\gigabyte_artur\warcastleduel\warcastle\screen_interface\ScreenButton.java (ﬁ
+bru.gigabyte_artur.warcastleduel.warcastle.screen_interface.ScreenButton?AfterActButton@20.11:20.25VARIABLEï
+äD:\YaDisk\synk\YandexDisk\JavaProjects\WarcastleDuel\core\src\ru\gigabyte_artur\warcastleduel\warcastle\screen_interface\ScreenButton.java ("
+isFinalfalse"
+typeAction"¨
+declarationStringñ<mark class="modifier"> </mark>Action <mark class="class-field">AfterActButton</mark> = new Action() {
+
+    @Override
+    public <mark class="modifier">boolean</mark> act(<mark class="modifier">float</mark> v) {
+        return <mark class="modifier">false</mark>;
+    }
+};"
+isStaticfalse"
+accesspackage_private*AfterActButton2∆
+&com.badlogic.gdx.scenes.scene2d.ActionTYPEï
+äD:\YaDisk\synk\YandexDisk\JavaProjects\WarcastleDuel\core\src\ru\gigabyte_artur\warcastleduel\warcastle\screen_interface\ScreenButton.java (

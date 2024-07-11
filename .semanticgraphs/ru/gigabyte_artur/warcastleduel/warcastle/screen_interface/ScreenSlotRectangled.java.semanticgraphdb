@@ -1,0 +1,129 @@
+
+íD:\YaDisk\synk\YandexDisk\JavaProjects\WarcastleDuel\core\src\ru\gigabyte_artur\warcastleduel\warcastle\screen_interface\ScreenSlotRectangled.java»
+Oru.gigabyte_artur.warcastleduel.warcastle.screen_interface.ScreenSlotRectangledCLASSù
+íD:\YaDisk\synk\YandexDisk\JavaProjects\WarcastleDuel\core\src\ru\gigabyte_artur\warcastleduel\warcastle\screen_interface\ScreenSlotRectangled.java (!"E
+package:ru.gigabyte_artur.warcastleduel.warcastle.screen_interface"
+isFinalfalse"
+inner classfalse"
+
+isAbstractfalse"±
+declarationStringõ<mark class="modifier">public </mark><mark class="modifier">class </mark>ScreenSlotRectangled<mark class="modifier"> extends </mark>ScreenRectangledElement"
+accesspublic*ScreenSlotRectangled2ï
+fru.gigabyte_artur.warcastleduel.warcastle.screen_interface.ScreenSlotRectangled.ScreenSlotRectangled()DECLARATIONù
+íD:\YaDisk\synk\YandexDisk\JavaProjects\WarcastleDuel\core\src\ru\gigabyte_artur\warcastleduel\warcastle\screen_interface\ScreenSlotRectangled.java (2ë
+bru.gigabyte_artur.warcastleduel.warcastle.screen_interface.ScreenSlotRectangled.getLinkedElement()DECLARATIONù
+íD:\YaDisk\synk\YandexDisk\JavaProjects\WarcastleDuel\core\src\ru\gigabyte_artur\warcastleduel\warcastle\screen_interface\ScreenSlotRectangled.java# (32‰
+¥ru.gigabyte_artur.warcastleduel.warcastle.screen_interface.ScreenSlotRectangled.setLinkedElement(ru.gigabyte_artur.warcastleduel.warcastle.screen_interface.ScreenRectangledElement)DECLARATIONù
+íD:\YaDisk\synk\YandexDisk\JavaProjects\WarcastleDuel\core\src\ru\gigabyte_artur\warcastleduel\warcastle\screen_interface\ScreenSlotRectangled.java ( 2ç
+^ru.gigabyte_artur.warcastleduel.warcastle.screen_interface.ScreenSlotRectangled.EmptyElement()DECLARATIONù
+íD:\YaDisk\synk\YandexDisk\JavaProjects\WarcastleDuel\core\src\ru\gigabyte_artur\warcastleduel\warcastle\screen_interface\ScreenSlotRectangled.java (2ï
+fru.gigabyte_artur.warcastleduel.warcastle.screen_interface.ScreenSlotRectangled.isLinkedElementEmpty()DECLARATIONù
+íD:\YaDisk\synk\YandexDisk\JavaProjects\WarcastleDuel\core\src\ru\gigabyte_artur\warcastleduel\warcastle\screen_interface\ScreenSlotRectangled.java ('2ö
+kru.gigabyte_artur.warcastleduel.warcastle.screen_interface.ScreenSlotRectangled.LocateLinkedElementToSlot()DECLARATIONù
+íD:\YaDisk\synk\YandexDisk\JavaProjects\WarcastleDuel\core\src\ru\gigabyte_artur\warcastleduel\warcastle\screen_interface\ScreenSlotRectangled.java# #()2ñ
+gru.gigabyte_artur.warcastleduel.warcastle.screen_interface.ScreenSlotRectangled?LinkedElement@4.36:4.49DECLARATIONù
+íD:\YaDisk\synk\YandexDisk\JavaProjects\WarcastleDuel\core\src\ru\gigabyte_artur\warcastleduel\warcastle\screen_interface\ScreenSlotRectangled.java$ (12¸
+Rru.gigabyte_artur.warcastleduel.warcastle.screen_interface.ScreenRectangledElementEXTENDù
+íD:\YaDisk\synk\YandexDisk\JavaProjects\WarcastleDuel\core\src\ru\gigabyte_artur\warcastleduel\warcastle\screen_interface\ScreenSlotRectangled.java* (A∫	
+fru.gigabyte_artur.warcastleduel.warcastle.screen_interface.ScreenSlotRectangled.ScreenSlotRectangled()CONSTRUCTORù
+íD:\YaDisk\synk\YandexDisk\JavaProjects\WarcastleDuel\core\src\ru\gigabyte_artur\warcastleduel\warcastle\screen_interface\ScreenSlotRectangled.java ("l
+declarationStringW<mark class="modifier">public </mark><mark class="method">ScreenSlotRectangled</mark>()*ScreenSlotRectangled2Ü
+^ru.gigabyte_artur.warcastleduel.warcastle.screen_interface.ScreenSlotRectangled.EmptyElement()CALLù
+íD:\YaDisk\synk\YandexDisk\JavaProjects\WarcastleDuel\core\src\ru\gigabyte_artur\warcastleduel\warcastle\screen_interface\ScreenSlotRectangled.java	 	(2î
+lru.gigabyte_artur.warcastleduel.warcastle.screen_interface.ScreenRectangledElement.ScreenRectangledElement()CALLù
+íD:\YaDisk\synk\YandexDisk\JavaProjects\WarcastleDuel\core\src\ru\gigabyte_artur\warcastleduel\warcastle\screen_interface\ScreenSlotRectangled.java (2˛
+Oru.gigabyte_artur.warcastleduel.warcastle.screen_interface.ScreenSlotRectangledRETURN_TYPEù
+íD:\YaDisk\synk\YandexDisk\JavaProjects\WarcastleDuel\core\src\ru\gigabyte_artur\warcastleduel\warcastle\screen_interface\ScreenSlotRectangled.java (§
+bru.gigabyte_artur.warcastleduel.warcastle.screen_interface.ScreenSlotRectangled.getLinkedElement()METHODù
+íD:\YaDisk\synk\YandexDisk\JavaProjects\WarcastleDuel\core\src\ru\gigabyte_artur\warcastleduel\warcastle\screen_interface\ScreenSlotRectangled.java# (3"
+isFinalfalse"Ä
+declarationStringk<mark class="modifier">public </mark>ScreenRectangledElement <mark class="method">getLinkedElement</mark>()"
+isStaticfalse"
+accesspublic"
+
+isAbstractfalse"
+typeScreenRectangledElement*getLinkedElement2è
+gru.gigabyte_artur.warcastleduel.warcastle.screen_interface.ScreenSlotRectangled?LinkedElement@4.36:4.49CALLù
+íD:\YaDisk\synk\YandexDisk\JavaProjects\WarcastleDuel\core\src\ru\gigabyte_artur\warcastleduel\warcastle\screen_interface\ScreenSlotRectangled.java (2Å
+Rru.gigabyte_artur.warcastleduel.warcastle.screen_interface.ScreenRectangledElementRETURN_TYPEù
+íD:\YaDisk\synk\YandexDisk\JavaProjects\WarcastleDuel\core\src\ru\gigabyte_artur\warcastleduel\warcastle\screen_interface\ScreenSlotRectangled.java ("®
+¥ru.gigabyte_artur.warcastleduel.warcastle.screen_interface.ScreenSlotRectangled.setLinkedElement(ru.gigabyte_artur.warcastleduel.warcastle.screen_interface.ScreenRectangledElement)METHODù
+íD:\YaDisk\synk\YandexDisk\JavaProjects\WarcastleDuel\core\src\ru\gigabyte_artur\warcastleduel\warcastle\screen_interface\ScreenSlotRectangled.java ( "
+isFinalfalse"±
+declarationStringõ<mark class="modifier">public </mark><mark class="modifier">void</mark> <mark class="method">setLinkedElement</mark>(ScreenRectangledElement linkedElement)"
+isStaticfalse"
+accesspublic"
+
+isAbstractfalse"
+typevoid*setLinkedElement2è
+gru.gigabyte_artur.warcastleduel.warcastle.screen_interface.ScreenSlotRectangled?LinkedElement@4.36:4.49CALLù
+íD:\YaDisk\synk\YandexDisk\JavaProjects\WarcastleDuel\core\src\ru\gigabyte_artur\warcastleduel\warcastle\screen_interface\ScreenSlotRectangled.java (2Î
+¬ru.gigabyte_artur.warcastleduel.warcastle.screen_interface.ScreenSlotRectangled.setLinkedElement(ru.gigabyte_artur.warcastleduel.warcastle.screen_interface.ScreenRectangledElement)!linkedElementCALLù
+íD:\YaDisk\synk\YandexDisk\JavaProjects\WarcastleDuel\core\src\ru\gigabyte_artur\warcastleduel\warcastle\screen_interface\ScreenSlotRectangled.java (%2
+¬ru.gigabyte_artur.warcastleduel.warcastle.screen_interface.ScreenSlotRectangled.setLinkedElement(ru.gigabyte_artur.warcastleduel.warcastle.screen_interface.ScreenRectangledElement)!linkedElement	PARAMETERù
+íD:\YaDisk\synk\YandexDisk\JavaProjects\WarcastleDuel\core\src\ru\gigabyte_artur\warcastleduel\warcastle\screen_interface\ScreenSlotRectangled.java9 (F2≥
+voidRETURN_TYPEù
+íD:\YaDisk\synk\YandexDisk\JavaProjects\WarcastleDuel\core\src\ru\gigabyte_artur\warcastleduel\warcastle\screen_interface\ScreenSlotRectangled.java (Î
+¬ru.gigabyte_artur.warcastleduel.warcastle.screen_interface.ScreenSlotRectangled.setLinkedElement(ru.gigabyte_artur.warcastleduel.warcastle.screen_interface.ScreenRectangledElement)!linkedElement	PARAMETERù
+íD:\YaDisk\synk\YandexDisk\JavaProjects\WarcastleDuel\core\src\ru\gigabyte_artur\warcastleduel\warcastle\screen_interface\ScreenSlotRectangled.java9 (F"
+typeScreenRectangledElement"
+isFinalfalse":
+declarationString%ScreenRectangledElement linkedElement*linkedElement2˙
+Rru.gigabyte_artur.warcastleduel.warcastle.screen_interface.ScreenRectangledElementTYPEù
+íD:\YaDisk\synk\YandexDisk\JavaProjects\WarcastleDuel\core\src\ru\gigabyte_artur\warcastleduel\warcastle\screen_interface\ScreenSlotRectangled.java! (8¬
+^ru.gigabyte_artur.warcastleduel.warcastle.screen_interface.ScreenSlotRectangled.EmptyElement()METHODù
+íD:\YaDisk\synk\YandexDisk\JavaProjects\WarcastleDuel\core\src\ru\gigabyte_artur\warcastleduel\warcastle\screen_interface\ScreenSlotRectangled.java ("
+isFinalfalse"á
+declarationStringr<mark class="modifier">public </mark><mark class="modifier">void</mark> <mark class="method">EmptyElement</mark>()"
+isStaticfalse"
+accesspublic"
+
+isAbstractfalse"
+typevoid*EmptyElement2è
+gru.gigabyte_artur.warcastleduel.warcastle.screen_interface.ScreenSlotRectangled?LinkedElement@4.36:4.49CALLù
+íD:\YaDisk\synk\YandexDisk\JavaProjects\WarcastleDuel\core\src\ru\gigabyte_artur\warcastleduel\warcastle\screen_interface\ScreenSlotRectangled.java (2≥
+voidRETURN_TYPEù
+íD:\YaDisk\synk\YandexDisk\JavaProjects\WarcastleDuel\core\src\ru\gigabyte_artur\warcastleduel\warcastle\screen_interface\ScreenSlotRectangled.java („
+fru.gigabyte_artur.warcastleduel.warcastle.screen_interface.ScreenSlotRectangled.isLinkedElementEmpty()METHODù
+íD:\YaDisk\synk\YandexDisk\JavaProjects\WarcastleDuel\core\src\ru\gigabyte_artur\warcastleduel\warcastle\screen_interface\ScreenSlotRectangled.java ('"
+isFinalfalse"í
+declarationString}<mark class="modifier">public </mark><mark class="modifier">boolean</mark> <mark class="method">isLinkedElementEmpty</mark>()"
+isStaticfalse"
+accesspublic"
+
+isAbstractfalse"
+typeboolean*isLinkedElementEmpty2è
+gru.gigabyte_artur.warcastleduel.warcastle.screen_interface.ScreenSlotRectangled?LinkedElement@4.36:4.49CALLù
+íD:\YaDisk\synk\YandexDisk\JavaProjects\WarcastleDuel\core\src\ru\gigabyte_artur\warcastleduel\warcastle\screen_interface\ScreenSlotRectangled.java (2∂
+booleanRETURN_TYPEù
+íD:\YaDisk\synk\YandexDisk\JavaProjects\WarcastleDuel\core\src\ru\gigabyte_artur\warcastleduel\warcastle\screen_interface\ScreenSlotRectangled.java (ï
+kru.gigabyte_artur.warcastleduel.warcastle.screen_interface.ScreenSlotRectangled.LocateLinkedElementToSlot()METHODù
+íD:\YaDisk\synk\YandexDisk\JavaProjects\WarcastleDuel\core\src\ru\gigabyte_artur\warcastleduel\warcastle\screen_interface\ScreenSlotRectangled.java# #()"
+isFinalfalse"î
+declarationString<mark class="modifier">public </mark><mark class="modifier">void</mark> <mark class="method">LocateLinkedElementToSlot</mark>()"
+isStaticfalse"
+accesspublic"
+
+isAbstractfalse"
+typevoid*LocateLinkedElementToSlot2é
+fru.gigabyte_artur.warcastleduel.warcastle.screen_interface.ScreenSlotRectangled.isLinkedElementEmpty()CALLù
+íD:\YaDisk\synk\YandexDisk\JavaProjects\WarcastleDuel\core\src\ru\gigabyte_artur\warcastleduel\warcastle\screen_interface\ScreenSlotRectangled.java% %(!2ê
+hru.gigabyte_artur.warcastleduel.warcastle.screen_interface.ScreenRectangledElement.setPosition(int, int)CALLù
+íD:\YaDisk\synk\YandexDisk\JavaProjects\WarcastleDuel\core\src\ru\gigabyte_artur\warcastleduel\warcastle\screen_interface\ScreenSlotRectangled.java' '(%2Å
+Yru.gigabyte_artur.warcastleduel.warcastle.screen_interface.ScreenRectangledElement.getX()CALLù
+íD:\YaDisk\synk\YandexDisk\JavaProjects\WarcastleDuel\core\src\ru\gigabyte_artur\warcastleduel\warcastle\screen_interface\ScreenSlotRectangled.java'+ '(/2Å
+Yru.gigabyte_artur.warcastleduel.warcastle.screen_interface.ScreenRectangledElement.getY()CALLù
+íD:\YaDisk\synk\YandexDisk\JavaProjects\WarcastleDuel\core\src\ru\gigabyte_artur\warcastleduel\warcastle\screen_interface\ScreenSlotRectangled.java'8 '(<2è
+gru.gigabyte_artur.warcastleduel.warcastle.screen_interface.ScreenSlotRectangled?LinkedElement@4.36:4.49CALLù
+íD:\YaDisk\synk\YandexDisk\JavaProjects\WarcastleDuel\core\src\ru\gigabyte_artur\warcastleduel\warcastle\screen_interface\ScreenSlotRectangled.java' '(2≥
+voidRETURN_TYPEù
+íD:\YaDisk\synk\YandexDisk\JavaProjects\WarcastleDuel\core\src\ru\gigabyte_artur\warcastleduel\warcastle\screen_interface\ScreenSlotRectangled.java# #(¸
+gru.gigabyte_artur.warcastleduel.warcastle.screen_interface.ScreenSlotRectangled?LinkedElement@4.36:4.49VARIABLEù
+íD:\YaDisk\synk\YandexDisk\JavaProjects\WarcastleDuel\core\src\ru\gigabyte_artur\warcastleduel\warcastle\screen_interface\ScreenSlotRectangled.java$ (1"
+isFinalfalse"
+typeScreenRectangledElement"Å
+declarationStringl<mark class="modifier">private </mark>ScreenRectangledElement <mark class="class-field">LinkedElement</mark>"
+isStaticfalse"
+accessprivate*LinkedElement2˙
+Rru.gigabyte_artur.warcastleduel.warcastle.screen_interface.ScreenRectangledElementTYPEù
+íD:\YaDisk\synk\YandexDisk\JavaProjects\WarcastleDuel\core\src\ru\gigabyte_artur\warcastleduel\warcastle\screen_interface\ScreenSlotRectangled.java (#
